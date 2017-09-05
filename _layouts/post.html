@@ -18,7 +18,10 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+    {% include contact.html %}
   </div>
+
+  
 
   <footer class="postNavigation">
   {% if page.previous.url %}
