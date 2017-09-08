@@ -1,9 +1,18 @@
+---
+layout: post
+title:  "Job Research"
+date:   2017-09-01 19:45:31 +0530
+categories: ["jobs"]
+author: "Dave Cohen"
+comments: true
+---
+
 # Possible titles
 - What coding jobs are out there for inexperienced coders?
 - Programming jobs for self-taught coders
 
 ## Intro
-Finding jobs can be a difficult endeavor. For someone who's learning programming on their own, it can be disheartening when you see so many ads requiring many years of experience or a Computer Science degree. I'm a self-taught coder with experience in web technologies (JavaScript, HTML, CSS, etc) and Python. Compiling some info from job listings has been quite enlightening. What I'm looking for is the intersection between what I love to do and what's in demand in my area (Chicago, IL, USA).
+Finding jobs can be a difficult endeavor. For someone who's learning programming on their own, it can be disheartening when you see a lot of job ads requiring either 2+ years of professional experience or a Computer Science degree. I'm a self-taught coder with experience in web technologies (JavaScript, HTML, CSS, etc) and Python. Compiling some info from job listings has been quite enlightening. What I'm looking for is the intersection between what I love to do and what's in demand in my area (Chicago, IL, USA).
 
 ## Python-related Jobs
 1\. Bots (read more on [Quora](https://www.quora.com/How-can-I-write-a-bot-using-Python))
@@ -50,6 +59,7 @@ Google's Firebase is a full-fledged mobile platform and server.
 ## The Rest: PHP, Ruby, Apple, Microsoft, Go, and more
 
 I'll leave the rest of my research here for anyone interested to investigate. Best of luck in your learning and job-searching!
+
 
 ```
 PYTHON
@@ -144,3 +154,25 @@ Audio: Swift / Java
 Functional Programming: (Scala, Clojure, Ocaml, F#, Erlang, Elixir)
 Haskell Backend
 Firebase
+```
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://techeffects.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

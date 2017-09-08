@@ -1,21 +1,29 @@
+---
+layout: post
+title:  "Using a Class / OOP to Organize a Simple Game"
+date:   2017-09-02 19:45:31 +0530
+categories: ["python"]
+author: "Dave Cohen"
+---
+
 # Using a Class / OOP to Organize a Simple Game
 
-Reading about object-oriented design in programming used to excited and intimidate me at the same time. I worked through a number of excellent tutorials and books on the subject, but nothing really helped me apply the concepts to my own code. I decided to take a stab at converting a working program that *didn't* use OOP and organize it with a single class. 
+Reading about object-oriented design in programming used to excite and intimidate me at the same time. I worked through a number of excellent tutorials and books on the subject, but nothing really helped me apply the concepts to my own code. I decided to take a stab at converting a working program that *didn't* use OOP and organize it with a single class. 
 
 The program I chose was [Guess the Number](https://inventwithpython.com/chapter4.html) written by Al Sweigart for his book Invent Your Own Computer Games with Python. This book is an excellent way to learn Python 3 (not to mention fun!) 
 
-After you've studied the code, you'll notice that the game runs only once. There are no functions, only global variables. It does well for its purpose as a program that teaches beginners, but it's not extendable as-is. You could certainly wrap it all in a single-function, then wrap that function in a `while` loop, and that would solve the above problems, but I wanted to go beyond this simple fix.
+After you've studied the code, you'll notice that the game runs only once. There are no functions, only global variables. It does well for its purpose as a program that teaches beginners, but it's not extendable as-is. You could certainly wrap it all in a single-function, then wrap that function in a `while` loop, and that would solve the above problems, but I wanted to go beyond this simple addition.
 
 The full code for the class-extended program is [here](https://github.com/scraggo/Python-Small-Projects/blob/master/number-guess-oop.py). Below, I will explain the additions and changes from adding object-orientation.
 
 ```
 class Game:
     def __init__(self, high_num, myName):
-        self.high_num = high_num                    #the highest possible number that can be chosen
-        self.myName = myName                        #the user's name
-        self.guessesTaken = 0                       #the initial number of guesses taken
+        self.high_num = high_num          #the highest possible number that can be chosen
+        self.myName = myName              #the user's name
+        self.guessesTaken = 0             #the initial number of guesses taken
         self.number = random.randint(1, self.high_num)  #the number the computer chooses
-        self.guess = None                           #the user's guess
+        self.guess = None                 #the user's guess
 ```
 To initiate the `class`, we use the `__init__` method. Adding `high_num` and `myName` parameters allowed me to add some configurations to the game. `high_num` allows me to set a game to go up to 20 (as in the original) or lower (to make the game easier) or higher (to make the game more difficult). [I'll discuss this further when we get to the `main()` block.] A huge advantage from the standpoint of code-organization was being able to set most of the variables in the game at the outset. These include the number of guesses taken, the number that the user tries to guess, and the user's guess
 

@@ -4,6 +4,8 @@
 @charset "utf-8";
 
 
+// DEC variables
+$code-color: #f2f2f2;
 
 // Our variables
 $base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
@@ -146,8 +148,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: #aaa !important;
+    color: #8b8b8b !important;
     text-decoration: none;
+    border-bottom: 1px solid #d8d8d8;
+    font-size:  $base-font-size * 1.5;
 
     &:visited {
         color: darken($brand-color, 15%);
@@ -216,7 +220,8 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    // background-color: #EEF;
+    background-color: $code-color;
 }
 
 code {
@@ -661,7 +666,8 @@ pre {
     @extend %vertical-rhythm;
 
     .highlighter-rouge & {
-      background: #eef;
+      // background: #eef;
+      background: $code-color;
     }
 
     .c     { color: #998; font-style: italic } // Comment

@@ -10,11 +10,11 @@ title: Tech Effects
 email: dcohen18@gmail.com
 description: a coding blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://scraggo.github.io" # the base hostname & protocol for your site
+url: "https://scraggo.github.io" # the base hostname & protocol for your site
 twitter_username: decguitar
 github_username:  scraggo
-paginate: 5
+paginate: 20
 
-gems: [jekyll-paginate, kramdown]
+plugins: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown

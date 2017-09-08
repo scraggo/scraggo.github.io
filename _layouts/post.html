@@ -8,8 +8,7 @@ layout: default
   <center>  <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
     {% if page.author %}
      <div class="">
-       <center><p ><strong><span class="authorKeyword">Author</span><span class="small-site-title"> <h2 style="letter-spacing: 3px !important;
-       text-transform: uppercase !important;">{{page.author}}</h2></span></strong></p></center>
+       <center><p><span class="authorKeyword">Author: {{page.author}}</span></p></center>
 
      </div>
      {% endif %}
@@ -18,7 +17,7 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
-    {% include contact.html %}
+    <!-- {% include contact.html %} -->
   </div>
 
   
