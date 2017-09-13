@@ -16,7 +16,7 @@ After you've studied the code, you'll notice that the game runs only once. There
 
 The full code for the class-extended program is [here](https://github.com/scraggo/Python-Small-Projects/blob/master/number-guess-oop.py). Below, I will explain the additions and changes from adding object-orientation.
 
-```
+```python
 class Game:
     def __init__(self, high_num, myName):
         self.high_num = high_num          #the highest possible number that can be chosen
@@ -27,7 +27,7 @@ class Game:
 ```
 To initiate the `class`, we use the `__init__` method. Adding `high_num` and `myName` parameters allowed me to add some configurations to the game. `high_num` allows me to set a game to go up to 20 (as in the original) or lower (to make the game easier) or higher (to make the game more difficult). [I'll discuss this further when we get to the `main()` block.] A huge advantage from the standpoint of code-organization was being able to set most of the variables in the game at the outset. These include the number of guesses taken, the number that the user tries to guess, and the user's guess
 
-```
+```python
 class Game:
     ...
 
@@ -45,7 +45,7 @@ class Game:
 
 `get_guess()` is one of the two methods in the class. It modifies the `self.guess` if the user inputs an integer, then returns `True`. If not, the function returns `False` after an error message. It doesn't add a guess to self.guessesTaken.
 
-```
+```python
 class Game:
     ...
 
@@ -74,9 +74,9 @@ class Game:
         else:
             print('Nope. The number I was thinking of was', self.number)
 ```
-I find it a little disadvantageous to have to put `self` in front of my variables, but it's only necessary if the variables determine the state of the game. (If I wanted to put a non-state-changing variable in, there's no need for `self` in front of it, but I wouldn't be able to access the variable outside of the function.) The great thing about `self.` is that you can *modify the variable in multiple functions without returning it*. This is excellent from a design perspective - there's no need to pass a parameter from a function return to another function's input. 
+I find it slightly cumbersome to put `self` in front of so many variables, but it's only necessary if the variables determine the state of the game. (If I wanted to put a non-state-changing variable in, there's no need for `self` in front of it, but I wouldn't be able to access the variable outside of the function.) The great thing about `self.` is that you can *modify the variable in multiple functions without returning it*. This is excellent from a design perspective - there's no need to pass a parameter from a function return to another function's input. 
 
-```
+```python
 def main():
     print('Hello! What is your name?')
     myName = input()
@@ -114,7 +114,7 @@ def main():
 
 The `main()` function is the main entry point of the program. We greet the user, get his/her name in `myName`, then give them the choice of an easy or hard game (with the `user_choice` variable). After this, you can see that `if user_choice == 1`, we instantiate an "easy" game with `easy_game = Game(20, myName)`. The hard game is instantiated `if user_choice == 2`, with `diff_game = Game(30, myName)`. Each instance uses the `play()` method to run a single version of the game. The end of the `main()` function displays "How about another?" and the while loop starts over.
 
-```
+```python
 # if __name__ == 'main':
 #     main()
 
@@ -123,4 +123,12 @@ main()
 
 To run the program, you may choose the commented out module method, or simply use `main()`. Don't forget to comment out one or the other.
 
-That's it! If you'd like to contact me with questions or corrections, please do so with the form below. Thank you!
+## More Resources on OOP in Python
+
+Some favorite videos / tutorials:
+
+* [Corey Schafer: Python OOP Tutorial 1: Classes and Instances - YouTube](https://www.youtube.com/watch?v=ZDa-Z5JzLYM)
+* [Designing a Python Class - YouTube](https://www.youtube.com/watch?v=RZntqQgi0gM)
+* [Python OOP - Deck of Cards - YouTube](https://www.youtube.com/watch?v=t8YkjDH86Y4)
+* [Python's Program to demonstrate the use of Class, Object and Module](http://www.pythonprogramming.in/program-to-demonstrate-the-use-of-class-object-and-module.html)
+* [Coder's Apprentice](http://www.spronck.net/pythonbook/) - see OOP chapters
