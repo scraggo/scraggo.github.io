@@ -1,18 +1,27 @@
 ---
 layout: post
-title:  "Job Research"
+title:  "Self-Taught Programming Careers"
 date:   2017-09-01 19:45:31 +0530
 categories: ["jobs"]
 author: "Dave Cohen"
 comments: true
 ---
 
-# Possible titles
-- What coding jobs are out there for inexperienced coders?
-- Programming jobs for self-taught coders
+<style>pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}</style>
 
-## Intro
+- What programming jobs are out there for self-taught coders?
+
 Finding jobs can be a difficult endeavor. For someone who's learning programming on their own, it can be disheartening when you see a lot of job ads requiring either 2+ years of professional experience or a Computer Science degree. I'm a self-taught coder with experience in web technologies (JavaScript, HTML, CSS, etc) and Python. Compiling some info from job listings has been quite enlightening. What I'm looking for is the intersection between what I love to do and what's in demand in my area (Chicago, IL, USA).
+
+*Learning on one's own: What About Bootcamps?*
+
+I've decided against attending a bootcamp for the moment, but have been making my own learning-path based on jobs and bootcamps in my area.
 
 ## Python-related Jobs
 1\. Bots (read more on [Quora](https://www.quora.com/How-can-I-write-a-bot-using-Python))
