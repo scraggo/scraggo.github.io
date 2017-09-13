@@ -34,7 +34,7 @@ I love regular expressions. They're a mini-programming language that can be a bi
 
 Here are some you can practice with:
 
-- Copying text from Slack
+- Copying text from Slack or Treehouse videos (time stamps and new lines appear)
 - URLS: chrome extension, 
 - Organizing text, finding new-line characters
 
