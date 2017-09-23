@@ -1,20 +1,20 @@
 ---
 layout: post
-title:  "Using a Class / OOP to Organize a Simple Game"
-date:   2017-09-02 19:45:31 +0530
+title:  "Using a Class in Python as a Code Wrapper for a Simple Game"
+date:   2017-07-01 19:45:31 +0530
 categories: ["python"]
 author: "Dave Cohen"
 ---
 
-# Using a Class / OOP to Organize a Simple Game
+- Using a Class in Python as a Code Wrapper for a Simple Game
 
-Reading about object-oriented design in programming used to excite and intimidate me at the same time. I worked through a number of excellent tutorials and books on the subject, but nothing really helped me apply the concepts to my own code. I decided to take a stab at converting a working program that *didn't* use OOP and organize it with a single class. 
+Object-oriented design in programming may be exciting to some and intimidating to others. I worked through a number of excellent tutorials and books on the subject, but nothing really helped me apply the concepts to my own code. I decided to convert a working program that *didn't* use OOP and wrap it in a single class. 
 
-The program I chose was [Guess the Number](https://inventwithpython.com/chapter4.html) written by Al Sweigart for his book Invent Your Own Computer Games with Python. This book is an excellent way to learn Python 3 (not to mention fun!) 
+The program I chose was [Guess the Number](https://inventwithpython.com/chapter4.html) written by Al Sweigart for his book Invent Your Own Computer Games with Python. This book is an excellent way to learn Python 3 (and also a fun way!) 
 
-After you've studied the code, you'll notice that the game runs only once. There are no functions, only global variables. It does well for its purpose as a program that teaches beginners, but it's not extendable as-is. You could certainly wrap it all in a single-function, then wrap that function in a `while` loop, and that would solve the above problems, but I wanted to go beyond this simple addition.
+After you've looked at the code, you'll notice that the game doesn't include any options. It runs only once. There are no functions, only global variables. It does well for its purpose as a program that teaches beginning concepts, but it's not extendable as-is. You could certainly wrap it all in a single "main" function, then wrap that function in a `while` loop, and that would solve a few problems, but I wanted to go beyond those simple additions.
 
-The full code for the class-extended program is [here](https://github.com/scraggo/Python-Small-Projects/blob/master/number-guess-oop.py). Below, I will explain the additions and changes from adding object-orientation.
+The full code for the class-extended program is [here](https://github.com/scraggo/Python-Small-Projects/blob/master/number_guess_oop.py). Below, I will explain the additions and changes from adding object-orientation.
 
 ```python
 class Game:

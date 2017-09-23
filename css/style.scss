@@ -11,6 +11,14 @@ $code-color: #f2f2f2;
   margin-top: 10px;
 }
 
+.about-page {
+  width: 100%;
+}
+
+.footer-adjust {
+  width: 30%;
+}
+
 // Our variables
 $base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -154,8 +162,8 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: #8b8b8b !important;
     text-decoration: none;
-    border-bottom: 1px solid #d8d8d8;
-    font-size:  $base-font-size * 1.5;
+    // border-bottom: 1px solid #d8d8d8;
+    // font-size:  $base-font-size * 1.5;
 
     &:visited {
         color: darken($brand-color, 15%);
@@ -591,8 +599,15 @@ pre {
 .post-content {
   margin-bottom: $spacing-unit;
   padding-bottom: 3em !important;
-  p {
-    font-size: 1.5rem;
+  p, ul {
+    // font-size: 1.5rem;
+    font-size: 18px;
+    a {
+      color: #265a88 !important;
+      // text-decoration: none;
+      border-bottom: 1px solid #d8d8d8;
+      font-size:  18px;
+    }
   }
   h2 {
     font-size: 32px;
