@@ -20,6 +20,10 @@ $link-color-dec: #265a88;
   width: 30%;
 }
 
+tbody {
+  vertical-align: top;
+}
+
 // Our variables
 $base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
