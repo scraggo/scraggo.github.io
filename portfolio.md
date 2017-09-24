@@ -19,7 +19,7 @@ h1 a, table a, h3 a {color: #265a88 !important;}
 
 # [SongMind Studios](http://songmindstudios.com)
 
-<img src="./assets/sms-site.png" alt="SongMind Studios">
+<img src="https://github.com/scraggo/scraggo.github.io/blob/master/assets/sms-site.png" alt="SongMind Studios">
 <!-- ![SongMind Studios](https://s11.postimg.org/hfqe9zyvz/sms-site.png) -->
 
 | | |
