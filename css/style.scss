@@ -6,6 +6,7 @@
 
 // DEC variables and adjustments
 $code-color: #f2f2f2;
+$link-color-dec: #265a88;
 
 .btn-adjust {
   margin-top: 10px;
@@ -161,6 +162,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: #8b8b8b !important;
+    // color: #8b8b8b;
     text-decoration: none;
     // border-bottom: 1px solid #d8d8d8;
     // font-size:  $base-font-size * 1.5;
@@ -603,7 +605,7 @@ pre {
     // font-size: 1.5rem;
     font-size: 18px;
     a {
-      color: #265a88 !important;
+      color: $link-color-dec !important;
       // text-decoration: none;
       border-bottom: 1px solid #d8d8d8;
       font-size:  18px;
