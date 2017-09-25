@@ -25,7 +25,7 @@ h1 a, table a, h3 a {color: #265a88 !important;}
 | | |
 |---------------|------|
 | Description:  | Music education business website with blog. Includes CTA buttons, contact forms, and a bold color palette. |
-| Technology:   | Heavily customized Wordpress site using [Tesseract Theme](https://tesseracttheme.com/), a fully mobile-responsive design with Twitter Bootstrap, professionally hosted with domain name. |
+| Technology:   | Heavily customized Wordpress site using [Tesseract Theme](https://tesseracttheme.com/), a fully mobile-responsive design with Twitter Bootstrap, professionally hosted with domain name, Mailchimp for email list management and Hootsuite for social media. |
 
 <hr>
 
