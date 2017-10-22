@@ -6,15 +6,13 @@ categories: ["python"]
 author: "Dave Cohen"
 ---
 
-- Using a Class in Python as a Code Wrapper for a Simple Game
-
-Object-oriented design in programming may be exciting to some and intimidating to others. I worked through a number of excellent tutorials and books on the subject, but nothing really helped me apply the concepts to my own code. I decided to convert a working program that *didn't* use OOP and wrap it in a single class. 
+Object-oriented design is a powerful programming paradigm that can be intimidating to anyone trying to learn how to use it. I worked through a number of excellent tutorials and books on the subject, but struggled to apply the concepts to my own code. I decided to convert a working program that *didn't* use OOP and wrap it in a single class. 
 
 The program I chose was [Guess the Number](https://inventwithpython.com/chapter4.html) written by Al Sweigart for his book Invent Your Own Computer Games with Python. This book is an excellent way to learn Python 3 (and also a fun way!) 
 
 After you've looked at the code, you'll notice that the game doesn't include any options. It runs only once. There are no functions, only global variables. It does well for its purpose as a program that teaches beginning concepts, but it's not extendable as-is. You could certainly wrap it all in a single "main" function, then wrap that function in a `while` loop, and that would solve a few problems, but I wanted to go beyond those simple additions.
 
-The full code for the class-extended program is [here](https://github.com/scraggo/Python-Small-Projects/blob/master/number_guess_oop.py). Below, I will explain the additions and changes from adding object-orientation.
+The full code for the class-extended program is [here](https://github.com/scraggo/small-projects/blob/master/small-projects-python/number_guess_oop.py). Below, I will explain the additions and changes from adding object-orientation.
 
 ```python
 class Game:
