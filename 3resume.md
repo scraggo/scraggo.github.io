@@ -14,8 +14,4 @@ hr {
 }
 </style>
 
----
-
-## [View My Programming Resumé](../assets/DaveCohenProgrammingResume.pdf)
-
----
+<embed src="../assets/DaveCohenProgrammingResume.pdf" width="850px" height="1200px" />
