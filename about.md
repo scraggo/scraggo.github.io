@@ -12,7 +12,7 @@ I'm a musician and programmer who loves learning about technology and making use
 
 My technical mind influences how I approach music. As a recording engineer, I've come to deeply understand how analog and digital technologies work. As a professional performing multi-instrumentalist and singer, I've learned how to relax and have fun while under pressure. Finally, as a teacher, I've grown to love to organizing information and sharing it so others may understand.
 
-My interest in programming began around the year 2000 when I began to make simple sites to share my using using HTML. (I taught myself HTML from a Netscape book!) Since then, I've built dozens of portfolio and band websites using HTML, CSS, and Wordpress. My passion for computer science solidified after taking a [course in the fundamentals using Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/). Nowadays, it's very difficult to pull me away from my coding projects!
+My interest in programming began in 2000 when I began making websites in HTML to share my music and creative writing. Since then, I've built dozens of portfolio and band websites using HTML, CSS, and Wordpress. My passion for computer science solidified after taking a [course in the fundamentals using Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/). Nowadays, it's very difficult to pull me away from my coding projects!
 
 My programming skills includes making websites and programs using:
 - HTML, CSS3, SASS, Twitter Bootstrap, Wordpress
