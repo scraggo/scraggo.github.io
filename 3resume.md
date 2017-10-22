@@ -16,6 +16,6 @@ hr {
 
 ---
 
-## [View My Programming Resumé](https://docs.google.com/document/d/1lCEplzHPhucEdSosOx9dKtU1gP5H2YeQs-kmvznIiQk/edit?usp=sharing)
+## [View My Programming Resumé](../assets/DaveCohenProgrammingResume.pdf)
 
 ---
