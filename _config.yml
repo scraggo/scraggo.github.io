@@ -13,6 +13,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://scraggo.github.io" # the base hostname & protocol for your site
 twitter_username: decguitar
 github_username:  scraggo
+linkedin_username: david-cohen-90906057
 paginate: 20
 
 plugins: [jekyll-paginate, kramdown]
