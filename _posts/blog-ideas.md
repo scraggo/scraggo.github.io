@@ -29,6 +29,8 @@ pre {
 - regex
 - My journey: from hobbyist to professional
 
+## Intro to JavaScript Frameworks Part 1: The Vanilla JavaScript Version of TodoMVC
+intro-to-js-frameworks01
 ## Intro to Aurelia.js and other JavaScript Frameworks
 (compile others' thoughts on why frameworks)
 
@@ -73,18 +75,35 @@ Using the [TodoMVC Project](https://todomvc.com) to compare code of Aurelia and 
 * [todomvc/examples/vanilla-es6 at gh-pages · tastejs/todomvc](https://github.com/tastejs/todomvc/tree/gh-pages/examples/vanilla-es6)
 
 ## Vanilla ES6 - TodoMVC
-* [todomvc/examples/vanilla-es6 at gh-pages · tastejs/todomvc](https://github.com/tastejs/todomvc/tree/gh-pages/examples/vanilla-es6)
-When first looking at this project, I wasn't sure of what to expect. Instead of the mess of global `getElementById`'s that I'm often guilty of using, the authors *wrote a framework* to gracefully handle updating the DOM and the other application functions. In the `src` folder, we'll first take a brief look at [helpers.js](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanilla-es6/src/helpers.js). It contains a function called `qs` which is short for `querySelector`. `$on` is an `addEventListener` helper. The `$delegate` function uses both `querySelector` and `addEventListener` to update the DOM. "Delegation" is a technique that improves app performance by using event bubbling. [This post](https://stackoverflow.com/questions/33904248/aurelia-delegate-vs-trigger-how-do-you-know-when-to-use-delegate-or-trigger) is an excellent description of how it's used in the Aurelia framework.
+* Use the app: [VanillaJS • TodoMVC](http://todomvc.com/examples/vanillajs/#/)
+* View the project code here: [todomvc/examples/vanilla-es6 at gh-pages · tastejs/todomvc](https://github.com/tastejs/todomvc/tree/gh-pages/examples/vanilla-es6)
+
+When first looking at the code for this project, I wasn't sure of what to expect. Instead of the mess of global `getElementById`'s that I'm often guilty of using, the authors wrote a Vanilla JS MVC framework to gracefully handle updating the DOM and the other application functions. The app is nicely modular with 'Store', 'Template', 'View', and 'Controller' classes declared in their respective files. 
+
+In the `src` folder, we'll first take a brief look at [helpers.js](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanilla-es6/src/helpers.js). It contains a function called `qs` which is short for `querySelector`. `$on` is an `addEventListener` helper. The `$delegate` function uses both `querySelector` and `addEventListener` to update the DOM. "Delegation" is a technique that improves app performance by using event bubbling. [This post](https://stackoverflow.com/questions/33904248/aurelia-delegate-vs-trigger-how-do-you-know-when-to-use-delegate-or-trigger) is an excellent description of how it's used in the Aurelia framework. (We'll discuss Aurelia in-depth in a future post.)
 - [javascript - Aurelia delegate vs trigger: how do you know when to use delegate or trigger? - Stack Overflow](https://stackoverflow.com/questions/33904248/aurelia-delegate-vs-trigger-how-do-you-know-when-to-use-delegate-or-trigger)
 
-Next, we'll look at [view.js](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanilla-es6/src/view.js) which uses a `View` class to query the DOM. In the class `constructor`, it takes an instance of `Template` which was imported from `template.js`. We use the `qs` function (the querySelector helper function discussed above) to get the DOM elements, then we `$delegate` to an `editItem` function that's in the class. Let's take a brief look at some of the functions in the class.
+Next, we'll look at [view.js](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanilla-es6/src/view.js). As we know, the "View" of an MVC app is the part of the app that the user interacts with. After some `imports`, the `View` class is instantiated. In the class `constructor`, it takes an instance of `Template` which was imported from `template.js`. We use the `qs` function (the querySelector helper function discussed above) to get the DOM elements, then we `$delegate` to an `editItem` function that's in the class. Let's take a brief look at some of the functions in the class.
 - `editItem` puts a todo into 'edit mode' by adding a css class, converting the text to an `<input>`, and adding it to the DOM. 
 - `showItems` first assigns the array of items (imported from `items.js`) to the template. This is written to the DOM.
-- `removeItem`
-- `setItemsLeft`
+- `removeItem` uses `qs` to query the DOM for a todo item with a given id. If it's found, it's removed from the DOM.
+- `setItemsLeft` first assigns the `itemsLeft` number param to the template. This is written to the DOM.
 There are more functions, but let's move on.
+- `setCompleteAllCheckbox` ensures that `$toggleAll` is set to the desired state by forcing it from its opposite to the desired state with `!!checked`.
+- `updateFilterButtons` "Change the appearance of the filter buttons based on the route." We'll look more at routing in `controller.js`.
+- `bindAddItem` sets a 'change' event listener on a `$newTodo`. A handler function is assigned to the newly created title.
+You can see that there are many more functions which add or remove css classes, bind handlers to event listeners, and other state-changing utilities.
 
-There's a `controller.js` which handles processing of the user's input and the "binding". 
+Let's look at `controller.js`, the "Controller" of the MVC. As you may know, the controller accepts input and converts it to commands for the model or view. 
+
+After some `imports`, the `Controller` class is instantiated. In the class `constructor`, it takes an instance of `Store` which was imported from `store.js` and `View` which was imported from `view.js` we previously discussed. We see all of the "bind" functions here and the use of `.bind` to to set the `this` value on the associated methods. [Read more about bind methods here.](http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/). Next, we see `this._activeRoute = '';` and `this._lastActiveRoute = null;`. These are "routes." Routing is important for any single-page application (SPA). It allows you to navigate to different "pages" without reloading the page. The three routing states in TodoMVC are "All", "Active", and "Completed." Now that we have some of the basics, let's take a brief look at some of the functions in the class.
+- `setView`
+- `addItem` 
+- `editItemSave` 
+- `editItemCancel` 
+- `removeItem` 
+- `removeCompletedItems` 
+- `_filter` 
 
 ## Aurelia
 What is Routing?
