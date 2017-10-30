@@ -27,6 +27,7 @@ pre {
 - gulp
 - codepen chicago
 - regex
+- My journey: from hobbyist to professional
 
 ## Intro to Aurelia.js and other JavaScript Frameworks
 (compile others' thoughts on why frameworks)
@@ -128,6 +129,14 @@ Here are some you can practice with:
 - Copying text from Slack or Treehouse videos (time stamps and new lines appear)
 - URLS: chrome extension, 
 - Organizing text, finding new-line characters
+
+## My Journey to Become a Professional Programmer
+
+Finding jobs can be a difficult endeavor. For someone who's learning programming on their own, it can be disheartening when you see a lot of job ads requiring either 2+ years of professional experience or a Computer Science degree. What I'm looking for is the intersection between what I love to do and what's in demand in my area.
+
+*Learning on one's own: What About Bootcamps?*
+
+I've decided against attending a bootcamp for the moment, but have been making my own learning-path based on jobs and bootcamps in my area.
 
 
 <div id="disqus_thread"></div>
