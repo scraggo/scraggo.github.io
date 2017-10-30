@@ -72,10 +72,16 @@ Using the [TodoMVC Project](https://todomvc.com) to compare code of Aurelia and 
 * [todomvc/examples/vanilla-es6 at gh-pages · tastejs/todomvc](https://github.com/tastejs/todomvc/tree/gh-pages/examples/vanilla-es6)
 
 ## Vanilla ES6 - TodoMVC
-When first looking at this project, I wasn't sure of what to expect. Instead of the mess of global `getElementById`'s that I'm often guilty of using, the authors *wrote a framework* to gracefully handle updating the DOM and the other application functions. In the `src` folder, we'll first take a brief look at `helpers.js`. It contains a function called `qs` which is short for `querySelector`. `$on` is an `addEventListener` helper. The `$delegate` function uses both `querySelector` and `addEventListener` to update the DOM. "Delegation" is a technique that improves app performance by using event bubbling. [This post](https://stackoverflow.com/questions/33904248/aurelia-delegate-vs-trigger-how-do-you-know-when-to-use-delegate-or-trigger) is an excellent description of how it's used in the Aurelia framework.
+* [todomvc/examples/vanilla-es6 at gh-pages · tastejs/todomvc](https://github.com/tastejs/todomvc/tree/gh-pages/examples/vanilla-es6)
+When first looking at this project, I wasn't sure of what to expect. Instead of the mess of global `getElementById`'s that I'm often guilty of using, the authors *wrote a framework* to gracefully handle updating the DOM and the other application functions. In the `src` folder, we'll first take a brief look at [helpers.js](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanilla-es6/src/helpers.js). It contains a function called `qs` which is short for `querySelector`. `$on` is an `addEventListener` helper. The `$delegate` function uses both `querySelector` and `addEventListener` to update the DOM. "Delegation" is a technique that improves app performance by using event bubbling. [This post](https://stackoverflow.com/questions/33904248/aurelia-delegate-vs-trigger-how-do-you-know-when-to-use-delegate-or-trigger) is an excellent description of how it's used in the Aurelia framework.
 - [javascript - Aurelia delegate vs trigger: how do you know when to use delegate or trigger? - Stack Overflow](https://stackoverflow.com/questions/33904248/aurelia-delegate-vs-trigger-how-do-you-know-when-to-use-delegate-or-trigger)
 
-Next, we'll look at `view.js` which uses a `View` class to query the DOM. 
+Next, we'll look at [view.js](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanilla-es6/src/view.js) which uses a `View` class to query the DOM. In the class `constructor`, it takes an instance of `Template` which was imported from `template.js`. We use the `qs` function (the querySelector helper function discussed above) to get the DOM elements, then we `$delegate` to an `editItem` function that's in the class. Let's take a brief look at some of the functions in the class.
+- `editItem` puts a todo into 'edit mode' by adding a css class, converting the text to an `<input>`, and adding it to the DOM. 
+- `showItems` first assigns the array of items (imported from `items.js`) to the template. This is written to the DOM.
+- `removeItem`
+- `setItemsLeft`
+There are more functions, but let's move on.
 
 There's a `controller.js` which handles processing of the user's input and the "binding". 
 
