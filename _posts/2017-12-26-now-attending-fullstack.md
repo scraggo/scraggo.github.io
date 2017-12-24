@@ -8,40 +8,49 @@ author: "Dave Cohen"
 
 ## Why I'm attending Fullstack Academy
 
-I'm a music teacher, composer, recording engineer, and performing guitarist. After a decade of freelancing, I realized I no longer wanted to chase the rockstar dream. I'd be happier with a more stable career - as long as it was something I liked doing. I've always enjoyed working with technology, so the field of programming piqued my interest. Since high school, I've built many simple websites, but I wanted to know more about programming "for-real." I've spent 10 months learning on my own and have enjoyed it immensely. I completed the [“Introduction to Computer Science and Programming in Python” course offered through MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/). I realized how much I enjoyed creating useful programs, working with data structures, and refining code with abstraction to make it more maintainable. I’ve been continuously working to develop my programming skills by sharing what I learn with others and building websites, chrome extensions, and programs using Python, JavaScript, and the command-line. 
+I'm a music teacher, composer, recording engineer, and performing guitarist. After a decade of freelancing, I realized I no longer wanted to chase the rockstar dream. I figured I'd be happier with a more stable career - as long as it was something I liked doing. I've always enjoyed working with technology, so the field of programming piqued my interest. 
+
+Since high school, I've built many simple websites, but I wanted to know more about programming "for-real." I've spent almost 12 months learning on my own and have enjoyed it immensely. I completed the [“Introduction to Computer Science and Programming in Python” course offered through MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/). I realized how much I enjoyed creating useful programs, working with data structures, and refining code with abstraction to make it more maintainable. I’ve been continuously working to develop my programming skills by sharing what I learn with others and building websites, chrome extensions, and programs using Python, JavaScript, and the command-line. 
+
+I wanted to make this new career a reality as soon as possible. I began looking into formally studying computer science, coding bootcamps, and other DIY options.
 
 ### Bootcamps: The Cons
 There are many coding bootcamp detractors. They claim:
-- "The economy isn't warm to non-degree holders without prior experience - it's oversaturated with bootcamp graduates."
-- "You can't possibly learn enough to be job ready in 3 months nor can they guarantee you a job."
 - "Bootcamps are expensive scams designed to take advantage of career-changers."
+- "You can't possibly learn enough to be job ready in 3 months nor can they guarantee you a job."
+- "The economy is already oversaturated with bootcamp graduates. Employers are *only* looking for experienced developers and those who have degrees."
+
 Naturally, with all this bad press, I cringed a little when friends and family brought up the prospect of joining one. Besides, I was learning well on my own and having a great time doing it. 
 
 ### The Pros
 I changed my mind after realizing that I wasn't learning as fast as I'd like. I wanted an excuse to quit my part-time teaching job and learn to code full-time. After some research, I concluded that *only the **top** bootcamps were even worth applying to*. It was a good thing that I already knew that I liked coding and was at an intermediate level. I applied to both Fullstack Academy and Hack Reactor after doing all the prep work they provided. I was thrilled when I found out I was accepted into both programs for about equal price. I decided against Hack Reactor - it was going to be remote since they don't have a program in Chicago. Besides being local, I was attracted to Fullstack's program for many reasons: 
 - I met Ben Neiswander at the Tech Jobs Fair in the 1871 space. He told me about a music project build by some of the alumni that was really impressed me.
-- Fullstack founded CIRR, which provides validated reporting on bootcamps. [read more](https://cirr.org/data)
+- Fullstack co-founded CIRR, which provides validated reporting on bootcamps. [read more](https://cirr.org/data)
 - Ben led an info session and gave a lot of nice tidbits of advice about the difference between "good struggle" and "bad struggle", a step-by-step procedure for interview problems, and more. I could tell he really knew his stuff and was passionate about the program.
 - The curriculum was exactly what I was looking for.
 - The interview was an amazing learning experience. I enjoyed worked with Colin who taught me how to optimize the problem we were working on in the interview.
 - The computer science / software engineering focus
 - Interview prep and career services 
 
-The list could keep going, but in short, learning from industry professionals and getting career help would be worth it.
+The list could go on, but in short, learning from industry professionals and getting career help would be worth it to me.
+
+### So far: 3 weeks in
+
+I've learned *so much advanced Javascript!* Concepts I was fuzzy on (closures, `call()', `apply()`, `bind()`, prototypes, recursion, testing, and more) have finally "clicked." The full-time immersive part has yet to start and I'm excited to dive in!
 
 ### What else did I consider?
 
-My other options included putting together my own program and obtaining a computer science degree. The value of a bootcamp is very high considering if you put all those pieces together separately. Taking lessons from a developer might amount to the same expense. They aren't necessarily invested in your progress or be able to help with your career.
+My other options included putting together my own program and obtaining a computer science degree. I looked at the [Oregeon State Online for Post-Bacc Students](http://eecs.oregonstate.edu/online-cs-students). This bachelors would realistically take 2 years and cost a minimum of $28000. There's also the [Online Masters through the Georgia Institute of Technology](http://www.omscs.gatech.edu/current-courses). These might be a good choices if I want the credentials later. 
 
-I looked at the [Oregeon State Online for Post-Bacc Students](http://eecs.oregonstate.edu/online-cs-students). This bachelors would realistically take 2 years and cost a minimum of $28000. There's also the [Online Masters through the Georgia Institute of Technology](http://www.omscs.gatech.edu/current-courses). These might be a good choices if I want the credentials later. 
+My final option was to continue learning on my own and put together a bootcamp-equivalent. If you look at all the services that a bootcamp provides separately, the value of a bootcamp seems much less unreasonable. Taking lessons from an independent developer could easily amount to the same expense. This developer may not necessarily be invested in your progress or be able to help with your career. I knew that I needed a little leap of faith: Fullstack alumni claim they had "amazing experiences" and maybe I would benefit from the overall structure of the program.
 
 ## Why do I want to change careers?
 
-Originally, the idea of music being a mere "hobby" was appalling to me. Being a professional musician has not been a lucrative career path for me and I've accumulated some debt. To make ends meet, I've taken on a number of freelance positions and worked very hard over the years. My lifestyle has almost completely worn me out and I've lost interest in repeatedly playing covers at bar gigs, teaching the musical fundamentals, and writing music on others' terms.
+Originally, the idea of music being a mere "hobby" was appalling to me. Being a professional musician has not been a lucrative career path for me and I've accumulated some debt. To make ends meet, I've taken on a number of freelance positions and worked very hard over the years. My lifestyle has almost completely worn me out and I've lost interest in repeatedly playing covers at bar gigs, teaching the musical fundamentals, and writing music on others' terms. I plan to make programming a primary, full-time time career and want to play music for fun on the side. I intend to bring all of my talents and interests to software engineering.
 
-### My musical background
+### My background in more detail
 
-I am a professional musician holding degrees in Recording Engineering, Composition, and Jazz Guitar from the Peabody Conservatory. Composing music that blends a number of styles is my musical passion. I’ve played guitar, bass, drums, and sang in thousands of performances with rock, pop, jazz, and classical ensembles. My most recent position was at a private middle/high school in Chicago where I taught web programming, music composition, and recording arts. My proudest achievements to date include releasing a solo album called "Creative Being" and starting a teaching program where students learn music and make an album in the process. 
+I am a 33 year old professional musician holding degrees in Recording Engineering, Composition, and Jazz Guitar from the Peabody Conservatory. Composing music that blends a number of styles is my musical passion. I’ve played guitar, bass, drums, and sang in thousands of performances with rock, pop, jazz, and classical ensembles. My most recent position was at a private middle/high school in Chicago where I taught web programming, music composition, and recording arts. My proudest achievements to date include releasing a solo album called "Creative Being" and starting a teaching program where students learn music and make an album in the process. 
 
 
 BLOG
