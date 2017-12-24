@@ -1,15 +1,12 @@
-BLOG
-There are sections in the Immersive Program where you are required to create posts about the work and projects you completed. To get your blog started here is the first post topic:
-Why are you attending Fullstack Academy?
-Is this a career change? If so, why?
-What is your work history? What motivated you to learn to code?
-Address any other questions you feel are relevant to this topic.
-# Why I Chose to attend Fullstack Academy coding bootcamp
-# How I changed my mind about music and coding bootcamps 
-# from musician to programmer, my story
-# Now Attending: Fullstack Academy
+---
+layout: post
+title:  "Now Attending: Fullstack Academy"
+date:   2017-12-26 19:45:31 +0530
+categories: ["javascript"]
+author: "Dave Cohen"
+---
 
-## Why am I attending Fullstack Academy?
+## Why I'm attending Fullstack Academy
 
 I'm a music teacher, composer, recording engineer, and performing guitarist. After a decade of freelancing, I realized I no longer wanted to chase the rockstar dream. I'd be happier with a more stable career - as long as it was something I liked doing. I've always enjoyed working with technology, so the field of programming piqued my interest. Since high school, I've built many simple websites, but I wanted to know more about programming "for-real." I've spent 10 months learning on my own and have enjoyed it immensely. I completed the [“Introduction to Computer Science and Programming in Python” course offered through MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/). I realized how much I enjoyed creating useful programs, working with data structures, and refining code with abstraction to make it more maintainable. I’ve been continuously working to develop my programming skills by sharing what I learn with others and building websites, chrome extensions, and programs using Python, JavaScript, and the command-line. 
 
@@ -40,15 +37,21 @@ I looked at the [Oregeon State Online for Post-Bacc Students](http://eecs.oregon
 
 ## Why do I want to change careers?
 
-There are many cliches about being a musician. Being a professional musician has not been a lucrative career path for me. I've lost interest in repeatedly playing the same covers, teaching the same fundamentals, and writing music on others' terms. 
+Originally, the idea of music being a mere "hobby" was appalling to me. Being a professional musician has not been a lucrative career path for me and I've accumulated some debt. To make ends meet, I've taken on a number of freelance positions and worked very hard over the years. My lifestyle has almost completely worn me out and I've lost interest in repeatedly playing covers at bar gigs, teaching the musical fundamentals, and writing music on others' terms.
 
-I am a professional musician holding degrees in Recording Engineering, Composition, and Jazz Guitar from the Peabody Conservatory. Composing music that blends a number of styles is my musical passion. I’ve played guitar, bass, drums, and sang in thousands of performances with rock, pop, jazz, and classical ensembles. I’ve been involved in releasing over 5 albums and 15 singles. I’ve taught numerous students music in a one-on-one format. My most recent position was at a private middle/high school in Chicago where I taught web programming, music composition, and recording arts.
+### My musical background
 
-My proudest achievements include releasing a solo album called "Creative Being" and starting a teaching program where students learn music and make an album in the process. 
-
-, I've been freelancing as a professional musician. I'm a singer-songwriter and recording/mix engineer. My musical passion is composition. I've played in numerous groups and released albums. I started  More and more my lifestyle was wearing me out. I never thought I'd want to make music a "side" thing but my passion had been nearly completely sucked away. I was ready to consider changing careers. 
-I had made websites for bands and my teaching program using WordPress, HTML, CSS and (continue)
+I am a professional musician holding degrees in Recording Engineering, Composition, and Jazz Guitar from the Peabody Conservatory. Composing music that blends a number of styles is my musical passion. I’ve played guitar, bass, drums, and sang in thousands of performances with rock, pop, jazz, and classical ensembles. My most recent position was at a private middle/high school in Chicago where I taught web programming, music composition, and recording arts. My proudest achievements to date include releasing a solo album called "Creative Being" and starting a teaching program where students learn music and make an album in the process. 
 
 
-
+BLOG
+There are sections in the Immersive Program where you are required to create posts about the work and projects you completed. To get your blog started here is the first post topic:
+Why are you attending Fullstack Academy?
+Is this a career change? If so, why?
+What is your work history? What motivated you to learn to code?
+Address any other questions you feel are relevant to this topic.
+# Now Attending: Fullstack Academy
+# Why I Chose to attend Fullstack Academy coding bootcamp
+# How I changed my mind about music and coding bootcamps 
+# from musician to programmer, my story
 
