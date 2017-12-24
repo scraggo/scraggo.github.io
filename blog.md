@@ -13,7 +13,6 @@ Address any other questions you feel are relevant to this topic.
 
 I'm a music teacher, composer, recording engineer, and performing guitarist. After a decade of freelancing, I realized I no longer wanted to chase the rockstar dream. I'd be happier with a more stable career - as long as it was something I liked doing. I've always enjoyed working with technology, so the field of programming piqued my interest. Since high school, I've built many simple websites, but I wanted to know more about programming "for-real." I've spent 10 months learning on my own and have enjoyed it immensely. I completed the [“Introduction to Computer Science and Programming in Python” course offered through MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/). I realized how much I enjoyed creating useful programs, working with data structures, and refining code with abstraction to make it more maintainable. I’ve been continuously working to develop my programming skills by sharing what I learn with others and building websites, chrome extensions, and programs using Python, JavaScript, and the command-line. 
 
-
 ### Bootcamps: The Cons
 There are many coding bootcamp detractors. They claim:
 - "The economy isn't warm to non-degree holders without prior experience - it's oversaturated with bootcamp graduates."
@@ -41,9 +40,11 @@ I looked at the [Oregeon State Online for Post-Bacc Students](http://eecs.oregon
 
 ## Why do I want to change careers?
 
+There are many cliches about being a musician. Being a professional musician has not been a lucrative career path for me. I've lost interest in repeatedly playing the same covers, teaching the same fundamentals, and writing music on others' terms. 
+
 I am a professional musician holding degrees in Recording Engineering, Composition, and Jazz Guitar from the Peabody Conservatory. Composing music that blends a number of styles is my musical passion. I’ve played guitar, bass, drums, and sang in thousands of performances with rock, pop, jazz, and classical ensembles. I’ve been involved in releasing over 5 albums and 15 singles. I’ve taught numerous students music in a one-on-one format. My most recent position was at a private middle/high school in Chicago where I taught web programming, music composition, and recording arts.
 
-My biggest musical achievements include releasing a solo album called "Creative Being" and starting a teaching program where students learn music and make an album in the process. 
+My proudest achievements include releasing a solo album called "Creative Being" and starting a teaching program where students learn music and make an album in the process. 
 
 , I've been freelancing as a professional musician. I'm a singer-songwriter and recording/mix engineer. My musical passion is composition. I've played in numerous groups and released albums. I started  More and more my lifestyle was wearing me out. I never thought I'd want to make music a "side" thing but my passion had been nearly completely sucked away. I was ready to consider changing careers. 
 I had made websites for bands and my teaching program using WordPress, HTML, CSS and (continue)
