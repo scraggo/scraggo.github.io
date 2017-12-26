@@ -10,7 +10,7 @@ author: "Dave Cohen"
 
 I'm a music teacher, composer, recording engineer, and performing guitarist. After a decade of freelancing, I realized that the rockstar dream didn't suit me and I was tired of chasing it. I'd be happier with a more stable career that challenged me intellectually. I've always enjoyed working with technology, so the field of programming piqued my interest.
 
-My girlfriend encouraged me to start teaching myself to see if I would like it. After a short amount of time doing so, I was surprised to find that I completely hooked on it (I go into more detail on this later in this post). I wanted to make this new career a reality as soon as possible. I began looking into formally studying computer science, coding bootcamps, and other DIY options.
+My girlfriend encouraged me to start teaching myself the basics of programming to see if I would like it. After a short amount of time doing so, I was surprised to find that I completely hooked on it (I go into more detail on this later in this post). I wanted to make this new career a reality as soon as possible. I began looking into formally studying computer science, coding bootcamps, and other DIY options.
 
 ### Bootcamps: The Cons
 There are many coding bootcamp detractors. They claim:
