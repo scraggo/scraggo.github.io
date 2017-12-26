@@ -28,7 +28,7 @@ I changed my mind after realizing that I wasn't learning as fast as I'd like. I 
 - The curriculum was exactly what I was looking for.
 - The interview was an amazing learning experience. I enjoyed worked with Colin who taught me how to optimize the problem we were working on in the interview.
 - The computer science / software engineering focus.
-- Interview prep and career services .
+- Interview preparation and career services that continue after the program has completed.
 
 The list could go on, but in short, learning from industry professionals and getting career help would be worth it to me.
 
