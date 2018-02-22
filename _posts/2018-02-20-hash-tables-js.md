@@ -118,24 +118,58 @@ Explanation:
 Reflection: This certainly works, but I can probably do this with only one hash table. `{dog: true}` doesn't have extra meaningful data and between my two hashes, I store each word twice.
 
 
-# TEMPLATE
-## Easy Problem: NAME
+## Easy Problem: Two Sum
 
-Description: MARKDOWN LINK
+Description: [Two Sum - LeetCode](https://leetcode.com/problems/two-sum/description/)
 
-Basic Gist: SUMMARY OF PROBLEM
+Basic Gist: Given an array of integers, return indices of the two numbers such that they add up to a specific target. (ex: 9)
 
 My Solution Stats:
-> Status: Accepted. 33 / 33 test cases passed. Runtime: 48 ms
+> 19 / 19 test cases passed. Status: Accepted. Runtime: 84 ms
 
 ```js
-COPY CODE HERE
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+    let hashed = {};
+    nums.forEach((n, i) => {
+      if (!hashed.hasOwnProperty(n)) {
+        hashed[n] = i;
+      } else {
+        hashed[n] = [hashed[n], i]
+      }
+    });
+    let hashedKeys = Object.keys(hashed);
+    let i = 0;
+    for (i; i < nums.length; i++) {
+        let subtractor = target - +hashedKeys[i];
+        if (subtractor in hashed) {
+          let check = hashed[hashedKeys[i]];
+          if (!Array.isArray(check)) {
+            return [check, hashed[subtractor]];
+          } else {
+            return check.slice(0,2);
+          }
+            
+        }        
+    }
+};
 ```
 
 Explanation:
-BULLET POINTS
+- I begin by initializing a hash object to store the numbers as unique keys. For the values, each number key initially maps to its index. If there are multiples of a number key, I store an array of the indices. Each value can only be used once, so this prepares for the solution format (which asks for an array of two indices).
+- `hashedKeys` is the hash converted to an array of its keys.
+- the `for` loop iterates over all the numbers in the array. Everything below runs inside the loop.
+- the `subtractor` is the number we're looking for to add with the current number to see if it adds up to the `target`. I saved it in a variable for easier readability going forward.
+- Now for the main `if` block which checks if the `subtractor` is present in the hash.
+- the `check` variable will be type checked. 
+  - If we have a number, that means it's unique and we can return in the array format requested. 
+  - If it's an array, that means the values are equivalent, and we can return what we initially stored. I do a slice to ensure that it's the correct length.
 
-Reflection: HOW I CAN DO BETTER
+Reflection: I worked on this problem 5 months before working on it recently. I unknowingly created an O(n^2) algorithm by using `indexOf` to check the entire array sliced at each index as I iterated over it. The runtime was 548 ms (more than 5 times slower than the hash solution.) I think I can improve my hash solution by implementing it without `Object.keys(hash)`. I can't actually explain (at the moment) why I used that, and didn't use `nums[i]`.
 
 # TEMPLATE
 ## Easy Problem: NAME
