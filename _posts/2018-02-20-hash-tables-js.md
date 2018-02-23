@@ -171,6 +171,8 @@ Explanation:
 
 Reflection: I worked on this problem 5 months before working on it recently. I unknowingly created an O(n^2) algorithm by using `indexOf` to check the entire array sliced at each index as I iterated over it. The runtime was 548 ms (more than 5 times slower than the hash solution.) I think I can improve my hash solution by implementing it without `Object.keys(hash)`. I can't actually explain (at the moment) why I used that, and didn't use `nums[i]`.
 
+Note: I used the "Two Pass" solution. Read more about that and other solutions here: [Two Sum - LeetCode Articles](https://leetcode.com/articles/two-sum/). It may be locked until you've solved it yourself.
+
 ## Easy Problem: Single Number
 
 Link to problem & description: [Single Number - LeetCode](https://leetcode.com/problems/single-number/description/)
@@ -207,24 +209,79 @@ Explanation:
 
 Reflection: Initially, I created two hashes to make sure the algorithm was running correctly. I realized I could use a `Set` later and and simply delete the `num` entry in `once`, without storing it in `twice`. Oddly enough, my runtime went from 64ms to 84ms with the `Set` implementation. Maybe objects are optimized to run more quickly than sets (?)
 
-# TEMPLATE
-## Easy Problem: NAME
+Note: there is a very nice solution explanation here: [Single Number - LeetCode Articles](https://leetcode.com/articles/single-number/). It may be locked until you've solved it yourself.
 
-Link to problem & description: MARKDOWN LINK
+## Easy Problem: Set Mismatch
 
-Basic Gist: SUMMARY OF PROBLEM
+Link to problem & description: [Set Mismatch - LeetCode](https://leetcode.com/problems/set-mismatch/description/)
+
+Basic Gist: You have to find where "an error occurred." Any given input will have a number missing and a number duplicated. Example: `[1,2,2,4]`
 
 My Solution Stats:
-> Status: Accepted. 33 / 33 test cases passed. Runtime: 48 ms
+> 49 / 49 test cases passed. Status: Accepted. Runtime: 84 ms
 
 ```js
-COPY CODE HERE
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var findErrorNums = function(nums) {
+  let visited = {};
+  let result = [null, null];
+  let max = 0;
+  for (let i = 0; i < nums.length; i++) {
+    let current = nums[i];
+    if (!visited[current]) {
+      visited[current] = true;
+    } else {
+      // current is the duplicated number
+      result[0] = current;
+    }
+    if (current > max) {
+      max = current;
+    }
+  }
+
+  current = max;
+  while (current > 1) {
+    let oneBefore = current - 1;
+    if (!visited[oneBefore]) {
+      // oneBefore is the skipped number
+      result[1] = oneBefore;
+      return result;
+    }
+    current--;
+  }
+  if (!result[1]) {
+    result[1] = max + 1;
+    return result;
+  }
+  return result;
+};
 ```
 
 Explanation:
-BULLET POINTS
+- This problem was deceptively difficult since the input numbers were not necessarily sorted. There were a few short cases that needed to be accounted for. Note: `result[0]` is the duplicated number and `result[1]` is the missing number.
+  - input `[2,2]` expected `[2,1]` output.
+  - input `[1,1]` expected `[1,2]` output.
+  - I'll describe further down how I accounted for this.
+- `visited` is our initialized hash. We'll set a given number as a key and 'true' as the value to keep track of us visiting the number.
+- `result` is an array initialized with 2 `null` values. This way, I was forcing myself to update it without having an accidental solution.
+- `max` is the highest number in the array. I wanted to avoid sorting, so the highest number in the array would be where I search from to find the missing number. More below.
+- the `for` loop iterates over all the numbers.
+  - If the number isn't in `visited`, add it to it.
+  - If the number is in `visited`, it's the duplicated number. We save it as `result[0]`.
+  - I check all numbers and store it in `max` if it's the highest so far.
+- The `while` loop begins at `max` and traverses downward.
+  - `oneBefore` is our search, it's simply the current number - 1.
+  - If we don't see `oneBefore` in `visited`, it's the missing number! We can assign it to our result and return it.
+  - If we do see it, we simply go down and try `current--`.
+- After this `while` loop, we now account for the case where both numbers are 1. We know that `result[1]` should be one number higher than max.
 
-Reflection: HOW I CAN DO BETTER
+Reflection: I feel like the efficiency of the algorithm is quite good. I only store what's necessary. Keeping track of the edge cases was a bit cumbersome for me. I'm sure there's a graceful way to do it without the final check that I do.
+
+Official Solution: [Set Mismatch - LeetCode Articles](https://leetcode.com/articles/set-mismatch/)
+- Note: It may be locked until you try to solve it!
 
 # TEMPLATE
 ## Easy Problem: NAME
