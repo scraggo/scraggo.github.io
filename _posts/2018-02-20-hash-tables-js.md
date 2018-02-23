@@ -283,24 +283,51 @@ Reflection: I feel like the efficiency of the algorithm is quite good. I only st
 Official Solution: [Set Mismatch - LeetCode Articles](https://leetcode.com/articles/set-mismatch/)
 - Note: It may be locked until you try to solve it!
 
-# TEMPLATE
-## Easy Problem: NAME
+## Easy Problem: Longest Harmonious Subsequence
 
-Link to problem & description: MARKDOWN LINK
+Link to problem & description: [Longest Harmonious Subsequence - LeetCode](https://leetcode.com/problems/longest-harmonious-subsequence/description/)
 
-Basic Gist: SUMMARY OF PROBLEM
+Basic Gist: I won't attempt to summarize this one, but here's a tip: There can be only 2 unique numbers in the sequence. Example: `[3,2,2,2,3]`
 
 My Solution Stats:
-> Status: Accepted. 33 / 33 test cases passed. Runtime: 48 ms
+> 201 / 201 test cases passed. Status: Accepted. Runtime: 108 ms
 
 ```js
-COPY CODE HERE
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var findLHS = function(nums) {
+  let hash = {};
+  let current;
+  let i;
+  let max = 0;
+  let maxCheck1 = 0;
+  let maxCheck2 = 0;
+  for (i = 0; i < nums.length; i++) {
+    current = nums[i];
+    if (current in hash) {
+      hash[current]++;
+    } else {
+      hash[current] = 1;
+    }
+    if (hash[current + 1]) {
+      maxCheck1 = hash[current] + hash[current + 1];
+    }
+    if (hash[current - 1]) {
+      maxCheck2 = hash[current] + hash[current - 1];
+    }
+    max = Math.max(max, maxCheck1, maxCheck2);
+  }
+
+  return max;
+};
 ```
 
 Explanation:
 BULLET POINTS
 
-Reflection: HOW I CAN DO BETTER
+Reflection: Originally, I implemented this solution in 2 passes, but I wanted to try the single pass.
 
 **More**
 
