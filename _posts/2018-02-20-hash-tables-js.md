@@ -6,7 +6,7 @@ categories: ["javascript", "computer science"]
 author: "Dave Cohen"
 ---
 
-## Approaches to Problems
+*Hash Table Algorithm Approaches*
 
 I have been intrigued and intimidated by algorithms and data structures since first learning about them. I've been attempting problems that can be solved with hash tables. I'm hoping that sharing my approaches can help me and others make bigger strides in conquering these challenging problems.
 
@@ -29,7 +29,7 @@ To the uninitiated, this explanation may seem high-falutin. Fortunately, if you'
 const mapB = {b: 2}
 
 // using .reduce() to count the occurrence of characters:
-// association: charactor: number
+// association: character: number
 const count = Array.from('aabbccddeee').reduce((accumulator, char) => {
   if (char in accumulator) {
     accumulator[char]++
@@ -45,7 +45,7 @@ const count = Array.from('aabbccddeee').reduce((accumulator, char) => {
 
 JavaScript, being a high-level language, takes care of the hashing function details under-the-hood. The "buckets" in this case are a contiguous array where each index (bucket) is a point of destination for data. 
 
-## Hashing Functions
+### Hashing Functions
 
 To point data to the right "bucket", a *hashing function* is used. The function allows us to:
 - calculate a unique (mostly) hash address from a given "key"
@@ -57,19 +57,19 @@ In the average case scenario, searching a hash table is an O(1) operation. That'
 - [Hashing GeeksforGeeks](https://www.geeksforgeeks.org/hashing-set-1-introduction/)
 - [Hash Table Map Data Structure | Interview Cake](https://www.interviewcake.com/concept/java/hash-map)
 
-## Coding Challenge Sites: Leetcode, Hackerrank, Codewars, and more
+### Coding Challenge Sites: Leetcode, Hackerrank, Codewars, and more
 
 There are many great "code challenge" websites to practice at computer science problems. [HackerRank](https://www.hackerrank.com/) has been my favorite for quite a while. The "Data Structures" and "Algorithms" tracks are phenomenal. I also enjoyed "10 Days of JavaScript." [Codewars](https://www.codewars.com/) has an excellent community and platform, as well as some very fun problems. When I wanted to work more with hash tables, I discovered that [LeetCode](https://leetcode.com/) has a tagging system which links to 81 hash table problems!
 - [Hash Table - LeetCode](https://leetcode.com/tag/hash-table/)
 
-## Easy Problem: Word Pattern
+## Word Pattern (tagged as 'Easy')
 
 Link to problem & description: [Word Pattern - LeetCode](https://leetcode.com/problems/word-pattern/description/)
 
 Basic Gist: If a pattern (like 'abba') matches an input string (like 'dog cat cat dog') then it's a match. ('dog cat cat fish' wouldn't be a match.)
 
 My Solution Stats:
-> Status: Accepted. 33 / 33 test cases passed. Runtime: 48 ms
+*Status: Accepted. 33 / 33 test cases passed. Runtime: 48 ms*
 
 ```js
 /**
@@ -118,14 +118,14 @@ Explanation:
 Reflection: This certainly works, but I can probably do this with only one hash table. `{dog: true}` doesn't have extra meaningful data and between my two hashes, I store each word twice.
 
 
-## Easy Problem: Two Sum
+## Two Sum (tagged as 'Easy')
 
 Link to problem & description: [Two Sum - LeetCode](https://leetcode.com/problems/two-sum/description/)
 
 Basic Gist: Given an array of integers, return indices of the two numbers such that they add up to a specific target. (target could be 9, for example.)
 
 My Solution Stats:
-> 19 / 19 test cases passed. Status: Accepted. Runtime: 84 ms
+*19 / 19 test cases passed. Status: Accepted. Runtime: 84 ms*
 
 ```js
 /**
@@ -173,14 +173,14 @@ Reflection: I worked on this problem 5 months before working on it recently. I u
 
 Note: I used the "Two Pass" solution. Read more about that and other solutions here: [Two Sum - LeetCode Articles](https://leetcode.com/articles/two-sum/). It may be locked until you've solved it yourself.
 
-## Easy Problem: Single Number
+## Single Number (tagged as 'Easy')
 
 Link to problem & description: [Single Number - LeetCode](https://leetcode.com/problems/single-number/description/)
 
 Basic Gist: Given an array of integers, every element appears twice except for one. Find that single one.
 
 My Solution Stats:
-> 15 / 15 test cases passed. Status: Accepted. Runtime: 84 ms
+*15 / 15 test cases passed. Status: Accepted. Runtime: 84 ms*
 
 ```js
 /**
@@ -211,14 +211,14 @@ Reflection: Initially, I created two hashes to make sure the algorithm was runni
 
 Note: there is a very nice solution explanation here: [Single Number - LeetCode Articles](https://leetcode.com/articles/single-number/). It may be locked until you've solved it yourself.
 
-## Easy Problem: Set Mismatch
+## Set Mismatch (tagged as 'Easy')
 
 Link to problem & description: [Set Mismatch - LeetCode](https://leetcode.com/problems/set-mismatch/description/)
 
 Basic Gist: You have to find where "an error occurred." Any given input will have a number missing and a number duplicated. Example: `[1,2,2,4]`
 
 My Solution Stats:
-> 49 / 49 test cases passed. Status: Accepted. Runtime: 84 ms
+*49 / 49 test cases passed. Status: Accepted. Runtime: 84 ms*
 
 ```js
 /**
@@ -261,7 +261,7 @@ var findErrorNums = function(nums) {
 ```
 
 Explanation:
-- This problem was deceptively difficult since the input numbers were not necessarily sorted. There were a few short cases that needed to be accounted for. Note: `result[0]` is the duplicated number and `result[1]` is the missing number.
+- This problem was difficult to optimize because the input numbers were not necessarily sorted. There were a few short cases that needed to be accounted for. Note: `result[0]` is the duplicated number and `result[1]` is the missing number.
   - input `[2,2]` expected `[2,1]` output.
   - input `[1,1]` expected `[1,2]` output.
   - I'll describe further down how I accounted for this.
@@ -283,14 +283,14 @@ Reflection: I feel like the efficiency of the algorithm is quite good. I only st
 Official Solution: [Set Mismatch - LeetCode Articles](https://leetcode.com/articles/set-mismatch/)
 - Note: It may be locked until you try to solve it!
 
-## Easy Problem: Longest Harmonious Subsequence
+## Longest Harmonious Subsequence (tagged as 'Easy')
 
 Link to problem & description: [Longest Harmonious Subsequence - LeetCode](https://leetcode.com/problems/longest-harmonious-subsequence/description/)
 
 Basic Gist: I won't attempt to summarize this one, but here's a tip: There can be only 2 unique numbers in the sequence. Example: `[3,2,2,2,3]`
 
 My Solution Stats:
-> 201 / 201 test cases passed. Status: Accepted. Runtime: 108 ms
+*201 / 201 test cases passed. Status: Accepted. Runtime: 108 ms*
 
 ```js
 /**
@@ -326,7 +326,7 @@ var findLHS = function(nums) {
 
 Explanation:
 - The `hash` in this problem stores a number as unique key and the number of times it occurs as the value.
-- I initialized all the variables outside of the loop, for funsies.
+- I initialized all the variables outside of the loop. It isn't necessary to do it this way, I just felt like it.
 - The `for` loop is the main scene of this algorithm. I iterate over all of the numbers in the input array.
   - The current number is stored in the `current` variable.
   - The first `if` block checks if the current number is in the hash table. If so, we increase it's value by 1. If not, we initialize it to be 1.
@@ -339,8 +339,21 @@ Reflection: I first implemented this solution in 2 passes. After seeing the offi
 Official Solution: [Longest Harmonious Subsequence - LeetCode](https://leetcode.com/problems/longest-harmonious-subsequence/solution/)
 - Note: It may be locked until you try to solve it!
 
+## Parting Notes
 
-**More**
+**Summary of Approaches**
+- Hash tables allow for very fast, O(1), lookups. If you find yourself with nested `for` loops, consider a hash table with one of the patterns below.
+- It is often necessary to make two passes through an array to gather the hash table data, then process it.
+- It is sometimes possible to make a single pass if by the end of the pass, you have all the data you need for processing.
+
+Objects (what I've used for hash tables) in Javascript are extremely versatile. They can be used in the following (and more) ways:
+- a "map" of one data type to another: `{a: 'dog'}`
+- the "visited" pattern: `{1: true}`. You can also use a `Set` for this.
+- the "count" or "accumulator" pattern: `{a: 2, b: 12}`. This can be implemented with `.reduce()` or a simple `for` loop.
+
+I'm still getting my feet wet with algorithms but enjoying the process. The more I learn, the more I'm able to visualize different approaches to problems and hopefully arrive at optimized solutions. Please contact me below if you have comments about this article.
+
+*More*
 
 This "enrichment piece" was written as a student at Fullstack Academy. 
 
