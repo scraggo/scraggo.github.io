@@ -325,9 +325,20 @@ var findLHS = function(nums) {
 ```
 
 Explanation:
-BULLET POINTS
+- The `hash` in this problem stores a number as unique key and the number of times it occurs as the value.
+- I initialized all the variables outside of the loop, for funsies.
+- The `for` loop is the main scene of this algorithm. I iterate over all of the numbers in the input array.
+  - The current number is stored in the `current` variable.
+  - The first `if` block checks if the current number is in the hash table. If so, we increase it's value by 1. If not, we initialize it to be 1.
+  -  The second `if` block checks if the current number plus 1 is in the hash table. If so, we store the total number of occurrences of `current` and `current + 1` in the `maxCheck1` variable. (This will be used soon below.)
+  - The third and final `if` block checks if the current number minus 1 is in the hash table. If so, we store the total number of occurrences of `current` and `current - 1` in the `maxCheck2` variable. (This will be used soon below.)
+  - `max` is the maximum of `max`, `maxCheck1`, and `maxCheck2`. `max` represents the length of the longest sequence.
 
-Reflection: Originally, I implemented this solution in 2 passes, but I wanted to try the single pass.
+Reflection: I first implemented this solution in 2 passes. After seeing the official solution, I decided to wrangle mine into the single pass version. There's even more I could do to clean it up, but I'm pretty happy with it.
+
+Official Solution: [Longest Harmonious Subsequence - LeetCode](https://leetcode.com/problems/longest-harmonious-subsequence/solution/)
+- Note: It may be locked until you try to solve it!
+
 
 **More**
 
