@@ -64,7 +64,7 @@ There are many great "code challenge" websites to practice at computer science p
 
 ## Easy Problem: Word Pattern
 
-Description: [Word Pattern - LeetCode](https://leetcode.com/problems/word-pattern/description/)
+Link to problem & description: [Word Pattern - LeetCode](https://leetcode.com/problems/word-pattern/description/)
 
 Basic Gist: If a pattern (like 'abba') matches an input string (like 'dog cat cat dog') then it's a match. ('dog cat cat fish' wouldn't be a match.)
 
@@ -120,9 +120,9 @@ Reflection: This certainly works, but I can probably do this with only one hash 
 
 ## Easy Problem: Two Sum
 
-Description: [Two Sum - LeetCode](https://leetcode.com/problems/two-sum/description/)
+Link to problem & description: [Two Sum - LeetCode](https://leetcode.com/problems/two-sum/description/)
 
-Basic Gist: Given an array of integers, return indices of the two numbers such that they add up to a specific target. (ex: 9)
+Basic Gist: Given an array of integers, return indices of the two numbers such that they add up to a specific target. (target could be 9, for example.)
 
 My Solution Stats:
 > 19 / 19 test cases passed. Status: Accepted. Runtime: 84 ms
@@ -171,10 +171,46 @@ Explanation:
 
 Reflection: I worked on this problem 5 months before working on it recently. I unknowingly created an O(n^2) algorithm by using `indexOf` to check the entire array sliced at each index as I iterated over it. The runtime was 548 ms (more than 5 times slower than the hash solution.) I think I can improve my hash solution by implementing it without `Object.keys(hash)`. I can't actually explain (at the moment) why I used that, and didn't use `nums[i]`.
 
+## Easy Problem: Single Number
+
+Link to problem & description: [Single Number - LeetCode](https://leetcode.com/problems/single-number/description/)
+
+Basic Gist: Given an array of integers, every element appears twice except for one. Find that single one.
+
+My Solution Stats:
+> 15 / 15 test cases passed. Status: Accepted. Runtime: 84 ms
+
+```js
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var singleNumber = function(nums) {
+  let once = new Set();
+  nums.forEach(num => {
+    if (!once.has(num)) {
+      once.add(num);
+    } else {
+      once.delete(num);
+    }
+  });
+  return Array.from(once)[0];
+};
+```
+
+Explanation:
+- I realized I could use a `Set` to handle storing unique numbers and for fast lookup.
+- Using a `forEach` loop:
+  - The first time a number has been seen, I store it in the `once` set.
+  - If the number had been seen before, I delete it from the `once` set.
+- Assuming our inputs are valid, we return the only element in the `once` set. We get to it by converting it to an array with `Array.from()` and getting the `[0]` element.
+
+Reflection: Initially, I created two hashes to make sure the algorithm was running correctly. I realized I could use a `Set` later and and simply delete the `num` entry in `once`, without storing it in `twice`. Oddly enough, my runtime went from 64ms to 84ms with the `Set` implementation. Maybe objects are optimized to run more quickly than sets (?)
+
 # TEMPLATE
 ## Easy Problem: NAME
 
-Description: MARKDOWN LINK
+Link to problem & description: MARKDOWN LINK
 
 Basic Gist: SUMMARY OF PROBLEM
 
@@ -193,26 +229,7 @@ Reflection: HOW I CAN DO BETTER
 # TEMPLATE
 ## Easy Problem: NAME
 
-Description: MARKDOWN LINK
-
-Basic Gist: SUMMARY OF PROBLEM
-
-My Solution Stats:
-> Status: Accepted. 33 / 33 test cases passed. Runtime: 48 ms
-
-```js
-COPY CODE HERE
-```
-
-Explanation:
-BULLET POINTS
-
-Reflection: HOW I CAN DO BETTER
-
-# TEMPLATE
-## Easy Problem: NAME
-
-Description: MARKDOWN LINK
+Link to problem & description: MARKDOWN LINK
 
 Basic Gist: SUMMARY OF PROBLEM
 
