@@ -8,9 +8,9 @@ author: "Dave Cohen"
 
 ## Why I'm attending Fullstack Academy
 
-I'm a music teacher, composer, recording engineer, and performing guitarist. After a decade of freelancing, I realized that the rockstar dream didn't suit me and I was tired of chasing it. I'd be happier with a more stable career that challenged me intellectually. I've always enjoyed working with technology, so the field of programming piqued my interest.
+Since discovering a love for guitar and composition in my teens, I decided to pursue a career as a freelance music teacher, composer, recording engineer, and performing guitarist. After a decade of this, I realized that the rockstar dream didn't suit me and I was tired of chasing it. I'd be happier with a more stable career that challenged me intellectually. I've always enjoyed working with technology, so the field of programming piqued my interest.
 
-My girlfriend encouraged me to start teaching myself the basics of programming to see if I would like it. After a short amount of time doing so, I was surprised to find that I completely hooked on it (I go into more detail on this later in this post). I wanted to make this new career a reality as soon as possible. I began looking into formally studying computer science, coding bootcamps, and other DIY options.
+My girlfriend encouraged me to start teaching myself the basics of programming to see if I would like it. After a short amount of time doing so, I was surprised to find that I was completely hooked on it (more details to follow). I wanted to make this new career a reality as soon as possible. I began looking into formally studying computer science, coding bootcamps, and other DIY options.
 
 ### Bootcamps: The Cons
 There are many coding bootcamp detractors. They claim:
@@ -54,7 +54,7 @@ Since high school, I've built many simple websites, but I wanted to know more ab
 
 **More**
 
-This blog post was written to fulfill a requirement for the Fullstack Academy. 
+This blog post was written as a student of Fullstack Academy. 
 
 - [Read more about me here](https://scraggo.github.io/about/)
 - [Contact me](https://scraggo.github.io/contact/) to discuss this blog post
