@@ -1,18 +1,16 @@
 ---
 layout: post
-title:  "Hash Tables in JavaScript"
+title:  "Tackling Hash Table Problems in JavaScript"
 date:   2018-02-20 19:45:31 +0530
 categories: ["javascript", "computer science"]
 author: "Dave Cohen"
 ---
 
-*Hash Table Algorithm Approaches*
-
-I have been intrigued and intimidated by algorithms and data structures since first learning about them. I've been attempting problems that can be solved with hash tables. I'm hoping that sharing my approaches can help me and others make bigger strides in conquering these challenging problems.
+Algorithms and data structures can be intimidating. The goal of this post is to explain some approaches to solving hash table algorithm problems providing clear examples with detailed solution explanations. I'm hoping this will help anyone uninitiated alleviate fears and make bigger strides in conquering these challenging problems.
 
 ## Why Hash Tables?
 
-While attending Fullstack Academy, I participated in an algorithms class taught by alumnus Clément Mihailescu. I found the class to be enlightening and engaging. I was partially star-struck because he works at Google. He founded [AlgoExpert](https://www.algoexpert.io/) which is a top-notch platform for practicing interview problems. I highly recommend it for those who are serious about acing their interviews. I was inspired by the power of hash tables after the class and I did around 5 problems of various difficulty on LeetCode.
+While attending Fullstack Academy, I participated in an algorithms class taught by alumnus Clément Mihailescu, an employee of Google. I found the class to be enlightening and engaging. (I was also star-struck because he works at Google.) He founded [AlgoExpert](https://www.algoexpert.io/) which is a top-notch platform for practicing interview problems. I highly recommend it for those who are serious about acing their interviews. I was inspired by the power of hash tables after the class and went on a journey to solve as many hash table problems as I could find.
 
 ## A Brief Introduction to Hash Tables
 
@@ -43,24 +41,41 @@ const count = Array.from('aabbccddeee').reduce((accumulator, char) => {
 // {a: 2, b: 2, c: 2, d: 2, e: 3}
 ```
 
-JavaScript, being a high-level language, takes care of the hashing function details under-the-hood. The "buckets" in this case are a contiguous array where each index (bucket) is a point of destination for data. 
-
 ### Hashing Functions
+
+JavaScript, being a high-level language, abstracts away some of the hash function details. The "unique buckets" referred to above are a contiguous array where each index (bucket) is a point of destination for data. 
 
 To point data to the right "bucket", a *hashing function* is used. The function allows us to:
 - calculate a unique (mostly) hash address from a given "key"
-- use this hash address to put a "key" in the same "bucket" and access it from there every time we need to. 
+- use this hash address to put a "key" in the same "bucket" and access it from there every time we need to
 
-In the average case scenario, searching a hash table is an O(1) operation. That's amazing in terms of efficiency!
+In the case where collisions are minimized, searching a hash table is an O(1) operation. That's amazing in terms of efficiency! See below for more on "Big-o" and in-depth hash table lessons.
 
 - [Big-O Algorithm Complexity Cheat Sheet @ericdrowell](http://bigocheatsheet.com/)
 - [Hashing GeeksforGeeks](https://www.geeksforgeeks.org/hashing-set-1-introduction/)
-- [Hash Table Map Data Structure | Interview Cake](https://www.interviewcake.com/concept/java/hash-map)
+- [Hash Table Map Data Structure - Interview Cake](https://www.interviewcake.com/concept/java/hash-map)
 
 ### Coding Challenge Sites: Leetcode, Hackerrank, Codewars, and more
 
-There are many great "code challenge" websites to practice at computer science problems. [HackerRank](https://www.hackerrank.com/) has been my favorite for quite a while. The "Data Structures" and "Algorithms" tracks are phenomenal. I also enjoyed "10 Days of JavaScript." [Codewars](https://www.codewars.com/) has an excellent community and platform, as well as some very fun problems. When I wanted to work more with hash tables, I discovered that [LeetCode](https://leetcode.com/) has a tagging system which links to 81 hash table problems!
+There are many great "code challenge" websites to practice at computer science problems. When I wanted to work more with hash tables, I discovered that [LeetCode](https://leetcode.com/) has a tagging system which links to 81 hash table problems!
 - [Hash Table - LeetCode](https://leetcode.com/tag/hash-table/)
+
+Other great sites for coding challenges:
+- [HackerRank](https://www.hackerrank.com/) my general favorite. The "Data Structures" and "Algorithms" tracks are phenomenal. I also enjoyed "10 Days of JavaScript." 
+- [Codewars](https://www.codewars.com/) - has an excellent community and platform, as well as some very fun problems. 
+
+## Summary of Approaches
+
+After solving around 6 problems of various difficulty on LeetCode, I observed some general principles and forms:
+- Hash tables allow for very fast, O(1), lookups. If my solution to a problem was "timing out," I was probably over-using array methods.
+- Nested `for` loops (which have O(n^2) time efficiency) can often be alleviated with hash tables. 
+- It's often necessary to make two passes through an array to gather the hash table data to allow for complete processing.
+- It's sometimes possible to make a single pass if by the end of the pass, you have all the data you need for processing.
+
+Javascript objects (what I've used for hash tables) are extremely versatile. I was able to implement them with the following patterns:
+- a "map" of one data type to another: `{a: 'dog'}`
+- the "visited" pattern: `{1: true}`. You can also use a `Set` for this.
+- the "count" or "accumulator" pattern: `{a: 2, b: 12}`. This can be implemented with `.reduce()` or a simple `for` loop.
 
 ## Word Pattern (tagged as 'Easy')
 
@@ -287,7 +302,7 @@ Official Solution: [Set Mismatch - LeetCode Articles](https://leetcode.com/artic
 
 Link to problem & description: [Longest Harmonious Subsequence - LeetCode](https://leetcode.com/problems/longest-harmonious-subsequence/description/)
 
-Basic Gist: I won't attempt to summarize this one, but here's a tip: There can be only 2 unique numbers in the sequence. Example: `[3,2,2,2,3]`
+Basic Gist: Return the length of the longest sequence of 2 unique numbers which are consecutive. Example subsequences: `[3,2,2,2,3]`, `[3,2,3,2,3]`, `[3,3,3,2,2,2]`. (Other numbers in between aren't counted.) (This one's a bit difficult to summarize, so check out the problem description.)
 
 My Solution Stats:
 *201 / 201 test cases passed. Status: Accepted. Runtime: 108 ms*
@@ -341,17 +356,7 @@ Official Solution: [Longest Harmonious Subsequence - LeetCode](https://leetcode.
 
 ## Parting Notes
 
-**Summary of Approaches**
-- Hash tables allow for very fast, O(1), lookups. If you find yourself with nested `for` loops, consider a hash table with one of the patterns below.
-- It is often necessary to make two passes through an array to gather the hash table data, then process it.
-- It is sometimes possible to make a single pass if by the end of the pass, you have all the data you need for processing.
-
-Objects (what I've used for hash tables) in Javascript are extremely versatile. They can be used in the following (and more) ways:
-- a "map" of one data type to another: `{a: 'dog'}`
-- the "visited" pattern: `{1: true}`. You can also use a `Set` for this.
-- the "count" or "accumulator" pattern: `{a: 2, b: 12}`. This can be implemented with `.reduce()` or a simple `for` loop.
-
-I'm still getting my feet wet with algorithms but enjoying the process. The more I learn, the more I'm able to visualize different approaches to problems and hopefully arrive at optimized solutions. Please contact me below if you have comments about this article.
+I'm no expert at algorithms in general, but I'm definitely enjoying learning about them. The more I learn, the more I'm able to visualize different approaches to problems and begin to optimize my solutions. Please contact me below if you have comments about this article and/or suggestions for improvement.
 
 *More*
 
