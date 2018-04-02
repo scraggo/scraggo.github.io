@@ -6,8 +6,9 @@ permalink: /portfolio/
 <style>
 thead, th {display: none;}
 td {padding: 8px;}
-h1 {margin-top: 18px;}
+h1 {margin: 18px 0 5px 0;}
 h1, h3 {text-align: center;}
+.post-content h3 {font-size: .8em; margin: 0 0 5px 0}
 img {
     display: block;
     margin: auto;
@@ -18,11 +19,10 @@ h1 a, table a, h3 a {color: #265a88 !important;}
 <!-- ## Programming Portfolio -->
 
 # [Vocode](https://vocode.herokuapp.com)
+### [View on GitHub](https://github.com/daft-thunk/electricVocode)
 <a href="http://vocode.herokuapp.com">
 <img src="https://s25.postimg.org/l1tqsjjpr/vocode.png" alt="Vocode">
 </a>
-
-### [View on GitHub](https://github.com/daft-thunk/electricVocode)
 
 | | |
 |---------------|------|
@@ -32,11 +32,11 @@ h1 a, table a, h3 a {color: #265a88 !important;}
 <hr>
 
 # [Daft Thunk Express](https://daft-thunk-direct.herokuapp.com)
+### [View on GitHub](https://github.com/daft-thunk/daft-thunk)
 <a href="https://daft-thunk-direct.herokuapp.com">
 <img src="https://s25.postimg.org/4fc6j00xb/daft-thunk-direct.png" alt="Daft Thunk Direct">
 </a>
 
-### [View on GitHub](https://github.com/daft-thunk/daft-thunk)
 
 | | |
 |---------------|------|
@@ -46,11 +46,11 @@ h1 a, table a, h3 a {color: #265a88 !important;}
 <hr>
 
 # [Random Music Generators](https://random-music-generators.herokuapp.com/)
+### [View on GitHub](https://github.com/scraggo/Random-Music-Generators)
 <a href="https://random-music-generators.herokuapp.com/">
 <img src="https://media.giphy.com/media/lpt5YtiWgLU9tpClnA/giphy.gif" alt="Random Music Generators">
 </a>
 
-### [View on GitHub](https://github.com/scraggo/Random-Music-Generators)
 
 | | |
 |---------------|------|
@@ -61,7 +61,7 @@ h1 a, table a, h3 a {color: #265a88 !important;}
 
 # [SongMind Studios](http://songmindstudios.com)
 <a href="http://songmindstudios.com">
-<img src="http://songmindstudios.com/wp-content/uploads/2017/09/sms-site.png" alt="SongMind Studios">
+<img src="https://s25.postimg.org/jpc1qcwhb/sms-site.png" alt="SongMind Studios">
 </a>
 
 | | |
