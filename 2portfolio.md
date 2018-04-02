@@ -31,7 +31,7 @@ h1 a, table a, h3 a {color: #265a88 !important;}
 
 <hr>
 
-# [Daft Thunk Express](https://daft-thunk-direct.herokuapp.com)
+# [Daft Thunk Direct](https://daft-thunk-direct.herokuapp.com)
 ### [View on GitHub](https://github.com/daft-thunk/daft-thunk)
 <a href="https://daft-thunk-direct.herokuapp.com">
 <img src="https://s25.postimg.org/4fc6j00xb/daft-thunk-direct.png" alt="Daft Thunk Direct">
