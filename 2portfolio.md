@@ -21,20 +21,20 @@ h1 a, table a, h3 a {color: #265a88 !important;}
 # [Vocode](https://vocode.herokuapp.com)
 ### [View on GitHub](https://github.com/daft-thunk/electricVocode)
 <a href="http://vocode.herokuapp.com">
-<img src="https://s25.postimg.org/l1tqsjjpr/vocode.png" alt="Vocode">
+<img src="/assets/vocode.png" alt="Vocode">
 </a>
 
 | | |
 |---------------|------|
 | Description:  | Vocode is a desktop application that allows users to perform a number of useful commands with their voice. The app can populate a user's clipboard with a snippet (a text template) which can be pasted into any text editor. Users can add other user snippets, create new snippets, and manage all this information in one central place. The app also provides a user the ability to display websites in the app with a voice command. |
-| Technology:   | Electron JS, WebAudio API, Google Cloud Speech Service, Ant, React, Redux, Express, PostgreSQL,  |
+| Technology:   | Electron JS, WebAudio API, Google Cloud Speech Service, Ant, React, Redux, Express, PostgreSQL. [Vocode: Presentation - YouTube](https://www.youtube.com/watch?v=-_gCMrigUcw)  |
 
 <hr>
 
 # [Daft Thunk Direct](https://daft-thunk-direct.herokuapp.com)
 ### [View on GitHub](https://github.com/daft-thunk/daft-thunk)
 <a href="https://daft-thunk-direct.herokuapp.com">
-<img src="https://s25.postimg.org/4fc6j00xb/daft-thunk-direct.png" alt="Daft Thunk Direct">
+<img src="/assets/daft-thunk-direct.png" alt="Daft Thunk Direct">
 </a>
 
 
@@ -55,13 +55,13 @@ h1 a, table a, h3 a {color: #265a88 !important;}
 | | |
 |---------------|------|
 | Description:  | Users can generate unlimited unique melodies with easily changed parameters including tonality, rhythm, and interval jumps. These melodies can be previewed in-browser and downloaded as MIDI. |
-| Technology:   | React, Redux, Semantic UI, MIDIwriterJS, ToneJS |
+| Technology:   | React, Redux, Semantic UI, MIDIwriterJS, ToneJS. [ Presentation: Random Music Generators - YouTube](https://www.youtube.com/watch?v=D46ujdZg4o0)|
 
 <hr>
 
 # [SongMind Studios](http://songmindstudios.com)
 <a href="http://songmindstudios.com">
-<img src="https://s25.postimg.org/jpc1qcwhb/sms-site.png" alt="SongMind Studios">
+<img src="/assets/sms-site.png" alt="SongMind Studios">
 </a>
 
 | | |
