@@ -6,10 +6,10 @@ categories: ["javascript"]
 author: "Dave Cohen"
 ---
 
-I was ready for a career change. It was October of 2017. The more time I spent coding and learning computer science fundamentals, I realized that a programming career would fit my personality better than performing and teaching music.
+I was ready for a career change. It was October of 2017. The more time I spent coding and learning computer science fundamentals, the more I realized that a programming career would fit my personality* better than performing and teaching music.
 
 After spending a fair amount of time teaching myself to code and making websites, I began researching coding bootcamps. There were optimistic [statistics](https://cirr.org/data) of people making $80,000 after graduating. There were detractors who warn strongly against bootcamps. I was skeptical, but decided I wasn't learning fast enough.
-> Read more about my bootcamp decision: 
+> \* Read more about my bootcamp decision: 
 [Now Attending: Fullstack Academy](https://scraggo.github.io/javascript/2017/12/26/now-attending-fullstack.html)
 
 Now, it's April 2018 and I'm a graduate of Fullstack Academy's Software Engineering program. I want to share some of my experiences both good and bad. I'm not yet employed, but I've already interviewed on-site and been screened by multiple companies.
@@ -52,7 +52,7 @@ All in all, I would embrace pair programming if it was common practice at a comp
 
 ## Team Projects
 
-In Senior phase, there are 2 projects done in 4-person teams. We picked our team preferences beforehand. Our class liked the teams from our first project, so we kept them for the second team project. Our first project went well. We learned best practices with Git. We used an Agile ticketing system. We finished the core parts of each feature in the alotted time. Our second project got "real." It was the mother-flippin' CAPSTONE project, so it HAD to be amazing! There was conflict around choosing the initial idea. There was conflict near the end after some disagreement about which features were necessary. We got lost in the weeds learning Electron and using service workers for recording audio. Despite the struggles, it came together and I'm really proud of what we built. 
+In Senior phase, there are 2 projects done in 4-person teams. We picked our team preferences beforehand. Our class liked the teams from our first project, so we kept them for the second team project. Our first project went well. We learned best practices with Git. We used an Agile ticketing system. We finished the core parts of each feature in the alotted time. Our second project got "real." It was the mother-flippin' CAPSTONE project, so (in our minds) it HAD to be amazing! There was conflict around choosing the initial idea. There was conflict near the end after some disagreement about which features were necessary. We got lost in the weeds learning Electron and using service workers for recording audio. Despite the struggles, it came together and I'm really proud of what we built. 
 - [Vocode](http://vocode.herokuapp.com/)
 - [Vocode: Presentation - YouTube](https://www.youtube.com/watch?v=-_gCMrigUcw)
 
