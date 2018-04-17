@@ -78,7 +78,7 @@ Pros
 - I expanded my network to include Fullstack Alumni of cohorts past
 - I'm very proud of my Capstone project
 - I feel confident as a full stack developer
-- A lot of great career advice and guidance
+- I received a lot of great career advice and guidance
 
 Cons
 - I only have a few months of experience with some of the technologies I know
@@ -97,7 +97,7 @@ My list of activities:
 - Working part time with a friend as a React developer
 - Going to meetups, setting up lunch and coffee chats
 - Working on interview questions with other alumni
-- Working up the job pipeline: applying, phone screen, coding challenge, interviews
+- Moving applications along the job pipeline: writing cover letters, scheduling phone screens, working on coding challenges, and preparing for interviews
 - Enjoying having a little more free time :)
 
 Please [contact me](https://scraggo.github.io/contact/) if you'd like to discuss anything in my post. Best of luck!
