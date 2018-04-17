@@ -18,6 +18,7 @@ pre {
 </style>
 
 
+- Reflections from a coding bootcamp graduate
 - Intro to Aurelia.js and other JavaScript Frameworks
 - Blogging with and Customizing Wordpress
 - Intro to Fetching Data from RESTful APIs
@@ -28,6 +29,8 @@ pre {
 - codepen chicago
 - regex
 - My journey: from hobbyist to professional
+
+---
 
 ## Intro to JavaScript Frameworks Part 1: The Vanilla JavaScript Version of TodoMVC
 intro-to-js-frameworks01
