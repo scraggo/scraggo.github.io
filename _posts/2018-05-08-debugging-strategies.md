@@ -344,6 +344,10 @@ These can help bring your right brain into your problem-solving.
 
 I hope this simple guide to debugging will be helpful in your future projects. Please [contact me](https://scraggo.github.io/contact/) if you'd like to discuss anything I've written here. May your bugs be few and easy to squash!
 
+Comment on this post on Medium: https://medium.com/@scraggo/debugging-strategies-checklist-a405603894dd
+
+Follow me on Medium: https://medium.com/@scraggo
+
 **Further Reading**
 * [Debugging Strategies](http://localhost:4000/computer%20science/2018/05/08/debugging-strategies.html)
 * [250 Debugging Strategies.pdf](https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1134/handouts/250%20Debugging%20Strategies.pdf)
