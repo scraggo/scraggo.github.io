@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My Checklist of Debugging Strategies"
+title:  "Debugging Strategies Checklist"
 date:   2018-05-08 19:45:31 +0530
 categories: ["computer science"]
 author: "Dave Cohen"
