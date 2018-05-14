@@ -345,7 +345,6 @@ These can help bring your right brain into your problem-solving.
 I hope this simple guide to debugging will be helpful in your future projects. Please [contact me](https://scraggo.github.io/contact/) if you'd like to discuss anything I've written here. May your bugs be few and easy to squash!
 
 **Further Reading**
-* [Debugging Strategies](http://localhost:4000/computer%20science/2018/05/08/debugging-strategies.html)
 * [250 Debugging Strategies.pdf](https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1134/handouts/250%20Debugging%20Strategies.pdf)
 * [Debugging Checklist](http://facweb.cs.depaul.edu/sjost/it212/documents/debug-checklist.htm)
 * [flatiron-school/ruby-debugging-checklist: A list of things to do when you hit a bug in your ruby code.](https://github.com/flatiron-school/ruby-debugging-checklist)
