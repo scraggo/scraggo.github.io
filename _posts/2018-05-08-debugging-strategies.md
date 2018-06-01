@@ -2,7 +2,7 @@
 layout: post
 title:  "Debugging Strategies Checklist"
 date:   2018-05-08 19:45:31 +0530
-categories: ["computer science"]
+categories: ["computer_science"]
 author: "Dave Cohen"
 ---
 
