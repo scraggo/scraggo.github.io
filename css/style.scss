@@ -602,8 +602,10 @@ pre {
   font-size: 52px;
   margin-top: 10px;
   text-align: center;
-  font-family: "PT Sans";
-  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  // font-family: "PT Sans";
+  // font-weight: 900;
   @include media-query($on-laptop) {
     font-size: 36px;
   }
@@ -638,6 +640,12 @@ pre {
     @include media-query($on-laptop) {
       font-size: 18px;
     }
+  }
+  h2, h3, h4, h5, h6 {
+    margin-top: $spacing-unit;
+    font-family: $base-font-family;
+    font-weight: 600;
+    letter-spacing: .5px;
   }
 }
 
