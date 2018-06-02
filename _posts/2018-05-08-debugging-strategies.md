@@ -55,8 +55,8 @@ Javascript doesn't care that we put in 'number' types in the first call to `add`
 ```js
 // with input validation / coercion
 function add(x,y) {
-  x = Number(x);
-  y = Number(y);
+  x = parseInt(x, 10);
+  y = parseInt(y, 10);
   if (!isNaN(x) && !isNaN(y)) {
     return x + y;
   }
@@ -74,7 +74,7 @@ Taking this approach further would be to abstract the validation and coercion in
 
 ```js
 function validateNum(input) {
-  input = Number(input);
+  input = parseInt(input, 10);
   if (isNaN(input)) {
     throw new TypeError('Expected type number');
   }
