@@ -298,7 +298,7 @@ A brief description of some of the complexity bugs I've dealt with recently:
 
 While coding, if you find that you're solving one problem but creating 2 new problems, you're probably going against good design principles. The S.O.L.I.D acronym covers a lot of ground. The "S" stands for "Single Responsibility Principle." If you can help it, a function should only do *one* thing. If you couple multiple actions inside one function, you could create unexpected behavior if something changes elsewhere that interacts with this function. 
 
-The D.R.Y acronym stands for "Don't Repeat Yourself." This isn't just a recommendation - it's essential for creating maintainable code. If you copy and paste once, you're going to have to repeatedly copy and paste with every change. Manual code editing in multiple places is a reciple for disaster. It's better to take the time to ask what's common between both code examples and abstract the functionality out of it. Here's a famous error where the a print to the console is "lying:"
+The D.R.Y acronym stands for "Don't Repeat Yourself." This isn't just a recommendation - it's essential for creating maintainable code. If you copy and paste once, you're going to have to repeatedly copy and paste with every change. Manual code editing in multiple places is a recipe for disaster. It's better to take the time to ask what's common between both code examples and abstract the functionality out of it. Here's a famous error where the a print to the console is "lying:"
 ```js
 // Initial log is consistent:
 const x = 23.5;
