@@ -2,7 +2,7 @@
 layout: post
 title:  "Marketable Programming Skills"
 date:   2017-08-01 19:45:31 +0530
-categories: ["jobs"]
+categories: ["career"]
 author: "Dave Cohen"
 comments: true
 ---
