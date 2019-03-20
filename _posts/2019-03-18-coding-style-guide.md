@@ -239,7 +239,9 @@ We use SASS for our project. We have a number of .scss files that contain CSS wi
 
 > [Sass: Sass Basics](https://sass-lang.com/guide)
 
-1. First, create a new file with the component (or other descriptive) name.
+### Adding a .scss file for a component
+
+First, create a new file with the component (or other descriptive) name.
 
 There are a few mutually exclusive ways to go about adding styling to the project:
 
@@ -248,7 +250,7 @@ There are a few mutually exclusive ways to go about adding styling to the projec
 
 One or the other is up to the case at hand.
 
-2. Targeting selectors - avoid using this syntax:
+### Targeting selectors - avoid using this syntax:
 
 ```scss
 .element {
