@@ -6,11 +6,11 @@ categories: ["javascript"]
 author: "Dave Cohen"
 ---
 
-We all have opinions of what "good" code is, how it's formatted, and what best practices are. Recently, one of the teams I've been working on decided to add another member. We discovered that our coding styles were radically different. I decided to write up a style guide for our team.
+We all have opinions on what what coding best practices are and how code should be formatted. Recently, one of the teams I've been working on decided to add another member. I discovered that our coding styles were radically different. I decided to write some guidelines for our team to get us on the same page.
 
-I quickly realized that writing a style guide from scratch is a tall order. I'd already been using the Airbnb eslint rule-set, so I used that as a jump-off point.
+I quickly realized that writing a style guide from scratch is a tall order. I'd already been using the Airbnb eslint rule-set, so I read [Airbnb's style guide](https://github.com/airbnb/javascript) and found it to be an excellent jump-off point.
 
-I hope that this style guide gives you some ideas. I _highly_ encourage web development teams to use the tools we've recommended to unify your personal or team codebases.
+I hope this style guide gives you some ideas. I _highly_ encourage web development teams to create their own style guides and use tools similar to the ones we've recommended to unify their personal or team codebases.
 
 # Team Coding Style Guide
 
@@ -29,11 +29,11 @@ and more.
 Much of this is taken care of by a few tools.
 
 1. Linter - This tool automatically formats code and catches bad and/or dangerous code practices. We use the Airbnb ruleset \* with some modifications. (\* We'll go into more detail below.)
-2. Code Climate - a coverage tool that analyzes the master branch and any PRs made to it. It will go further than the linter can by analyzing where code is not kept "DRY" and other code smells.
+2. Code Climate - a coverage tool that analyzes the master branch and any PRs made to it. It will go further than the linter can by analyzing where code could benefit from removing repetition (following DRY - Don't Repeat Yourself), nested conditional statements, and other bad practices.
 
 ## Environment - Setting up the linter
 
-For this project, we use yarn, not npm
+For this project, we use yarn, not npm. (npm is fine in my personal opinion.)
 
 Extensions:
 
@@ -85,22 +85,24 @@ Since we're using React v16+ with create-react-app v2+, we can take advantage of
 
 Some explicit mentions:
 
-- anonymous functions should _almost_ always be written with the `() => {}` syntax. Use an implicit return whenever possible.
+- Anonymous functions should _almost_ always be written with the `() => {}` syntax. Use an implicit return whenever possible.
 - No need for `self = this`. We can bind and track execution context with the notation above or binding in the constructor. We prefer binding in the constructor.
   - Read: [Arrow Functions in Class Properties Might Not Be As Great As We Think](https://medium.com/@charpeni/arrow-functions-in-class-properties-might-not-be-as-great-as-we-think-3b3551c440b1)
 - **Always** use `let` or `const` instead of `var`. `const` is preferred if you can avoid using `let`.
 - Class syntax instead of `Class.prototype.method = ...` syntax
-- Template strings
+- Template strings instead of string concatenation.
 - `import` and `export` instead of `require` and `module.exports`.
-- Prefer destructuring
-  - Use default values like so `const { idx = 5 } = this.state`. If `this.state.idx` is undefined, 5 will be assigned to `idx`.
+- Prefer destructuring:
+  - Use default values like so `const { idx = 5 } = this.state`. If `this.state.idx` is undefined, 5 will be assigned to `idx`. (One catch, if this.state.idx is null or false, it will not be assigned the default value.)
   - You can rename a variable that might conflict with this syntax: `const { idx: idxOnState } = this.state`. You'd use it as `idxOnState` below within function scope.
 
 ### Some highlights from the Airbnb style guide
 
-From object-curly-spacing to handling Javascript language edge cases, the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) will keep your codebase in check. It's impressively precise. They don't hesitate to be definitive.
+From object-curly-spacing to handling Javascript language edge cases, following the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) will keep your codebase in check. It's impressively precise. They don't hesitate to be definitive.
 
 Using their [eslint rules](https://www.npmjs.com/package/eslint-config-airbnb) for React projects has definitely improved the quality of our code. Reading the guide answered a lot of my nagging questions about some of their eslint rules (which can seem bizarrely restrictive.)
+
+In true open-source fashion, some of the rules have corresponding issues on github where developers discuss the necessity of the rule. (example: <https://github.com/airbnb/javascript/issues/794> )
 
 #### Airbnb enforces ES6
 
@@ -116,7 +118,7 @@ The ES6 syntax I mentioned above can also largely be found in the Airbnb stylegu
 
 #### Airbnb avoids some property and function edge cases
 
-- 3.7 Do not call Object.prototype methods directly, such as hasOwnProperty, propertyIsEnumerable, and isPrototypeOf. - This eslint rule baffled me until I read this. Now, I use their 'has' package.
+- 3.7 Do not call Object.prototype methods directly, such as hasOwnProperty, propertyIsEnumerable, and isPrototypeOf. - This eslint rule baffled me until I read this. Now, I use their ['has' package](https://www.npmjs.com/package/has).
 - 7.12/13 Never mutate/reassign parameters.
 - 29.1 Use Number.isNaN instead of global isNaN. eslint: no-restricted-globals - I didn't realize there was a better way!
 
@@ -139,11 +141,13 @@ const short = function longUniqueMoreDescriptiveLexicalFoo() {
 
 While I like the idea, I agree with some of the commenters, why not just use the longer and more descriptive name?
 
+> (Discussion: <https://github.com/airbnb/javascript/issues/794> )
+
 - 23.4 Do not use trailing or leading underscores. eslint: no-underscore-dangle
 
 Their reasoning makes perfect sense. However, I'm a fan of using `_` prefixing to denote to the developer that this property doesn't need to be served to the front end. There are no illusions about it being "private" or "protected", it's just a simple way to differentiate properties inside a codebase.
 
-## Best Practices
+## Best practices
 
 We follow the practices in these guides:
 
@@ -157,7 +161,7 @@ A few points that are really important to us:
 - Write descriptive function and variable names (self-commenting)
 - Add documentation above functions that need more explanation
 
-We follow a few basic principles coming from functional programming. Wherever possible, we keep functions pure, the data immutable, and prefer array methods like map, filter, and reduce.
+We follow a few basic principles coming from functional programming. Wherever possible, we keep functions pure, the data immutable, and prefer array methods like `map`, `filter`, and `reduce`.
 
 > [Beginner's guide to functional programming in JavaScript - Opensource.com](https://opensource.com/article/17/6/functional-javascript)
 
@@ -178,7 +182,7 @@ Add separate commits for unrelated files. When in doubt, make many, smaller comm
 
 ## Unit testing
 
-Components should be written with testability in mind. We'll be using Jest with Enzyme and aiming for > 90% coverage with unit and integration tests.
+Components should be written with testability in mind. We use Jest with Enzyme and aim for > 90% coverage with unit and integration tests.
 
 ## JSDoc documentation
 
@@ -208,9 +212,9 @@ class Hello extends Component {
 }
 ```
 
-## Prefer Open Source before Custom Components
+## Prefer open source before custom components
 
-We prefer open source over custom components. We follow a POC method when we are evaluating our custom code needs.
+We prefer open source over custom components. We follow a POC (Proof of Concept) method when we are evaluating our custom code needs.
 
 Open source criteria:
 
@@ -243,3 +247,15 @@ There are a few mutually exclusive ways to go about adding styling to the projec
 - SCSS can be loaded into the main stylesheet by adding an import to the `index.scss` file like so: `@import './scss/_media_queries.scss';`. The import order matters, if in doubt, put your import at the bottom.
 
 One or the other is up to the case at hand.
+
+2. Targeting selectors - avoid using this syntax:
+
+```scss
+.element {
+  &-child: {
+    margin: 32px;
+  }
+}
+```
+
+Here, the `&-child` is actually targeting the `.element-child` class. This is difficult to search for in a code base, so explicitly write out the selector instead of using the `&` as shorthand.
