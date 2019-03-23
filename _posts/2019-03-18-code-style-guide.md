@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using a Code Style Code to Enforce Team Best Practices"
+title: "Using a Code Style Guide to Enforce Team Best Practices"
 date: 2019-03-18 19:45:31 +0530
 categories: ["javascript"]
 author: "Dave Cohen"
