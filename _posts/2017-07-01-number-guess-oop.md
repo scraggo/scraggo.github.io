@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Using a Class in Python as a Code Wrapper for a Simple Game"
-date:   2017-07-01 19:45:31 +0530
+title: "Using a Class in Python as a Code Wrapper for a Simple Game"
+date: 2017-07-01 19:45:31 +0530
 categories: ["python"]
 author: "Dave Cohen"
 ---
 
-Object-oriented design is a powerful programming paradigm that can be intimidating to anyone trying to learn how to use it. I worked through a number of excellent tutorials and books on the subject, but struggled to apply the concepts to my own code. I decided to convert a working program that *didn't* use OOP and wrap it in a single class. 
+Object-oriented design is a powerful programming paradigm that can be intimidating to anyone trying to learn how to use it. I worked through a number of excellent tutorials and books on the subject, but struggled to apply the concepts to my own code. I decided to convert a working program that _didn't_ use OOP and wrap it in a single class.
 
-The program I chose was [Guess the Number](https://inventwithpython.com/chapter4.html) written by Al Sweigart for his book Invent Your Own Computer Games with Python. This book is an excellent way to learn Python 3 (and also a fun way!) 
+The program I chose was [Guess the Number](https://inventwithpython.com/chapter4.html) written by Al Sweigart for his book Invent Your Own Computer Games with Python. This book is an excellent way to learn Python 3 (and also a fun way!)
 
 After you've looked at the code, you'll notice that the game doesn't include any options. It runs only once. There are no functions, only global variables. It does well for its purpose as a program that teaches beginning concepts, but it's not extendable as-is. You could certainly wrap it all in a single "main" function, then wrap that function in a `while` loop, and that would solve a few problems, but I wanted to go beyond those simple additions.
 
@@ -23,6 +23,7 @@ class Game:
         self.number = random.randint(1, self.high_num)  #the number the computer chooses
         self.guess = None                 #the user's guess
 ```
+
 To initiate the `class`, we use the `__init__` method. Adding `high_num` and `myName` parameters allowed me to add some configurations to the game. `high_num` allows me to set a game to go up to 20 (as in the original) or lower (to make the game easier) or higher (to make the game more difficult). [I'll discuss this further when we get to the `main()` block.] A huge advantage from the standpoint of code-organization was being able to set most of the variables in the game at the outset. These include the number of guesses taken, the number that the user tries to guess, and the user's guess
 
 ```python
@@ -32,12 +33,12 @@ class Game:
     def get_guess(self):
         print('Take a guess.')
         try:
-            self.guess = int(input())   # the state of this variable is changed of the class instance! 
+            self.guess = int(input())   # the state of this variable is changed of the class instance!
                                         # see more below.
         except ValueError:
             print('Not a valid guess.')
             return False
-            
+
         return True
 ```
 
@@ -56,13 +57,13 @@ class Game:
             # else: self.guess gets changed in get_guess function
 
             self.guessesTaken += 1
-        
+
             if self.guess < self.number:
                 print('Your guess is too low.')
-        
+
             if self.guess > self.number:
                 print('Your guess is too high.')
-        
+
             if self.guess == self.number:
                 break
 
@@ -72,7 +73,8 @@ class Game:
         else:
             print('Nope. The number I was thinking of was', self.number)
 ```
-I find it slightly cumbersome to put `self` in front of so many variables, but it's only necessary if the variables determine the state of the game. (If I wanted to put a non-state-changing variable in, there's no need for `self` in front of it, but I wouldn't be able to access the variable outside of the function.) The great thing about `self.` is that you can *modify the variable in multiple functions without returning it*. This is excellent from a design perspective - there's no need to pass a parameter from a function return to another function's input. 
+
+I find it slightly cumbersome to put `self` in front of so many variables, but it's only necessary if the variables determine the state of the game. (If I wanted to put a non-state-changing variable in, there's no need for `self` in front of it, but I wouldn't be able to access the variable outside of the function.) The great thing about `self` is that you can _modify the variable in multiple functions without returning it_. This is excellent from a design perspective - there's no need to pass a parameter from a function return to another function's input.
 
 ```python
 def main():
@@ -100,7 +102,7 @@ def main():
             easy_game = Game(20, myName)
             # play easy game
             easy_game.play()
-            
+
         elif user_choice == 2:
             # make difficult game
             diff_game = Game(30, myName)
@@ -125,8 +127,8 @@ To run the program, you may choose the commented out module method, or simply us
 
 Some favorite videos / tutorials:
 
-* [Corey Schafer: Python OOP Tutorial 1: Classes and Instances - YouTube](https://www.youtube.com/watch?v=ZDa-Z5JzLYM)
-* [Designing a Python Class - YouTube](https://www.youtube.com/watch?v=RZntqQgi0gM)
-* [Python OOP - Deck of Cards - YouTube](https://www.youtube.com/watch?v=t8YkjDH86Y4)
-* [Python's Program to demonstrate the use of Class, Object and Module](http://www.pythonprogramming.in/program-to-demonstrate-the-use-of-class-object-and-module.html)
-* [Coder's Apprentice](http://www.spronck.net/pythonbook/) - see OOP chapters
+- [Corey Schafer: Python OOP Tutorial 1: Classes and Instances - YouTube](https://www.youtube.com/watch?v=ZDa-Z5JzLYM)
+- [Designing a Python Class - YouTube](https://www.youtube.com/watch?v=RZntqQgi0gM)
+- [Python OOP - Deck of Cards - YouTube](https://www.youtube.com/watch?v=t8YkjDH86Y4)
+- [Python's Program to demonstrate the use of Class, Object and Module](http://www.pythonprogramming.in/program-to-demonstrate-the-use-of-class-object-and-module.html)
+- [Coder's Apprentice](http://www.spronck.net/pythonbook/) - see OOP chapters

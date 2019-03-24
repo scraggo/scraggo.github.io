@@ -8,7 +8,7 @@
       url: 'https://vocode.herokuapp.com'
     },
     {
-      title: View on GitHub, 
+      title: View on GitHub,
       url: 'https://github.com/daft-thunk/electricVocode'
     },
     {
@@ -28,7 +28,7 @@
       url: 'https://daft-thunk-direct.herokuapp.com'
     },
     {
-      title: View on GitHub, 
+      title: View on GitHub,
       url: 'https://github.com/daft-thunk/daft-thunk'
     },
   ]
@@ -44,7 +44,7 @@
       url: 'https://random-music-generators.herokuapp.com/'
     },
     {
-      title: View on GitHub, 
+      title: View on GitHub,
       url: 'https://github.com/scraggo/Random-Music-Generators'
     },
     {
@@ -67,13 +67,13 @@
   img_src: '/assets/sms-site.png'
 
 - title: Bookmarks to Markdown Utilities
-  deploy_url: 'https://bitbucket.org/scraggo/bookmarks-markdown-utils/'
+  deploy_url: 'https://github.com/scraggo/bookmarks-markdown-utils'
   description: 'Collection of command-line tools for Chrome bookmark management. (There is some functionality for OneTab, Evernote, and FireFox.) Designed for personal use and other users who may dislike managing a large bookmark collection inside of Chrome, use Chrome for both Desktop and Mobile bookmarking (and mainly use the "Mobile Bookmarks" folder), want to convert bookmarks into individual markdown files, want a way to visit a site and tag the bookmark with minimal mouse movement, and more.'
   technology: Python (pytest, pyperclip, argparse)
   links: [
     {
-      title: View on BitBucket,
-      url: 'https://bitbucket.org/scraggo/bookmarks-markdown-utils/'
+      title: View on GitHub,
+      url: 'https://github.com/scraggo/bookmarks-markdown-utils'
     },
   ]
 
