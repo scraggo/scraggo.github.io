@@ -11,6 +11,11 @@ Javascript is infamous for being "loose" and misleading with its typing. `typeof
 So instead of writing conditionals using `Array.isArray()`, doing specific `null` checks, etc, I decided to make my own wrapper for `typeof` which I called `getType`:
 
 ```js
+/**
+ * Get typeof item with a few extra types specified.
+ * @param {any} item
+ * @returns {string} 'array'|'null'|'NaN'| typeof item
+ */
 function getType(item) {
   if (Array.isArray(item)) {
     return "array";
@@ -25,9 +30,15 @@ function getType(item) {
 }
 ```
 
-This caused a bug in my app. It caught anything that wasn't an 'array' or 'null' and decided it was NaN! I never returned objects, strings, numbers, etc.
+I unknowingly put a bug in my app. Can you spot it?
 
-When I discovered what it was returning, I quickly wrote tests:
+...
+
+It's in the 3rd `if` statement.
+
+Basically, the function took anything that wasn't an 'array' or 'null' and decided it was 'NaN'! The function never made it to the final return line, so I wasn't getting 'object', 'string', 'number', etc like I expected.
+
+When I discovered the issue, I wrote tests. (Yet another example of why tests are important.)
 
 ```js
 describe("getType", () => {
@@ -65,7 +76,7 @@ I just needed to change one line:
 ...
 ```
 
-Later I discovered the section on Number.isNaN in the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#standard-library):
+Later I discovered the section on `Number.isNaN` in the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#standard-library):
 
 Verbatim:
 
@@ -95,6 +106,11 @@ Read more:
 In light of learning that, I could remove the `typeof item === 'number'` check. Here's the fully working function:
 
 ```js
+/**
+ * Get typeof item with a few extra types specified.
+ * @param {any} item
+ * @returns {string} 'array'|'null'|'NaN'| typeof item
+ */
 function getType(item) {
   if (Array.isArray(item)) {
     return "array";
@@ -110,3 +126,35 @@ function getType(item) {
 ```
 
 Short and sweet!
+
+One way to use `getType`:
+
+```js
+const thing = [1, 2, 3];
+const thingType = getType(arr);
+
+if (["array", "object", "number"].includes(thingType)) {
+  runAwesomeProcess(thing);
+} else {
+  throw new Error(
+    `Bad input: ${thing}. Expected array, object, or number, got '${thingType}'`
+  );
+}
+```
+
+Compare that to:
+
+```js
+// if thing is not falsy (null check) and typeof thing is object (array or object)
+//    or thing is a number that isn't NaN
+if (
+  (!!thing && typeof thing === "object") ||
+  (typeof thing === "number" && !isNaN(thing))
+) {
+  runAwesomeProcess(thing);
+} else {
+  throw new Error(
+    `Bad input: ${thing}. Expected array, object, or number, got '${typeof thing}'`
+  );
+}
+```
