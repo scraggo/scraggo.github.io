@@ -60,7 +60,7 @@ In a nutshell, use git rebase the branch you're on and pick, edit, or squash the
 
 ## Conclusion
 
-Using a conventional commit format is definitely worth trying for both team and personal projects.
+The conventional commit format is definitely worth trying for both team and personal projects.
 
 ## Related posts
 
