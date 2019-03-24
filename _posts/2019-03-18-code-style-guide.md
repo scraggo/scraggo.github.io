@@ -180,6 +180,8 @@ Put all related file changes in one commit with a descriptive message - ie. Avoi
 
 Add separate commits for unrelated files. When in doubt, make many, smaller commits.
 
+Check out [How to format and edit your git commit messages](/git/2019/03/24/git-commit-format-squash.html).
+
 ## Unit testing
 
 Components should be written with testability in mind. We use Jest with Enzyme and aim for > 90% coverage with unit and integration tests.
@@ -261,3 +263,8 @@ One or the other is up to the case at hand.
 ```
 
 Here, the `&-child` is actually targeting the `.element-child` class. This is difficult to search for in a code base, so explicitly write out the selector instead of using the `&` as shorthand.
+
+## Related Posts
+
+- [How to format and edit your git commit messages](/git/2019/03/24/git-commit-format-squash.html)
+- [Custom type checking - isNaN vs Number.isNaN](/javascript/2019/03/22/custom-type-checking-isnan.html)
