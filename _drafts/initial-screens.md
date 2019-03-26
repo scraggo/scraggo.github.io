@@ -1,19 +1,26 @@
-# Advice for initial (phone) screens for programming positions
+---
+layout: post
+title: "Making a good first impression on your initial programming job screen"
+date: 2019-07-01 01:45:31 +0530
+categories: ["python"]
+author: "Dave Cohen"
+---
 
-I did __# phone screens
+- title: "Advice for initial (phone) screens for programming positions"
+- title: "Making a good first impression on your initial programming job screen"
 
-The phone screen is where you make a first impression on a company to which you're applying. Your resume likely have made a positive impact, but the most important evaluation begins with a company recruiter making a human connection with you.
+I did \_\_# phone screens
 
-hearing you speak.
+The phone screen is where you make a first impression on a company to which you're applying. Your resume surely made a positive impact, but the most important evaluation is yet to come: making a _human_ connection with a company recruiter. They'll be (subconsciously) taking notes on how you speak, your confidence level, how passionate you are, and much more.
 
 ## What to prepare
 
-A statement about why you've applied to their company
+**A more in-depth statement about why you've applied to their company.**
 
 You (hopefully) said it in your cover letter, but rehearse these points out loud:
 
-- what appeals to you
-- why you're a good fit
+- What about the company and position appeals to you
+- Why you're a good fit
 
 example: ...
 
@@ -21,9 +28,9 @@ Examples from your past projects that fit the role
 
 Get a big picture overview of the role, what they might ask
 
-If it's a ___ role, prepare __
+If it's a **\_ role, prepare **
 
-If you aren't the best with ___, here are some ways of replying to a question you're not sure about (or don't have any answer)...
+If you aren't the best with \_\_\_, here are some ways of replying to a question you're not sure about (or don't have any answer)...
 
 A general spiel about your salary needs (and what you're bottom is)
 
@@ -33,9 +40,18 @@ How it can be nerve-racking
 
 Mistakes (were they?)
 
+## Technical competence
+
+Most open roles require a developer to have competence in specific languages or tech stacks. If the role is a heavy Java or Python role and you don't have significant experience in either area, it might be a deal-breaker right away. A quick evaluation for yourself:
+
+- Have you built a project (not based on a tutorial) with the specific language or stack?
+- Do you have significant experience in a _very_ similar environment and are confident you could pick up the new tech? (Example: the job wants a Vue.js developer, but you've only worked in React.)
+
+Be prepared to explain how your experience fits what they need technically. It's **always** good to shown enthusiasm for learning their specific tech if you don't already know it.
+
 ## Company Values
 
-These all assume a baseline level of technical competence.
+If you meet the baseline level of technical fit, the below values are a mix of soft and technical values for a company:
 
 CULTURE FIT
 
@@ -55,7 +71,7 @@ High value is placed on the candidate being experts in specific tools, methodolo
 
 PAY
 
-High value is placed on a candidate being willing to accept a mid or low salary.
+High value is placed on a candidate being willing to accept a definite maximum salary.
 
 CLIENT INTERACTION
 
@@ -63,9 +79,11 @@ High value is placed on a candidate being cool with working with clients, travel
 
 ## Companies (make anonymous)
 
-Innovadiv - CULTURE FIT: walking and discussing how I'm entrepreneurial
+Eventric - initial screen was "show me some code", immediately to in-person interview.
 
 Northern Trust - KNOWLEDGE, mostly tech questions, how I got into programming
+
+Innovadiv - CULTURE FIT: walking and discussing how I'm entrepreneurial
 
 CNA - KNOWLEDGE, leadership qualities
 
@@ -79,36 +97,35 @@ KnowledgeHound - behavioral, tech
 
 New Coast Ventures - PAY, CULTURE "hungry" to impress
 
-Peapod - holistic
+Peapod - holistic, full knowledge of html/css/vanilla js
 
-ServiceNow - KNOWLEDGE, very full stack
+ServiceNow - KNOWLEDGE, very full stack, testing, currying, vanilla js
 
-Tempus - general
+Tempus - general full stack knowledge, system design, high pressure
 
-Wealthblock AI - interested and learning a lot
+Wealthblock AI - interested and learning a lot, recursion, system design (dependency injection)
 
-All Campus
+All Campus - leadership skills
 
 Brandibble - specific needs / small startup life
 
 Careband - EXPERIENCE
 
-Coates Group
+Coates Group - agency experience, any experience (they thought I was lying about teaching...)
 
 Derrico - KNOWLEDGE, trivia
 
-Huge - EXPERIENCE
+Huge - EXPERIENCE, wanted to start a new team
 
 Medean - PAY, NICHE SKILLS, technical, salary, culture
 
-Mphasis - PAY
+Mphasis - PAY (I wanted 70k, they wanted 68k)
 
 Reverb - CULTURE FIT / EXPERIENCE
 
 Turing Group - CLIENT WORK
 
-SA Ignite - KNOWLEDGE / WELL-ROUNDED
-
+SA Ignite - KNOWLEDGE / WELL-ROUNDED (sql, cs)
 
 ## When the culture fit was right
 
@@ -136,16 +153,16 @@ Wealthblock AI
 
 ## Specific knowledge - no
 
-Medean, CNA, JP Morgan
+Medean, CNA, JP Morgan, 8th Light
 
 ## Specific knowledge - yes
 
 Knowledgehound (Python)
 
-## Pay
+## Pay - No
 
-MPhasis, Medean, NCV
+MPhasis, Medean, NCV, Eventric
 
-## Client interaction
+## Client interaction - No
 
-Turing Group
+Turing Group (didn't want to travel)
