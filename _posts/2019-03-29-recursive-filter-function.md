@@ -90,7 +90,9 @@ Aptly named, `thisWontWork`.
 
 ## The solution
 
-We need to handle this mismatch with a custom filter function. The swiss army knife of Array.prototype methods is `Array.prototype.reduce`. **You can make a map or filter function with reduce!** Let's see how:
+We need to handle this mismatch with a custom filter function. The swiss army knife of Array.prototype methods is `Array.prototype.reduce`. **You can make map, filter, and other array methods (as well as fancy combinations) with reduce!**
+
+Here's how I solved our recursive filter problem using `reduce`:
 
 ```js
 const log = item => {
