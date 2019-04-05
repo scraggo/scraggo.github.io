@@ -2,16 +2,16 @@
 layout: post
 title: "Making a good first impression on your initial programming job screen"
 date: 2019-07-01 01:45:31 +0530
-categories: ["python"]
+categories: ["career"]
 author: "Dave Cohen"
 ---
 
 - title: "Advice for initial (phone) screens for programming positions"
 - title: "Making a good first impression on your initial programming job screen"
 
-I did \_\_# phone screens
-
 The phone screen is where you make a first impression on a company to which you're applying. Your resume surely made a positive impact, but the most important evaluation is yet to come: making a _human_ connection with a company recruiter. They'll be (subconsciously) taking notes on how you speak, your confidence level, how passionate you are, and much more.
+
+Having done around 28 phone screens, I want to share what I've learned from those experiences.
 
 ## What to prepare
 
@@ -20,11 +20,14 @@ The phone screen is where you make a first impression on a company to which you'
 You (hopefully) said it in your cover letter, but rehearse these points out loud:
 
 - What about the company and position appeals to you
+
 - Why you're a good fit
 
 example: ...
 
-Examples from your past projects that fit the role
+- Examples from your past projects that fit the role
+
+example: ...
 
 Get a big picture overview of the role, what they might ask
 
@@ -32,7 +35,9 @@ If it's a **\_ role, prepare **
 
 If you aren't the best with \_\_\_, here are some ways of replying to a question you're not sure about (or don't have any answer)...
 
-A general spiel about your salary needs (and what you're bottom is)
+- A general spiel about your salary needs (and what you're bottom line is)
+
+> My past salaries don't really count because the pay was based on me still learning the craft. I know the industry average pay for Junior developers is $X. That's my bottom line. Ideally I'd be making between $Y and \$Z and I'd be happy to talk about bonus structures in order to make that.
 
 Early indicators of fit for me
 
