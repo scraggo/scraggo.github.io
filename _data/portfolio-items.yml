@@ -66,6 +66,21 @@
   ]
   img_src: '/assets/sms-site.png'
 
+- title: Tone Rhythm
+  deploy_url: 'https://github.com/scraggo/tone-rhythm'
+  description: "As a musician developing music applications, I wanted an API that would allow me to put rhythms along with a melody into Tone.Part. The example on Tone's docs shows how this is expected and it's far from ideal. With the help of this small library, the developer-musician can generate an array of Tone.Transport times given an array of musical rhythms in various formats that Tone.js understands."
+  technology: JavaScript (mocha, chai, babel, webpack, tone.js)
+  links: [
+    {
+      title: View on GitHub,
+      url: 'https://github.com/scraggo/tone-rhythm'
+    },
+    {
+      title: View on NPM,
+      url: 'https://www.npmjs.com/package/tone-rhythm'
+    },
+  ]
+
 - title: Bookmarks to Markdown Utilities
   deploy_url: 'https://github.com/scraggo/bookmarks-markdown-utils'
   description: 'Collection of command-line tools for Chrome bookmark management. (There is some functionality for OneTab, Evernote, and FireFox.) Designed for personal use and other users who may dislike managing a large bookmark collection inside of Chrome, use Chrome for both Desktop and Mobile bookmarking (and mainly use the "Mobile Bookmarks" folder), want to convert bookmarks into individual markdown files, want a way to visit a site and tag the bookmark with minimal mouse movement, and more.'
