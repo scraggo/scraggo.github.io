@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'What to prepare for initial programming job screens'
-date: 2019-07-02 01:45:31 +0530
+date: 2019-07-02 01:45:31 +0130
 categories: ['career']
 author: 'Dave Cohen'
 ---
@@ -93,29 +93,12 @@ Be prepared to explain how your experience fits what they need technically. It's
 
 If you meet the baseline level of technical fit, the below values are a mix of soft and technical values for a company:
 
-CULTURE FIT
-
-High value is placed on the candidate's background, personality, style, and/or traits that make them part of a unified team.
-
-EXPERIENCE
-
-High value is placed on a candidate having started and finished many large projects. They could do this alone or lead a team. A high level of confidence is required and the company is usually seeking a senior-level engineer.
-
-GENERAL KNOWLEDGE
-
-High value is placed on the candidate being able to "see the big picture." They aren't stuck in a single mindset, language, or framework. They are very enthusiastic about learning and can do so quickly.
-
-SPECIFIC KNOWLEDGE
-
-High value is placed on the candidate being experts in specific tools, methodologies, languages, or frameworks.
-
-PAY
-
-High value is placed on a candidate being willing to accept a definite maximum salary.
-
-CLIENT INTERACTION
-
-High value is placed on a candidate being cool with working with clients, traveling, or other non-coding duties.
+- **Culture fit**: High value is placed on the candidate's background, personality, style, and/or traits that make them part of a unified team.
+- **Experience**: High value is placed on a candidate having started and finished many large projects. They could do this alone or lead a team. A high level of confidence is required and the company is usually seeking a senior-level engineer.
+- **General knowledge**: High value is placed on the candidate being able to "see the big picture." They aren't stuck in a single mindset, language, or framework. They are very enthusiastic about learning and can do so quickly.
+- **Specific knowledge**: High value is placed on the candidate being experts in specific tools, methodologies, languages, or frameworks.
+- **Pay**: High value is placed on a candidate being willing to accept a definite maximum salary.
+- **Client interaction**: High value is placed on a candidate being cool with working with clients, traveling, or other non-coding duties.
 
 ## Some of my phone screen experiences
 
