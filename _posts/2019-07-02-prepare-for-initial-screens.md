@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'What to prepare for initial programming job screens'
+title: 'How to ace your initial programming job screen'
 date: 2019-07-02 01:45:31 +0130
 categories: ['career']
 author: 'Dave Cohen'
@@ -17,7 +17,7 @@ What I'll discuss:
 - Preparing and rehearsing responses to common questions
 - Types of companies and roles
 - What companies value
-- Some of my phone screen experiences
+- \*Some of my phone screen experiences\*
 - Words of motivation: keep going despite the "mistakes"
 
 There are a lot of potentially difficult things to navigate during phone screens. Oftentimes, you don't know a whole lot about the company and/or the company doesn't know much about you. You might get nervous - your voice starts quivering. You hear that and it makes you even more nervous! Many times the interviewer will have a "cold" sounding voice and won't give you much feedback on your responses. These things are all perfectly normal. Being prepared is key.
@@ -44,15 +44,18 @@ example:
 
 > "I built a tool that allows users to make financial projections and track their budgets. Users can create accounts and safely save their data. My experience writing financial software would fit in nicely with the role."
 
-Having a broad idea of what the role might entail is critical. You may not get a complete picture from reading the job description. Knowing some types of companies can be very helpful:
+Having a broad idea of what the role might entail is critical. You may not get a complete picture from reading the job description. You'll quickly want to gather a few pieces of information: Two types of companies:
 
-- **Product company:** Prepare thoughts on how you might create scalable, sustainable solutions around one product idea. This might be through creating custom tooling, using pre-built tooling, and multiple repos that solve smaller problems related to the core software.
-- **Agency**: Prepare thoughts on how you would start projects, how you'd decide the larger architecture, how you enjoy finding the right tools for the job.
-- **Full stack (back end focused)**: Prepare thoughts on correctly creating and organizing databases, algorithms, data structures, etc. You'll also want to show enthusiasm for the front end.
-- **Support**: Prepare thoughts on how you've communicated ideas to developers and non-developers as well as creating tooling for custom purposes.
-- **UI/UX**: Prepare thoughts on separation of front end layers like layout, font, API calls, templating, etc as well as making the great experiences for users.
+1. **Product company:** Prepare thoughts on how you might create scalable, sustainable solutions around one product idea. This might be through creating custom tooling, using pre-built tooling, and multiple repos that solve smaller problems related to the core software.
+2. **Agency**: Prepare thoughts on how you would start projects, how you'd decide the larger architecture, how you enjoy finding the right tools for the job.
 
-If you get a chance to ask up front before it comes up on your end, go for it!
+...and three types of roles:
+
+1. **Full stack (back end focused)**: Prepare thoughts on correctly creating and organizing databases, algorithms, data structures, etc. You'll also want to show enthusiasm for the front end.
+2. **Support**: Prepare thoughts on how you've communicated ideas to developers and non-developers as well as creating tooling for custom purposes.
+3. **UI/UX**: Prepare thoughts on separation of front end layers like layout, font, API calls, templating, etc as well as making the great experiences for users.
+
+If you get a chance to ask about any of these up front, go for it!
 
 ### Answers for questions you don't have a substantial answer for
 
@@ -76,9 +79,19 @@ It's crucial to know, even before the phone screen, what your "bottom line" is. 
 - Average developer salaries at the company
 - Average junior developer salaries at the company
 
-Here's an example spiel (assuming they asked about your past salaries):
+Why are these numbers crucial to know? **Some companies will ask your desired salary range in the first conversation!**
 
-> My past salaries don't really count because the pay was based on me still learning the craft. I know the industry average pay for Junior developers is $X. That's my bottom line. Ideally I'd be making between $Y and \$Z and I'd be happy to talk about bonus structures in order to make that.
+This question in particular gave me a lot of anxiety because I didn't feel like I was yet "worth" a market rate. Despite this feeling, you should absolutely ask for a fair rate. Don't undermine your skills - and don't contribute to companies taking advantage of people and driving market rates lower.
+
+This topic is worth a whole article in itself! I recommend taking a look at the article below, then practicing your spiel.
+
+- [How to Negotiate Your Salary - Simple Programmer](https://simpleprogrammer.com/negotiate-salary/)
+
+An interesting quote:
+> But, what about when you are asked to name a number first?
+> Don’t do it. Just say “no.”
+
+He then goes to explain what to say. It's a little unconventional compared to the advice to "start high, then come down." I think the above article has an interesting and well-reasoned approach, so check it out!
 
 ### Details on technical competence
 
@@ -91,14 +104,14 @@ Be prepared to explain how your experience fits what they need technically. It's
 
 ## More on company values
 
-If you meet the baseline level of technical fit, the below values are a mix of soft and technical values for a company:
+Every company has values which are prioritized differently from one company to the next. A small startup may prioritize experience so that they can develop their products faster. A more established company may place more emphasis on culture fit. Here are the values I've found to be the most relevant in evaluating your fit with a company:
 
-- **Culture fit**: High value is placed on the candidate's background, personality, style, and/or traits that make them part of a unified team.
-- **Experience**: High value is placed on a candidate having started and finished many large projects. They could do this alone or lead a team. A high level of confidence is required and the company is usually seeking a senior-level engineer.
-- **General knowledge**: High value is placed on the candidate being able to "see the big picture." They aren't stuck in a single mindset, language, or framework. They are very enthusiastic about learning and can do so quickly.
-- **Specific knowledge**: High value is placed on the candidate being experts in specific tools, methodologies, languages, or frameworks.
-- **Pay**: High value is placed on a candidate being willing to accept a definite maximum salary.
-- **Client interaction**: High value is placed on a candidate being cool with working with clients, traveling, or other non-coding duties.
+- **Culture fit**: the candidate's background, personality, style, and/or traits indicate they'll fit into a unified team.
+- **Experience**: the candidate has started and finished many large projects. They could do this alone or lead a team. A high level of confidence is required and the company is usually seeking a senior-level engineer.
+- **General knowledge**: The candidate is able to "see the big picture." They aren't stuck in a single mindset, language, or framework. They are very enthusiastic about learning and can do so quickly.
+- **Specific knowledge**: The candidate is an expert in specific tools, methodologies, languages, or frameworks.
+- **Pay**: The candidate is willing to accept a definite maximum salary. (I'm not kidding - this is a real thing!)
+- **Client interaction**: The candidate is cool with working with clients, traveling, or other interactive / non-coding duties.
 
 ## Some of my phone screen experiences
 
