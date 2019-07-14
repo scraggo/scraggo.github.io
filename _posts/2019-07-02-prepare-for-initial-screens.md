@@ -8,7 +8,7 @@ author: 'Dave Cohen'
 
 > Your resume and cover letter surely made a positive impact, but the most important evaluation has yet to come.
 
-If you're searching for your first software development job, the process can be daunting. After sending your resume to a company or a recruiter, you may have heard that an initial screen comes afterwards. This is mostly done over the phone, but sometimes happens in-person. Your resume and cover letter (the _first_ impression) surely made a positive impact, but the most important evaluation has yet to come: making a _human_ connection with a company recruiter. They'll be mentally noting how you speak, your confidence level, how passionate you are, and much more.
+If you're searching for your first software development job, the process can be daunting. You may have heard that after sending your resume to a company, there's an initial screen. This is usually done over the phone, but sometimes it happens in-person. Your resume and cover letter (the _first_ impression) surely made a positive impact, but the most important evaluation has yet to come: making a _human_ connection with a company recruiter. They'll be mentally noting how you speak, your confidence level, how passionate you are, and much more.
 
 Having done around 28 phone screens, I want to share what I've learned from those experiences.
 
@@ -20,7 +20,7 @@ What I'll discuss:
 - \*Some of my phone screen experiences\*
 - Words of motivation: keep going despite the "mistakes"
 
-There are a lot of potentially difficult things to navigate during phone screens. Oftentimes, you don't know a whole lot about the company and/or the company doesn't know much about you. You might get nervous - your voice starts quivering. You hear that and it makes you even more nervous! Many times the interviewer will have a "cold" sounding voice and won't give you much feedback on your responses. These things are all perfectly normal. Being prepared is key.
+There are a lot of potentially difficult things to navigate during phone screens. Oftentimes, you don't know a whole lot about the company and/or the company doesn't know much about you. In all likelihood you'll be nervous. Your voice might start quivering...you'll hear that and it'll make you even more nervous! Many times the interviewer will have a "cold" sounding voice and won't give you much feedback on your responses. These things are all perfectly normal. Being prepared is key.
 
 ## What to prepare
 
@@ -59,8 +59,7 @@ If you get a chance to ask about any of these up front, go for it!
 
 ### Answers for questions you don't have a substantial answer for
 
-In most interviews, you'll get questions for which you just don't have a great answer.
-If you don't have a lot of experience or aren't the best with something the recruiter is asking about, here are some ways of replying:
+In most interviews, you'll be asked questions for which you just don't have a great answer. If you don't have a lot of experience or aren't the best with something the recruiter is asking about, here are some ways of replying:
 
 > "I don't have a lot of experience with (subject) but I would love to learn more about it."
 
@@ -72,14 +71,16 @@ Sometimes, though, just saying "I don't know" is the right way to go. That _last
 
 ### Prepare a statement about your salary needs
 
-It's crucial to know, even before the phone screen, what your "bottom line" is. Do your research about 4 things:
+**Some companies will ask your desired salary range in the first conversation!** Given this potentially daunting fact, I recommend first starting your research with these four items:
 
 - Average developer salaries in your area
-- Average junior developer salaries in your area
+- Average junior\* developer salaries in your area
 - Average developer salaries at the company
-- Average junior developer salaries at the company
+- Average junior\* developer salaries at the company
 
-Why are these numbers crucial to know? **Some companies will ask your desired salary range in the first conversation!**
+_\*junior or whatever level you're at_
+
+At the very least, you'll be prepared with numbers that should seem fair for your area, the company, and the given role.
 
 This question in particular gave me a lot of anxiety because I didn't feel like I was yet "worth" a market rate. Despite this feeling, you should absolutely ask for a fair rate. Don't undermine your skills - and don't contribute to companies taking advantage of people and driving market rates lower.
 
