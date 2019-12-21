@@ -46,7 +46,11 @@ Common types:
 
 ---
 
-Want to edit your commit messages before you do a pull request? Squash your commits! Here are four nifty guides on how to do it:
+Want to edit your commit messages before you do a pull request? Squash your commits!
+
+Here's [my guide](/git/2019/12/21/how-to-squash-commits.html) on squashing commits.
+
+Here are some others in case you want to learn more:
 
 > [A Beginner’s Guide to Squashing Commits with Git Rebase](https://medium.com/@slamflipstrom/a-beginners-guide-to-squashing-commits-with-git-rebase-8185cf6e62ec)
 >
