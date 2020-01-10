@@ -12,10 +12,12 @@ description: a coding blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://scraggo.github.io" # the base hostname & protocol for your site
 twitter_username: decguitar
-github_username:  scraggo
+github_username: scraggo
 linkedin_username: scraggo
 paginate: 20
 
 plugins: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
+
+port: 8080
