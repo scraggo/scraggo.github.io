@@ -1,0 +1,48 @@
+.site-header {
+  margin-bottom: 1.5rem;
+
+  .site-title-nav-container {
+    display: flex;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .site-logo {
+    width: 100px;
+    flex-shrink: 0;
+  }
+
+  .site-banner-nav {
+    padding-top: 8px;
+
+    .site-banner {
+      width: 200px;
+
+      // img {
+      //   margin-left: 2px;
+      // }
+    }
+  }
+
+  nav {
+    margin: -4px 0 0 6px;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .category-label {
+      margin-right: 16px;
+    }
+
+    .dropdown-list-link {
+      margin: 8px 8px;
+      display: block;
+      min-width: 90px;
+    }
+  }
+}

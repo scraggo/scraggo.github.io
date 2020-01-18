@@ -1,7 +1,17 @@
-# scraggo.github.io
+# scraggo.com
 
-tech effects blog
+- gatsby - see docs/gatsby...
+- semantic ui
+- scss
 
-## Development
+## Images and Cleaning
 
-`jekyll serve`
+In order to avoid using separate graphQL queries for images, the `clean` script also copies certain images back into a public directory.
+
+## Sparse queries bug
+
+<https://github.com/gatsbyjs/gatsby/issues/3913>
+
+If the 'description' frontmatter field is only used sparsely, the site won't build.
+
+If frontmatter defaults are desired, see <https://stackoverflow.com/questions/45895597/graphql-ignores-some-but-not-all-arbitrarily-assigned-markdown-frontmatter-dat>

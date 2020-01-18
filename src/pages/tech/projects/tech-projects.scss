@@ -1,0 +1,50 @@
+// UTILITIES
+.flex {
+  display: flex;
+}
+
+.margin-top-lg {
+  margin-top: 1.5rem;
+}
+
+.margin-top-md {
+  margin-top: 8px;
+}
+
+// ---
+
+h3 {
+  font-size: 1.6rem;
+}
+
+.portfolio-text {
+  width: 50%;
+}
+
+.portfolio-img {
+  margin-left: 50px;
+  max-width: 750px;
+
+  img {
+    width: 100%;
+    max-width: 750px;
+  }
+}
+
+// this no longer looks good b/c the site is so narrow...
+// @media screen and (max-width: 850px) {
+@media screen and (min-width: 0px) {
+  .portfolio-wrapper {
+    display: block;
+  }
+
+  .portfolio-img {
+    margin: 0 auto;
+    padding-top: 10px;
+    // max-width: 750px;
+  }
+
+  .portfolio-text {
+    width: 100%;
+  }
+}

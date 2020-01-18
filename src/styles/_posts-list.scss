@@ -1,0 +1,75 @@
+// UTILITIES
+
+// .text-upper {
+//   text-transform: uppercase;
+// }
+
+// .text-cap {
+//   text-transform: capitalize;
+// }
+
+// GLOBAL
+.post-info-sm {
+  font-size: 14px;
+  font-family: $font-secondary;
+  margin: 0 0 8px 0;
+  color: #450000;
+}
+
+.post-excerpt {
+  color: black;
+}
+
+.post-categories {
+  font-family: $font-primary;
+}
+
+.post-tag {
+  background-color: #fff6e1;
+  border-radius: 4px;
+  box-shadow: 2px 2px 1px 0px #f1f1f1;
+  color: #6d6767;
+  margin: 0 4px;
+  padding: 2px 4px;
+}
+
+// namespaced
+.posts-list {
+  .posts-category {
+    margin: 16px 0;
+
+    h2 {
+      display: inline-block;
+      padding: 0;
+      margin: 0 4px 0 0;
+      // margin-right: 4px;
+    }
+
+    span {
+      // display: inline-block;
+      font-size: 14px;
+      vertical-align: text-bottom;
+    }
+  }
+
+  h4 {
+    margin: 8px 0 16px 0;
+  }
+
+  .post-wrapper {
+    margin: 8px 0 32px 0;
+  }
+
+  .post-title {
+    margin: 0 0 8px 0;
+
+    h3 {
+      font-size: 24px;
+      text-transform: capitalize;
+    }
+  }
+
+  .post-excerpt {
+    margin: 0;
+  }
+}

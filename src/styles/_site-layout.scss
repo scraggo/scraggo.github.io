@@ -1,0 +1,38 @@
+.site-layout {
+  margin: 16px auto;
+  max-width: 768px;
+  padding: 0 16px;
+}
+
+.site-footer {
+  margin-top: 32px;
+
+  .footer-social,
+  .copyright {
+    margin-right: 6px;
+  }
+
+  .footer-social {
+    color: grey;
+    font-size: 14px;
+    font-style: italic;
+  }
+}
+
+.list-link {
+  display: inline-block;
+  margin: 0 16px 8px 0;
+  // width: 65px;
+  font-family: $font-secondary;
+
+  &,
+  & a {
+    // color: $link-blue;
+    color: #450000;
+    // font-style: italic;
+  }
+
+  .ui.dropdown > .dropdown.icon {
+    margin-left: 6px;
+  }
+}
