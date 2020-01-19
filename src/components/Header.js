@@ -54,13 +54,13 @@ export default ({ siteTitle }) => {
       <div className="site-title-nav-container">
         <div className="site-logo">
           <Link to={'/'}>
-            <img src="/img_copy/site/scraggo-logo.jpg" alt="site-logo" />
+            <img src="/assets/site/scraggo-logo.jpg" alt="site-logo" />
           </Link>
         </div>
         <div className="site-banner-nav">
           <div className="site-banner">
             <Link to={'/'} className="">
-              <img src="/img_copy/site/scraggo-banner.png" alt="site-logo" />
+              <img src="/assets/site/scraggo-banner.png" alt="site-logo" />
             </Link>
           </div>
           <nav>

@@ -1,17 +1,18 @@
 {
   "name": "scraggo.com",
-  "private": true,
+  "private": false,
   "description": "Software engineering, music, blog articles, and teaching resources by David Emanuel Cohen",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public -b master",
+    "clean": "gatsby clean && npm run task:copy",
+    "deploy": "npm run clean && gatsby build && gh-pages -d public -b master",
     "develop": "gatsby develop --port=8080",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean && mkdir -p public/img_copy && cp -r content/assets/site public/img_copy",
+    "task:copy": "shell/copyfiles.sh",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
