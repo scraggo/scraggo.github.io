@@ -8,6 +8,10 @@ export default [
     url: 'https://github.com/scraggo',
   },
   {
+    title: 'Medium',
+    url: 'https://medium.com/@scraggo',
+  },
+  {
     title: 'Twitter',
     url: 'https://twitter.com/decguitar',
   },

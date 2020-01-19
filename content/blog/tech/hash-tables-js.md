@@ -373,7 +373,3 @@ Official Solution: [Longest Harmonious Subsequence - LeetCode](https://leetcode.
 I'm no expert at algorithms in general, but I'm definitely enjoying learning about them. The more I learn, the more I'm able to visualize different approaches to problems and begin to optimize my solutions. Please contact me below if you have comments about this article and/or suggestions for improvement.
 
 _This "enrichment piece" was written as a student at Fullstack Academy._
-
-- [Read more about me here](https://scraggo.github.io/about/)
-- [Contact me](https://scraggo.github.io/contact/) to discuss this blog post
-- See my [Resumé](https://scraggo.github.io/resume/) and [Portfolio](https://scraggo.github.io/portfolio/)

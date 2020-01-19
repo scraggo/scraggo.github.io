@@ -73,6 +73,5 @@ One thing I'll say, talking to recruiters is great practice for talking about yo
 
 I plan on writing more posts about the craziness that is applying for jobs from my self-taught / coding bootcamp perspective. Thanks for reading and stay tuned for more!
 
-- [Contact me](https://scraggo.github.io/contact/)
 - [Comment on this post on Medium](https://medium.com/@scraggo/should-junior-developers-work-with-recruiters-1be3d444c291)
 - [Follow me on Medium](https://medium.com/@scraggo)

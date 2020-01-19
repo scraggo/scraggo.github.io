@@ -368,19 +368,17 @@ Examples:
 
 These can help bring your right brain into your problem-solving.
 
-## Parting Thoughts / Further Reading
+## Parting Thoughts
 
-I hope this simple guide to debugging will be helpful in your future projects. Please [contact me](https://scraggo.github.io/contact/) if you'd like to discuss anything I've written here. May your bugs be few and easy to squash!
+I hope this simple guide to debugging will be helpful in your future projects. Please [contact me](/contact/) if you'd like to discuss anything I've written here. May your bugs be few and easy to squash!
 
 Comment on this post on Medium: https://medium.com/@scraggo/debugging-strategies-checklist-a405603894dd
 
 Follow me on Medium: https://medium.com/@scraggo
 
-**Further Reading**
+### Further Reading
 
 - [250 Debugging Strategies.pdf](https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1134/handouts/250%20Debugging%20Strategies.pdf)
 - [Debugging Checklist](http://facweb.cs.depaul.edu/sjost/it212/documents/debug-checklist.htm)
 - [flatiron-school/ruby-debugging-checklist: A list of things to do when you hit a bug in your ruby code.](https://github.com/flatiron-school/ruby-debugging-checklist)
 - [The "Stupid" Checklist: Just say "No!" to emotional debugging...emotionally! by Mark Witmer on CodePen](https://codepen.io/mwitty/post/the-stupid-list-just-say-no-to-emotional-debugging-emotionally)
-
-* [Read more about Tech Effects here](https://scraggo.github.io/about/)

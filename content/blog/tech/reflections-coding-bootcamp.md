@@ -1,17 +1,18 @@
 ---
 type: post
-title:  "Reflections From a Coding Bootcamp Graduate"
-date:   2018-04-16 19:45:31 +0530
+title: 'Reflections From a Coding Bootcamp Graduate'
+date: 2018-04-16 19:45:31 +0530
 categories: ['tech']
 tags: ['JavaScript']
-author: "Dave Cohen"
+author: 'Dave Cohen'
 ---
 
-I was ready for a career change. It was October of 2017. The more time I spent coding and learning computer science fundamentals, the more I realized that a programming career would fit my personality* better than performing and teaching music.
+I was ready for a career change. It was October of 2017. The more time I spent coding and learning computer science fundamentals, the more I realized that a programming career would fit my personality\* better than performing and teaching music.
 
-After spending a fair amount of time teaching myself to code and making websites, I began researching coding bootcamps. There were optimistic [statistics](https://cirr.org/data) of people making $80,000 after graduating. There were detractors who warn strongly against bootcamps. I was skeptical, but decided I wasn't learning fast enough.
-> \* Read more about my bootcamp decision: 
-[Now Attending: Fullstack Academy](https://scraggo.github.io/javascript/2017/12/26/now-attending-fullstack.html)
+After spending a fair amount of time teaching myself to code and making websites, I began researching coding bootcamps. There were optimistic [statistics](https://cirr.org/data) of people making \$80,000 after graduating. There were detractors who warn strongly against bootcamps. I was skeptical, but decided I wasn't learning fast enough.
+
+> \* Read more about my bootcamp decision:
+> [Now Attending: Fullstack Academy](/tech/now-attending-fullstack)
 
 Now, it's April 2018 and I'm a graduate of Fullstack Academy's Software Engineering program. I want to share some of my experiences both good and bad. I'm not yet employed, but I've already interviewed on-site and been screened by multiple companies.
 
@@ -22,9 +23,10 @@ There's no shaving of heads, yelling "Yes Sir!" as we give up our individuality,
 ## Lectures and Workshops
 
 I taught music for over 10 years so I thought I had a good idea of how people learn. I believed that the best way to teach was methodically, step-by-step, slowly building one piece of a foundation at a time. I was afraid going in that there'd be the "firehose" of information and little methodology. It was a tiny bit like that, but something crazy happened. I got used to the fast pace. I got used to taking in what I could and not worrying about every detail. All I needed was that brief, but dense initial exposure and my subconscious started putting the pieces together. Here is an outline of the general structure of how a topic was presented:
-- A lecture with a powerpoint presentation. The focus was on  a high-level overview of the topic. There was usually a code portion where the instructor would build a small app with what was just shown. Rarely did anyone feel like they "got" it after the lecture.
-- We got access to a workshop that had a long list of instructions on building something notable with the new technology. The workshop included pre-reading (usually excellent resources). These workshops were usually done in pairs (on which I'll go into more depth in a later section.) More than half the time it felt like the blind leading the deaf. We rarely finished the workshops. 
-- After, a review video was sent out. It was a chance to watch someone who knew what they were doing build the app. After struggling with it, it was almost always a big eye-opener. 
+
+- A lecture with a powerpoint presentation. The focus was on a high-level overview of the topic. There was usually a code portion where the instructor would build a small app with what was just shown. Rarely did anyone feel like they "got" it after the lecture.
+- We got access to a workshop that had a long list of instructions on building something notable with the new technology. The workshop included pre-reading (usually excellent resources). These workshops were usually done in pairs (on which I'll go into more depth in a later section.) More than half the time it felt like the blind leading the deaf. We rarely finished the workshops.
+- After, a review video was sent out. It was a chance to watch someone who knew what they were doing build the app. After struggling with it, it was almost always a big eye-opener.
 - Finally, there was a retrospective with the instructor. We talked about what people thought of the workshop and asked more questions.
 
 The cycle repeated every 2 days. There wasn't time to reflect on what you just learned, my head was spinning by the middle of Junior phase.
@@ -53,7 +55,8 @@ All in all, I would embrace pair programming if it was common practice at a comp
 
 ## Team Projects
 
-In Senior phase, there are 2 projects done in 4-person teams. We picked our team preferences beforehand. Our class liked the teams from our first project, so we kept them for the second team project. Our first project went well. We learned best practices with Git. We used an Agile ticketing system. We finished the core parts of each feature in the alotted time. Our second project got "real." It was the mother-flippin' CAPSTONE project, so (in our minds) it HAD to be amazing! There was conflict around choosing the initial idea. There was conflict near the end after some disagreement about which features were necessary. We got lost in the weeds learning Electron and using service workers for recording audio. Despite the struggles, it came together and I'm really proud of what we built. 
+In Senior phase, there are 2 projects done in 4-person teams. We picked our team preferences beforehand. Our class liked the teams from our first project, so we kept them for the second team project. Our first project went well. We learned best practices with Git. We used an Agile ticketing system. We finished the core parts of each feature in the allotted time. Our second project got "real." It was the mother-flippin' CAPSTONE project, so (in our minds) it HAD to be amazing! There was conflict around choosing the initial idea. There was conflict near the end after some disagreement about which features were necessary. We got lost in the weeds learning Electron and using service workers for recording audio. Despite the struggles, it came together and I'm really proud of what we built.
+
 - [Vocode](http://vocode.herokuapp.com/)
 - [Vocode: Presentation - YouTube](https://www.youtube.com/watch?v=-_gCMrigUcw)
 
@@ -64,6 +67,7 @@ Working with those 3 guys was an amazing experience. Now that it's over, I can s
 The lectures on crafting a resume, interviewing, making online profiles, etc were very thorough. The people I worked with directly were incredibly awesome at helping me figure out exactly what I'm looking for, my personal pitch, and more. I'm not afraid when someone asks me at an interview, "So tell me about yourself..." All of these resources were key in increasing my confidence.
 
 In terms of landing a job, I don't have much by way of advice, but the author of this article does!
+
 - [I spent 3 months applying to jobs after a coding bootcamp. Here’s what I learned.](https://medium.freecodecamp.org/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331)
 
 There are fantastic resources to digest there. I'm using it as my roadmap in the job-searching process.
@@ -73,6 +77,7 @@ There are fantastic resources to digest there. I'm using it as my roadmap in the
 When a band takes a gig for which they have to sell tickets or the venue charges them a fee, they call it "pay-to-play." The venue claims it's great "exposure" for the band and I usually avoided those gigs. I knew that attending a bootcamp was a "pay-to-play" scenario, but it was worth it for me.
 
 Pros
+
 - The material was put together well and the workshops had us building interesting apps
 - The teachers were knowledgeable and helpful. It was great for me to always have someone answer my questions
 - I made a lot of friends. I'm keeping in touch with the majority of my cohort
@@ -82,6 +87,7 @@ Pros
 - I received a lot of great career advice and guidance
 
 Cons
+
 - I only have a few months of experience with some of the technologies I know
 - Some companies look down on bootcamp graduates
 - Bootcamps don't give you "work" experience
@@ -89,9 +95,10 @@ Cons
 - The stack we learned doesn't apply to all job postings
 - I have a lot more studying to do on data structures, algorithms, testing, and more
 
-# Now What?
+## Now What?
 
 My list of activities:
+
 - Continuing to learn by studying the above resources and teaching
 - Writing articles
 - Working on side projects
@@ -101,6 +108,4 @@ My list of activities:
 - Moving applications along the job pipeline: writing cover letters, scheduling phone screens, working on coding challenges, and preparing for interviews
 - Enjoying having a little more free time :)
 
-Please [contact me](https://scraggo.github.io/contact/) if you'd like to discuss anything in my post. Best of luck!
-
-- [Read more about me here](https://scraggo.github.io/about/)
+Please [contact me](/contact/) if you'd like to discuss anything in my post. Best of luck!

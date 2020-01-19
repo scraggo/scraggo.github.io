@@ -49,7 +49,7 @@ Common types:
 
 Want to edit your commit messages before you do a pull request? Squash your commits!
 
-Here's [my guide](/git/2019/12/21/how-to-squash-commits.html) on squashing commits.
+Here's [my guide](/tech/how-to-squash-commits) on squashing commits.
 
 Here are some others in case you want to learn more:
 
@@ -69,4 +69,4 @@ The conventional commit format is definitely worth trying for both team and pers
 
 ## Related posts
 
-[Using a Code Style Guide to Enforce Team Best Practices](/javascript/2019/03/18/code-style-guide.html)
+[Using a Code Style Guide to Enforce Team Best Practices](/tech/code-style-guide)

@@ -7,7 +7,7 @@ tags: ['Git']
 author: 'Dave Cohen'
 ---
 
-Previously, I wrote a [guide on formatting commit messages](/git/2019/03/24/git-commit-format-squash.html). I've had the opportunity to work on a codebase that requires squashing commits into a single commit. This post is a reliable guide to squashing.
+Previously, I wrote a [guide on formatting commit messages](/tech/git-commit-format-squash). I've had the opportunity to work on a codebase that requires squashing commits into a single commit. This post is a reliable guide to squashing.
 
 ## What does "squashing" do?
 

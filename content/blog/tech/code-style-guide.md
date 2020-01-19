@@ -1,10 +1,10 @@
 ---
 type: post
-title: "Using a Code Style Guide to Enforce Team Best Practices"
+title: 'Using a Code Style Guide to Enforce Team Best Practices'
 date: 2019-03-18 19:45:31 +0530
 categories: ['tech']
 tags: ['JavaScript']
-author: "Dave Cohen"
+author: 'Dave Cohen'
 ---
 
 We all have opinions on what what coding best practices are and how code should be formatted. Recently, one of the teams I've been working on decided to add another member. I discovered that our coding styles were radically different. I decided to write some guidelines for our team to get us on the same page.
@@ -13,7 +13,7 @@ I quickly realized that writing a style guide from scratch is a tall order. I'd 
 
 I hope this style guide gives you some ideas. I _highly_ encourage web development teams to create their own style guides and use tools similar to the ones we've recommended to unify their personal or team codebases.
 
-# Team Coding Style Guide
+## Team Coding Style Guide
 
 We strive for code quality in all the applications we build. For us, code quality encompasses the following principles:
 
@@ -181,7 +181,7 @@ Put all related file changes in one commit with a descriptive message - ie. Avoi
 
 Add separate commits for unrelated files. When in doubt, make many, smaller commits.
 
-Check out [How to format and edit your git commit messages](/git/2019/03/24/git-commit-format-squash.html).
+Check out [How to format and edit your git commit messages](/tech/git-commit-format-squash).
 
 ## Unit testing
 
@@ -204,13 +204,13 @@ class Hello extends Component {
   static propTypes = {
     name: PropTypes.string,
     age: PropTypes.number,
-    bio: PropTypes.string
+    bio: PropTypes.string,
   };
 
   static defaultProps = {
-    name: "",
+    name: '',
     age: null,
-    bio: ""
+    bio: '',
   };
 }
 ```
@@ -267,5 +267,5 @@ Here, the `&-child` is actually targeting the `.element-child` class. This is di
 
 ## Related Posts
 
-- [How to format and edit your git commit messages](/git/2019/03/24/git-commit-format-squash.html)
-- [Custom type checking - isNaN vs Number.isNaN](/javascript/2019/03/22/custom-type-checking-isnan.html)
+- [How to format and edit your git commit messages](/tech/git-commit-format-squash)
+- [Custom type checking - isNaN vs Number.isNaN](/tech/custom-type-checking-isnan)
