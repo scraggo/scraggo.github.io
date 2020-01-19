@@ -4,7 +4,7 @@
 - semantic ui
 - scss
 
-## Branching Deploying
+## Branching and Deploying
 
 The `master` branch only contains built files. For this reason, the `develop` branch is the de facto, most up to date source code. All branches should be branched from develop. Locally run `npm run deploy` to publish the site.
 
