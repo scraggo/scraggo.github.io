@@ -6,11 +6,11 @@
 
 ## Branching and Deploying
 
-The `master` branch only contains built files. For this reason, the `develop` branch is the de facto, most up to date source code. All branches should be branched from develop. Locally run `npm run deploy` to publish the site.
+The `master` branch only contains built files. For this reason, the `develop` branch is the de facto, most up to date source code. All branches should be branched from `develop`. Locally run `npm run deploy` to publish the site (ideally from `develop` after merging to it).
 
-## Images and Cleaning
+## Cleaning and Copying files to /public
 
-In order to avoid using separate graphQL queries for images, the `clean` script also copies certain images back into a public directory.
+In order to avoid using separate graphQL queries for images, the `clean` script runs the `task:copy` script to copy certain images (and other files) into a public directory.
 
 ## Sparse queries bug
 

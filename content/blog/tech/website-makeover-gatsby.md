@@ -44,6 +44,7 @@ This blog (Tech Effects) has been built with the [Jekyll static site generator](
 
 - Files and urls - The site architecture took some getting used to. It seems to make sense to have the `pages` folder only for site pages, not content. That goes into a `./content` directory.
 - Images - handling dynamic images with GraphQL. I found myself opting out in a lot of scenarios. This creates another problem - I have to recreate the `public` folder if the cache in dev mode gets stale.
+- Deploying - I had to implement a workaround to deploy to Github Pages. The `CNAME` file gets obliterated on-deploy. The workaround is a `bash` script that copies the file over pre-deploy (along with the image files mentioned above).
 - GraphQL queries - I used a messy Regular Expression in a GraphQL query to exclude a folder in that directory (which, to be fair, I won't need to actually do). I'm still getting used to GraphQL queries in general. They are NOT traditional template strings - you can't just throw in JavaScript variables as you please:
 
 ```js
