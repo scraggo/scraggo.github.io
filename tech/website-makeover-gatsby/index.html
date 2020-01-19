@@ -390,6 +390,7 @@
 <ul>
 <li>Files and urls - The site architecture took some getting used to. It seems to make sense to have the <code class="language-text">pages</code> folder only for site pages, not content. That goes into a <code class="language-text">./content</code> directory.</li>
 <li>Images - handling dynamic images with GraphQL. I found myself opting out in a lot of scenarios. This creates another problem - I have to recreate the <code class="language-text">public</code> folder if the cache in dev mode gets stale.</li>
+<li>Deploying - I had to implement a workaround to deploy to Github Pages. The <code class="language-text">CNAME</code> file gets obliterated on-deploy. The workaround is a <code class="language-text">bash</code> script that copies the file over pre-deploy (along with the image files mentioned above).</li>
 <li>GraphQL queries - I used a messy Regular Expression in a GraphQL query to exclude a folder in that directory (which, to be fair, I won’t need to actually do). I’m still getting used to GraphQL queries in general. They are NOT traditional template strings - you can’t just throw in JavaScript variables as you please:</li>
 </ul>
 <div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> query <span class="token operator">=</span> graphql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
