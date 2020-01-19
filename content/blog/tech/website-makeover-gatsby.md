@@ -8,7 +8,7 @@ author: 'Dave Cohen'
 description: 'Happy 2020! One of my new year’s resolutions is to redo my website with a lot of new things in mind. Here I’ll outline the changes I’m in the process of making. An important step in the whole makeover was getting an official domain name - I’m now live at scraggo.com! I’m using namecheap as the provider. The site has been hosted with github pages since its inception and I’ll…'
 ---
 
-Happy 2020! One of my new year's resolutions is to redo my website with a lot of new things in mind. Here I'll outline the changes I'm in the process of making.
+Happy 2020! One of my new year's resolutions is to redo my website with a lot of new things in mind. Here I'll outline the changes I'm in the process of making. _EDIT Jan 18, 2020: Gatsby makeover complete!_
 
 ## Now live: custom domain name `scraggo.com`
 
@@ -18,14 +18,15 @@ An important step in the whole makeover was getting an official domain name - I'
 
 My most pressing need is to be able to put content in multiple categories on one site. My content is fragmented between a WordPress site, miscellaneous blogs, and local files. I am slowly, but surely consolidating everything I want to share online here (with only a few intentional exceptions.)
 
-- Blog posts about music, technology, and "other" (with the ability to filter for each type of post)
-- My tech portfolio
-- My music discography
+- [Blog posts](/) about [music](/music), [technology](/tech), and ["other"](/other) (with the ability to filter for each type of post)
+- [My tech portfolio](/tech/projects)
+- [My music discography](/music/discography)
 - Any other publications
 
 This blog (Tech Effects) has been built with the [Jekyll static site generator](https://jekyllrb.com/) since 2018. Jekyll has been good to me so far and it's an incredibly powerful tool. Despite this, I'm much more familiar with the JavaScript ecosystem and uninterested in spending time learning Ruby dependency management (Jekyll is coded in Ruby) for the plugin upgrades I need. There's been a lot of hype about Gatsby over the past couple of years - and I have zero regrets about giving it a shot.
 
-> Get started with Gatsby:  
+### Get started with Gatsby
+
 > [Gatsby Tutorials - Official](https://www.gatsbyjs.org/tutorial/)  
 > [Gatsby Guides - Official](https://www.gatsbyjs.org/docs/guides/)
 
