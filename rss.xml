@@ -1,4 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 19 Jan 2020 17:34:09 GMT</lastBuildDate><item><title><![CDATA[Website Makeover: Moving from Jekyll to Gatsby]]></title><description><![CDATA[Happy 2020! One of my new year’s resolutions is to redo my website with a lot of new things in mind. Here I’ll outline the changes I’m in…]]></description><link>https://www.scraggo.com/tech/website-makeover-gatsby/</link><guid isPermaLink="false">https://www.scraggo.com/tech/website-makeover-gatsby/</guid><pubDate>Thu, 09 Jan 2020 00:15:31 GMT</pubDate><content:encoded>&lt;p&gt;Happy 2020! One of my new year’s resolutions is to redo my website with a lot of new things in mind. Here I’ll outline the changes I’m in the process of making. &lt;em&gt;EDIT Jan 18, 2020: Gatsby makeover complete!&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 28 Jan 2020 02:30:38 GMT</lastBuildDate><item><title><![CDATA[Random Music Generators News 2020-01-27]]></title><description><![CDATA[New in 1.1.0 Yesterday, I released a feature that’s been in the works for over 6 months. You can now create melody presets. Check it out…]]></description><link>https://www.scraggo.com/tech/2020-01-27-random-music-generators-news/</link><guid isPermaLink="false">https://www.scraggo.com/tech/2020-01-27-random-music-generators-news/</guid><pubDate>Mon, 27 Jan 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;New in 1.1.0&lt;/h2&gt;
+&lt;p&gt;Yesterday, I released a feature that’s been in the works for over 6 months. You can now create melody presets. &lt;a href=&quot;https://random-music-generators.herokuapp.com/melody&quot;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2a9d7268e0c6ff87961bc5bbd0fe7044/91043/preset2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 91.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAABYlAAAWJQFJUiTwAAABx0lEQVQ4y5WT6VLCMBSFef+3Uv8iDjoDUio6UoQuaYG2dIVjzoWgLZtm5k6WpifnfjfpQDdn+olut4t+v484TvDfttsxdhIdLpRlieVyiSRJkOe5zNkXRSFj05s1E7msF6irEtvt9kcwjmM89XqYTCawbRvj8RiDwQAvzy+wLEvGljXCaGThTe/h2nA4wPB1hJljoyxWB6cHQQ6MA/YmiqI5r+taO6mhwhDvHx9a/B3ObKb/K5qCtFvX1VGwkWpV/WK1kz5QCt3HHu7uH2CNbaTp5kfQbLrUeFg7sizHZrNBpg2kaSrOGw6zLEOk0wgChSiKpFfaBQtlNt462Hw/phyGCo4zg7tw4bouptMpPM9rCBnhc9FwSFZ0RUe0v16txGmoXTM9pQIRJ9dbjoXhnksmwpxX1b5AieZDEX5rs2o7a1zsVAPmXfTchaTruZ4wvMWrjePIkCfzlXzpO6VUiPl8joVmec5BW+yE4T7FUjNbambR2VOvpchGPOTdcEh+LAB53kqv7YzMDX9xyFcSBIFwY/i+D9fzsV6vT9ycE6RDc2cPgrVUkpHn+54vwZz6F4cUPVb5Ly/g0rc2886lSl6q6rWCMb4BXLx/o6YnEJUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;New presets&quot;
+        title=&quot;New presets&quot;
+        src=&quot;/static/2a9d7268e0c6ff87961bc5bbd0fe7044/799d3/preset2.png&quot;
+        srcset=&quot;/static/2a9d7268e0c6ff87961bc5bbd0fe7044/00d96/preset2.png 148w,
+/static/2a9d7268e0c6ff87961bc5bbd0fe7044/0b23c/preset2.png 295w,
+/static/2a9d7268e0c6ff87961bc5bbd0fe7044/799d3/preset2.png 590w,
+/static/2a9d7268e0c6ff87961bc5bbd0fe7044/91043/preset2.png 720w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If you have a go-to set of form parameters that make sounds that you really enjoy, you can save them and recall them later.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a2f0cce34355cae37c2adb841cc017a9/f20b2/preset1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 68.68008948545862%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAABzElEQVQ4y51U2U7CQBTtXyAQIvv2BTxIwiPhgYSULeHnqLh8DGsCUUGBIsuLFh+0FGjh2Ds4WJW43eRkztx7e+7c6cwIwWAQBJ/PB6/Xy+D3++Hx7Dj5KR4IBBh4vhXWmMAdJELgQSsnUffxMSvCfVZEo1FEIhHGhUMCnPPx0Gq43+12Ix6PIxaLmQU9EFKpFOr1OhqNBmq1GuPNZhPVahWtVovNuf8zKKfT6SCZTMLlciEUCkEolUpYrVZot9vo9/vo9Xp7kE9RFPxkuVwODocD4XAYAk02mw00TcNyuWTixPm4Xq9hGAYD5XFOoBwyURThdDp3gvl8HtvtliUTSMD6Iee6ru8LEKfi5P8iWCwWoaoqut0ugyzLmEwmrH3io9EIg8EA0+kUs9lsz4fD4eEVFgoFFpDlIebzOf5itHqybDb7Lsj2kFo2YZgJ1I6uG5bxIyjHTN1tw1vLmUzm/aeIYhYLbYkXdfEt1IWG5xcVo/sxerd3GE+muLq+wbMZS6fTOLLZ2OEWCuYe/sUeHhXc9QdQ5k+4vunuj43NFGQ3JZFIQDqtQJJOf41K5QzlsoSyJOH84hIn5k2hg003S6AHgPr/L+x2+4cH5BXikAcwc3ZuZAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Save new preset&quot;
+        title=&quot;Save new preset&quot;
+        src=&quot;/static/a2f0cce34355cae37c2adb841cc017a9/799d3/preset1.png&quot;
+        srcset=&quot;/static/a2f0cce34355cae37c2adb841cc017a9/00d96/preset1.png 148w,
+/static/a2f0cce34355cae37c2adb841cc017a9/0b23c/preset1.png 295w,
+/static/a2f0cce34355cae37c2adb841cc017a9/799d3/preset1.png 590w,
+/static/a2f0cce34355cae37c2adb841cc017a9/2a3d6/preset1.png 885w,
+/static/a2f0cce34355cae37c2adb841cc017a9/f20b2/preset1.png 894w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As a necessity of saving presets, I added the ability to create an account. This will set the stage for being able to save presets for rhythm, chord progressions, and anything else added in the future.&lt;/p&gt;
+&lt;p&gt;Given how new accounts are, expect there to be some related niceties added and bug fixes in the near future.&lt;/p&gt;
+&lt;h2&gt;Got a preset you want to share?&lt;/h2&gt;
+&lt;p&gt;If you have a cool preset you want to share, send me a screenshot and I can add it to the defaults that anyone can use!&lt;/p&gt;
+&lt;h2&gt;Stats&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Over 7,800 people have used the app since September 2019&lt;/li&gt;
+&lt;li&gt;The app was first deployed in March 2018&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Check it out and suggest features!&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://random-music-generators.herokuapp.com/&quot;&gt;Random Music Generators - Heroku&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Website Makeover: Moving from Jekyll to Gatsby]]></title><description><![CDATA[Happy 2020! One of my new year’s resolutions is to redo my website with a lot of new things in mind. Here I’ll outline the changes I’m in…]]></description><link>https://www.scraggo.com/tech/website-makeover-gatsby/</link><guid isPermaLink="false">https://www.scraggo.com/tech/website-makeover-gatsby/</guid><pubDate>Thu, 09 Jan 2020 00:15:31 GMT</pubDate><content:encoded>&lt;p&gt;Happy 2020! One of my new year’s resolutions is to redo my website with a lot of new things in mind. Here I’ll outline the changes I’m in the process of making. &lt;em&gt;EDIT Jan 18, 2020: Gatsby makeover complete!&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Now live: custom domain name &lt;code class=&quot;language-text&quot;&gt;scraggo.com&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;An important step in the whole makeover was getting an official domain name - I’m now live at &lt;a href=&quot;https://www.scraggo.com&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;scraggo.com&lt;/code&gt;&lt;/a&gt;! I’m using &lt;a href=&quot;https://www.namecheap.com/&quot;&gt;namecheap&lt;/a&gt; as the provider. The site has been hosted with &lt;a href=&quot;https://pages.github.com/&quot;&gt;github pages&lt;/a&gt; since its inception and I’ll probably continue to host it here.&lt;/p&gt;
 &lt;h2&gt;New year, new static site generator&lt;/h2&gt;
