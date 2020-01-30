@@ -6,7 +6,7 @@ import SEO from 'src/components/SEO';
 
 const markdown = `# About Dave Cohen
 
-I’m a programmer, musician, writer, and educator. I'm fascinated with technology and it's intersection with art.
+I’m a programmer, musician, writer, and educator. I'm fascinated with technology and it's intersection with the creative process.
 
 ## Software Engineering
 
