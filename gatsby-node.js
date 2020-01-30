@@ -14,7 +14,15 @@ exports.onCreateWebpackConfig = ({ actions }) => {
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` });
+    let slug = createFilePath({ node, getNode, basePath: `pages` });
+
+    const newSlug = slug.split('/')[2];
+
+    if (newSlug) {
+      slug = '/' + newSlug + '/';
+    }
+
+    // console.log('newSlug', newSlug);
     createNodeField({
       node,
       name: `slug`,
@@ -63,6 +71,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const next = index === 0 ? null : posts[index - 1].node;
 
     const { slug } = post.node.fields;
+
     // if (node.frontmatter.type !== 'post') {
     //   return;
     // }
