@@ -7,6 +7,8 @@ categories: ['music']
 tags: ['songwriting', 'creative process']
 # permalink: /blog/disposable-magento-testing-environments-with-k8s/
 author: Dave Cohen
+redirect_from:
+  - /music/organizing-creativity-3-step-process/
 ---
 
 It's difficult to keep track of everything that needs to be done with your musical ideas. If you write with any frequency, these ideas can amass until there are so many that you can't keep track of them. Your ideas might range from little snippets to near complete works. Here are some things that commonly go wrong for me:

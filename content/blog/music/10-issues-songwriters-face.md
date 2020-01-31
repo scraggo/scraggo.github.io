@@ -7,6 +7,8 @@ categories: ['music']
 tags: ['songwriting', 'promotion']
 # permalink: /blog/disposable-magento-testing-environments-with-k8s/
 author: Dave Cohen
+redirect_from:
+  - /music/10-issues-songwriters-face/
 ---
 
 It's common for songwriters to feel overwhelmed when finishing their songs and getting them ready for their audience. There can be tremendous blocks going from inspiration to song completion. Listed below are the top issues I've encountered while interviewing songwriters and students of music who write music.

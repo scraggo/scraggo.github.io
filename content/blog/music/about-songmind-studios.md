@@ -7,6 +7,8 @@ categories: ['music']
 tags: ['music education']
 # permalink: /blog/disposable-magento-testing-environments-with-k8s/
 author: Dave Cohen
+redirect_from:
+  - /music/about-songmind-studios/
 ---
 
 In 2016, I decided to start my own brand of music education. I took the role of music coach, agent, and collaborator. The student and I would write and record music together to integrate learning and creativity in a holistic way.

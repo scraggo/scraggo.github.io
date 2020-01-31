@@ -7,6 +7,8 @@ categories: ['music']
 tags: ['songwriting']
 # permalink: /blog/disposable-magento-testing-environments-with-k8s/
 author: Dave Cohen
+redirect_from:
+  - /music/songwriting-snippet-challenge/
 ---
 
 <iframe width="400" height="300" src="https://www.youtube.com/embed/zk7xG4vlKXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

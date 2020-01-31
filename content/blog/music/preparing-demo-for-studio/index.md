@@ -7,6 +7,8 @@ categories: ['music']
 tags: ['recording', 'songwriting']
 # permalink: /blog/disposable-magento-testing-environments-with-k8s/
 author: Dave Cohen
+redirect_from:
+  - /music/preparing-demo-for-studio/
 ---
 
 We songwriters put a lot of work into our songs.

@@ -7,6 +7,8 @@ categories: ['music']
 tags: ['music education']
 # permalink: /blog/disposable-magento-testing-environments-with-k8s/
 author: Dave Cohen
+redirect_from:
+  - /music/honing-strengths-with-a-student-evaluation/
 ---
 
 From time to time, we can find ourselves stagnating when studying music (or any other topic). To help become immune to this, it's useful to fully recognize our strengths and acknowledge our weaknesses. Every strength is an opportunity to improve further and if we can acknowledge where we are struggling then we can begin to grow much faster and reach excellence.

@@ -7,6 +7,8 @@ categories: ['music']
 tags: ['practicing']
 # permalink: /blog/disposable-magento-testing-environments-with-k8s/
 author: Dave Cohen
+redirect_from:
+  - /music/guide-to-practicing-overcoming-plateaus/
 ---
 
 A long time student of mine recently began learning classical guitar. He had been studying jazz and blues for a number of years. He has a love for latin fingerstyle rhythms. The more lessons we had, the more he realized that he wanted to deepen his technical foundation. I recently told him:
