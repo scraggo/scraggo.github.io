@@ -13,7 +13,10 @@ class NotFoundPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Not found" />
         <h1>Not Found</h1>
-        <p>You just hit a route that doesn&#39;t exist...</p>
+        <p>
+          The content you're looking for is not at this url. It may have been
+          moved.
+        </p>
         <p>
           Please visit one of the pages above and contact the site administrator
           if you still can't find what you're looking for.
