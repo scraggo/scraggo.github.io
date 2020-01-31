@@ -7,6 +7,8 @@ categories: ['music']
 tags: ['bands']
 # permalink: /blog/disposable-magento-testing-environments-with-k8s/
 author: Dave Cohen
+redirect_from:
+  - /music/5-dysfunctions-of-a-band/
 ---
 
 [The Five Dysfunctions of a Team](http://www.tablegroup.com/books/dysfunctions) (by Patrick Lencioni) is a highly recommended book for anyone that works with other people. (So - almost everyone!) The five dysfunctions are set up in a hierarchy. The bottom of the pyramid below shows that trust is the foundation and all else moves up from there.

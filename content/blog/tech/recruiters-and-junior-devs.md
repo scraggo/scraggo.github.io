@@ -5,6 +5,9 @@ date: 2018-07-18 19:45:31 +0530
 categories: ['tech']
 tags: ['career']
 author: 'Dave Cohen'
+redirect_from:
+  - /career/2018/07/18/recruiters-and-junior-devs.html
+  - /tech/recruiters-and-junior-devs/
 ---
 
 This is the first of a handful of posts about the 3-month search for my first full-time developer job.

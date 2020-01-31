@@ -5,6 +5,9 @@ date: 2019-07-02 01:45:31 +0130
 categories: ['tech']
 tags: ['Career']
 author: 'Dave Cohen'
+redirect_from:
+  - /career/2019/07/02/prepare-for-initial-screens.html
+  - /tech/prepare-for-initial-screens/
 ---
 
 > Your resume and cover letter surely made a positive impact, but the most important evaluation has yet to come.

@@ -5,6 +5,9 @@ date: 2019-04-04 01:45:31 +0530
 categories: ['tech']
 tags: ['JavaScript']
 author: 'Dave Cohen'
+redirect_from:
+  - /tech/catching-handling-errors-promise-chains/
+  - /javascript/2019/04/03/catching-handling-errors-promise-chains.html
 ---
 
 When you need to make sequential API calls, promise chains are a reliable way to go. It gets a little tricky when you need to throw and handle errors differently at different points in the chain. This post will go into:

@@ -7,6 +7,8 @@ categories: ['music']
 tags: ['songwriting']
 # permalink: /blog/disposable-magento-testing-environments-with-k8s/
 author: Dave Cohen
+redirect_from:
+  - /music/songwriting-and-serendipity/
 ---
 
 _Why start a composition with a blank slate? Jam on a cover tune then take it in a different direction._

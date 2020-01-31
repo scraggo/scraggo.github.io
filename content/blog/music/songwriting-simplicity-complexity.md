@@ -7,6 +7,8 @@ categories: ['music']
 tags: ['songwriting']
 # permalink: /blog/disposable-magento-testing-environments-with-k8s/
 author: Dave Cohen
+redirect_from:
+  - /music/songwriting-simplicity-complexity/
 ---
 
 _How to begin writing a song by choosing a lyrical theme and a musical mood._

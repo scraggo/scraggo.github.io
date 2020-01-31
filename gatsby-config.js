@@ -4,6 +4,19 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+// This allows each path to be a site root for each folder
+// Source: content directory
+const getContentSources = () =>
+  ['assets', 'blog/music', 'blog/other', 'blog/tech'].map(contentPath => {
+    return {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/${contentPath}`,
+        name: `${contentPath}`,
+      },
+    };
+  });
+
 module.exports = {
   /* Your site config here */
   siteMetadata: {
@@ -14,20 +27,7 @@ module.exports = {
     title: `scraggo.com`,
   },
   plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
-    },
+    ...getContentSources(),
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -68,6 +68,8 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    'gatsby-redirect-from',
+    'gatsby-plugin-meta-redirect', // make sure this is always the last one
   ],
 };
 

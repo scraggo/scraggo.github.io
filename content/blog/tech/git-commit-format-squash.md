@@ -5,6 +5,9 @@ date: 2019-03-24 19:45:31 +0530
 categories: ['tech']
 tags: ['git']
 author: 'Dave Cohen'
+redirect_from:
+  - /tech/git-commit-format-squash/
+  - /git/2019/03/24/git-commit-format-squash.html
 ---
 
 When writing commit messages, it's ideal to make them easy for another developer to read and understand exactly what's in the commit. Oftentimes, though, we write commit messages quickly just to push a branch at the end of a workday, for instance (I know I'm guilty of this).

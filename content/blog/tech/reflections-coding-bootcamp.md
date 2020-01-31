@@ -5,6 +5,9 @@ date: 2018-04-16 19:45:31 +0530
 categories: ['tech']
 tags: ['JavaScript']
 author: 'Dave Cohen'
+redirect_from:
+  - /tech/reflections-coding-bootcamp/
+  - /javascript/2018/04/16/reflections-coding-bootcamp.html
 ---
 
 I was ready for a career change. It was October of 2017. The more time I spent coding and learning computer science fundamentals, the more I realized that a programming career would fit my personality\* better than performing and teaching music.

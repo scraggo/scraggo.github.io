@@ -6,6 +6,8 @@ categories: ['other']
 # tags: ['gatsbyjs']
 # description: "I really enjoy reflecting on the past year during the holidays. This year, my girlfriend wanted to try Marie Forleo's recommendation of reviewing the past decade. We went through the exercises together and shared a majority of our writings with each other. You might think self-help suggestions are cheesy, but these exercises are really worth doing..."
 author: 'Dave Cohen'
+redirect_from:
+  - /other/2020-decade-in-review/
 ---
 
 I really enjoy reflecting on the past year during the holidays. If I get a chance to do this, I come up with New Years resolutions afterwards. Some years I go through a somewhat involved process of going through my journal entries and coming up with the best realizations.

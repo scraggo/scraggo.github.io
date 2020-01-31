@@ -6,6 +6,9 @@ categories: ['tech']
 tags: ['gatsbyjs']
 author: 'Dave Cohen'
 description: 'Happy 2020! One of my new year’s resolutions is to redo my website with a lot of new things in mind. Here I’ll outline the changes I’m in the process of making. An important step in the whole makeover was getting an official domain name - I’m now live at scraggo.com! I’m using namecheap as the provider. The site has been hosted with github pages since its inception and I’ll…'
+redirect_from:
+  - /tech/website-makeover-gatsby/
+  - /gatsbyjs/2020/01/08/website-makeover-gatsby.html
 ---
 
 Happy 2020! One of my new year's resolutions is to redo my website with a lot of new things in mind. Here I'll outline the changes I'm in the process of making. _EDIT Jan 18, 2020: Gatsby makeover complete!_

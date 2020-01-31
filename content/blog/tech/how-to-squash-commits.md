@@ -5,6 +5,9 @@ date: 2019-12-21 01:45:31 +0130
 categories: ['tech']
 tags: ['Git']
 author: 'Dave Cohen'
+redirect_from:
+  - /tech/how-to-squash-commits/
+  - /git/2019/12/20/how-to-squash-commits.html
 ---
 
 Previously, I wrote a [guide on formatting commit messages](/tech/git-commit-format-squash). I've had the opportunity to work on a codebase that requires squashing commits into a single commit. This post is a reliable guide to squashing.
