@@ -5,6 +5,9 @@ date: 2019-03-18 19:45:31 +0530
 categories: ['tech']
 tags: ['JavaScript']
 author: 'Dave Cohen'
+redirect_from:
+  - /tech/code-style-guide/
+  - /javascript/2019/03/18/code-style-guide.html
 ---
 
 We all have opinions on what what coding best practices are and how code should be formatted. Recently, one of the teams I've been working on decided to add another member. I discovered that our coding styles were radically different. I decided to write some guidelines for our team to get us on the same page.

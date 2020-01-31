@@ -1,10 +1,13 @@
 ---
 type: post
-title: "Custom type checking - isNaN vs Number.isNaN"
+title: 'Custom type checking - isNaN vs Number.isNaN'
 date: 2019-03-22 19:45:31 +0530
 categories: ['tech']
 tags: ['JavaScript']
-author: "Dave Cohen"
+author: 'Dave Cohen'
+redirect_from:
+  - /tech/custom-type-checking-isnan/
+  - /javascript/2019/03/22/custom-type-checking-isnan.html
 ---
 
 Javascript is infamous for being "loose" and misleading with its typing. `typeof [1, 2, 3]` gives you `'object'`, `typeof null` gives you `'object'`, etc.
@@ -19,13 +22,13 @@ So instead of writing conditionals using `Array.isArray()`, doing specific `null
  */
 function getType(item) {
   if (Array.isArray(item)) {
-    return "array";
+    return 'array';
   }
   if (item === null) {
-    return "null";
+    return 'null';
   }
   if (isNaN(item)) {
-    return "NaN";
+    return 'NaN';
   }
   return typeof item;
 }
@@ -42,17 +45,17 @@ Basically, the function took anything that wasn't an 'array' or 'null' and decid
 When I discovered the issue, I wrote tests. (Yet another example of why tests are important.)
 
 ```js
-describe("getType", () => {
-  it("behaves as expected", () => {
+describe('getType', () => {
+  it('behaves as expected', () => {
     const typesToTest = [
-      { actual: [], expected: "array" },
-      { actual: {}, expected: "object" },
-      { actual: "this is a string", expected: "string" },
-      { actual: 123, expected: "number" },
-      { actual: NaN, expected: "NaN" },
-      { actual: null, expected: "null" },
-      { actual: undefined, expected: "undefined" },
-      { actual: () => {}, expected: "function" }
+      { actual: [], expected: 'array' },
+      { actual: {}, expected: 'object' },
+      { actual: 'this is a string', expected: 'string' },
+      { actual: 123, expected: 'number' },
+      { actual: NaN, expected: 'NaN' },
+      { actual: null, expected: 'null' },
+      { actual: undefined, expected: 'undefined' },
+      { actual: () => {}, expected: 'function' },
     ];
     typesToTest.forEach(testObj => {
       const { actual, expected } = testObj;
@@ -93,12 +96,12 @@ eslint: [`no-restricted-globals`](https://eslint.org/docs/rules/no-restricted-gl
 
 ```javascript
 // bad
-isNaN("1.2"); // false
-isNaN("1.2.3"); // true
+isNaN('1.2'); // false
+isNaN('1.2.3'); // true
 
 // good
-Number.isNaN("1.2.3"); // false
-Number.isNaN(Number("1.2.3")); // true
+Number.isNaN('1.2.3'); // false
+Number.isNaN(Number('1.2.3')); // true
 ```
 
 Read more:
@@ -114,13 +117,13 @@ In light of learning that, I could remove the `typeof item === 'number'` check. 
  */
 function getType(item) {
   if (Array.isArray(item)) {
-    return "array";
+    return 'array';
   }
   if (item === null) {
-    return "null";
+    return 'null';
   }
   if (Number.isNaN(item)) {
-    return "NaN";
+    return 'NaN';
   }
   return typeof item;
 }
@@ -134,7 +137,7 @@ One way to use `getType`:
 const thing = [1, 2, 3];
 const thingType = getType(arr);
 
-if (["array", "object", "number"].includes(thingType)) {
+if (['array', 'object', 'number'].includes(thingType)) {
   runAwesomeProcess(thing);
 } else {
   throw new Error(
@@ -149,8 +152,8 @@ Compare that to:
 // if thing is not falsy (null check) and typeof thing is object (array or object)
 //    or thing is a number that isn't NaN
 if (
-  (!!thing && typeof thing === "object") ||
-  (typeof thing === "number" && !isNaN(thing))
+  (!!thing && typeof thing === 'object') ||
+  (typeof thing === 'number' && !isNaN(thing))
 ) {
   runAwesomeProcess(thing);
 } else {

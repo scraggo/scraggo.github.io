@@ -5,6 +5,10 @@ date: 2018-05-08
 categories: ['tech']
 tags: ['Computer Science']
 author: 'Dave Cohen'
+redirect_from:
+  - /tech/debugging-strategies/
+  - /computer%20science/2018/05/08/debugging-strategies.html
+  - /computer_science/2018/05/08/debugging-strategies.html
 ---
 
 Tracking down bugs in the software you're working on can be tricky. Debugging is a massive topic and there are so many places bugs can show up. One thing's for sure, whether you're careful or not...

@@ -5,6 +5,9 @@ date: 2017-07-01 19:45:31 +0530
 categories: ['tech']
 tags: ['Python']
 author: 'Dave Cohen'
+redirect_from:
+  - /tech/python-classes-guess-the-number/
+  - /python/2017/07/01/number-guess-oop.html
 ---
 
 Object-oriented design is a powerful programming paradigm that can be intimidating to anyone trying to learn how to use it. I worked through a number of excellent tutorials and books on the subject, but struggled to apply the concepts to my own code. I decided to convert a working program that _didn't_ use OOP and wrap it in a single class.

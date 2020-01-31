@@ -5,6 +5,9 @@ date: 2017-12-26 19:45:31 +0530
 categories: ['tech']
 tags: ['JavaScript']
 author: 'Dave Cohen'
+redirect_from:
+  - /tech/now-attending-fullstack/
+  - /javascript/2017/12/26/now-attending-fullstack.html
 ---
 
 ## Why I'm attending Fullstack Academy

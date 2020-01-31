@@ -5,6 +5,9 @@ date: 2019-03-29 01:45:31 +0530
 categories: ['tech']
 tags: ['javascript']
 author: 'Dave Cohen'
+redirect_from:
+  - /tech/recursive-filter-function/
+  - /javascript/2019/03/28/recursive-filter-function.html
 ---
 
 ## The problem

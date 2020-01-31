@@ -6,6 +6,9 @@ categories: ['tech']
 tags: ['JavaScript']
 author: 'Dave Cohen'
 comments: true
+redirect_from:
+  - /tech/intro-to-js-frameworks01/
+  - /javascript/2017/09/01/intro-to-js-frameworks01.html
 ---
 
 The goal of this blog-series is to explain what frameworks do, why they're used, and demonstrate with examples across many different frameworks. The series is aimed at those familiar with JavaScript syntax, accessing the DOM, functions, and classes (object-oriented programming). [Further reading can be found at the bottom of this post.]

@@ -7,6 +7,9 @@ tags: ['Career']
 author: 'Dave Cohen'
 comments: true
 description: "This post contains an overview of what sorts of programming jobs are available. It's aimed at developers who want to try something new or are still deciding what to focus on in their efforts to become more marketable."
+redirect_from:
+  - /tech/marketable-programming-skills/
+  - /career/2017/08/01/marketable-programming-skills.html
 ---
 
 If you've been learning programming on your own, you may have made worked through some books, followed some online tutorials, and made a decent collection of simple apps. At a certain point you may wonder how much else you need to know to be able to start working as a programmer. I'm a self-taught coder with experience in web technologies (JavaScript, HTML, CSS, etc) and Python. Compiling some info from job listings has enlightened me to what's in demand in my area (Chicago, IL, USA) and in general.

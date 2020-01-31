@@ -5,6 +5,10 @@ date: 2018-02-20 19:45:31 +0530
 categories: ['tech']
 tags: ['javascript', 'computer science']
 author: 'Dave Cohen'
+redirect_from:
+  - /tech/hash-tables-js/
+  - /javascript/computer%20science/2018/02/20/hash-tables-js.html
+  - /javascript/computer_science/2018/02/20/hash-tables-js.html
 ---
 
 Algorithms and data structures can be intimidating. The goal of this post is to explain some approaches to solving hash table algorithm problems providing clear examples with detailed solution explanations. I'm hoping this will help anyone uninitiated alleviate fears and make bigger strides in conquering these challenging problems.
