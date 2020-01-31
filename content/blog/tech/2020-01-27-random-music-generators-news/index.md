@@ -6,7 +6,6 @@ categories: ['tech']
 tags: ['Random Music Generators']
 author: 'Dave Cohen'
 redirect_from:
-  - /2020-01-27-random-music-generators-news/
   - /tech/2020-01-27-random-music-generators-news/
 ---
 
