@@ -14,15 +14,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
-    let slug = createFilePath({ node, getNode, basePath: `pages` });
-
-    const newSlug = slug.split('/')[2];
-
-    if (newSlug) {
-      slug = '/' + newSlug + '/';
-    }
-
-    // console.log('newSlug', newSlug);
+    const slug = createFilePath({ node, getNode, basePath: `pages` });
     createNodeField({
       node,
       name: `slug`,
