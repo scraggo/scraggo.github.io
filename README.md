@@ -1,6 +1,6 @@
 # scraggo.com
 
-- gatsby - see docs/gatsby...
+- gatsby's readme - see docs/gatsby...
 - semantic ui
 - scss
 

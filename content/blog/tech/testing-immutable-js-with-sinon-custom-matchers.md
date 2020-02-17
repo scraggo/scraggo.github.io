@@ -1,10 +1,11 @@
 ---
-type: post
-title: 'Testing immutable js with sinon custom matchers'
-date: 2020-02-15 01:45:31 +0130
-categories: ['tech']
-tags: ['sinon', 'immutable JS']
 author: 'Dave Cohen'
+categories: ['tech']
+date: 2020-02-15 01:45:31 +0130
+description: 'Problems with unexpected assertion failures can arise while testing immutablejs with sinon. This post is a brief guide on how to create a custom matcher that will correctly calculate the equivalence between a mock/stub/spy call with an immutable parameter. The way I’ll be making the assertion is with calledWith from sinon-chai (a plugin for chai that helps with making should or expect assertions for sinon mocks). This github issue on sinonjs outlines the problem...'
+tags: ['testing', 'sinon', 'immutablejs']
+title: 'Testing immutable js with sinon custom matchers'
+type: post
 # redirect_from:
 #   - /tech/website-makeover-gatsby/
 ---
