@@ -2,6 +2,7 @@ import { capitalCase } from 'change-case';
 
 const specialWords = {
   javascript: 'JavaScript',
+  typescript: 'TypeScript',
 };
 
 export const titleCase = (word = '') => {

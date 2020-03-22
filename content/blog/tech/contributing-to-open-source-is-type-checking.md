@@ -3,7 +3,7 @@ type: post
 title: Contributing to Open Source - is - type check values
 date: 2020-03-22
 categories: ['tech']
-tags: ['JavaScript', 'Open Source']
+tags: ['TypeScript', 'Open Source']
 author: 'Dave Cohen'
 redirect_from:
   - /tech/contributing-to-open-source-is-type-checking/
