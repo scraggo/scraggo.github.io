@@ -1,6 +1,6 @@
 ---
 type: post
-title: Contributing to Open Source - is - type check values
+title: 'Contributing a New Feature to Open Source: @sindresorhus/is'
 date: 2020-03-22
 categories: ['tech']
 tags: ['TypeScript', 'Open Source']
@@ -15,7 +15,7 @@ This post is a recount of my recent experience contributing to [is](https://gith
 >
 > https://www.npmjs.com/package/@sindresorhus/is
 
-I'll outline the process from beginning to end - the initial filing of the feature request to getting the pull request merged.
+I'll outline the process from beginning to end: the initial filing of the feature request, implementing the feature, collaborating on the pull request, and getting the feature released.
 
 Some of the open source contribution best-practices I tried to follow:
 
@@ -48,9 +48,9 @@ is.number(6);
 
 The [author of this library](https://www.npmjs.com/~sindresorhus) has created over 1,000 packages that are used by many developers daily. This one in particular has 2,461,210 weekly downloads.
 
-## The feature I requested
+## Filing the feature request
 
-One check in particular I find especially useful is `is.nullOrUndefined(value)`. The JS builtin `!value` will consider the number `0` false and I always find myself making relatively verbose handlers for this case.
+One check in particular I find especially useful in the `is` library is `is.nullOrUndefined(value)`. The JS builtin `!value` will consider the number `0` false and I always find myself making relatively verbose handlers for this case.
 
 I wanted a way to make a union (this type "or" that type) for any number of arbitrary types. I scoured the documentation for this functionality and didn't find it. I was able to write a wrapper function that created this functionality and could've stopped there, but I didn't. I decided to request that this new feature be built into the library.
 
@@ -64,7 +64,7 @@ I wasn't expecting him to actually respond! I shook off my surprise and wrote hi
 
 When he responded, he had "the answer." He wrote a quick test case and said "PR welcome for that." I was IN!
 
-## An unfamiliar codebase
+## Implementing the feature
 
 I've used TypeScript before, but I'm pretty inexperienced. Some things I learned:
 
@@ -84,7 +84,7 @@ Here it is: <https://github.com/sindresorhus/is/pull/104>
 
 It was scary working with a team of people I've never worked with before. They started making comments and code suggestions soon after I made the PR.
 
-The types part of TypeScript code was challenging for me. There was a good bit of back and forth about:
+Handling types/custom types was challenging for me since I don't work with TypeScript day to day. There was a good bit of back and forth about:
 
 - the choice to make a new union type or just inline existing types
 - where and when to cast types
@@ -95,10 +95,14 @@ I noticed something that I didn't realize was possible: the maintainers can chan
 
 ## The release of is@2.1.0
 
-It was incredibly rewarding to see that the feature I put in was released shortly after the PR was merged. Use either of these links to learn how to use the library in a project:
+Shortly after the pull request was merged, the owner released the 2.1.0 version of the library that had the new feature in it! It's available to use now - both of these links will tell you how:
 
 > https://github.com/sindresorhus/is
 >
 > https://www.npmjs.com/package/@sindresorhus/is
 
-I had such a great experience. I'm looking forward to the next time I have the chance to contribute to an awesome, well-maintained open source library. Let me know about your experiences using `is`.
+and look for `.any` to use the function I contributed to:
+
+> https://github.com/sindresorhus/is#anypredicate--predicate-values
+
+Working on this feature was amazing in so many ways. I had a great experience collaborating with `@sindresorhus` and his team, I enjoyed the challenge of working on an unfamiliar codebase, and it was incredibly rewarding to see that the feature I put in might be used and appreciated by other developers. I'm looking forward to the next time I have the chance to contribute to an awesome, well-maintained open source library. Let me know about your experiences using `is`. 😁
