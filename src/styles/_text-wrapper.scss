@@ -26,6 +26,14 @@ $spacing: 12px;
     margin-bottom: 4px;
   }
 
+  h2 {
+    color: $dark-red;
+  }
+
+  h3 {
+    font-size: 1.35rem;
+  }
+
   blockquote {
     font-style: italic;
     border-left: 0.32813rem solid #dedbaf;
@@ -65,7 +73,6 @@ $spacing: 12px;
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    // border: 3px solid purple;
   }
 
   th,
