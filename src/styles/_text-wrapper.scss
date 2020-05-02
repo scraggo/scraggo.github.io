@@ -28,7 +28,7 @@ $spacing: 12px;
 
   blockquote {
     font-style: italic;
-    border-left: 0.32813rem solid hsla(0, 0%, 0%, 0.9);
+    border-left: 0.32813rem solid #dedbaf;
     padding-left: $spacing;
   }
 
@@ -58,5 +58,20 @@ $spacing: 12px;
     .color-grey {
       color: grey;
     }
+  }
+
+  table {
+    margin-bottom: 16px;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    // border: 3px solid purple;
+  }
+
+  th,
+  td {
+    border: 1px solid grey;
+    margin: 0;
+    padding: 2px 6px;
   }
 }
