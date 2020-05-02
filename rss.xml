@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 24 Mar 2020 01:20:23 GMT</lastBuildDate><item><title><![CDATA[Contributing a New Feature to Open Source: @sindresorhus/is]]></title><description><![CDATA[This post is a recount of my recent experience contributing to is, a JavaScript open source type checking library. https://github.com…]]></description><link>https://www.scraggo.com/contributing-to-open-source-is-type-checking/</link><guid isPermaLink="false">https://www.scraggo.com/contributing-to-open-source-is-type-checking/</guid><pubDate>Sun, 22 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This post is a recount of my recent experience contributing to &lt;a href=&quot;https://github.com/sindresorhus/is&quot;&gt;is&lt;/a&gt;, a JavaScript open source type checking library.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 May 2020 17:49:27 GMT</lastBuildDate><item><title><![CDATA[Comparing JavaScript Test Runners]]></title><description><![CDATA[This post is a pointer to an article I completed recently - a comprehensive comparison of the AVA, Jest, Mocha, and  JavaScript test runners…]]></description><link>https://www.scraggo.com/comparing-javascript-test-runners/</link><guid isPermaLink="false">https://www.scraggo.com/comparing-javascript-test-runners/</guid><pubDate>Sat, 02 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 438px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/87395f367f6a6bd71327ffdaa6fc8184/152a6/comparing-javascript-test-runners.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAFMklEQVQ4y4VUaVBTVxS+CVsSEpagKWpAhFRxYVEDGsMeQDKCBVmUJSEJEEjAAAGBKASNYUexCkjUxjpUUGnHtmgZu0xrSyvOOHZkKtJaq7YFrQtSpSBbTt97GHSmP3pn7rtn/c6595zzUJNyCxm9WjXiANe2Xcky8XJEw/mfrnxFqpUEk3C6SbEFmUwmwg4A0Mw/L3xmpyb9MZqL7+mx5zzT7IyDGYtkKE3NP1mZ9bhTnwPYeaulMGGbWdko30wyA12LW0MkMPLD5+fvFcfDDVnoZL80GH431o1jeg46mB21yViR0d+BAR1RxcKBHOFUW1EidOgVcHx3ek+1iO+KA2jjfUk4YA8VWeD8+B93UgfiVsJAQRzcjHKFe617LxHRsczOdNUooVYSMtFWkjJ74Xg1HMiOmsH25MeNBdCiTlTidl1NZZavsjRnSx/qbHn6YuB6y58dR56O/dIvJwBbi5KMFw06aK/Kmz7bWGz61KA3nayUwymdYvrDRjU0FyZkma+OgSy5f6Lm7uMvPtL/feNK0pMzRzARhD/sbu8bPtf2LX4D1KpONF4y1kBXk2Yay8LUWVdI7PPN2unuVi0c3hmb+QYg53lXKwx3GWrHh+5JRo/r4JZG9Pz2vmwY6mx+gumd0TGN6Fy7VgLV4sCJhqxIE3ZVaMiKMNVIgifOVuVA266UnWbA0R97I/662DGGOfqM9n7WMigXwDdrkOlaIBPuNBRNYnJ39G7e1jSjNnPqVIUEezuhqT5DMHUoNxpO67LgvXLpUH1GONcMOHLly/2DWCEGd4tHrka4wdUAJgzkbZkZ0IjHh7pPN5vtUFUqz+3EHsnp9ysz4YO9MsACvDxWllarCmLZoTfW1OjT6LvlYvg5bjlciAuCo2H8QUNS0nl9QIhxK0IcwuhYmWi+sQ+rYqOOlqYZqyRhXmaZTCpZLZfL9ekpKc44PzH6LHzst1vyEzm5EiFCAZEI8ROwc6cV2Xk+cmtuJKmpstTizWzgUTcRaHjourVUKgvE3scS/c9Kxz/B/gJkRVlMCFYsW21Hp7tUMBguPmQrNs2asngvyYK1gRgl8kI/CtVFk51eQHFicgS29KVqrhXL8oWTDYpHZHIWifwa2Zq6jMjOmuZWTqG/DVSGR58V1c3fBqNtbN3vLF7qSbO2db9tY8sBuqMnj0J3v09lLAcrCluG+9EYHoS/s28u9rV0J83BOjtS7L0fUB25Jgv6eqA5rk/G6G6a00aM9u+yXcAHmtOGMzQHbj7GA8VhHdCY3JsFBWICjOnki0r7+hBie6cRApZHfIE9+x1w9kyd5QsLgfJWdI/dkug0O9dEsHVJAPtlyeDgsWM7c6Xk+oJVGcB0TzY5uqUAY1F8Eu6/cIXodQ1cg4tprkGaX9kbyoDlpXjIFZbNsr0U4OadmbbOL2Nws7AEgjcXfscTqLNDY3XAT9g34Ruve+QnPgieWyv7zDh+4ro5Ym10uYdXjHacw8//JDQob/tGnly3I0YJmduU2e3VxdLeTh18bSiObFSX7K9WlU7vzt6jlmdqU3mp+l6erG44pKiZieOE5B0ioRJsoFWIjWzZyYzYCCVHJdoD9YWaUoBnpGsH86lzM3x5ITF6l2vpWPuQVRJNs0BY/BIxZCzvTQX2BFiM7nWVM0ua5nrvMSBBqOL7OKEifE6TQzLbpHCl8/SKtRmiRaskPWbeJ6Tkv025mpf7qpGCnbCKW+C/opiwHWh8+CR60G8gjY80oIpcpdnais4Kc8Qpj8D8+QZcl1KF/gXKZjn/eTwOUAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;comparing-javascript-test-runners.png&quot;
+        title=&quot;comparing-javascript-test-runners.png&quot;
+        src=&quot;/static/87395f367f6a6bd71327ffdaa6fc8184/152a6/comparing-javascript-test-runners.png&quot;
+        srcset=&quot;/static/87395f367f6a6bd71327ffdaa6fc8184/00d96/comparing-javascript-test-runners.png 148w,
+/static/87395f367f6a6bd71327ffdaa6fc8184/0b23c/comparing-javascript-test-runners.png 295w,
+/static/87395f367f6a6bd71327ffdaa6fc8184/152a6/comparing-javascript-test-runners.png 438w&quot;
+        sizes=&quot;(max-width: 438px) 100vw, 438px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This post is a pointer to an &lt;a href=&quot;https://github.com/scraggo/comparing-javascript-test-runners&quot;&gt;article I completed recently&lt;/a&gt; - a comprehensive comparison of the AVA, Jest, Mocha, and &lt;code class=&quot;language-text&quot;&gt;mocha-parallel-tests&lt;/code&gt; JavaScript test runners.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;👉 &lt;a href=&quot;https://github.com/scraggo/comparing-javascript-test-runners/&quot;&gt;https://github.com/scraggo/comparing-javascript-test-runners/&lt;/a&gt; 👈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;To generate the speed metrics in the article, I created a node application (part of this repo) that runs tests in all the frameworks listed above. &lt;a href=&quot;https://github.com/scraggo/comparing-javascript-test-runners/&quot;&gt;See the repo and documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Article Preview&lt;/h2&gt;
+&lt;p&gt;Three test runners have risen far above the rest as the most popular choices of JavaScript test runners:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AVA&lt;/li&gt;
+&lt;li&gt;Jest&lt;/li&gt;
+&lt;li&gt;Mocha&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;*We’ll also be exploring a wrapper for Mocha called &lt;code class=&quot;language-text&quot;&gt;mocha-parallel-tests&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The immediate practical goal of this article is to help you choose a JavaScript testing framework. My aim is to address the following questions:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How does one choose the right testing framework for their use case? What criteria should one base their decision on?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In order to do this, we’ll explore some general principles regarding both testing frameworks and testing in general. Then, after outlining the criteria for evaluating the frameworks, we can explore them in detail…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/scraggo/comparing-javascript-test-runners/&quot;&gt;Continue reading&lt;/a&gt;…&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Want to contribute?&lt;/h2&gt;
+&lt;p&gt;Don’t hesitate to &lt;a href=&quot;/contact&quot;&gt;contact me&lt;/a&gt; if you have feedback.&lt;/p&gt;
+&lt;p&gt;Want to add details or make a correction? This article is open-source and your contributions are 100% welcome 💥&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/scraggo/comparing-javascript-test-runners&quot;&gt;Open an issue here&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Contributing a New Feature to Open Source: @sindresorhus/is]]></title><description><![CDATA[This post is a recount of my recent experience contributing to is, a JavaScript open source type checking library. https://github.com…]]></description><link>https://www.scraggo.com/contributing-to-open-source-is-type-checking/</link><guid isPermaLink="false">https://www.scraggo.com/contributing-to-open-source-is-type-checking/</guid><pubDate>Sun, 22 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This post is a recount of my recent experience contributing to &lt;a href=&quot;https://github.com/sindresorhus/is&quot;&gt;is&lt;/a&gt;, a JavaScript open source type checking library.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/sindresorhus/is&quot;&gt;https://github.com/sindresorhus/is&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/package/@sindresorhus/is&quot;&gt;https://www.npmjs.com/package/@sindresorhus/is&lt;/a&gt;&lt;/p&gt;
