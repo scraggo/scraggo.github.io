@@ -15,7 +15,15 @@ This post is a pointer to an [article I completed recently](https://github.com/s
 
 > 👉 <https://github.com/scraggo/comparing-javascript-test-runners/> 👈
 
-To generate the speed metrics in the article, I created a node application (part of this repo) that runs tests in all the frameworks listed above. [See the repo and documentation](https://github.com/scraggo/comparing-javascript-test-runners/).
+## Why is it on GitHub, not this blog?
+
+Not only does the repo contain the comparison article, I created a node application to generate the speed metrics in the article. The process looks like this:
+
+- There is a `make-tests` command that generates a number of _identical_ tests for each test runner. The tests take the length of time that a test suite of an average large codebase would take
+- The `test-all` command will run the tests and time the output of each one. The order of the runners is shuffled every time to remove any ordering bias
+- A report is generated at the end that shows how long each test runner took to run the test suite.
+
+> [See the repo and documentation](https://github.com/scraggo/comparing-javascript-test-runners/).
 
 ## Article Preview
 
