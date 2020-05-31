@@ -24,7 +24,7 @@ This post will focus on the other type, the **💡💡meta idea💡💡**.
 1. The definition of "meta idea"
 2. Discussion on how to meta ideas
 3. Categories of meta ideas
-4. I'll share a huge number of my meta ideas
+4. I'll share a number of my meta ideas
 5. I'll provide links to others' meta ideas
 
 ## What is a "Meta Idea"?
@@ -33,6 +33,8 @@ A meta idea is an instruction that, if acted on, could generate a concrete idea.
 
 - It’s like the software and hardware equipment in a plastic manufacturing factory that could be configured to shape plastic into just about anything. Or a 3D printer.
 - In the programming world, a meta idea is like an object-oriented _class_, and the concrete idea is an _instantiation_ of the class. [Object-oriented programming - Wikipedia](https://en.wikipedia.org/wiki/Object-oriented_programming#Objects_and_classes)
+
+![Meta Idea Factory](meta-ideas.png)
 
 Here are some examples to illustrate what a meta idea is:
 
