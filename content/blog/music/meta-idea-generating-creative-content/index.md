@@ -11,7 +11,7 @@ author: Dave Cohen
 #   - /music/about-songmind-studios/
 ---
 
-For many years, I've consistently written down tiny ideas and have tried to store, organize, and retrieve them. Having more time recently to go through them, the need for a distinction dawned on me. There are fundamentally two types of ideas: one is "concrete" and the other is "meta."
+I've been writing down small music (and other) ideas for over 20 years. In that time, I've struggled to store, organize, and retrieve them effectively. As I was going through my archives recently, it dawned on me that there are two fundamental types of ideas: one is "concrete" and the other is "meta."
 
 A concrete idea is specific and actionable. It may be a chord progression like:
 
@@ -22,16 +22,16 @@ I could record it, add some melodies to it, add some other sections, and eventua
 This post will focus on the other type, the **💡💡meta idea💡💡**.
 
 1. The definition of "meta idea"
-2. Discussion on how to meta ideas
-3. Categories of meta ideas
-4. I'll share a number of my meta ideas
-5. I'll provide links to others' meta ideas
+2. How to act on meta ideas
+3. Categorization of types of meta ideas
+4. My meta ideas
+5. Others' meta ideas - brief discussion and lots of resources
 
 ## What is a "Meta Idea"?
 
 A meta idea is an instruction that, if acted on, could generate a concrete idea. Some analogies:
 
-- It’s like the software and hardware equipment in a plastic manufacturing factory that could be configured to shape plastic into just about anything. Or a 3D printer.
+- It’s like a 3D printer and its design capabilities
 - In the programming world, a meta idea is like an object-oriented _class_, and the concrete idea is an _instantiation_ of the class. [Object-oriented programming - Wikipedia](https://en.wikipedia.org/wiki/Object-oriented_programming#Objects_and_classes)
 
 ![Meta Idea Factory](meta-ideas.png)
@@ -47,17 +47,17 @@ Here are some examples to illustrate what a meta idea is:
 
 (There will be _a lot_ more examples later.)
 
-None of these examples are Top 40 songs or best-selling novels. None of them contain artistic content. Your _action_ on them may lead to creating one!
+None of these examples are Top 40 song ideas or best-selling novel ideas. None of them contain artistic content. Your _action_ on them though may lead to creating one!
 
 When someone offers composition and songwriting advice, a lot of time it's in the form of meta ideas. There's really no shortage of these. With most advice, the power is acting on them, not merely acknowledging them. How do we do that?
 
 ## Acting on Meta Ideas
 
-The creative act is a confounding thing. The innocent mind of a child has no trouble generating a multitude of ideas. Effortlessly - unquestionably obvious to the uninhibited child. As soon as you try to define the creative process and use it productively, it often drifts away and stays just out of reach. It can be confounding to study, and for many it's blocked by psychological inhibitions.
+The creative act is a (confounding) thing. The (unrestrained) mind of a child has no trouble generating a multitude of ideas. As soon as you try to define the creative process and use it productively, it often drifts away and stays just out of reach. It can be confounding to study, and for many it's blocked by psychological inhibitions.
 
 The recommendations of great creative minds, like [Stephen Pressfield in his "War of Art"](https://sivers.org/book/WarOfArt) will remind us of the "1% inspiration, 99% perspiration" dogma. Put your ass in the chair at the same time every day and "do the work." I've been rebelling against this wisdom for a long time. I thought spontaneous inspiration was the supreme Ideal of idea creation.
 
-Thinking more clearly about it, I realized I need to separate the creative act into two essential pieces. If I'm consumed by some particular concrete idea, I'm going to go with it. If not, there are just too many meta ideas to make excuses anymore. [Scott Adams in "How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life"](https://sivers.org/book/HowToFail) explains that systems beat ideas. Having a creative habit is better than a single amazing idea.
+I now realize the need to separate the creative act into two approaches. The first is simply going with some particular concrete idea if I'm consumed by it at the moment. The other is to take regularly advantage of the many meta ideas that are out there (and yet to be created). [Scott Adams in "How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life"](https://sivers.org/book/HowToFail) explains that systems beat ideas. Having a creative habit is better than a single amazing idea.
 
 Can meta ideas be prescriptive or formulaic? Absolutely. Part of the creative process is making something interesting from simple instructions. Another part of the process is making meta ideas personal. Which meta ideas are most inspiring to you? If none, can you come up with some (perhaps by using [divergent thinking](https://www.youtube.com/watch?v=KYgEfriJsR8))? You won't know unless you put in the work.
 
@@ -65,20 +65,19 @@ Can meta ideas be prescriptive or formulaic? Absolutely. Part of the creative pr
 
 ## Categories
 
-Here I propose some categories in which meta ideas may be classified:
+Here's a non-exhaustive list of categories in which meta ideas may be classified (with a focus on music):
 
-- Non-art (conversations, philosophy, business, news, politics)
-  - your psychology: dreams, opinions, emotional reactions
-- Non-music art forms (words, poetry, stories, non-fiction, visual)
-  - Aesthetics in general (simplicity vs complexity, experimental vs conservative)
 - Generator tools
 - Question prompts
 - Limits, boundaries, distinctions, confines
-- Existing music as a springboard
+- Non-art (conversations, philosophy, business, news, politics, any domain of human knowledge)
+  - your psychology: dreams, opinions, emotional reactions
+- Aesthetics in general (simplicity vs complexity, experimental vs conservative)
+- Collaboration, Audiences, performers
+- Non-music art forms (words, poetry, stories, non-fiction, visual)
+- Existing music (which can be used as a springboard)
 - Music theory concepts
   - "Sonic" - texture, timbre, music-concrete, instrumentations, genres
-- Collaboration, Audiences, performers
-- Something NOT here, not immediately categorizable
 
 ## My Meta Ideas
 
@@ -86,43 +85,88 @@ One beautiful thing about meta ideas is that no one can really copyright them. T
 
 (This list isn't organized in a great way, but hopefully it's useful. I do plan on continuously elaborating on these and adding new ideas over time.)
 
-### 2020
+### General / non-music
 
 Limits and boundaries. Ideas can come from anywhere. As soon as you define a boundary, you have something to work with. If you’re limited to a very small space, you’re more likely to find some interesting details, rather than taking a large swath of something.
 
 - Example: Look through <https://en.wikipedia.org/wiki/Astronomy>. Use the first word that strikes you as an analogy or metaphor in a lyric.
+
+Chefs table / Aesthetics. Creativity has to be new. Every parameter has to change. Doing what's been done before isn't creativity. Is that avant-garde? Or is _avant-garde not new anymore?_
+
+getting the creative mind warmed up in other ways
+
+- Drawing, painting
+- Crafts
+
+### Music
+
+Songwriting / lyrical ideas
+
+- Analyzing dreams - great songwriting material.
+- Nassim Taleb. Antifragile, etc. Such good stuff.
+- Work on political album. Responses to people. What's bad. What's good. Stream of consciousness.
+
+Composition / Music Theory
+
+- Bitonality
+- use [random music generators](https://random-music-generators.herokuapp.com/) (shameless plug)
+- Negative harmony (just google/duckduckgo/ecosia it.)
+- Sample my favorite moments from Schoenburg pieces:
+  <https://www.youtube.com/watch?v=voyLno0HdoA>
+- Subtractive composition. Start with the busiest part of the song. Make it as minimal as possible. Then decompose it to create the rest of the song. add variety as needed.
+- Write music for middle school. If you can write music that sounds great and is simple to play, you'll have a HUGE audience for it.
+- Any simple melody, harmony, or rhythm could have an interesting counterpart.
+- Melody
+  - DON'T follow tendency tones. They make my melodies too predictable. (and write a post about "What I Had to unlearn from music school".)
+
+Arrange it Yourself
+
+- Have a bunch of old, unfinished ideas? What if you put the work on the performers to arrange the idea? What I'd provide is 1-2 pages of description and original guitar tab / notation. Can include suggested scales, form, instrumentation, tempi, song or artist influences. As many piano staves as necessary. Performers wing it or prepare something. Record it. Give them credit. Give prizes to the best arrangements.
+
+Pitch classes are merely structural guide tones.
+
+I want to make “bored” music. Why should music have to be “emotional” all the time? I just want to write my music and get it over with. If people don’t like it, who cares?
+
+Check on Evernote - got a lot of writings I haven't looked at in a while.
+
+- sometimes just looking over old ideas is inspiring. Why don't I schedule that and do it regularly?
+
+Write songs with fewer choruses or none at all.
+
+Ginastera. List of tone rows Wiki +Composition
+
+- <https://en.wikipedia.org/wiki/List_of_tone_rows_and_series>
+
+Album / genre ideas
+
+- Instrumental album called Information Overload
+- songs about over-achievement, being compulsive about impressing people
+- groove album - all instrumental, get a jazz-expert to help me turn them into song forms with melodies and interesting sections
+- Do jazz covers of rock songs
+- What to do with "improvs" - turn them into classical guitar pieces. Duh! Why didn't I think of that 10 years ago?
+  - An album called Mistakes and All. All improvs.
+- Write serial jazz. Has it been done before? How does one go about doing that?
+
+Got interesting results with a student by choosing from a list of random chord qualities, and random root notes. (One of the many moments that inspired the [random music generators](https://random-music-generators.herokuapp.com/) app.)
+
+Jazz
+
+- write a new melody for existing chords (or vice versa)
 
 Guitar
 
 - Alternate tuning
 - Playing mostly on the lower strings
 
-Music Theory
+Collaboration
 
-- Bitonality
+- Play my partner some old songs, see what she thinks
+- Imagine you're playing for a small group of friends.
+- Find musicians that want to be record A LOT of music. Quantity, just excited about making music.
+- Meetup idea: recording musicians who can trade their services
+  - <http://www.meetup.com/Home-Recorders-Mixers/>
 
-Jazz
-
-- write a new melody for existing chords (or vice versa)
-
-Arrange it Yourself
-
-- Have a bunch of old, unfinished ideas? What if you put the work on the performers to arrange the idea? What I'd provide is 1-2 pages of description and original guitar tab / notation. Can include suggested scales, form, instrumentation, tempi, song or artist influences. As many piano staves as necessary. Performers wing it or prepare something. Record it. Give them credit. Give prizes to the best arrangements.
-
-Subtractive composition. Start with the busiest part of the song. Make it as minimal as possible. Then decompose it to create the rest of the song. add variety as needed.
-
-### 2019
-
-Songwriting ideas
-
-- use [random music generators](https://random-music-generators.herokuapp.com/) (shameless plug)
-- Negative harmony (just google/duckduckgo/ecosia it.)
-- Sample my favorite moments from Schoenburg pieces:
-  https://www.youtube.com/watch?v=voyLno0HdoA
-
-### 2018
-
-My additions to [Variation Techniques for Composers and Improvisors - 2002 - Larry J. Solomon](https://dokumen.site/download/variation-techniques-for-composers-and-improvisors-a5b39ef889e368)
+#### My additions to [Variation Techniques for Composers and Improvisors - 2002 - Larry J. Solomon](https://dokumen.site/download/variation-techniques-for-composers-and-improvisors-a5b39ef889e368)
 
 Melody:
 
@@ -165,62 +209,6 @@ Form
 
 - Juxtaposition - Stravinsky’s musical organization as a “block structure” and that “within such a framework, two or more blocks of relatively heterogeneous content are repeatedly and often abruptly juxtaposed.”
 - Traditional Forms: Binary, Ternary, Rondo, Theme+Variations, Sonata, Fugue, Passacaglia, etc
-
-### 2017
-
-Melody writing / Composition
-
-- DON'T follow tendency tones. They make my melodies too predictable. (and write a post about "What I Had to unlearn from music school".)
-- Write music for middle school. If you can write music that sounds great and is simple to play, you'll have a HUGE audience for it.
-- Any simple melody, harmony, or rhythm could have an interesting counterpart.
-
-Other art forms
-
-- Drawing - getting the creative mind warmed up in other ways
-
-Work on political album. Responses to people. What's bad. What's good. Stream of consciousness.
-
-### 2016
-
-Instrumental album called information overload
-
-Pitch classes are merely structural guide tones.
-
-I want to make “bored” music. Why should music have to be “emotional” all the time? I just want to write my music and get it over with. If people don’t like it, who cares?
-
-album idea: songs about over-achievement, being compulsive about impressing people
-
-groove album - all instrumental, get a jazz-expert to help me turn them into song forms with melodies and interesting sections
-
-Play my girlfriend some old songs, see what she thinks
-
-Got interesting results with a student by choosing from a list of random chord qualities, and random root notes.
-
-Do jazz covers of rock songs
-
-Check on Evernote - got a lot of writings I haven't looked at in a while.
-
-What to do with "improvs" - turn them into classical guitar pieces. Duh! Why didn't I think of that 10 years ago?
-
-An album called Mistakes and All. All improvs.
-
-Find musicians that want to be record A LOT of music. Quantity, just excited about making music.
-
-Meetup idea: recording musicians who can trade their services
-
-- <http://www.meetup.com/Home-Recorders-Mixers/>
-
-Write songs with fewer choruses or none at all. Imagine you're playing for a small group of friends.
-
-Write serial jazz. Has it been done before? How does one go about doing that?
-
-Ginastera. List of tone rows Wiki +Composition
-
-Analyzing dreams - great songwriting material.
-
-Nassim Taleb. Antifragile, etc. Such good stuff.
-
-Chefs table / Aesthetics. Creativity has to be new. Every parameter has to change. Doing what's been done before isn't creativity. Is that avant-garde? Or is _avant-garde not new anymore?_
 
 ## Others' Meta Ideas
 
