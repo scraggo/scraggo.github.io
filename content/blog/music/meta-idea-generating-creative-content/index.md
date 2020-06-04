@@ -1,7 +1,7 @@
 ---
 title: 'Meta Ideas - Generating Creative Content'
 # description: "Description"
-date: '2020-05-30'
+date: '2020-06-03'
 type: post
 categories: ['music']
 tags: ['songwriting', 'composition', 'creativity']
@@ -11,7 +11,7 @@ author: Dave Cohen
 #   - /music/about-songmind-studios/
 ---
 
-I've been writing down small music (and other) ideas for over 20 years. In that time, I've struggled to store, organize, and retrieve them effectively. As I was going through my archives recently, it dawned on me that there are two fundamental types of ideas: one is "concrete" and the other is "meta."
+I've been writing down small music (and other) ideas for over 20 years. I've generally struggled to store, organize, and retrieve them effectively. As I was going through my archives recently, it dawned on me that there are two fundamental types of ideas: one is "concrete" and the other is "meta."
 
 A concrete idea is specific and actionable. It may be a chord progression like:
 
@@ -42,32 +42,36 @@ Here are some examples to illustrate what a meta idea is:
 - “Start your songwriting process with a drum beat and add parts from there”
 - "Read through an old journal entry once a week to get into that mindset and write down your impressions"
 - "Listen to an album you like, pick a moment you like, and come up with a variation on that moment"
-- "Use a random word/music generator"
-  - [random music generators](https://random-music-generators.herokuapp.com/)
+- "Use a random word/music generator" [like this one](https://random-music-generators.herokuapp.com/)
 
 (There will be _a lot_ more examples later.)
 
 None of these examples are Top 40 song ideas or best-selling novel ideas. None of them contain artistic content. Your _action_ on them though may lead to creating one!
 
-When someone offers composition and songwriting advice, a lot of time it's in the form of meta ideas. There's really no shortage of these. With most advice, the power is acting on them, not merely acknowledging them. How do we do that?
+Often when someone offers composition and songwriting advice, it's in the form of meta ideas. There's really no shortage of these. As with most advice, the power is acting on them, not merely acknowledging them. How do we do that?
 
 ## Acting on Meta Ideas
 
-The creative act is a (confounding) thing. The (unrestrained) mind of a child has no trouble generating a multitude of ideas. As soon as you try to define the creative process and use it productively, it often drifts away and stays just out of reach. It can be confounding to study, and for many it's blocked by psychological inhibitions.
+For the naturally creative mind of a child, the creative act is mostly effortless. For adults, a creative flow can be difficult to reliably acquire - for many, it can be blocked entirely (the infamous "writer's block").
 
 The recommendations of great creative minds, like [Stephen Pressfield in his "War of Art"](https://sivers.org/book/WarOfArt) will remind us of the "1% inspiration, 99% perspiration" dogma. Put your ass in the chair at the same time every day and "do the work." I've been rebelling against this wisdom for a long time. I thought spontaneous inspiration was the supreme Ideal of idea creation.
 
-I now realize the need to separate the creative act into two approaches. The first is simply going with some particular concrete idea if I'm consumed by it at the moment. The other is to take regularly advantage of the many meta ideas that are out there (and yet to be created). [Scott Adams in "How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life"](https://sivers.org/book/HowToFail) explains that systems beat ideas. Having a creative habit is better than a single amazing idea.
-
-Can meta ideas be prescriptive or formulaic? Absolutely. Part of the creative process is making something interesting from simple instructions. Another part of the process is making meta ideas personal. Which meta ideas are most inspiring to you? If none, can you come up with some (perhaps by using [divergent thinking](https://www.youtube.com/watch?v=KYgEfriJsR8))? You won't know unless you put in the work.
+[Scott Adams in "How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life"](https://sivers.org/book/HowToFail) explains that systems beat ideas. Having a creative habit is better than a single amazing idea.
 
 > Aside: [Derek Sivers' book summaries](https://sivers.org/book/) are the bomb.
+
+Given this wisdom and the distinction between meta and concrete ideas - I now separate the creative act into two approaches.
+
+1. The first is simply going with some particular concrete idea if I'm consumed by it at the moment.
+2. The other is to regularly take advantage of the many meta ideas that are out there (and yet to be created).
+
+Can meta ideas be prescriptive or formulaic? Absolutely. Part of the creative process is making something interesting from simple instructions. Another part of the process is making meta ideas personal. Which meta ideas are most inspiring to you? If none, can you come up with some (perhaps by using [divergent thinking](https://www.youtube.com/watch?v=KYgEfriJsR8))? You won't know unless you put in the work.
 
 ## Categories
 
 Here's a non-exhaustive list of categories in which meta ideas may be classified (with a focus on music):
 
-- Generator tools
+- Generator tools - [like this one](https://random-music-generators.herokuapp.com/)
 - Question prompts
 - Limits, boundaries, distinctions, confines
 - Non-art (conversations, philosophy, business, news, politics, any domain of human knowledge)
@@ -81,9 +85,7 @@ Here's a non-exhaustive list of categories in which meta ideas may be classified
 
 ## My Meta Ideas
 
-One beautiful thing about meta ideas is that no one can really copyright them. There's nothing to steal. They're basically suggestions. You _only_ get out of them what you put into them. So, I'm happy to share them here and will update this page with new ones.
-
-(This list isn't organized in a great way, but hopefully it's useful. I do plan on continuously elaborating on these and adding new ideas over time.)
+One beautiful thing about meta ideas is that no one can really copyright them. There's nothing to steal. They're basically suggestions. You _only_ get out of them what you put into them. So, I'm happy to share my meta ideas here and will update this page with new ones. (Organizing this list will be an ongoing process.)
 
 ### General / non-music
 
@@ -91,12 +93,12 @@ Limits and boundaries. Ideas can come from anywhere. As soon as you define a bou
 
 - Example: Look through <https://en.wikipedia.org/wiki/Astronomy>. Use the first word that strikes you as an analogy or metaphor in a lyric.
 
-Chefs table / Aesthetics. Creativity has to be new. Every parameter has to change. Doing what's been done before isn't creativity. Is that avant-garde? Or is _avant-garde not new anymore?_
+Aesthetics - a paraphrased quote from Chef's Table. Creativity has to be new. Every parameter has to change. Doing what's been done before isn't creativity. Is that avant-garde? Or is _avant-garde not new anymore?_
 
-getting the creative mind warmed up in other ways
+Getting the creative mind warmed up in other ways
 
-- Drawing, painting
-- Crafts
+- Drawing, painting, sculpture, etc - [Visual arts - Wikipedia](https://en.wikipedia.org/wiki/Visual_arts)
+- Acting, standup comedy, improv
 
 ### Music
 
@@ -133,9 +135,7 @@ Check on Evernote - got a lot of writings I haven't looked at in a while.
 
 Write songs with fewer choruses or none at all.
 
-Ginastera. List of tone rows Wiki +Composition
-
-- <https://en.wikipedia.org/wiki/List_of_tone_rows_and_series>
+Ginastera. List of tone rows Wiki <https://en.wikipedia.org/wiki/List_of_tone_rows_and_series>
 
 Album / genre ideas
 
@@ -212,7 +212,7 @@ Form
 
 ## Others' Meta Ideas
 
-Generating Ideas, in general
+**Generating Ideas, in general**
 
 - [How to Build a Creative Mind That Will Never Run Out of New Ideas](http://www.theemotionmachine.com/how-to-build-a-creative-mind-that-will-never-run-out-of-new-ideas/)
 - [New Ideas - Strategies and Techniques - Creativity Tools From MindTools.com](https://www.mindtools.com/pages/article/newCT_88.htm)
@@ -225,7 +225,7 @@ Generating Ideas, in general
 - [How to Fail at Almost Everything and Still Win Big - by Scott Adams | Derek Sivers](https://sivers.org/book/HowToFail)
 - [Tools of Titans - by Tim Ferriss | Derek Sivers](https://sivers.org/book/ToolsTitans)
 
-Music
+**Music**
 
 Many famous composers and improvisors have written about their systems of idea generation. Here are some that have struck me in particular, but there are treasure troves of interviews, articles, books, and videos that can be sources of inspiration:
 
@@ -245,7 +245,7 @@ Brian Eno on Creativity
   - <https://en.wikipedia.org/wiki/Oblique_Strategies>
   - <http://stoney.sb.org/eno/oblique.html>
 
-Thinking Visually
+**Thinking Visually**
 
 - [Dan Roam Visual thinking Vivid - YouTube](https://www.youtube.com/playlist?list=PLWDYqT4IqXGzXs2oDJ4YRCNAFPmfF_mj1)
 
