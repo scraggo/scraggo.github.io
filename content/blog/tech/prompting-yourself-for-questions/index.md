@@ -7,7 +7,7 @@ tags: ['JavaScript', 'node', 'productivity']
 author: 'Dave Cohen'
 ---
 
-I recently created a node command line app that prompts you to answer questions that you come up with. After you answer them, it saves them to a `json` or `yaml` file in a directory of your choosing.
+I recently created a node command line app called [question-prompter](https://github.com/scraggo/question-prompter). It prompts you at your terminal to answer questions that you come up with. After you answer them, it saves them to a `json` or `yaml` file in a directory of your choosing.
 
 ## Background
 
@@ -78,6 +78,8 @@ Finally, here are some of my own questions:
 - Any recent insights that can improve your personal story?
 
 ## Tech-talk: How I built the app
+
+See the source code for [question-prompter](https://github.com/scraggo/question-prompter).
 
 ### High-level
 
