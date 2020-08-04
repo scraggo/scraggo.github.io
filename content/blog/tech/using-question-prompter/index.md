@@ -1,6 +1,6 @@
 ---
 type: post
-title: 'Prompting Yourself With Questions with question-prompter'
+title: 'Using question-prompter for study, self-reflection, and more'
 date: 2020-08-02
 categories: ['tech']
 tags: ['JavaScript', 'node', 'productivity']
@@ -9,9 +9,11 @@ author: 'Dave Cohen'
 
 I recently created a node command line app called [question-prompter](https://github.com/scraggo/question-prompter). It prompts you at your terminal to answer questions that you come up with. After you answer them, it saves them to a `json` or `yaml` file in a directory of your choosing.
 
+![question-prompter](question-prompter.png)
+
 ## Background
 
-I find there's a lot of benefit to regularly checking in with myself. While many authors have written about this kind of reflection, [Tim Ferriss](https://tim.blog/2015/01/15/morning-pages/) comes to mind first. One product that helps you do this is [the Five-Minute Journal](https://thehustle.co/the-five-minute-journal-will-make-you-happier).
+I find a lot of benefit from regularly checking in with myself. While many authors have written about this kind of reflection, [Tim Ferriss](https://tim.blog/2015/01/15/morning-pages/) comes to mind first. One product that helps you do this is [the Five-Minute Journal](https://thehustle.co/the-five-minute-journal-will-make-you-happier).
 
 Knowing myself, I don't really clamour to buy off-the-shelf solutions to these sorts of things. I've taken notes from a dozen great books and wanted to ask myself questions that will help me 1) remember the content and 2) get insights from custom questions inspired by the content. I've also come up with my own personal questions that probably don't have the universal self-help appeal that these books have.
 
@@ -134,3 +136,7 @@ Here are example files so you can get started right away! Run `npm run start-dev
 **src/utils**
 
 I find that wrapping utilities makes my life easier. When I call the wrappers inside business logic files (like `io-handlers` or `inquirer`), it clearly separates the file-system handling from the app-specific processing.
+
+## Conclusion
+
+[Let me know](/contact) if you found the app useful!
