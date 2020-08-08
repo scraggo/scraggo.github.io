@@ -1,4 +1,145 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 04 Jun 2020 01:39:10 GMT</lastBuildDate><item><title><![CDATA[Meta Ideas - Generating Creative Content]]></title><description><![CDATA[I’ve been writing down small music (and other) ideas for over 20 years. I’ve generally struggled to store, organize, and retrieve them…]]></description><link>https://www.scraggo.com/meta-ideas-generating-creative-content/</link><guid isPermaLink="false">https://www.scraggo.com/meta-ideas-generating-creative-content/</guid><pubDate>Wed, 03 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been writing down small music (and other) ideas for over 20 years. I’ve generally struggled to store, organize, and retrieve them effectively. As I was going through my archives recently, it dawned on me that there are two fundamental types of ideas: one is “concrete” and the other is “meta.”&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 08 Aug 2020 22:42:57 GMT</lastBuildDate><item><title><![CDATA[Using question-prompter for study, self-reflection, and more]]></title><description><![CDATA[I recently created a node command line app called question-prompter. It prompts you at your terminal to answer questions that you come up…]]></description><link>https://www.scraggo.com/using-question-prompter/</link><guid isPermaLink="false">https://www.scraggo.com/using-question-prompter/</guid><pubDate>Sun, 02 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I recently created a node command line app called &lt;a href=&quot;https://github.com/scraggo/question-prompter&quot;&gt;question-prompter&lt;/a&gt;. It prompts you at your terminal to answer questions that you come up with. After you answer them, it saves them to a &lt;code class=&quot;language-text&quot;&gt;json&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;yaml&lt;/code&gt; file in a directory of your choosing.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0f7805fbabe278fe70d450cd7c71ae0a/39870/question-prompter.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 26.979611190137504%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA7ElEQVQY012Q226DMBBEeSlRuNjGrC/YQFRIUCqhkv//uenaaSXUh6PxrrQ7sy40SbiBYJyGjwZKN6jqDzRtibph2ssbkbREI37rtjzp+y31FYWxCt5rGCNhncoqegHNBm50GNjM8VunXs/mnuCDAfFcxYZ/pKV54bYIHKvEzvr1KbAtGnH1mO8e8REgZ4eGh1OClC6h+god1VkVneC62FaF113jm9nXDmYiiFuACho0EuxkMMzM2PPX8AVeMBK9bXOi/xTHsWB/jngsBttqMboalq58XgUaNKYb95jIS+NsEdggMi50eUFOeeIH5R56YHYP6MEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;question-prompter&quot;
+        title=&quot;question-prompter&quot;
+        src=&quot;/static/0f7805fbabe278fe70d450cd7c71ae0a/799d3/question-prompter.png&quot;
+        srcset=&quot;/static/0f7805fbabe278fe70d450cd7c71ae0a/00d96/question-prompter.png 148w,
+/static/0f7805fbabe278fe70d450cd7c71ae0a/0b23c/question-prompter.png 295w,
+/static/0f7805fbabe278fe70d450cd7c71ae0a/799d3/question-prompter.png 590w,
+/static/0f7805fbabe278fe70d450cd7c71ae0a/2a3d6/question-prompter.png 885w,
+/static/0f7805fbabe278fe70d450cd7c71ae0a/ae92f/question-prompter.png 1180w,
+/static/0f7805fbabe278fe70d450cd7c71ae0a/39870/question-prompter.png 2109w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;I find a lot of benefit from regularly checking in with myself. While many authors have written about this kind of reflection, &lt;a href=&quot;https://tim.blog/2015/01/15/morning-pages/&quot;&gt;Tim Ferriss&lt;/a&gt; comes to mind first. One product that helps you do this is &lt;a href=&quot;https://thehustle.co/the-five-minute-journal-will-make-you-happier&quot;&gt;the Five-Minute Journal&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Knowing myself, I don’t really clamour to buy off-the-shelf solutions to these sorts of things. I’ve taken notes from a dozen great books and wanted to ask myself questions that will help me 1) remember the content and 2) get insights from custom questions inspired by the content. I’ve also come up with my own personal questions that probably don’t have the universal self-help appeal that these books have.&lt;/p&gt;
+&lt;h3&gt;What’s the process for answering questions?&lt;/h3&gt;
+&lt;p&gt;My goal is to answer at least one set a day. I type more quickly than I write by hand, so this can be done in a short amount of time (unless I decide to take my sweet time mulling over responses.)&lt;/p&gt;
+&lt;p&gt;Once a week, I’ll comb through the files containing the answers for the week. My goal is to &lt;em&gt;improve iteratively&lt;/em&gt;. I want to gain insights when I review these entries, like “what can I explore further?,” “what have I been putting off?,” etc.&lt;/p&gt;
+&lt;h3&gt;What are some of the questions I’m asking?&lt;/h3&gt;
+&lt;p&gt;My questions are derived from a mish-mash of my favorite books and life-experiences. (I’ve included links to book summaries to help fill in missing context.)&lt;/p&gt;
+&lt;p&gt;From &lt;a href=&quot;https://www.amazon.com/Big-Leap-Conquer-Hidden-Level/dp/0061735361&quot;&gt;The Big Leap by Gay Hendricks&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Summary: &lt;a href=&quot;https://fourminutebooks.com/the-big-leap-summary/&quot;&gt;https://fourminutebooks.com/the-big-leap-summary/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;what were the upper limits you encountered today?&lt;/li&gt;
+&lt;li&gt;what felt good / are you grateful for?&lt;/li&gt;
+&lt;li&gt;How long did you spend in your zone of incompetence? could you have said no?&lt;/li&gt;
+&lt;li&gt;How long did you spend in your zone of competence?&lt;/li&gt;
+&lt;li&gt;How long did you spend in your zone of excellence?&lt;/li&gt;
+&lt;li&gt;How long did you spend in your zone of genius? did you experience einstein time?&lt;/li&gt;
+&lt;li&gt;Did you argue / feel like a victim today?&lt;/li&gt;
+&lt;li&gt;“Newtonian time: Where in my life am I not taking full ownership? What am I trying to disown? What do I need to take full ownership of?”&lt;/li&gt;
+&lt;li&gt;What do I love to do lose time doing?&lt;/li&gt;
+&lt;li&gt;What doesn’t feel like work? What causes time to fly?&lt;/li&gt;
+&lt;li&gt;What causes most satisfaction and money per time spent?&lt;/li&gt;
+&lt;li&gt;What’s your unique ability? What helps transform people?&lt;/li&gt;
+&lt;li&gt;I’m at my best when I’m ___.&lt;/li&gt;
+&lt;li&gt;The exact thing I’m doing is __.&lt;/li&gt;
+&lt;li&gt;What I love most about it is ___.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;From &lt;a href=&quot;https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/080701429X&quot;&gt;Man’s Search for Meaning by Viktor Frankl&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Summary: &lt;a href=&quot;https://www.litcharts.com/lit/man-s-search-for-meaning/summary&quot;&gt;https://www.litcharts.com/lit/man-s-search-for-meaning/summary&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;When has work been meaningful lately?&lt;/li&gt;
+&lt;li&gt;When has love/experience been meaningful lately?&lt;/li&gt;
+&lt;li&gt;When has suffering been meaningful lately?&lt;/li&gt;
+&lt;li&gt;Where could Paradoxical Intention help you?&lt;/li&gt;
+&lt;li&gt;Which of your values could help you find meaning?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;From &lt;a href=&quot;https://www.amazon.com/dp/1476740054/ref=cm_sw_em_r_mt_dp_U_gLrNDbQGQKKX2&quot;&gt;Seven Habits of Highly Successful People by Stephen Covey&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Summary: &lt;a href=&quot;https://blog.hubspot.com/sales/habits-of-highly-effective-people-summary&quot;&gt;https://blog.hubspot.com/sales/habits-of-highly-effective-people-summary&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;1/7 Where can I be more proactive and expand my circle of influence?&lt;/li&gt;
+&lt;li&gt;2/7 What’s the end goal? How do I want people to talk about me at my funeral? What are the different roles in my life? What scares me and how would I handle that situation?&lt;/li&gt;
+&lt;li&gt;3/7 What important, but non-urgent items should I pay attention to?&lt;/li&gt;
+&lt;li&gt;4/7 Are there any upcoming interactions that can be Win-Win?&lt;/li&gt;
+&lt;li&gt;5/7 How can I interact with more empathy in conversation? How can I be more conscientious of problems in presentations?&lt;/li&gt;
+&lt;li&gt;6/7 How can I better recognize the value of others’ differences and synergize?&lt;/li&gt;
+&lt;li&gt;7/7 How can I more regularly sharpen the saw - Physically, Spiritually, Mentally, Socially, Emotionally? (at the very least, once a week)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finally, here are some of my own questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;High-lights for today? Low-lights?&lt;/li&gt;
+&lt;li&gt;Did you have any dreams?&lt;/li&gt;
+&lt;li&gt;What are your priorities for today and the near future?&lt;/li&gt;
+&lt;li&gt;What would be fun for you to do today and the near future?&lt;/li&gt;
+&lt;li&gt;What values have you exemplified or have you missed lately?&lt;/li&gt;
+&lt;li&gt;What needs were met or not met today?&lt;/li&gt;
+&lt;li&gt;Any recent insights that can improve your personal story?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Tech-talk: How I built the app&lt;/h2&gt;
+&lt;p&gt;See the source code for &lt;a href=&quot;https://github.com/scraggo/question-prompter&quot;&gt;question-prompter&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;High-level&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;User creates a “configuration” file that contains the output path and the questions themselves. It can be &lt;code class=&quot;language-text&quot;&gt;json&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;yaml&lt;/code&gt;. (I prefer &lt;code class=&quot;language-text&quot;&gt;yaml&lt;/code&gt; because it looks much cleaner.)&lt;/li&gt;
+&lt;li&gt;We call the top-level command line interface with the path to the configuration file as a required argument. You can optionally specify the output format - it’s &lt;code class=&quot;language-text&quot;&gt;json&lt;/code&gt; by default.&lt;/li&gt;
+&lt;li&gt;You can choose to review notes or to answer questions. If you choose to review notes, it’ll give you a list of files you can open.&lt;/li&gt;
+&lt;li&gt;If you choose to answer questions, you choose which questions set you’ll answer, then answer the questions.&lt;/li&gt;
+&lt;li&gt;Finally, your answers are saved with a copy of the questions in your specified output path.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Packages spotlight&lt;/h3&gt;
+&lt;p&gt;There are a number of npm packages in use for the app. The highlights are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/commander&quot;&gt;commander&lt;/a&gt; - this is a go-to package to make the initial command line input processing easier.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/inquirer&quot;&gt;inquirer&lt;/a&gt; - this is the star of the show and inspired the app. It allows you to use your keyboard to pick answers from a list of choices, fill in text answers, and a lot more.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://babeljs.io/docs/en/babel-node&quot;&gt;@babel/node&lt;/a&gt; - this allows me to use ES6+ syntax in dev mode. I enjoy it!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Architecture&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;|____src
+| |____io-handlers.js
+| |____index.js
+| |____inquirer.js
+| |____commander.js
+
+| |____data
+| | |____selectors.js
+
+| |____example
+| | |____experience2.txt
+| | |____experience1.txt
+| | |____example.json
+
+| |____utils
+| | |____exec.js
+| | |____fs.js&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;src/&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;These files contain the business logic of the application.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;src/data/selectors.js&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To select values from the user input configuration paths, I used &lt;a href=&quot;https://medium.com/@pearlmcphee/selectors-react-redux-reselect-9ab984688dd4&quot;&gt;selectors&lt;/a&gt;. My motivation was to keep the data model separate from the business logic so that I’d be free to change it and not affect the functions accessing them. I can also process that config lazily, on-demand, instead of doing it ahead of time.&lt;/p&gt;
+&lt;p&gt;I didn’t opt-into using &lt;code class=&quot;language-text&quot;&gt;reselect&lt;/code&gt; because this app is very small. There’s no need to optimize performance with memoization at this point.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;src/example&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Here are example files so you can get started right away! Run &lt;code class=&quot;language-text&quot;&gt;npm run start-dev-ex&lt;/code&gt; to load them in.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;src/utils&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I find that wrapping utilities makes my life easier. When I call the wrappers inside business logic files (like &lt;code class=&quot;language-text&quot;&gt;io-handlers&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;inquirer&lt;/code&gt;), it clearly separates the file-system handling from the app-specific processing.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/contact&quot;&gt;Let me know&lt;/a&gt; if you found the app useful!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Meta Ideas - Generating Creative Content]]></title><description><![CDATA[I’ve been writing down small music (and other) ideas for over 20 years. I’ve generally struggled to store, organize, and retrieve them…]]></description><link>https://www.scraggo.com/meta-ideas-generating-creative-content/</link><guid isPermaLink="false">https://www.scraggo.com/meta-ideas-generating-creative-content/</guid><pubDate>Wed, 03 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been writing down small music (and other) ideas for over 20 years. I’ve generally struggled to store, organize, and retrieve them effectively. As I was going through my archives recently, it dawned on me that there are two fundamental types of ideas: one is “concrete” and the other is “meta.”&lt;/p&gt;
 &lt;p&gt;A concrete idea is specific and actionable. It may be a chord progression like:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A minor for two and a half bars, then a G major chord for half a bar. 132 beats per minute, 4/4 time…&lt;/p&gt;
