@@ -127,7 +127,9 @@ These files contain the business logic of the application.
 
 **src/data/selectors.js**
 
-To select values from the user input configuration paths, I used [selectors](https://medium.com/@pearlmcphee/selectors-react-redux-reselect-9ab984688dd4). I haven't opted into using `reselect` because this app is very small. There's no need to optimize performance with memoization at this point.
+To select values from the user input configuration paths, I used [selectors](https://medium.com/@pearlmcphee/selectors-react-redux-reselect-9ab984688dd4). My motivation was to keep the data model separate from the business logic so that I'd be free to change it and not affect the functions accessing them. I can also process that config lazily, on-demand, instead of doing it ahead of time.
+
+I didn't opt-into using `reselect` because this app is very small. There's no need to optimize performance with memoization at this point.
 
 **src/example**
 
