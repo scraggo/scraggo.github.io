@@ -12,6 +12,8 @@ author: 'Dave Cohen'
 
 In February 2020, I returned to [my bootcamp](https://www.fullstackacademy.com/) to give a tech talk on what I'd do to improve my Capstone project.
 
+`youtube: https://www.youtube.com/watch?v=Dd7FixvoKBw`
+
 > [Download the slides here (PDF)](./VoCode-Presentation-FSA-200218-public.pdf)
 
 I was excited to share what I've learned so far from working on enterprise software for almost 2 years.
@@ -45,11 +47,11 @@ Looking back at this project after a long time was a bit of a shock! Combing thr
 
 I go into full detail on how I'd improve these things in the talk - with code examples and in-depth explanations.
 
-## Check out the slides and the video
+## View the slides and video
 
 > [Download the slides here (PDF)](./VoCode-Presentation-FSA-200218-public.pdf)
-
-(Video)
+>
+> [View on YouTube](https://www.youtube.com/watch?v=Dd7FixvoKBw)
 
 ## Contact me
 
