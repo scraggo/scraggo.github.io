@@ -10,7 +10,7 @@ author: 'Dave Cohen'
 #   - /javascript/2019/03/22/custom-type-checking-isnan.html
 ---
 
-In February 2020, I returned to [my bootcamp](https://www.fullstackacademy.com/) to give a tech talk on what I'd do to improve my Capstone project.
+In February 2020, I returned to [my bootcamp](https://www.fullstackacademy.com/) to give a tech talk on what I'd do to improve my Capstone project. (I also answer some questions from the audience at the end.)
 
 `youtube: https://youtu.be/ffAheUFHT68`
 
