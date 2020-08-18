@@ -10,7 +10,7 @@ author: 'Dave Cohen'
 #   - /javascript/2019/03/22/custom-type-checking-isnan.html
 ---
 
-In February 2020, I returned to [my bootcamp](https://www.fullstackacademy.com/) to give a tech talk on what I'd do to improve my Capstone project. (I also answer some questions from the audience at the end.)
+In February 2020, I returned to [my bootcamp](https://www.fullstackacademy.com/) to give a tech talk on what I'd do to improve my Capstone project. (I also answer career and other questions from the audience at the end.)
 
 `youtube: https://youtu.be/ffAheUFHT68`
 
@@ -18,7 +18,7 @@ In February 2020, I returned to [my bootcamp](https://www.fullstackacademy.com/)
 
 I'm excited to share what I've learned so far from working on enterprise software for almost 2 years.
 
-The talk is a deep dive into the codebase that me and 3 others worked on as our graduating project (the "Capstone") with a perspective shift:
+The talk is a deep dive into the codebase that myself and three others worked on as our graduating project (the "Capstone") with a perspective shift:
 
 **What if we had to refactor this project so that it could be worked on for years to come?**
 
@@ -37,15 +37,15 @@ Vocode is a full-stack Javascript application. We used React, Redux, Postgres, E
 Looking back at this project after a long time was a bit of a shock! Combing through it, these areas stood out to me:
 
 - Documentation was insufficient
-- Interfaces for internal code was lacking
-- Tests did not make definitive enough assertions
-- Browse-ability was lacking, a mixture of domains, callback hell
+- Internal code interfaces were lacking or inconsistent
+- The tests did not make definitive enough assertions, coverage was low
+- Code readability was low - domains were mixed in the same files and there was a lot of unnecessary callback nesting
 - Performance wasn't scrutinized
-- Security was not on our minds
+- Security beyond input-validation was not on our minds
 - Error-handling did not go beyond `console.error`
 - There was no “product” perspective that would intelligently guide the project according to user needs.
 
-I go into full detail on how I'd improve these things in the talk - with code examples and in-depth explanations.
+I go into detail on how I'd improve these things in the talk - with in-depth code examples and explanations.
 
 ## Interested in having me give a talk?
 
