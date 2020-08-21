@@ -1,6 +1,7 @@
 # scraggo.com
 
-- gatsby's readme - see docs/gatsby...
+## Tech
+
 - semantic ui
 - scss
 
@@ -19,3 +20,8 @@ In order to avoid using separate graphQL queries for images, the `clean` script 
 If the 'description' frontmatter field is only used sparsely, the site won't build.
 
 If frontmatter defaults are desired, see <https://stackoverflow.com/questions/45895597/graphql-ignores-some-but-not-all-arbitrarily-assigned-markdown-frontmatter-dat>
+
+## Docs
+
+- to do - [docs/todo.md](docs/todo.md)
+- gatsby's readme - [docs/gatsby-starter-readme.md](docs/gatsby-starter-readme.md)
