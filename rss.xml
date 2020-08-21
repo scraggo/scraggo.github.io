@@ -1,4 +1,134 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 18 Aug 2020 20:05:28 GMT</lastBuildDate><item><title><![CDATA[Tech Talk - How I'd Improve My Capstone Project]]></title><description><![CDATA[In February 2020, I returned to my bootcamp to give a tech talk on what I’d do to improve my Capstone project. (I also answer career and…]]></description><link>https://www.scraggo.com/tech-talk-improving-capstone-project/</link><guid isPermaLink="false">https://www.scraggo.com/tech-talk-improving-capstone-project/</guid><pubDate>Sat, 15 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In February 2020, I returned to &lt;a href=&quot;https://www.fullstackacademy.com/&quot;&gt;my bootcamp&lt;/a&gt; to give a tech talk on what I’d do to improve my Capstone project. (I also answer career and other questions from the audience at the end.)&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 21 Aug 2020 14:41:24 GMT</lastBuildDate><item><title><![CDATA[My love hate relationship with ImmerJS]]></title><description><![CDATA[After having used immutable js for a while, discovering immer js was a breath of fresh air. Where immutable js forces you to learn its…]]></description><link>https://www.scraggo.com/love-hate-immer-js/</link><guid isPermaLink="false">https://www.scraggo.com/love-hate-immer-js/</guid><pubDate>Fri, 21 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;After having used &lt;a href=&quot;https://immutable-js.github.io/immutable-js/docs/#/&quot;&gt;immutable js&lt;/a&gt; for a while, discovering &lt;a href=&quot;https://immerjs.github.io/immer/docs/introduction&quot;&gt;immer js&lt;/a&gt; was a breath of fresh air. Where immutable js forces you to learn its gigantic API, immer js takes advantage of &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy&quot;&gt;ES6 Proxies&lt;/a&gt;. These allow you to modify a “draft” version of an object &lt;em&gt;as if you’re mutating it&lt;/em&gt;, but you’re not! The return of immer’s &lt;code class=&quot;language-text&quot;&gt;produce&lt;/code&gt; function always returns a perfect clone of the draft. &lt;code class=&quot;language-text&quot;&gt;Immer js&lt;/code&gt; also touts:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Winner of the “Breakthrough of the year” React open source award and “Most impactful contribution” JavaScript open source award in 2019.&lt;/p&gt;
+&lt;p&gt;Benefits&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Immutability with normal JavaScript objects, arrays, Sets and Maps. No new APIs to learn!&lt;/li&gt;
+&lt;li&gt;Strongly typed, no string based paths selectors etc.&lt;/li&gt;
+&lt;li&gt;Structural sharing out of the box&lt;/li&gt;
+&lt;li&gt;Object freezing out of the box&lt;/li&gt;
+&lt;li&gt;Deep updates are a breeze&lt;/li&gt;
+&lt;li&gt;Boilerplate reduction. Less noise, more concise code.&lt;/li&gt;
+&lt;li&gt;First class support for patches&lt;/li&gt;
+&lt;li&gt;Small: 3KB gzipped&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Quick Example of Immer in Action&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// the main export of immer is the majority of what you need to know:&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; produce &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;immer&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; baseState &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    todo&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Learn typescript&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    done&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    todo&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Try immer&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    done&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// we use .push and direct assignment to modify the draftState.&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// we don&apos;t even need to return the draftState. The return is implied!&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; nextState &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;produce&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;baseState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;draftState&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  draftState&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; todo&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Tweet about it&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  draftState&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;done &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I was &lt;em&gt;so&lt;/em&gt; excited when I first read about this library. I found an excuse to use it in a big collaborative side-project. It’s a react app that makes heavy use of redux. As we know with both react and redux, one must treat state immutably. &lt;code class=&quot;language-text&quot;&gt;Immer js&lt;/code&gt; handles this exact problem and I don’t need to convert the project to the mentality of &lt;code class=&quot;language-text&quot;&gt;immutable js&lt;/code&gt;, use &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax&quot;&gt;spread re-assignment&lt;/a&gt;, or &lt;a href=&quot;https://lodash.com/docs#cloneDeep&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;lodash&lt;/code&gt; cloneDeep&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;How Immer falls short&lt;/h2&gt;
+&lt;p&gt;While &lt;code class=&quot;language-text&quot;&gt;immer js&lt;/code&gt; touts being simple and intuitive to use, it has a significant learning curve. It has a &lt;a href=&quot;https://immerjs.github.io/immer/docs/pitfalls&quot;&gt;long list of pitfalls&lt;/a&gt; (which makes me suspicious about its usability).&lt;/p&gt;
+&lt;p&gt;Here are a few examples of the shortcomings I’ve ran into:&lt;/p&gt;
+&lt;h3&gt;Error: An immer producer returned a new value &lt;em&gt;and&lt;/em&gt; modified its draft. Either return a new value &lt;em&gt;or&lt;/em&gt; modify the draft&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Immer js&lt;/code&gt; messes with my flow in Redux reducers. I have to be vigilant about where the draft is modified and where I want to return a new object. The error above provides a stack trace that doesn’t point to the problem - it merely points to where the &lt;code class=&quot;language-text&quot;&gt;produce&lt;/code&gt; function containing the culprit is defined:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/af86c48c836b7602f6cbfc1302489ff0/28283/immer-error.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31.14080164439877%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA4ElEQVQY032Q2XbCMAxE89hCCPFaxWuaUP7/DwdJLRwecvow3iRfj2dw8YLSImoLSMUh1YCleFB2Omc+X3hN2fLevWrSJ8p8V3pKjxDWYP0IKgFuJVgBfxNaD7jdK/Z7w/5T0bcF657QpMaiPMPHSQHvmt2Jge7MmwlGHFWPVg1yMeid3VWHuMwIdNUeG0aV8Sdc7eehBuPP+tqFwZGdZobS39epWAaN/GUL6ZvMx+uiuDnSIMMzK9FvLs+115pk+JWMunuHHYEV2LeE7VY0r40ls+S37lnP1S1DxeV/7kQPpteVrr0SSdUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;immer-error.png&quot;
+        title=&quot;immer-error.png&quot;
+        src=&quot;/static/af86c48c836b7602f6cbfc1302489ff0/799d3/immer-error.png&quot;
+        srcset=&quot;/static/af86c48c836b7602f6cbfc1302489ff0/00d96/immer-error.png 148w,
+/static/af86c48c836b7602f6cbfc1302489ff0/0b23c/immer-error.png 295w,
+/static/af86c48c836b7602f6cbfc1302489ff0/799d3/immer-error.png 590w,
+/static/af86c48c836b7602f6cbfc1302489ff0/2a3d6/immer-error.png 885w,
+/static/af86c48c836b7602f6cbfc1302489ff0/ae92f/immer-error.png 1180w,
+/static/af86c48c836b7602f6cbfc1302489ff0/28283/immer-error.png 1946w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;To fix this particular error, I had to move one of the &lt;code class=&quot;language-text&quot;&gt;case&lt;/code&gt; declarations to before where I modify the draft. Before:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;draft&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;error &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;type&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;LOGOUT&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; initialState&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;After:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// immer doesn&apos;t let you return a new state after draft is modified.&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;type &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;LOGOUT&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; initialState&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+draft&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;error &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;type&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;LOGIN&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// etc...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;We can see that after I modify the draft, it’s &lt;em&gt;literally&lt;/em&gt; a point of no-return. We are forced to return the draft and not a new object. This is a buzz-kill, for sure.&lt;/p&gt;
+&lt;h3&gt;Spread re-assignment feels like the past&lt;/h3&gt;
+&lt;p&gt;I’ve found ES6 spread re-assignment to be extremely cool:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;LOGIN_SUCCESS&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;parsed&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// this spreads all the properties received from `parsed` into new state&lt;/span&gt;
+    firebaseData&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;firebaseData&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To conform to the &lt;code class=&quot;language-text&quot;&gt;immer js&lt;/code&gt; mentality, I came up with something that feels “old-school” (not in a good way):&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/**
+ * Immer helper, akin to spread assignment:
+ * @example Instead of { ...obj }, it will be spreadAssign(draft, obj)
+ * @param {Object} draft
+ * @param {Object} obj
+ * @returns {Object} draft modified
+ */&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;spreadAssign&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;draft&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; obj&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  Object&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;entries&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;obj&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;k&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; v&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// eslint-disable-next-line no-param-reassign&lt;/span&gt;
+    draft&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;k&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; v&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; draft&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// Reducer&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;LOGIN_SUCCESS&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  draft&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;firebaseData &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; firebaseData&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;spreadAssign&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;draft&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; parsed&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; draft&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Writing helper functions for &lt;code class=&quot;language-text&quot;&gt;immer js&lt;/code&gt; seems backwards to me.&lt;/p&gt;
+&lt;p&gt;Both this and the previous error bring the learning curve &lt;em&gt;way&lt;/em&gt; up, in my opinion. Finding workarounds (that aren’t documented) instead of having a consistent API, brings usability of this library down.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I’m not going to peel &lt;code class=&quot;language-text&quot;&gt;immer js&lt;/code&gt; out of the codebase I’m working on just yet, but I expect to discover more headaches while continuing to use it. I love &lt;code class=&quot;language-text&quot;&gt;immer js&lt;/code&gt; when it simplifies things, but hate it when it gets in the way.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Have any thoughts on using immer? Please share them with me!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/contact&quot;&gt;Contact me&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tech Talk - How I'd Improve My Capstone Project]]></title><description><![CDATA[In February 2020, I returned to my bootcamp to give a tech talk on what I’d do to improve my Capstone project. (I also answer career and…]]></description><link>https://www.scraggo.com/tech-talk-improving-capstone-project/</link><guid isPermaLink="false">https://www.scraggo.com/tech-talk-improving-capstone-project/</guid><pubDate>Sat, 15 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In February 2020, I returned to &lt;a href=&quot;https://www.fullstackacademy.com/&quot;&gt;my bootcamp&lt;/a&gt; to give a tech talk on what I’d do to improve my Capstone project. (I also answer career and other questions from the audience at the end.)&lt;/p&gt;
 &lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.42857142857143%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div class=&quot;embedVideo-container&quot;&gt; &lt;iframe title src=&quot;https://www.youtube-nocookie.com/embed/ffAheUFHT68?rel=0&quot; class=&quot;embedVideo-iframe&quot; style=&quot;border:0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot; allowfullscreen&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;/e1cdf08e1e834feea9e333ac8a87e0cb/VoCode-Presentation-FSA-200218-public.pdf&quot;&gt;Download the slides here (PDF)&lt;/a&gt;&lt;/p&gt;
