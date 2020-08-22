@@ -7,7 +7,7 @@ tags: ['ImmerJS', 'JavaScript', 'react', 'redux']
 author: 'Dave Cohen'
 ---
 
-After having used [immutable js](https://immutable-js.github.io/immutable-js/docs/#/) for a while, discovering [immer js](https://immerjs.github.io/immer/docs/introduction) was a breath of fresh air. Where immutable js forces you to learn its gigantic API, immer js takes advantage of [ES6 Proxies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy). These allow you to modify a "draft" version of an object _as if you're mutating it_, but you're not! The return of immer's `produce` function always returns a perfect clone of the draft. `Immer js` also touts:
+After having used [immutable js](https://immutable-js.github.io/immutable-js/docs/#/) for a while, discovering [immer js](https://immerjs.github.io/immer/docs/introduction) was a breath of fresh air. Where immutable js forces you to learn its gigantic API, immer js takes advantage of [ES6 Proxies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy). These allow you to modify a "draft" version of an object as if you're mutating it, but _the draft is actually a copy_ so you're not mutating the original! The return of immer's `produce` function always returns a perfect clone of the draft. `Immer js` also touts:
 
 > Winner of the "Breakthrough of the year" React open source award and "Most impactful contribution" JavaScript open source award in 2019.
 >
@@ -51,7 +51,7 @@ I was _so_ excited when I first read about this library. I found an excuse to us
 
 ## How Immer falls short
 
-While `immer js` touts being simple and intuitive to use, it has a significant learning curve. It has a [long list of pitfalls](https://immerjs.github.io/immer/docs/pitfalls) (which makes me suspicious about its usability).
+While `immer js` touts being simple and intuitive to use, it has a significant learning curve. It has a [decent-sized list of pitfalls](https://immerjs.github.io/immer/docs/pitfalls) which makes me a bit suspicious about its usability in a big project.
 
 Here are a few examples of the shortcomings I've ran into:
 
@@ -88,7 +88,7 @@ switch (type) {
 
 We can see that after I modify the draft, it's _literally_ a point of no-return. We are forced to return the draft and not a new object. This is a buzz-kill, for sure.
 
-### Spread re-assignment feels like the past
+### Spread assignment workaround
 
 I've found ES6 spread re-assignment to be extremely cool:
 
@@ -101,7 +101,7 @@ case LOGIN_SUCCESS:
   };
 ```
 
-To conform to the `immer js` mentality, I came up with something that feels "old-school" (not in a good way):
+However, as we saw above, we have to continue to modify state to stay in the `immer js` mentality, so we need a workaround. At first, I came up with something that feels "old-school" (not in a good way):
 
 ```js
 /**
@@ -130,13 +130,23 @@ case LOGIN_SUCCESS: {
 }
 ```
 
-Writing helper functions for `immer js` seems backwards to me.
+Writing helper functions for `immer js` seems backwards to me. Then...I remembered good old [Object.assign()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) which modifies the object passed in as the first argument. I can now change the above to:
 
-Both this and the previous error bring the learning curve _way_ up, in my opinion. Finding workarounds (that aren't documented) instead of having a consistent API, brings usability of this library down.
+```js
+
+// Reducer
+case LOGIN_SUCCESS: {
+  draft.firebaseData = firebaseData;
+  Object.assign(draft, parsed);
+  return draft;
+}
+```
+
+Thankfully, I can delete my `spreadAssign` function which winds up being a subset of `Object.assign`.
 
 ## Conclusion
 
-I'm not going to peel `immer js` out of the codebase I'm working on just yet, but I expect to discover more headaches while continuing to use it. I love `immer js` when it simplifies things, but hate it when it gets in the way.
+Be warned: finding workarounds (that aren't documented) and getting errors related to modifying drafts bring the learning curve of `immer js` up. I'm not going to peel `immer js` out of the codebase I'm working on just yet, but I expect to discover more headaches while continuing to use it. I love `immer js` when it simplifies things, but hate it when it gets in the way.
 
 _Have any thoughts on using immer? Please share them with me!_
 
