@@ -1,8 +1,16 @@
 $dark-grey: rgba(0, 0, 0, 0.87);
 $dark-blue1: #1e70bf;
 
+.icon {
+  display: inline-block;
+  max-height: 16px;
+  margin-right: 8px;
+}
+
 .music-discography-page {
   .feature {
+    margin-bottom: 32px;
+
     .featured-image,
     .featured-image-back {
       display: inline-block;
@@ -12,6 +20,10 @@ $dark-blue1: #1e70bf;
 
     .featured-links {
       margin-top: 8px;
+    }
+
+    .icon {
+      max-height: 24px;
     }
   }
 
@@ -26,27 +38,37 @@ $dark-blue1: #1e70bf;
       border: 1px solid $dark-blue1;
       color: $dark-blue1;
     }
-
-    img {
-      display: inline-block;
-      max-height: 32px;
-      margin-right: 8px;
-    }
   }
 
   .album-link,
   .album-link-small {
     text-decoration: underline;
     padding: 0 4px;
-    vertical-align: top;
   }
 
   // .album-link {
-  //   font-size: 1.2rem;
   // }
 
   .album-link-small {
     font-size: 1rem;
+  }
+
+  .artist-releases {
+    margin-bottom: 24px;
+
+    h4 {
+      font-weight: normal;
+    }
+  }
+
+  .album-li {
+    list-style: none;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    a {
+      font-weight: normal;
+    }
   }
 }
 

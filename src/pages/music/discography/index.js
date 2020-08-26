@@ -14,14 +14,21 @@ const featuredAlbumLinks = solo.albums[0].urls;
 
 const getMusicServiceIcon = serviceName => {
   const filename = serviceName.split(' ')[0].toLowerCase();
-  return <img src={`/music-service-icons/${filename}.png`} alt={serviceName} />;
+  return (
+    <img
+      className="icon"
+      src={`/music-service-icons/${filename}.png`}
+      alt={serviceName}
+    />
+  );
 };
 
 const getLink = (linkData, className) => {
-  const { host, url, useIcon } = linkData;
+  const { host, url, useIcon, useText = true } = linkData;
   return (
     <ExternalLink className={className} key={url} url={url}>
-      {useIcon && getMusicServiceIcon(host)} {host}
+      {useIcon && getMusicServiceIcon(host)}
+      {useText && host}
     </ExternalLink>
   );
 };
@@ -29,18 +36,25 @@ const getLink = (linkData, className) => {
 const getArtistDiscog = artistData => {
   const { artist, albums, urls } = artistData;
   return (
-    <div>
+    <div className="artist-releases">
       <h4>
         {`${artist}'s releases on`}
-        {urls.map(linkData => getLink(linkData, 'album-link'))}
+        {urls.map(linkData =>
+          getLink({ ...linkData, useIcon: true, useText: false }, 'album-link')
+        )}
       </h4>
       <ul>
         {albums.map(album => {
           const { title, urls } = album;
           return (
-            <li>
+            <li className="album-li">
               {title}{' '}
-              {urls.map(linkData => getLink(linkData, 'album-link-small'))}
+              {urls.map(linkData =>
+                getLink(
+                  { ...linkData, useIcon: true, useText: false },
+                  'album-link-small'
+                )
+              )}
             </li>
           );
         })}
@@ -53,6 +67,7 @@ export default () => (
   <Layout className="text-wrapper music-discography-page">
     <SEO title="Music Discography" />
     <div className="feature">
+      <h2>IDENTITY (2020)</h2>
       <img className="featured-image" src={albumImg} alt="scraggo, Identity" />
       <img
         className="featured-image-back"
@@ -68,7 +83,7 @@ export default () => (
         )}
       </div>
     </div>
-    <h1>Discography</h1>
+    <h2>Discography</h2>
     {getArtistDiscog(solo)}
     <h2>Collaborations</h2>
     {collabs.map(getArtistDiscog)}
