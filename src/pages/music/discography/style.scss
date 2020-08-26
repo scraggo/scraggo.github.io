@@ -1,0 +1,64 @@
+$dark-grey: rgba(0, 0, 0, 0.87);
+$dark-blue1: #1e70bf;
+
+.music-discography-page {
+  .feature {
+    .featured-image,
+    .featured-image-back {
+      display: inline-block;
+      margin: auto;
+      width: 50%;
+    }
+
+    .featured-links {
+      margin-top: 8px;
+    }
+  }
+
+  .album-link-button {
+    border: 1px solid $dark-grey;
+    border-radius: 5px;
+    color: $dark-grey;
+    font-size: 1rem;
+    padding: 2px 6px;
+    margin: 0 1px;
+    &:hover {
+      border: 1px solid $dark-blue1;
+      color: $dark-blue1;
+    }
+
+    img {
+      display: inline-block;
+      max-height: 32px;
+      margin-right: 8px;
+    }
+  }
+
+  .album-link,
+  .album-link-small {
+    text-decoration: underline;
+    padding: 0 4px;
+    vertical-align: top;
+  }
+
+  // .album-link {
+  //   font-size: 1.2rem;
+  // }
+
+  .album-link-small {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .music-discography-page {
+    .feature {
+      .featured-image {
+        width: 100%;
+      }
+      .featured-image-back {
+        display: none;
+      }
+    }
+  }
+}
