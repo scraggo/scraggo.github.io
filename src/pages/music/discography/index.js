@@ -4,6 +4,7 @@ import ExternalLink from 'src/components/ExternalLink';
 import Layout from 'src/components/Layout';
 import SEO from 'src/components/SEO';
 
+import analyticsEvents from 'src/data/analytics-events';
 import { solo, collabs } from 'src/data/discography';
 
 import albumImg from './identity-album-cover.png';
@@ -13,12 +14,22 @@ import './style.scss';
 const featuredAlbumLinks = solo.albums.find(album => album.title === 'Identity')
   .urls;
 
+const getServiceShortName = serviceName =>
+  serviceName.split(' ')[0].toLowerCase();
+
+const getWoopra = () => window.woopra;
+
+const trackLinkClick = (eventName, data) => () => {
+  const analytics = getWoopra();
+  if (!analytics) return;
+  analytics.track(eventName, data);
+};
+
 const getMusicServiceIcon = serviceName => {
-  const filename = serviceName.split(' ')[0].toLowerCase();
   return (
     <img
       className="icon"
-      src={`/music-service-icons/${filename}.png`}
+      src={`/music-service-icons/${getServiceShortName(serviceName)}.png`}
       alt={serviceName}
     />
   );
@@ -27,7 +38,15 @@ const getMusicServiceIcon = serviceName => {
 const getLink = (linkData, className) => {
   const { host, url, useIcon, useText = true } = linkData;
   return (
-    <ExternalLink className={className} key={url} url={url}>
+    <ExternalLink
+      className={className}
+      key={url}
+      url={url}
+      onClick={trackLinkClick(analyticsEvents.external_music_link, {
+        host,
+        url,
+      })}
+    >
       {useIcon && getMusicServiceIcon(host)}
       {useText && host}
     </ExternalLink>
@@ -37,7 +56,7 @@ const getLink = (linkData, className) => {
 const getArtistDiscog = artistData => {
   const { artist, albums, urls } = artistData;
   return (
-    <div className="artist-releases">
+    <div className="artist-releases" key={artist}>
       <h4>
         {`${artist}'s releases on`}
         {urls.map(linkData =>
@@ -48,7 +67,7 @@ const getArtistDiscog = artistData => {
         {albums.map(album => {
           const { title, urls } = album;
           return (
-            <li className="album-li">
+            <li className="album-li" key={`${artist}_${title}`}>
               {title}{' '}
               {urls.map(linkData =>
                 getLink(
