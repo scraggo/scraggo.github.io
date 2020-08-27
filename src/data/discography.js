@@ -158,6 +158,10 @@ export const collabs = [
     artist: 'Rapid Dissension',
     urls: [
       {
+        host: 'Beatport',
+        url: 'https://www.beatport.com/artist/rapid-dissension/344071',
+      },
+      {
         host: 'Spotify',
         url: 'https://open.spotify.com/artist/3spwdXr0WfHcxJTZvmFfa4',
       },
@@ -178,10 +182,6 @@ export const collabs = [
         host: 'Amazon',
         url:
           'https://www.amazon.com/s?k=Rapid+Dissension&i=digital-music&search-type=ss&ref=ntt_srch_drd_B00DQKUWYA',
-      },
-      {
-        host: 'Beatport',
-        url: 'https://www.beatport.com/artist/rapid-dissension/344071',
       },
     ],
     albums: [],

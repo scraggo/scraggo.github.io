@@ -10,7 +10,8 @@ import albumImg from './identity-album-cover.png';
 import albumImgBack from './identity-back-cover.png';
 import './style.scss';
 
-const featuredAlbumLinks = solo.albums[0].urls;
+const featuredAlbumLinks = solo.albums.find(album => album.title === 'Identity')
+  .urls;
 
 const getMusicServiceIcon = serviceName => {
   const filename = serviceName.split(' ')[0].toLowerCase();
