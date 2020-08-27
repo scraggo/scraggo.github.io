@@ -36,14 +36,15 @@ const getMusicServiceIcon = serviceName => {
 };
 
 const getLink = (linkData, className) => {
-  const { host, url, useIcon, useText = true } = linkData;
+  const { album, artist, host, url, useIcon, useText = true } = linkData;
   return (
     <ExternalLink
       className={className}
       key={url}
       url={url}
       onClick={trackLinkClick(analyticsEvents.external_music_link, {
-        host,
+        album,
+        artist,
         url,
       })}
     >
@@ -60,7 +61,10 @@ const getArtistDiscog = artistData => {
       <h4>
         {`${artist}'s releases on`}
         {urls.map(linkData =>
-          getLink({ ...linkData, useIcon: true, useText: false }, 'album-link')
+          getLink(
+            { ...linkData, artist, useIcon: true, useText: false },
+            'album-link'
+          )
         )}
       </h4>
       <ul>
@@ -71,7 +75,13 @@ const getArtistDiscog = artistData => {
               {title}{' '}
               {urls.map(linkData =>
                 getLink(
-                  { ...linkData, useIcon: true, useText: false },
+                  {
+                    ...linkData,
+                    artist,
+                    album: title,
+                    useIcon: true,
+                    useText: false,
+                  },
                   'album-link-small'
                 )
               )}
@@ -97,7 +107,12 @@ export default () => (
       <div className="featured-links flex flex-wrap flex-jc-center">
         {featuredAlbumLinks.map(linkData =>
           getLink(
-            { ...linkData, useIcon: true },
+            {
+              ...linkData,
+              artist: 'scraggo',
+              album: 'Identity',
+              useIcon: true,
+            },
             'album-link-button flex flex-ai-center'
           )
         )}
