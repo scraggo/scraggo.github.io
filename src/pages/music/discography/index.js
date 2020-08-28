@@ -29,7 +29,9 @@ const getMusicServiceIcon = serviceName => {
   return (
     <img
       className="icon"
-      src={`/music-service-icons/${getServiceShortName(serviceName)}.png`}
+      src={`/assets/img/music-service-icons/${getServiceShortName(
+        serviceName
+      )}.png`}
       alt={serviceName}
     />
   );
