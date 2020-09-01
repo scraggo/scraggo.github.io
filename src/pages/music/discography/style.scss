@@ -70,6 +70,16 @@ $dark-blue1: #1e70bf;
       font-weight: normal;
     }
   }
+
+  .support-message {
+    border: 1px solid #37378a;
+    padding: 6px;
+    background-color: #fbfbe5;
+    h3,
+    p {
+      font-size: 0.8rem;
+    }
+  }
 }
 
 @media screen and (max-width: 520px) {

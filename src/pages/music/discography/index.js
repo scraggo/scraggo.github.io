@@ -118,6 +118,15 @@ export default () => (
         )}
       </div>
     </div>
+    <div className="support-message">
+      <h3>Why I Support Bandcamp</h3>
+      <p>
+        Bandcamp is the ideal music-sharing platform for a DIY artist. They take
+        20% and pay daily and don't require approvals. The bigger platforms take
+        30-40% and give the artist no control of their music.{' '}
+        <ExternalLink url="https://bandcamp.com/about">Read more</ExternalLink>
+      </p>
+    </div>
     <h2>Discography</h2>
     {getArtistDiscog(solo)}
     <h2>Collaborations</h2>
