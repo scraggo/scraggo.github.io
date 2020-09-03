@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 01 Sep 2020 17:58:44 GMT</lastBuildDate><item><title><![CDATA[My love hate relationship with ImmerJS]]></title><description><![CDATA[After having used immutable js for a while, discovering ImmerJS was a breath of fresh air. Where immutable js forces you to learn its…]]></description><link>https://www.scraggo.com/love-hate-immer-js/</link><guid isPermaLink="false">https://www.scraggo.com/love-hate-immer-js/</guid><pubDate>Fri, 21 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;After having used &lt;a href=&quot;https://immutable-js.github.io/immutable-js/docs/#/&quot;&gt;immutable js&lt;/a&gt; for a while, discovering &lt;a href=&quot;https://immerjs.github.io/immer/docs/introduction&quot;&gt;ImmerJS&lt;/a&gt; was a breath of fresh air. Where immutable js forces you to learn its gigantic API, ImmerJS takes advantage of &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy&quot;&gt;ES6 Proxies&lt;/a&gt;. These allow you to modify a “draft” version of an object as if you’re mutating it, but &lt;em&gt;the draft is actually a copy&lt;/em&gt; so you’re not mutating the original! The return of immer’s &lt;code class=&quot;language-text&quot;&gt;produce&lt;/code&gt; function always returns a perfect clone of the draft. ImmerJS also touts:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 03 Sep 2020 23:07:57 GMT</lastBuildDate><item><title><![CDATA[My love hate relationship with ImmerJS]]></title><description><![CDATA[After having used immutable js for a while, discovering ImmerJS was a breath of fresh air. Where immutable js forces you to learn its…]]></description><link>https://www.scraggo.com/love-hate-immer-js/</link><guid isPermaLink="false">https://www.scraggo.com/love-hate-immer-js/</guid><pubDate>Fri, 21 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;After having used &lt;a href=&quot;https://immutable-js.github.io/immutable-js/docs/#/&quot;&gt;immutable js&lt;/a&gt; for a while, discovering &lt;a href=&quot;https://immerjs.github.io/immer/docs/introduction&quot;&gt;ImmerJS&lt;/a&gt; was a breath of fresh air. Where immutable js forces you to learn its gigantic API, ImmerJS takes advantage of &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy&quot;&gt;ES6 Proxies&lt;/a&gt;. These allow you to modify a “draft” version of an object as if you’re mutating it, but &lt;em&gt;the draft is actually a copy&lt;/em&gt; so you’re not mutating the original! The return of immer’s &lt;code class=&quot;language-text&quot;&gt;produce&lt;/code&gt; function always returns a perfect clone of the draft. ImmerJS also touts:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Winner of the “Breakthrough of the year” React open source award and “Most impactful contribution” JavaScript open source award in 2019.&lt;/p&gt;
 &lt;p&gt;Benefits&lt;/p&gt;
@@ -952,7 +952,8 @@ is&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&
 &lt;/ul&gt;
 &lt;h2&gt;These exercises are really worth doing&lt;/h2&gt;
 &lt;p&gt;During the process of working on these exercises, it dawned on me just how awesome it would’ve been if I had set up these guideposts for myself in 2010.&lt;/p&gt;
-&lt;p&gt;I can’t recommend doing these exercises enough. Check them out 👉 &lt;a href=&quot;https://www.marieforleo.com/2019/12/decade-in-review-10-year-plan/&quot;&gt;https://www.marieforleo.com/2019/12/decade-in-review-10-year-plan/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Squash All Commits Related to a Single Issue into a Single Commit]]></title><description><![CDATA[Previously, I wrote a guide on formatting commit messages. I’ve had the opportunity to work on a codebase that requires squashing commits…]]></description><link>https://www.scraggo.com/how-to-squash-commits/</link><guid isPermaLink="false">https://www.scraggo.com/how-to-squash-commits/</guid><pubDate>Sat, 21 Dec 2019 00:15:31 GMT</pubDate><content:encoded>&lt;p&gt;Previously, I wrote a &lt;a href=&quot;/tech/git-commit-format-squash&quot;&gt;guide on formatting commit messages&lt;/a&gt;. I’ve had the opportunity to work on a codebase that requires squashing commits into a single commit. This post is a reliable guide to squashing.&lt;/p&gt;
+&lt;p&gt;I can’t recommend doing these exercises enough. Check them out 👉 &lt;a href=&quot;https://www.marieforleo.com/2019/12/decade-in-review-10-year-plan/&quot;&gt;https://www.marieforleo.com/2019/12/decade-in-review-10-year-plan/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Squash All Commits Related to a Single Issue into a Single Commit]]></title><description><![CDATA[Updated Sep 3, 2020 This article outlines how to use the “squash” feature of an interactive . What does “squashing” do? It allows you to…]]></description><link>https://www.scraggo.com/how-to-squash-commits/</link><guid isPermaLink="false">https://www.scraggo.com/how-to-squash-commits/</guid><pubDate>Sat, 21 Dec 2019 00:15:31 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;Updated Sep 3, 2020&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This article outlines how to use the “squash” feature of an interactive &lt;code class=&quot;language-text&quot;&gt;git rebase&lt;/code&gt;.&lt;/p&gt;
 &lt;h2&gt;What does “squashing” do?&lt;/h2&gt;
 &lt;p&gt;It allows you to take changes that are spread amongst multiple commits and consolidate them into one.&lt;/p&gt;
 &lt;h2&gt;Why should one consider squashing commits?&lt;/h2&gt;
@@ -960,42 +961,61 @@ is&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&
 &lt;li&gt;A clean history makes tracking changes to a large codebase across time much easier.&lt;/li&gt;
 &lt;li&gt;Many commits are small and unimportant in the grand scheme to keep as standalone commits. Example: “Fix documentation spelling mistake”&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;An excellent way to group commits is to prefix each one with a ticket or issue number:&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;[JIRA-535] my commit message&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;When you look at your codebase, you’ll see clean delineations of which ticket belongs to each commit.&lt;/p&gt;
-&lt;p&gt;After the changes are reviewed, before merging, imagine having one ticket-prefixed commit and a finely-pruned commit message:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;[JIRA-535] Fix that crazy bug:
-
-- break parsing function into smaller functions
-- fix regex error in object file
-- test that crazy bug case&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Each commit on master will relate to a ticket:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;[JIRA-523] Fix that crazy bug:
-[JIRA-535] Put in UI feature:
-[JIRA-514] Get data from API:
-[JIRA-125] Upgrade dependency:
-[JIRA-567] Homepage accessibility:
-...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This organization is worth striving for!&lt;/p&gt;
 &lt;h2&gt;How to squash commits&lt;/h2&gt;
 &lt;p&gt;To squash multiple commits into one in the branch you’re on, do the following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Run &lt;code class=&quot;language-text&quot;&gt;git log&lt;/code&gt; to determine how many commits to squash. Let’s assume 4.&lt;/li&gt;
 &lt;li&gt;Run &lt;code class=&quot;language-text&quot;&gt;git rebase -i HEAD~4&lt;/code&gt; (with 4 being the number of commits)&lt;/li&gt;
 &lt;li&gt;OR&lt;/li&gt;
-&lt;li&gt;Run &lt;code class=&quot;language-text&quot;&gt;git rebase -i [SHA]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Run &lt;code class=&quot;language-text&quot;&gt;git rebase -i [SHA]&lt;/code&gt; (where &lt;code class=&quot;language-text&quot;&gt;[SHA]&lt;/code&gt; is the commit &lt;em&gt;after&lt;/em&gt; the last one you want to squash. *)&lt;/li&gt;
 &lt;li&gt;You should see a list of commits, each commit starting with the word “pick”.&lt;/li&gt;
-&lt;li&gt;Make sure the first commit says “pick” and change the rest from “pick” to “squash”. This will squash each commit into the previous commit, which will continue until every commit is squashed into the first commit.&lt;/li&gt;
+&lt;li&gt;Make sure the topmost, first commit says “pick” and change the rest below from “pick” to “squash”. This will squash each commit into the previous commit, which will continue until every commit is squashed into the first commit.&lt;/li&gt;
 &lt;li&gt;Save and close the editor.&lt;/li&gt;
 &lt;li&gt;It will give you the opportunity to change the commit message. What you see is a single message containing all of the commit messages. Edit these as you wish.&lt;/li&gt;
 &lt;li&gt;Save and close the editor again.&lt;/li&gt;
-&lt;li&gt;Important: If you’ve already pushed commits to origin, and then squash them locally, you will have to force the push to your branch. - &lt;code class=&quot;language-text&quot;&gt;git push origin branch-name --force&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Important: If you’ve already pushed commits to origin, and then squash them locally, you will have to force the push to your branch. - &lt;code class=&quot;language-text&quot;&gt;git push origin branch-name --force&lt;/code&gt; (note that you can use &lt;code class=&quot;language-text&quot;&gt;-f&lt;/code&gt; instead of &lt;code class=&quot;language-text&quot;&gt;--force&lt;/code&gt;.)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;* &lt;em&gt;What if you want to squash and include the first commit?&lt;/em&gt; use &lt;code class=&quot;language-text&quot;&gt;git rebase -i --root&lt;/code&gt;. &lt;a href=&quot;https://git-scm.com/docs/git-rebase#Documentation/git-rebase.txt---root&quot;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Let’s go over a complete example.&lt;/p&gt;
+&lt;h2&gt;Process overview&lt;/h2&gt;
+&lt;p&gt;We finished some feature branch work that we want to merge into master. We accidentally left out the ticket number, the messages aren’t so clear, and we don’t need the error fixing work in its own commit:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;$ git log
+
+commit 111111111111
+    improve parsing function
+commit 222222222222
+    fix regex error in object file
+commit 333333333333
+    test that crazy bug case
+commit 444444444444
+    etc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;We put in a pull request, get it approved and decide to squash all the commits into one. We run the command &lt;code class=&quot;language-text&quot;&gt;git rebase -i 444444444444&lt;/code&gt; at our terminal.&lt;/p&gt;
+&lt;p&gt;After going through the whole process outlined above, our result commit is:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;[JIRA-535] Fix that crazy bug:
+
+- break parsing function into smaller functions
+- test that crazy bug case&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;We can breathe easier; the messaging in this single commit will help future developers understand and find the work more easily.&lt;/p&gt;
+&lt;p&gt;Now, imagine looking at this tidy commit list on the master branch:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;[JIRA-523] Fix that crazy bug:
+[JIRA-535] Put in UI feature:
+[JIRA-514] Get data from API:
+[JIRA-125] Upgrade dependency:
+[JIRA-567] Homepage accessibility:
+...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Happy squashing 😁&lt;/p&gt;
+&lt;h3&gt;Related posts&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;/git-commit-format-squash&quot;&gt;Formatting commit messages with Conventional Commits&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Resources&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.carbonfive.com/2017/08/28/always-squash-and-rebase-your-git-commits/&quot;&gt;https://blog.carbonfive.com/2017/08/28/always-squash-and-rebase-your-git-commits/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/todotxt/todo.txt-android/wiki/squash-all-commits-related-to-a-single-issue-into-a-single-commit&quot;&gt;https://github.com/todotxt/todo.txt-android/wiki/squash-all-commits-related-to-a-single-issue-into-a-single-commit&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/wprig/wprig/wiki/How-to-squash-commits&quot;&gt;https://github.com/wprig/wprig/wiki/How-to-squash-commits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/2119480/edit-the-root-commit-in-git&quot;&gt;https://stackoverflow.com/questions/2119480/edit-the-root-commit-in-git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@slamflipstrom/a-beginners-guide-to-squashing-commits-with-git-rebase-8185cf6e62ec&quot;&gt;A Beginner’s Guide to Squashing Commits with Git Rebase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@gitudaniel/how-to-squash-multiple-commits-in-git-58c22387c4ce&quot;&gt;How to squash multiple commits in git – Daniel Gitu – Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.devroom.io/2011/07/05/git-squash-your-latests-commits-into-one/&quot;&gt;Git: Squash your latests commits into one - ariejan de vroom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit&quot;&gt;Squash All Commits Related to a Single Issue into a Single Commit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;How to set up Visual Studio Code as your git editor&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/docs/editor/versioncontrol#_vs-code-as-git-editor&quot;&gt;https://code.visualstudio.com/docs/editor/versioncontrol#_vs-code-as-git-editor&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About Songmind Studios]]></title><description><![CDATA[In 2016, I decided to start my own brand of music education. I took the role of music coach, agent, and collaborator. The student and I…]]></description><link>https://www.scraggo.com/about-songmind-studios/</link><guid isPermaLink="false">https://www.scraggo.com/about-songmind-studios/</guid><pubDate>Fri, 20 Dec 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In 2016, I decided to start my own brand of music education. I took the role of music coach, agent, and collaborator. The student and I would write and record music together to integrate learning and creativity in a holistic way.&lt;/p&gt;
@@ -1445,19 +1465,10 @@ feat(blog): add comment section&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;li&gt;style&lt;/li&gt;
 &lt;li&gt;test&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;Want to edit your commit messages before you do a pull request? Squash your commits!&lt;/p&gt;
-&lt;p&gt;Here’s &lt;a href=&quot;/tech/how-to-squash-commits&quot;&gt;my guide&lt;/a&gt; on squashing commits.&lt;/p&gt;
-&lt;p&gt;Here are some others in case you want to learn more:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@slamflipstrom/a-beginners-guide-to-squashing-commits-with-git-rebase-8185cf6e62ec&quot;&gt;A Beginner’s Guide to Squashing Commits with Git Rebase&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@gitudaniel/how-to-squash-multiple-commits-in-git-58c22387c4ce&quot;&gt;How to squash multiple commits in git – Daniel Gitu – Medium&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.devroom.io/2011/07/05/git-squash-your-latests-commits-into-one/&quot;&gt;Git: Squash your latests commits into one - ariejan de vroom&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit&quot;&gt;Squash All Commits Related to a Single Issue into a Single Commit&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;In a nutshell, use git rebase the branch you’re on and pick, edit, or squash the commits interactively.&lt;/p&gt;
-&lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;The conventional commit format is definitely worth trying for both team and personal projects.&lt;/p&gt;
+&lt;h2&gt;Squashing commits&lt;/h2&gt;
+&lt;p&gt;Want to edit your commit messages before you do a pull request? Squash your commits!&lt;/p&gt;
+&lt;p&gt;Here’s &lt;a href=&quot;/how-to-squash-commits&quot;&gt;my guide on how to do it&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Related posts&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;/tech/code-style-guide&quot;&gt;Using a Code Style Guide to Enforce Team Best Practices&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to prevent circular dependencies]]></title><description><![CDATA[Some errors are kind of mysterious. The first time I got “‘myFunction’ is not a function” type errors, I was at a loss for a few hours…]]></description><link>https://www.scraggo.com/circular-dependencies-bug/</link><guid isPermaLink="false">https://www.scraggo.com/circular-dependencies-bug/</guid><pubDate>Sat, 23 Mar 2019 14:15:31 GMT</pubDate><content:encoded>&lt;p&gt;Some errors are kind of mysterious. The first time I got “‘myFunction’ is not a function” type errors, I was at a loss for a few hours. Logging out the functions from my require statements came back as &lt;code class=&quot;language-text&quot;&gt;{}&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;undefined&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;What I learned, TL;DR - don’t import file ‘a’ into file ‘b’ AND file ‘b’ into file ‘a’. That’s an example of a “circular dependency.”&lt;/p&gt;
