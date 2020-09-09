@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 03 Sep 2020 23:07:57 GMT</lastBuildDate><item><title><![CDATA[My love hate relationship with ImmerJS]]></title><description><![CDATA[After having used immutable js for a while, discovering ImmerJS was a breath of fresh air. Where immutable js forces you to learn its…]]></description><link>https://www.scraggo.com/love-hate-immer-js/</link><guid isPermaLink="false">https://www.scraggo.com/love-hate-immer-js/</guid><pubDate>Fri, 21 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;After having used &lt;a href=&quot;https://immutable-js.github.io/immutable-js/docs/#/&quot;&gt;immutable js&lt;/a&gt; for a while, discovering &lt;a href=&quot;https://immerjs.github.io/immer/docs/introduction&quot;&gt;ImmerJS&lt;/a&gt; was a breath of fresh air. Where immutable js forces you to learn its gigantic API, ImmerJS takes advantage of &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy&quot;&gt;ES6 Proxies&lt;/a&gt;. These allow you to modify a “draft” version of an object as if you’re mutating it, but &lt;em&gt;the draft is actually a copy&lt;/em&gt; so you’re not mutating the original! The return of immer’s &lt;code class=&quot;language-text&quot;&gt;produce&lt;/code&gt; function always returns a perfect clone of the draft. ImmerJS also touts:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 09 Sep 2020 21:56:36 GMT</lastBuildDate><item><title><![CDATA[My love hate relationship with ImmerJS]]></title><description><![CDATA[After having used immutable js for a while, discovering ImmerJS was a breath of fresh air. Where immutable js forces you to learn its…]]></description><link>https://www.scraggo.com/love-hate-immer-js/</link><guid isPermaLink="false">https://www.scraggo.com/love-hate-immer-js/</guid><pubDate>Fri, 21 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;After having used &lt;a href=&quot;https://immutable-js.github.io/immutable-js/docs/#/&quot;&gt;immutable js&lt;/a&gt; for a while, discovering &lt;a href=&quot;https://immerjs.github.io/immer/docs/introduction&quot;&gt;ImmerJS&lt;/a&gt; was a breath of fresh air. Where immutable js forces you to learn its gigantic API, ImmerJS takes advantage of &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy&quot;&gt;ES6 Proxies&lt;/a&gt;. These allow you to modify a “draft” version of an object as if you’re mutating it, but &lt;em&gt;the draft is actually a copy&lt;/em&gt; so you’re not mutating the original! The return of immer’s &lt;code class=&quot;language-text&quot;&gt;produce&lt;/code&gt; function always returns a perfect clone of the draft. ImmerJS also touts:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Winner of the “Breakthrough of the year” React open source award and “Most impactful contribution” JavaScript open source award in 2019.&lt;/p&gt;
 &lt;p&gt;Benefits&lt;/p&gt;
@@ -547,7 +547,7 @@ draft&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;error &lt;spa
 &lt;li&gt;Traditional Forms: Binary, Ternary, Rondo, Theme+Variations, Sonata, Fugue, Passacaglia, etc&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Others’ Meta Ideas&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Generating Ideas, in general&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Generating Ideas, in general&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.theemotionmachine.com/how-to-build-a-creative-mind-that-will-never-run-out-of-new-ideas/&quot;&gt;How to Build a Creative Mind That Will Never Run Out of New Ideas&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.mindtools.com/pages/article/newCT_88.htm&quot;&gt;New Ideas - Strategies and Techniques - Creativity Tools From MindTools.com&lt;/a&gt;&lt;/li&gt;
@@ -560,7 +560,7 @@ draft&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;error &lt;spa
 &lt;li&gt;&lt;a href=&quot;https://sivers.org/book/HowToFail&quot;&gt;How to Fail at Almost Everything and Still Win Big - by Scott Adams | Derek Sivers&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://sivers.org/book/ToolsTitans&quot;&gt;Tools of Titans - by Tim Ferriss | Derek Sivers&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Music&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Music Resources&lt;/h3&gt;
 &lt;p&gt;Many famous composers and improvisors have written about their systems of idea generation. Here are some that have struck me in particular, but there are treasure troves of interviews, articles, books, and videos that can be sources of inspiration:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://dokumen.site/download/variation-techniques-for-composers-and-improvisors-a5b39ef889e368&quot;&gt;Variation Techniques for Composers and Improvisors - 2002 - Larry J. Solomon&lt;/a&gt;&lt;/li&gt;
@@ -572,7 +572,13 @@ draft&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;error &lt;spa
 &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Mode_of_limited_transposition&quot;&gt;Mode of limited transposition (Olivier Messiaen) - Wikipedia&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.thejazzpianosite.com/jazz-piano-lessons/jazz-improvisation/approaches-to-improvisation/&quot;&gt;Approaches to Improvisation - The Jazz Piano Site&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Brian Eno on Creativity&lt;/p&gt;
+&lt;h4&gt;Paul Simon on Songwriting&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.paul-simon.info/PHP/showarticle.php?id=44&amp;#x26;kategorie=1&quot;&gt;Paul Simon - Paul Simon offers some advice about song writing -&gt; Making Music (1983) by George Martin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My favorite passage:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“I have gone through different phases in my music writing. There was a time when I used a little exercise - incorporating all of the 12 notes in the chromatic scale - to get me going. In serial, or 12-tone, writing the writer had to use all of the notes before he could repeat a note, so the centre key was blown away. but what I was doing was more for the fun of it, I got the idea from Carlos Jobim. I used to analyze his music, and one day I realized that he was using every note in the scale.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;Brian Eno on Creativity&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://99u.adobe.com/articles/7034/developing-your-creative-practice-tips-from-brian-eno&quot;&gt;Developing Your Creative Practice: Tips from Brian Eno - Adobe 99U&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
@@ -583,7 +589,7 @@ draft&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;error &lt;spa
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Thinking Visually&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Thinking Visually&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLWDYqT4IqXGzXs2oDJ4YRCNAFPmfF_mj1&quot;&gt;Dan Roam Visual thinking Vivid - YouTube&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
