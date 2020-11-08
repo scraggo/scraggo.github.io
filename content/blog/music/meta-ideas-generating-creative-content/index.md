@@ -212,7 +212,7 @@ Form
 
 ## Others' Meta Ideas
 
-**Generating Ideas, in general**
+### Generating Ideas, in general
 
 - [How to Build a Creative Mind That Will Never Run Out of New Ideas](http://www.theemotionmachine.com/how-to-build-a-creative-mind-that-will-never-run-out-of-new-ideas/)
 - [New Ideas - Strategies and Techniques - Creativity Tools From MindTools.com](https://www.mindtools.com/pages/article/newCT_88.htm)
@@ -225,7 +225,7 @@ Form
 - [How to Fail at Almost Everything and Still Win Big - by Scott Adams | Derek Sivers](https://sivers.org/book/HowToFail)
 - [Tools of Titans - by Tim Ferriss | Derek Sivers](https://sivers.org/book/ToolsTitans)
 
-**Music**
+### Music Resources
 
 Many famous composers and improvisors have written about their systems of idea generation. Here are some that have struck me in particular, but there are treasure troves of interviews, articles, books, and videos that can be sources of inspiration:
 
@@ -238,14 +238,22 @@ Many famous composers and improvisors have written about their systems of idea g
 - [Mode of limited transposition (Olivier Messiaen) - Wikipedia](https://en.wikipedia.org/wiki/Mode_of_limited_transposition)
 - [Approaches to Improvisation - The Jazz Piano Site](https://www.thejazzpianosite.com/jazz-piano-lessons/jazz-improvisation/approaches-to-improvisation/)
 
-Brian Eno on Creativity
+#### Paul Simon on Songwriting
+
+[Paul Simon - Paul Simon offers some advice about song writing -> Making Music (1983) by George Martin](https://www.paul-simon.info/PHP/showarticle.php?id=44&kategorie=1)
+
+My favorite passage:
+
+> "I have gone through different phases in my music writing. There was a time when I used a little exercise - incorporating all of the 12 notes in the chromatic scale - to get me going. In serial, or 12-tone, writing the writer had to use all of the notes before he could repeat a note, so the centre key was blown away. but what I was doing was more for the fun of it, I got the idea from Carlos Jobim. I used to analyze his music, and one day I realized that he was using every note in the scale."
+
+#### Brian Eno on Creativity
 
 - [Developing Your Creative Practice: Tips from Brian Eno - Adobe 99U](https://99u.adobe.com/articles/7034/developing-your-creative-practice-tips-from-brian-eno)
 - Oblique Strategies (subtitled Over One Hundred Worthwhile Dilemmas) is a card-based method for promoting creativity jointly created by Brian Eno and Peter Schmidt, first published in 1975. Each card contains a gnomic suggestion, aphorism or remark which can be used to break a deadlock or dilemma situation. A few are specific to music composition; others are more general.
   - <https://en.wikipedia.org/wiki/Oblique_Strategies>
   - <http://stoney.sb.org/eno/oblique.html>
 
-**Thinking Visually**
+### Thinking Visually
 
 - [Dan Roam Visual thinking Vivid - YouTube](https://www.youtube.com/playlist?list=PLWDYqT4IqXGzXs2oDJ4YRCNAFPmfF_mj1)
 

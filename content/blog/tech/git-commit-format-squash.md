@@ -48,27 +48,13 @@ Common types:
 - style
 - test
 
----
+The conventional commit format is definitely worth trying for both team and personal projects.
+
+## Squashing commits
 
 Want to edit your commit messages before you do a pull request? Squash your commits!
 
-Here's [my guide](/tech/how-to-squash-commits) on squashing commits.
-
-Here are some others in case you want to learn more:
-
-> [A Beginner’s Guide to Squashing Commits with Git Rebase](https://medium.com/@slamflipstrom/a-beginners-guide-to-squashing-commits-with-git-rebase-8185cf6e62ec)
->
-> [How to squash multiple commits in git – Daniel Gitu – Medium](https://medium.com/@gitudaniel/how-to-squash-multiple-commits-in-git-58c22387c4ce)
->
-> [Git: Squash your latests commits into one - ariejan de vroom](https://www.devroom.io/2011/07/05/git-squash-your-latests-commits-into-one/)
->
-> [Squash All Commits Related to a Single Issue into a Single Commit](https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit)
-
-In a nutshell, use git rebase the branch you're on and pick, edit, or squash the commits interactively.
-
-## Conclusion
-
-The conventional commit format is definitely worth trying for both team and personal projects.
+Here's [my guide on how to do it](/how-to-squash-commits).
 
 ## Related posts
 
