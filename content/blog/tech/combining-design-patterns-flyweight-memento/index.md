@@ -69,6 +69,25 @@ Here's my summary of the pattern's affordances, properties, and methods:
 
 ### How the Memento pattern works
 
+### **Behavioral - Memento**
+
+"The [Memento pattern](https://refactoring.guru/design-patterns/memento) is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation."
+
+Here's my summary:
+
+- Common Problem Scenario - You’d like to add an undo/redo stack to your application. The objects you want to save have private state fields, yet you need access to them.
+- Terminology -
+  - `A` - "Originator" object that holds state. `A.state`, `A.save()`, `A.restore()`
+  - `B` - "Memento" object that contains `A`’s state and grants privileged access only to `A`. `B.state` (contains `A.state`), `B.getState()` -> a public getter for a selected state property
+  - `C` - "Caretaker" class that uses `B`’s limited interface to create a stack/history. `C.history` is a stack of `B`s. Contains `A`. `C.undo` -> calls `A.restore` of a previous `B`.
+- Change Dimensions / Scalability - We can create as many `B`s as needed, as long as we’re mindful of performance.
+- Couplings - Highly coupled objects. `B` necessarily mirrors `A`. `C` contains both `A` and a stack of `B`.
+- Communication - We’ve separated concerns by creating a separate `B` object and removing the need for `A` to handle the history stack.
+  - Access Control / Encapsulation - The client can’t tamper with `B`.
+- Performance - If the stack becomes too large or the state stored in `B` is large, performance can be affected adversely.
+
+For similarities to other patterns, the UML diagram, and more, visit [Memento pattern](https://refactoring.guru/design-patterns/memento).
+
 ## Combination walk-through
 
 How they work together to solve one problem
