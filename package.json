@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "clean": "gatsby clean && npm run task:copy",
-    "deploy": "npm run clean && gatsby build && gh-pages -d public -b master",
+    "clean": "gatsby clean",
+    "deploy": "npm run clean && npm run task:copy && gatsby build && gh-pages -d public -b master",
     "develop": "gatsby develop --port=8080",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

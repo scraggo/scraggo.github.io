@@ -6,14 +6,16 @@ set -e
 
 ROOT="."
 PUBLIC="$ROOT/public"
-SOURCE_ASSETS="$ROOT/content/assets/site"
 SOURCE_CNAME="$ROOT/CNAME"
-DEST_ASSETS="$PUBLIC/assets"
+# SOURCE_ASSETS="$ROOT/content/assets/site"
+# DEST_ASSETS="$PUBLIC/assets"
 
 # Handle assets
-echo "copying assets..."
-mkdir -p $DEST_ASSETS && cp -r $SOURCE_ASSETS $DEST_ASSETS
+# echo "copying assets..."
+# mkdir -p $DEST_ASSETS && cp -r $SOURCE_ASSETS $DEST_ASSETS
 
 # Handle CNAME
 echo "copying CNAME..."
-cp $SOURCE_CNAME $PUBLIC
+mkdir public || echo ""
+cp $SOURCE_CNAME "$PUBLIC/CNAME"
+echo "copy completed."
