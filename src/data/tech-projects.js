@@ -1,3 +1,8 @@
+/**
+ * @typedef {Object} ProjectData
+ * @property {string} ProjectData.imgSrc -> resolves with GraphQL
+ */
+
 const myProjects = [
   {
     title: 'Random Music Generators',
