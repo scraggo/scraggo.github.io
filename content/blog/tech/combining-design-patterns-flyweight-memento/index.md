@@ -39,7 +39,7 @@ I created minimal a slides presentation app where both of these concerns need to
 Disclaimers:
 
 - This app doesn't have a user interface - I've only included _models_ containing the underlying logic for the user interface that could be implemented later.
-- Details that don't illustrate the core points of combining these two design patterns aren't included.
+- Some details are omitted - ones that don't illustrate the core points of combining these two design patterns.
 
 ## How do the patterns work separately?
 
@@ -59,11 +59,11 @@ Every design pattern is a tool-kit that affords the developer certain advantages
 
 ### How the Flyweight pattern works
 
-The [Flyweight pattern](https://refactoring.guru/design-patterns/flyweight) greatly reduces RAM usage for objects that are used repeatedly throughout an application. Each object usage has a _shared_ (intrinsic) state and (optionally) a _unique_ (extrinsic) state. The flyweight intelligently caches the shared state and allows operations that involve both the unique and shared states of an object.
+The [Flyweight pattern](https://refactoring.guru/design-patterns/flyweight) greatly reduces RAM usage for objects that are used repeatedly throughout an application. Each object usage has a _shared_ (intrinsic) state and (optionally) a _unique_ (extrinsic) state. The flyweight caches the shared states by key and allows operations that involve both the unique and shared states of an object.
 
 I very much encourage you to read through [Flyweight pattern | Refactoring Guru](https://refactoring.guru/design-patterns/flyweight). It contains a lot more information, including the UML diagram.
 
-Here's my summary of the pattern's affordances, properties, and methods:
+Here's a summary of the pattern's affordances, properties, and methods:
 
 - Common Problem Scenario - Your app needs to create lots of unique objects that share some common elements. Your program crashes because these objects are taking up a lot of memory.
 - Terminology
@@ -75,13 +75,14 @@ Here's my summary of the pattern's affordances, properties, and methods:
 - Communication - The client only interacts with `B` by calling `B`’s constructor with desired properties. `B` calls `C` to get an `A`.
   - Access Control / Encapsulation - `A` can’t be mutated, while `B`’s unique state can be
 - Performance - We take advantage of caching and using objects by reference instead of value
-- Similarities to other patterns - see [Flyweight pattern](https://refactoring.guru/design-patterns/flyweight)
+
+For similarities to other patterns, the UML diagram, and more, visit [Flyweight pattern](https://refactoring.guru/design-patterns/flyweight)
 
 ### How the Memento pattern works
 
 "The [Memento pattern](https://refactoring.guru/design-patterns/memento) is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation." [source](https://refactoring.guru/design-patterns/memento)
 
-Here's my summary:
+Here's a summary of the pattern's affordances, properties, and methods:
 
 - Common Problem Scenario - You’d like to add an undo/redo stack to your application. The objects you want to save have private state fields, yet you need access to them.
 - Terminology -
@@ -103,17 +104,14 @@ We briefly mentioned that the Flyweight and Memento patterns can work together t
 ### Interfaces
 
 ```ts
-// The image Flyweight
+// The image Flyweight - its shared state
 interface ImageShared { ... };
 
 // The unique state of the image
 interface ImageUnique { ... };
 
-// The complete context for the image
-interface Image { ... };
-
-// The container for the Image that can be rendered in a slide
-interface SlideImage { ... };
+// The necessary context to back up the state of an image
+interface ImageBackupState { ... }
 
 // The factory object which stores the image Flyweights
 interface ImageFlyweights { ... };
@@ -125,173 +123,128 @@ interface Memento { ... };
 interface SlideMemento { ... };
 ```
 
-TypeScript note on the `Image` interface - I wanted to extend the `ImageShared` interface with the `ImageUnique` interface. I didn't want to get too tricky with TypeScript, so I merely copy/pasted the properties I wanted them both to have. FIXED <https://www.logicbig.com/tutorials/misc/typescript/interface-extending-interfaces.html>
+[See the full source code](https://github.com/scraggo/design-patterns-refactoring-guru)
 
-### Classes
+#### About interfaces
 
-ConcreteMemento
+To quote <https://www.typescriptlang.org/docs/handbook/interfaces.html>:
+
+> One of TypeScript’s core principles is that type checking focuses on the shape that values have. This is sometimes called “duck typing” or “structural subtyping”. In TypeScript, interfaces fill the role of naming these types, and are a powerful way of defining contracts within your code as well as contracts with code outside of your project.
+
+This means that we can define the _shape_ of objects - which keys they must have, the types of their corresponding values, which properties are optional/read-only, and more.
+
+This gels perfectly with object-oriented thinking - instead of passing objects around that don't have a pre-defined interface, we're treating every data structure as a meaningful entity.
+
+Let's take the first interface in our app as an example, `ImageShared`. Without interfaces, functions and other consumers would have to specify all the pieces in the object for the shared state it might need:
 
 ```ts
-class ConcreteMemento implements Memento { ... }
+function myFunction(img: { data: string, name: string } ) { ... }
 ```
 
-generic, not too interesting...
-
-ImageFlyweight
+Instead, let's encapsulate this `img` parameter in an interface:
 
 ```ts
-class ImageFlyweight { ... }
+interface ImageShared {
+  data: string;
+  name: string;
+}
 ```
 
-`toHTML` method.
+Now it's type can be easily referred to in any function or consumer:
 
 ```ts
 class ImageFlyweightFactory {
-  private flyweights: ImageFlyweights = {};
-
-  constructor(initialFlyweights: ImageShared[]) {
-    Object.values(initialFlyweights).forEach(state => {
-      this.flyweights[this.getKey(state)] = new ImageFlyweight(state);
-    });
-  }
-
+  // In a function's parameter signature:
   private getKey(state: ImageShared): string {
-    const { name, size } = state;
-    return [name, size].join('_');
+    return state.name;
   }
+}
 
-  public getFlyweight(sharedState: ImageShared): ImageFlyweight {
+// As a subset of another interface:
+interface ImageBackupState {
+  sharedState: ImageShared; // <--
+  uniqueState: ImageUnique;
+}
+```
+
+The `Memento` interface was _implemented_ as a class:
+
+```ts
+export interface Memento {
+  getState(): object;
+  getName(): string;
+  getDate(): string;
+}
+
+class ConcreteMemento implements Memento { ... }
+```
+
+Using an interface this way is great for a class that doesn't need to inherit any logic from its base class.
+
+### Classes
+
+The `ConcreteMemento` class is responsible for holding the date and backup state of _a single backup_ of the "originator" component (the `Slide` class). Upon request, it can furnish this information as it sees fit.
+
+After initialization, an example `ConcreteMemento`:
+
+```txt
+ConcreteMemento {
+  state: { images: [ [Object] ], text: [ 'hi' ] },
+  date: '2020-11-30 00:47:05'
+}
+```
+
+The `Image` class holds the full "context" of an image, including the "shared" state and the "unique" state. It contains a `toHTML` method that will create a DOM node for the image.
+
+After initialization, an example `Image`:
+
+```txt
+Image {
+  sharedState: { data: '101010', name: 'butterfly' },
+  uniqueState: { height: 100, width: 100, x: 0, y: 0 }
+}
+```
+
+The `ImageFlyweightFactory` class contains the collection of `ImageShared` objects. It caches them by their `name` property. We construct `Image` objects with objects fetched from the factory. The `getFlyweight` method shows how this caching works. If the `key` is already in the cache of flyweights, we return the `sharedState` that's stored. If not, we add the `sharedState` to the cache and then return it:
+
+```ts
+class ImageFlyweightFactory {
+  // ...
+  public getFlyweight(sharedState: ImageShared): ImageShared {
     const key = this.getKey(sharedState);
 
     if (key in this.flyweights) {
-      // log('FlyweightFactory: Reusing existing flyweight.');
+      // FlyweightFactory: Reusing existing flyweight.
     } else {
-      // log("FlyweightFactory: Can't find a flyweight, creating new one.");
-      this.flyweights[key] = new ImageFlyweight(sharedState);
+      // FlyweightFactory: Can't find a flyweight, creating new one.
+      this.flyweights[key] = sharedState;
     }
 
     return this.flyweights[key];
   }
+}
+```
 
-  public listFlyweights(): void {
-    const count = Object.keys(this.flyweights).length;
-    log(`\nFlyweightFactory: I have ${count} flyweights:`);
+An example populated `ImageFlyweightFactory`:
 
-    Object.keys(this.flyweights).forEach(key => {
-      log(key);
-    });
+```txt
+ImageFlyweightFactory {
+  flyweights: {
+    butterfly: { data: '101010', name: 'butterfly' },
+    flower: { data: '101001', name: 'flower' },
+    sun: { data: '101101', name: 'sun' }
   }
 }
+```
 
-/*
-class Slide (Originator)
-  getState() -> grab all extrinsicData values, combine with flyweights?
-      recombining/restoring - factory.getFlyweight(name)
-  save() -> return new ConcreteMemento(this.getState)
-  restore(memento: Memento): { this.state = memento.getState(); }
-*/
-class Slide {
-  imageFactory: ImageFlyweightFactory;
-  images: SlideImage[] = [];
-  text: string[] = [];
+```ts
+class Slide { ... }
+```
 
-  constructor(imageFactory: ImageFlyweightFactory) {
-    this.imageFactory = imageFactory;
-  }
+```ts
+class History { ... }
+```
 
-  // -> user selects existing image. can duplicate and change coordinates
-  addImageToSlide(userImageSelection: Image) {
-    const { height, width, x, y } = userImageSelection;
-    const image = this.imageFactory.getFlyweight(userImageSelection);
-    this.images.push({
-      raw: userImageSelection,
-      html: image.toHTML({ height, width, x, y }),
-    });
-  }
-
-  render() {
-    // print images and text blocks
-    log(JSON.stringify(this.images));
-    log(JSON.stringify(this.text));
-  }
-
-  public save(): Memento {
-    return new ConcreteMemento({ images: this.images, text: this.text });
-  }
-
-  public restore(memento: Memento): void {
-    const { images, text } = memento.getState() as SlideMemento;
-    this.images = images;
-    this.text = text;
-  }
-}
-
-// class History (Caretaker) // handle stack of mementos
-// calls Slide’s backup related methods
-class History {
-  private mementos: Memento[] = [];
-
-  private originator: Slide;
-
-  constructor(originator: Slide) {
-    this.originator = originator;
-  }
-
-  public backup(): void {
-    this.mementos.push(this.originator.save());
-  }
-
-  public undo(): void {
-    if (this.mementos.length === 0) {
-      return;
-    }
-
-    const memento = this.mementos.pop() as Memento;
-    this.originator.restore(memento);
-  }
-
-  public showHistory(): void {
-    for (const memento of this.mementos) {
-      log(memento.getName());
-    }
-  }
-}
-
-export function main() {
-  const factory = new ImageFlyweightFactory([
-    { data: '101010', name: 'butterfly', size: 1000 },
-    { data: '101001', name: 'flower', size: 1001 },
-    { data: '101101', name: 'sun', size: 1002 },
-    // ...
-  ]);
-  factory.listFlyweights();
-
-  const defaultUniqueProperties = {
-    height: 100,
-    width: 100,
-    x: 0,
-    y: 0,
-  };
-
-  const slide1 = new Slide(factory);
-  const slide1History = new History(slide1);
-  slide1.save();
-  slide1History.showHistory();
-  slide1.addImageToSlide({
-    data: '101010',
-    name: 'butterfly',
-    size: 1000,
-    ...defaultUniqueProperties,
-  });
-  slide1.addImageToSlide({
-    data: '101010',
-    name: 'butterfly',
-    size: 1000,
-    ...defaultUniqueProperties,
-    x: 100,
-  });
-  slide1.render();
-}
-
-export const name = 'Flyweight Memento';
+```ts
+class App { ... }
 ```
