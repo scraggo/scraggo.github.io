@@ -167,7 +167,7 @@ interface ImageBackupState {
 }
 ```
 
-The `Memento` interface was _implemented_ as a class:
+We can also _implement_ interfaces as classes. Here's an example where the `ConcreteMemento` class _implements_ the `Memento` interface:
 
 ```ts
 export interface Memento {
@@ -205,7 +205,21 @@ Image {
 }
 ```
 
-The `ImageFlyweightFactory` class contains the collection of `ImageShared` objects. It caches them by their `name` property. We construct `Image` objects with objects fetched from the factory. The `getFlyweight` method shows how this caching works. If the `key` is already in the cache of flyweights, we return the `sharedState` that's stored. If not, we add the `sharedState` to the cache and then return it:
+The `ImageFlyweightFactory` class contains the collection of `ImageShared` objects. To create a complete `Image` object, we need an image flyweight object fetched from the factory. The factory stores `ImageShared` objects in a cache and they're made accessible by their `name` property.
+
+An example instance of an `ImageFlyweightFactory`:
+
+```txt
+ImageFlyweightFactory {
+  flyweights: {
+    butterfly: { data: '101010', name: 'butterfly' },
+    flower: { data: '101001', name: 'flower' },
+    sun: { data: '101101', name: 'sun' }
+  }
+}
+```
+
+The `getFlyweight` method shows how this caching and lookup works. If the `key` is already in the cache of flyweights, we return the `sharedState` that's stored. If not, we add the `sharedState` to the cache and then return it:
 
 ```ts
 class ImageFlyweightFactory {
@@ -221,18 +235,6 @@ class ImageFlyweightFactory {
     }
 
     return this.flyweights[key];
-  }
-}
-```
-
-An example populated `ImageFlyweightFactory`:
-
-```txt
-ImageFlyweightFactory {
-  flyweights: {
-    butterfly: { data: '101010', name: 'butterfly' },
-    flower: { data: '101001', name: 'flower' },
-    sun: { data: '101101', name: 'sun' }
   }
 }
 ```
