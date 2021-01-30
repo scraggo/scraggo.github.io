@@ -3,7 +3,7 @@ type: post
 title: 'How to ace your initial programming job screen'
 date: 2019-07-02 01:45:31 +0130
 categories: ['tech']
-tags: ['Career']
+tags: ['career']
 author: 'Dave Cohen'
 redirect_from:
   - /career/2019/07/02/prepare-for-initial-screens.html

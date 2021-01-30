@@ -3,7 +3,7 @@ type: post
 title: "Tech Talk - How I'd Improve My Capstone Project"
 date: 2020-08-15
 categories: ['tech']
-tags: ['JavaScript', 'Electron', 'Coding Bootcamps', 'Tech Talk']
+tags: ['javascript', 'electron', 'coding bootcamps', 'tech talk']
 author: 'Dave Cohen'
 # redirect_from:
 #   - /tech/custom-type-checking-isnan/

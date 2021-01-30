@@ -3,7 +3,7 @@ type: post
 title: 'Using a Code Style Guide to Enforce Team Best Practices'
 date: 2019-03-18 19:45:31 +0530
 categories: ['tech']
-tags: ['JavaScript']
+tags: ['javascript']
 author: 'Dave Cohen'
 redirect_from:
   - /tech/code-style-guide/

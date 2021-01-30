@@ -3,7 +3,7 @@ type: post
 title: 'Are You Ready to be a Professional Software Engineer?'
 date: 2020-09-10
 categories: ['tech']
-tags: ['Career']
+tags: ['career']
 author: 'Dave Cohen'
 ---
 

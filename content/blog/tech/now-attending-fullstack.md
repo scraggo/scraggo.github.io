@@ -3,7 +3,7 @@ type: post
 title: 'Now Attending: Fullstack Academy'
 date: 2017-12-26 19:45:31 +0530
 categories: ['tech']
-tags: ['JavaScript']
+tags: ['coding bootcamps', 'javascript']
 author: 'Dave Cohen'
 redirect_from:
   - /tech/now-attending-fullstack/

@@ -3,7 +3,7 @@ type: post
 title: 'Catching and handling different types of errors in promise chains'
 date: 2019-04-04 01:45:31 +0530
 categories: ['tech']
-tags: ['JavaScript']
+tags: ['javascript']
 author: 'Dave Cohen'
 redirect_from:
   - /tech/catching-handling-errors-promise-chains/

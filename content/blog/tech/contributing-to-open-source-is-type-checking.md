@@ -3,7 +3,7 @@ type: post
 title: 'Contributing a New Feature to Open Source: @sindresorhus/is'
 date: 2020-03-22
 categories: ['tech']
-tags: ['TypeScript', 'Open Source']
+tags: ['typescript', 'open source']
 author: 'Dave Cohen'
 redirect_from:
   - /tech/contributing-to-open-source-is-type-checking/

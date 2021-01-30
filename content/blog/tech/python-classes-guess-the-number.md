@@ -3,7 +3,7 @@ type: post
 title: 'Using a Class in Python as a Code Wrapper for a Simple Game'
 date: 2017-07-01 19:45:31 +0530
 categories: ['tech']
-tags: ['Python']
+tags: ['oop', 'python']
 author: 'Dave Cohen'
 redirect_from:
   - /tech/python-classes-guess-the-number/

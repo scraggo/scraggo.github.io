@@ -3,7 +3,7 @@ type: post
 title: 'Intro to JavaScript Frameworks Part 1: The Vanilla JavaScript Version of TodoMVC'
 date: 2017-09-01 19:45:31 +0530
 categories: ['tech']
-tags: ['JavaScript']
+tags: ['javascript']
 author: 'Dave Cohen'
 comments: true
 redirect_from:
