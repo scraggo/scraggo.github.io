@@ -1,4 +1,6 @@
+// @ts-check
 const path = require(`path`);
+const _ = require('lodash');
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
 exports.onCreateWebpackConfig = ({ actions }) => {
@@ -23,10 +25,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 };
 
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
 
   const postTemplate = path.resolve(`./src/templates/blog-post.js`);
+  const tagTemplate = path.resolve('src/templates/tags.js');
 
   // filter: get all posts not in drafts folder.
   // filter: { fields: { slug: { regex: "/^((?!/drafts/).)*$/" } } }
@@ -42,17 +45,28 @@ exports.createPages = async ({ graphql, actions }) => {
               slug
             }
             frontmatter {
+              tags
               title
               type
             }
           }
         }
       }
+      tagsGroup: allMarkdownRemark(limit: 2000) {
+        group(field: frontmatter___tags) {
+          fieldValue
+        }
+      }
     }
   `);
 
+  // if (result.errors) {
+  //   throw result.errors;
+  // }
+  // handle errors
   if (result.errors) {
-    throw result.errors;
+    reporter.panicOnBuild(`Error while running GraphQL query.`);
+    return;
   }
 
   // Create blog posts pages.
@@ -76,6 +90,19 @@ exports.createPages = async ({ graphql, actions }) => {
         slug,
         previous,
         next,
+      },
+    });
+  });
+
+  // Extract tag data from query
+  const tags = result.data.tagsGroup.group;
+  // Make tag pages
+  tags.forEach(tag => {
+    createPage({
+      path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
+      component: tagTemplate,
+      context: {
+        tag: tag.fieldValue,
       },
     });
   });
