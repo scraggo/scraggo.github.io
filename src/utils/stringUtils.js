@@ -1,7 +1,9 @@
 import capitalize from 'lodash/capitalize';
 
 const specialWords = {
+  ava: 'AVA',
   javascript: 'JavaScript',
+  oop: 'OOP',
   typescript: 'TypeScript',
 };
 

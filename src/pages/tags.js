@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import kebabCase from 'lodash/kebabCase';
-
-import { Helmet } from 'react-helmet';
 import { Link, graphql } from 'gatsby';
+
+import Layout from 'src/components/Layout';
+import SEO from 'src/components/SEO';
+import { capitalizeWords } from 'src/utils/stringUtils';
 
 const TagsPage = ({
   data: {
@@ -14,21 +15,23 @@ const TagsPage = ({
     },
   },
 }) => (
-  <div>
-    <Helmet title={title} />
+  <Layout>
     <div>
-      <h1>Tags</h1>
-      <ul>
-        {group.map(tag => (
-          <li key={tag.fieldValue}>
-            <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-              {tag.fieldValue} ({tag.totalCount})
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <SEO title={title} />
+      <div>
+        <h1>Tags</h1>
+        <ul>
+          {group.map(tag => (
+            <li key={tag.fieldValue}>
+              <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                {capitalizeWords(tag.fieldValue)} ({tag.totalCount})
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
-  </div>
+  </Layout>
 );
 
 TagsPage.propTypes = {
