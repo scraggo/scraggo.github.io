@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 
-import { getFormattedCategories, getFormattedTags } from 'src/utils/dataUtils';
-
+import TagLink from 'src/components/TagLink';
 import Layout from 'src/components/Layout';
 import SEO from 'src/components/SEO';
+import { getFormattedCategories } from 'src/utils/dataUtils';
 
 export default props => {
   const { data, pageContext } = props;
@@ -12,7 +12,7 @@ export default props => {
   const { previous, next } = pageContext;
 
   const post = data.markdownRemark;
-  const { author, date, description, title } = post.frontmatter;
+  const { author, date, description, tags = [], title } = post.frontmatter;
 
   return (
     <Layout className="blog-post-template">
@@ -27,8 +27,8 @@ export default props => {
           <span className="post-info-sm post-categories">
             {getFormattedCategories(post.frontmatter)}
           </span>
-          {getFormattedTags(post.frontmatter).map(tag => (
-            <span className="post-info-sm post-tag">{tag}</span>
+          {tags.map(tag => (
+            <TagLink key={tag} text={tag} variant="post" />
           ))}
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />

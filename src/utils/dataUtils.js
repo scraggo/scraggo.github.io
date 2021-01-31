@@ -15,11 +15,6 @@ export const getFormattedCategories = frontmatter => {
     : 'Uncategorized';
 };
 
-export const getFormattedTags = frontmatter => {
-  const { tags } = frontmatter;
-  return tags ? tags.map(capitalizeWords) : [];
-};
-
 /**
  * Get image data from graphQl query
  * @param {object} config

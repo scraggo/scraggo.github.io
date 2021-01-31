@@ -1,11 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import kebabCase from 'lodash/kebabCase';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 
 import Layout from 'src/components/Layout';
 import SEO from 'src/components/SEO';
-import { capitalizeWords } from 'src/utils/stringUtils';
+import TagLink from 'src/components/TagLink';
 
 const TagsPage = ({
   data: {
@@ -23,9 +22,11 @@ const TagsPage = ({
         <ul>
           {group.map(tag => (
             <li key={tag.fieldValue}>
-              <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                {capitalizeWords(tag.fieldValue)} ({tag.totalCount})
-              </Link>
+              <TagLink
+                count={tag.totalCount}
+                text={tag.fieldValue}
+                variant="count"
+              />
             </li>
           ))}
         </ul>
