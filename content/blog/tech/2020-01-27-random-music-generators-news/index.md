@@ -3,7 +3,7 @@ type: post
 title: 'Random Music Generators News 2020-01-27'
 date: '2020-01-27'
 categories: ['tech']
-tags: ['Random Music Generators']
+tags: ['random music generators']
 author: 'Dave Cohen'
 redirect_from:
   - /tech/2020-01-27-random-music-generators-news/

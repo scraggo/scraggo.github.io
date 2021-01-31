@@ -3,7 +3,7 @@ type: post
 title: 'Marketable Programming Skills'
 date: 2017-08-01 19:45:31 +0530
 categories: ['tech']
-tags: ['Career']
+tags: ['career']
 author: 'Dave Cohen'
 comments: true
 description: "This post contains an overview of what sorts of programming jobs are available. It's aimed at developers who want to try something new or are still deciding what to focus on in their efforts to become more marketable."

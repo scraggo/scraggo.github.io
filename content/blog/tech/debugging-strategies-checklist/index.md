@@ -3,7 +3,7 @@ type: post
 title: 'Debugging Strategies Checklist'
 date: 2018-05-08
 categories: ['tech']
-tags: ['Computer Science']
+tags: ['computer science']
 author: 'Dave Cohen'
 redirect_from:
   - /tech/debugging-strategies/

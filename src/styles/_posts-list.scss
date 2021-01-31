@@ -4,6 +4,10 @@
   font-family: $font-secondary;
   margin: 0 0 8px 0;
   color: $dark-red;
+
+  a {
+    color: $dark-red;
+  }
 }
 
 .post-excerpt {

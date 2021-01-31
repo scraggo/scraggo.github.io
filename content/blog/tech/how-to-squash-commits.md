@@ -3,7 +3,7 @@ type: post
 title: 'How to Squash All Commits Related to a Single Issue into a Single Commit'
 date: 2019-12-21 01:45:31 +0130
 categories: ['tech']
-tags: ['Git']
+tags: ['git']
 author: 'Dave Cohen'
 redirect_from:
   - /tech/how-to-squash-commits/

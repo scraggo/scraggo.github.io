@@ -7,6 +7,7 @@ const addKey = arr => arr.map((item, idx) => ({ ...item, key: idx }));
 
 const blogLinks = addKey([
   { text: 'All', to: '/' },
+  { text: 'Tags', to: '/tags/' },
   { text: 'Tech', to: '/tech/' },
   { text: 'Music', to: '/music/' },
   { text: 'Other', to: '/other/' },

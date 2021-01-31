@@ -1,4 +1,4 @@
-import { titleCase } from 'src/utils/stringUtils';
+import { capitalizeWords } from 'src/utils/stringUtils';
 
 /**
  * Get a filter callback for category
@@ -10,12 +10,9 @@ export const categoryFilter = category => data =>
 
 export const getFormattedCategories = frontmatter => {
   const { categories } = frontmatter;
-  return categories ? categories.map(titleCase).join(', ') : 'Uncategorized';
-};
-
-export const getFormattedTags = frontmatter => {
-  const { tags } = frontmatter;
-  return tags ? tags.map(titleCase) : [];
+  return categories
+    ? categories.map(capitalizeWords).join(', ')
+    : 'Uncategorized';
 };
 
 /**

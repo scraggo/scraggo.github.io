@@ -3,7 +3,7 @@ type: post
 title: 'Custom type checking - isNaN vs Number.isNaN'
 date: 2019-03-22 19:45:31 +0530
 categories: ['tech']
-tags: ['JavaScript']
+tags: ['javascript']
 author: 'Dave Cohen'
 redirect_from:
   - /tech/custom-type-checking-isnan/

@@ -1,11 +1,8 @@
 import React from 'react';
 import { Link, graphql, StaticQuery } from 'gatsby';
 
-import {
-  categoryFilter,
-  getFormattedCategories,
-  getFormattedTags,
-} from 'src/utils/dataUtils';
+import TagLink from 'src/components/TagLink';
+import { categoryFilter, getFormattedCategories } from 'src/utils/dataUtils';
 
 /** posts -> already filtered edges */
 /** totalCount -> data.allMarkdownRemark.totalCount */
@@ -25,6 +22,7 @@ const PostsList = ({ data, category, title }) => {
       </div>
       {posts.map(({ node }) => {
         const { id, fields, frontmatter, excerpt } = node;
+        const tags = frontmatter.tags || [];
         const url = fields.slug;
 
         return (
@@ -34,16 +32,18 @@ const PostsList = ({ data, category, title }) => {
                 <Link to={url}>{frontmatter.title}</Link>
               </h3>
             </header>
-            <Link to={url}>
-              <div className="post-info-sm">
+            <div className="post-info-sm">
+              <Link to={url}>
                 <span>{frontmatter.date} | </span>
-                <span className="post-categories">
-                  {getFormattedCategories(frontmatter)}
-                </span>
-                {getFormattedTags(frontmatter).map(tag => (
-                  <span className="post-tag">{tag}</span>
-                ))}
-              </div>
+              </Link>
+              <span className="post-categories">
+                {getFormattedCategories(frontmatter)}
+              </span>
+              {tags.map(tag => (
+                <TagLink key={tag} text={tag} variant="postList" />
+              ))}
+            </div>
+            <Link to={url}>
               <section>
                 <p
                   className="post-excerpt"

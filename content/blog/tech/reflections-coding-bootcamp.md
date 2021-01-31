@@ -3,7 +3,7 @@ type: post
 title: 'Reflections From a Coding Bootcamp Graduate'
 date: 2018-04-16 19:45:31 +0530
 categories: ['tech']
-tags: ['JavaScript']
+tags: ['coding bootcamps', 'javascript']
 author: 'Dave Cohen'
 redirect_from:
   - /tech/reflections-coding-bootcamp/

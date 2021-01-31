@@ -3,7 +3,7 @@ type: post
 title: 'Using question-prompter for study, self-reflection, and more'
 date: 2020-08-02
 categories: ['tech']
-tags: ['JavaScript', 'node', 'productivity']
+tags: ['javascript', 'node', 'productivity']
 author: 'Dave Cohen'
 ---
 

@@ -1,11 +1,13 @@
-import { capitalCase } from 'change-case';
+import capitalize from 'lodash/capitalize';
 
 const specialWords = {
+  ava: 'AVA',
   javascript: 'JavaScript',
+  oop: 'OOP',
   typescript: 'TypeScript',
 };
 
-export const titleCase = (word = '') => {
+export const capitalizeWords = (word = '') => {
   if (word.length < 1) {
     return word;
   }
@@ -15,5 +17,8 @@ export const titleCase = (word = '') => {
     return specialWords[lowerCased];
   }
 
-  return capitalCase(word);
+  return word
+    .split(' ')
+    .map(w => capitalize(w))
+    .join(' ');
 };

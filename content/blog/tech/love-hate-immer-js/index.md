@@ -3,7 +3,7 @@ type: post
 title: 'My love hate relationship with ImmerJS'
 date: 2020-08-21
 categories: ['tech']
-tags: ['ImmerJS', 'JavaScript', 'react', 'redux']
+tags: ['immerjs', 'javascript', 'react', 'redux']
 author: 'Dave Cohen'
 ---
 
