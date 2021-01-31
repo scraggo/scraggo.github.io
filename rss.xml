@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 31 Jan 2021 01:54:24 GMT</lastBuildDate><item><title><![CDATA[Are You Ready to be a Professional Software Engineer?]]></title><description><![CDATA[Did you just graduate from a coding bootcamp, obtain a CS degree, or built an involved side project? How do you know when you’re ready to…]]></description><link>https://www.scraggo.com/tech-career-resources/</link><guid isPermaLink="false">https://www.scraggo.com/tech-career-resources/</guid><pubDate>Thu, 10 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Did you just graduate from a coding bootcamp, obtain a CS degree, or built an involved side project? How do you know when you’re ready to write software professionally?&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 31 Jan 2021 02:30:18 GMT</lastBuildDate><item><title><![CDATA[Random Music Generators News 2021-01-30]]></title><description><![CDATA[New in 1.3.1 This month, I released a big new feature that’s been requested often. You can now specify a custom note collection to create…]]></description><link>https://www.scraggo.com/2021-01-30-random-music-generators-news/</link><guid isPermaLink="false">https://www.scraggo.com/2021-01-30-random-music-generators-news/</guid><pubDate>Sat, 30 Jan 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;New in 1.3.1&lt;/h2&gt;
+&lt;p&gt;This month, I released a big new feature that’s been requested often. You can now &lt;em&gt;specify a custom note collection&lt;/em&gt; to create random melodies. &lt;a href=&quot;https://random-music-generators.herokuapp.com/melody&quot;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Note: This feature is available to use if you create an account.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/21002ebfc519b4cf5cab11a2f92fcccd/b3d4b/custom-pitch-collection.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 86.63793103448275%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACO0lEQVQ4y51US2/TQBD2D+PIX+if4cYZuCFOiAOoFy5IOZBSJwGaNpSHVECiTZWK2JGT+JH4nfi164+djR2FJEUVY4121jP77XzjGStZVEB7N0dsL8FKhrIsURSFXLMslTYJrYwxYZXSRzYrmPTNfkUwTjzpUxbTDDevfPw4vkRTfYtOu4NGo4Gzsx663S6aR0fodN7jU6+HdruFVquNnrBVVYV6rOLrxWf8Vm30X9pgOYfizwJYNy68mQ/HcaS6ris1iiK50jvfX/mnUxO2ba91NndgayJGF/FxBIVxBg5W0QHCUFxgW2twAvIDH57vyZJgRVrSJuWcY/UwWRalipBOkvnMQb9/BX00wkgfYTAY4PpqgP7lNXw3QJ6salkDSuWlxCBR/nJUoMvlUlD1kLEUwwsDD+8/xZODF3h08BwP7j1G89lHGccYx/Z5meEmGN2epqkATVCwAo4xx4fDc5y+/obzN99xcvgF2k9jRYxXaVWyBqw3JIvFArqmYSQo65oO05rCi+eI0nDn8GYy9V7ZfklKX48Ax+MxJpOJBI7CCFmaw7GcdWabQLUo+26lGgZBINomlq3jUT2zTJaD9tvxewFrZywOUK9Ry5imKewplkmyQ/M22QHM81wCmZYlm9rzXCRJuh63ohq3fXRvpRxFoQBJdj4CAdKFdwKsnVQrmo56/KiWYRhiX7/erYZxDMMwMBwOpZI9Hk9AbjlmnN8NcDOAMsur39am/BdlWulQ/f+rtc6O9F+AfwAgTBtcwY50egAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Custom pitch collection&quot;
+        title=&quot;Custom pitch collection&quot;
+        src=&quot;/static/21002ebfc519b4cf5cab11a2f92fcccd/799d3/custom-pitch-collection.png&quot;
+        srcset=&quot;/static/21002ebfc519b4cf5cab11a2f92fcccd/00d96/custom-pitch-collection.png 148w,
+/static/21002ebfc519b4cf5cab11a2f92fcccd/0b23c/custom-pitch-collection.png 295w,
+/static/21002ebfc519b4cf5cab11a2f92fcccd/799d3/custom-pitch-collection.png 590w,
+/static/21002ebfc519b4cf5cab11a2f92fcccd/2a3d6/custom-pitch-collection.png 885w,
+/static/21002ebfc519b4cf5cab11a2f92fcccd/b3d4b/custom-pitch-collection.png 928w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Part of the impetus to provide this feature was to aid in neuroscience research. Having the ability to create melodies with specific pitches will allow researchers to study &lt;code class=&quot;language-text&quot;&gt;tonal memory&lt;/code&gt; (working auditory memory for pitches) and how many notes of a specific type will saturate it. How cool is that?!&lt;/p&gt;
+&lt;p&gt;I also updated the display of the chord progression playback so it’s easier to tell where you are in the progression:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2873a7b079e374b3d236a97cd089b07f/767e4/chord-playback.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.02189781021898%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACN0lEQVQoz3VSTW/TQBA1Ag6VqjbcEAgpEv+MEx8KgQM0IQIOIEBIpaIFcYETIlwoSEAkCELQNglgmi87SlsKbTk1tuM4/ogTx2s/djcJqSoY7ezMvLf7vN4dAdSCIIBpmlC1JkzbQattwXJcqE0dbcuB3XE5bpg2jR1eN1sG5VuUt2HbNlzXZVIQ2OR5HkRRxNfcMjaqIiQxh5+1Mn6vS1gvf0OpsIQf1e/YlIrYkFaxvSZhq17Br1qRx0I+B0mWx4JBEPKipnq49amB+3kNCwUNszkds8sqFvIK5nIa7i4puLei4uEXDXP5Jq1ViqvQXcL3B2EIIaSTPxR8LGo4MFPE0RsSjt+UcDBRxOTVMqJ3ZEzReDhZwvS1CqK3ZUykSjiUKCFyvYK60uX7ScAFAZ8EHHj0eQvCqUUcuZjBicR7TMffYjL2BtErWRy7/A4T515jimLRZBYnUx8QiWcQuZDB2q41FhwlzFZ3DJxJy4g/ryCxKCOWruDsszJSr2qYeSHj9NMizlOO1cmXMs9j6TIaZm/8y4S+sNftYFvvYaW2g3q1xCggpPdCPJr6dHjwe90BTvrUfZoSzjHM83ro+z7vFsH3CVyrhY+bFi49yeLB/DxtAweO04Gu6zCMNvfdRgO2Q1uKtotpWXyN0TY51qaxRz9ICIHAVFkSBoOXYsYeivn+nAzvej8/ivyEbNpr4R5RZqxpVVWFoih/m3e/GIaRC46U/+WMY6f36f30+31+wv+tHXiIP0P0EN1L8D5+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Chord display&quot;
+        title=&quot;Chord display&quot;
+        src=&quot;/static/2873a7b079e374b3d236a97cd089b07f/799d3/chord-playback.png&quot;
+        srcset=&quot;/static/2873a7b079e374b3d236a97cd089b07f/00d96/chord-playback.png 148w,
+/static/2873a7b079e374b3d236a97cd089b07f/0b23c/chord-playback.png 295w,
+/static/2873a7b079e374b3d236a97cd089b07f/799d3/chord-playback.png 590w,
+/static/2873a7b079e374b3d236a97cd089b07f/2a3d6/chord-playback.png 885w,
+/static/2873a7b079e374b3d236a97cd089b07f/767e4/chord-playback.png 1096w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In addition to these new features, there were a couple of bug fixes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In the Melody &gt; Varied Rhythm section, if you entered No. Measures more than 1, it was just repeating the first measure.&lt;/li&gt;
+&lt;li&gt;Melody Presets were failing to load&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Stats&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Over 101,000 people have used the app since September 2019&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Check it out!&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://random-music-generators.herokuapp.com/&quot;&gt;Random Music Generators - Heroku&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Suggest features&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/contact&quot;&gt;Contact me&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Are You Ready to be a Professional Software Engineer?]]></title><description><![CDATA[Did you just graduate from a coding bootcamp, obtain a CS degree, or built an involved side project? How do you know when you’re ready to…]]></description><link>https://www.scraggo.com/tech-career-resources/</link><guid isPermaLink="false">https://www.scraggo.com/tech-career-resources/</guid><pubDate>Thu, 10 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Did you just graduate from a coding bootcamp, obtain a CS degree, or built an involved side project? How do you know when you’re ready to write software professionally?&lt;/p&gt;
 &lt;p&gt;This post is a collection of resources I’ve found or made that will help you on your job search. There are many questions to answer that are specific to your situation and what you’re looking for. Are you trying to work front end, back end, or both? Would you prefer to be at a startup, an agency, or a larger company?&lt;/p&gt;
 &lt;p&gt;Once you know the answers to these and more questions, there are many roads to finding job opportunities that are a fit for you. It’s ultimately up to you to decide your path and these resources can help clarify it.&lt;/p&gt;
 &lt;h2&gt;Career-related posts on this site&lt;/h2&gt;
