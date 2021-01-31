@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 09 Nov 2020 00:00:33 GMT</lastBuildDate><item><title><![CDATA[Are You Ready to be a Professional Software Engineer?]]></title><description><![CDATA[Did you just graduate from a coding bootcamp, obtain a CS degree, or built an involved side project? How do you know when you’re ready to…]]></description><link>https://www.scraggo.com/tech-career-resources/</link><guid isPermaLink="false">https://www.scraggo.com/tech-career-resources/</guid><pubDate>Thu, 10 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Did you just graduate from a coding bootcamp, obtain a CS degree, or built an involved side project? How do you know when you’re ready to write software professionally?&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[Software engineering, music, blog articles, and teaching resources]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 31 Jan 2021 01:54:24 GMT</lastBuildDate><item><title><![CDATA[Are You Ready to be a Professional Software Engineer?]]></title><description><![CDATA[Did you just graduate from a coding bootcamp, obtain a CS degree, or built an involved side project? How do you know when you’re ready to…]]></description><link>https://www.scraggo.com/tech-career-resources/</link><guid isPermaLink="false">https://www.scraggo.com/tech-career-resources/</guid><pubDate>Thu, 10 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Did you just graduate from a coding bootcamp, obtain a CS degree, or built an involved side project? How do you know when you’re ready to write software professionally?&lt;/p&gt;
 &lt;p&gt;This post is a collection of resources I’ve found or made that will help you on your job search. There are many questions to answer that are specific to your situation and what you’re looking for. Are you trying to work front end, back end, or both? Would you prefer to be at a startup, an agency, or a larger company?&lt;/p&gt;
 &lt;p&gt;Once you know the answers to these and more questions, there are many roads to finding job opportunities that are a fit for you. It’s ultimately up to you to decide your path and these resources can help clarify it.&lt;/p&gt;
 &lt;h2&gt;Career-related posts on this site&lt;/h2&gt;
@@ -11,7 +11,19 @@
 &lt;li&gt;&lt;a href=&quot;/reflections-coding-bootcamp/&quot;&gt;Reflections From a Coding Bootcamp Graduate&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/now-attending-fullstack/&quot;&gt;Now Attending: Fullstack Academy&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Make sure to visit &lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt; to stay up to date on new articles.&lt;/p&gt;
+&lt;p&gt;You might also like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/tags/career/&quot;&gt;Posts tagged ‘career’&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tags/coding-bootcamps/&quot;&gt;Posts tagged ‘coding-bootcamps’&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tags/computer-science/&quot;&gt;Posts tagged ‘computer-science’&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tags/javascript/&quot;&gt;Posts tagged ‘javascript’&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tags/open-source/&quot;&gt;Posts tagged ‘open-source’&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tags/react/&quot;&gt;Posts tagged ‘react’&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tags/redux/&quot;&gt;Posts tagged ‘redux’&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tags/sinon/&quot;&gt;Posts tagged ‘sinon’&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tags/tech-talk/&quot;&gt;Posts tagged ‘tech-talk’&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tags/testing/&quot;&gt;Posts tagged ‘testing’&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;A “curriculum” of sorts / links to external posts&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://roadmap.sh/&quot;&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;

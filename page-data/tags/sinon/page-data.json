@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/sinon/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/testing-immutable-js-with-sinon-custom-matchers/"},"frontmatter":{"title":"Testing immutable js with sinon custom matchers"}}}]}},"pageContext":{"isCreatedByStatefulCreatePages":false,"tag":"sinon"}}}
