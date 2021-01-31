@@ -12,7 +12,8 @@ export default props => {
   const { previous, next } = pageContext;
 
   const post = data.markdownRemark;
-  const { author, date, description, tags = [], title } = post.frontmatter;
+  const { author, date, description, title } = post.frontmatter;
+  const tags = post.frontmatter.tags || [];
 
   return (
     <Layout className="blog-post-template">

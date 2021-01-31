@@ -60,13 +60,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
-  // if (result.errors) {
-  //   throw result.errors;
-  // }
-  // handle errors
   if (result.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`);
-    return;
+    throw result.errors;
   }
 
   // Create blog posts pages.

@@ -24,7 +24,18 @@ I've written a number of posts that go into some of my experiences starting my t
 - [Reflections From a Coding Bootcamp Graduate](/reflections-coding-bootcamp/)
 - [Now Attending: Fullstack Academy](/now-attending-fullstack/)
 
-Make sure to visit [Home](/) to stay up to date on new articles.
+You might also like:
+
+- [Posts tagged 'career'](/tags/career/)
+- [Posts tagged 'coding-bootcamps'](/tags/coding-bootcamps/)
+- [Posts tagged 'computer-science'](/tags/computer-science/)
+- [Posts tagged 'javascript'](/tags/javascript/)
+- [Posts tagged 'open-source'](/tags/open-source/)
+- [Posts tagged 'react'](/tags/react/)
+- [Posts tagged 'redux'](/tags/redux/)
+- [Posts tagged 'sinon'](/tags/sinon/)
+- [Posts tagged 'tech-talk'](/tags/tech-talk/)
+- [Posts tagged 'testing'](/tags/testing/)
 
 ## A "curriculum" of sorts / links to external posts
 
