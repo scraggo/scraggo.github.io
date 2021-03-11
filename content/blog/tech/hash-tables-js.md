@@ -17,23 +17,24 @@ Algorithms and data structures can be intimidating. The goal of this post is to 
 
 While attending Fullstack Academy, I participated in an algorithms class taught by alumnus Clément Mihailescu, an employee of Google. I found the class to be enlightening and engaging. (I was also star-struck because he works at Google.) He founded [AlgoExpert](https://www.algoexpert.io/) which is a top-notch platform for practicing interview problems. I highly recommend it for those who are serious about acing their interviews. I was inspired by the power of hash tables after the class and went on a journey to solve as many hash table problems as I could find.
 
-## A Brief Introduction to Hash Tables
+## Hash Tables introduction
 
-According to Wikipedia:
-
-> In computing, a hash table (hash map) is a data structure which implements an associative array abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
-
-> Ideally, the hash function will assign each key to a unique bucket, but most hash table designs employ an imperfect hash function, which might cause hash collisions where the hash function generates the same index for more than one key. Such collisions must be accommodated in some way.
-
-To the uninitiated, this explanation may seem high-falutin. Fortunately, if you've worked with _objects_ in JavaScript, you've already worked with an associative array data type.
+A hash table is a data structure that provides a dictionary-style lookup where a "key" is provided and a "value" is returned. If you've worked with object literals in JavaScript (aka associative arrays), you're familiar with a common implementation of the hash table data structure. Here's one:
 
 ```js
 // association: a "key" maps to a "value"
-// in this case, "b" is the key and "2" is the value:
-const mapB = { b: 2 };
+// in this case, names are keys and their phone numbers are the values:
+const phoneNumberLookup = {
+  'John Smith': '555-123-4567'
+  'Dan the Man': '555-212-2122'
+};
+```
 
-// using .reduce() to count the occurrence of characters:
-// association: character: number
+Let's see a more algorithmic use for the data structure. This example assigns string characters as the "key" and their frequency count as the "value:"
+
+```js
+// using the Array.prototype.reduce to count the occurrence of characters:
+// association: { [character]: number }
 const count = Array.from('aabbccddeee').reduce((accumulator, char) => {
   if (char in accumulator) {
     accumulator[char]++;
@@ -45,20 +46,39 @@ const count = Array.from('aabbccddeee').reduce((accumulator, char) => {
 
 // result:
 // {a: 2, b: 2, c: 2, d: 2, e: 3}
+// 'a', 'b', 'c', and 'd' occur 2 times, 'e' occurs 3 times
 ```
 
-### Hashing Functions
+### Hash Functions
 
-JavaScript, being a high-level language, abstracts away some of the hash function details. The "unique buckets" referred to above are a contiguous array where each index (bucket) is a point of destination for data.
+JavaScript provides us this data structure without us having to know how it works. I want to go a little behind the scenes into the hash function algorithm, its dangers, benefits, and drawbacks.
 
-To point data to the right "bucket", a _hashing function_ is used. The function allows us to:
+The process of looking up a value from a given key is particularly clever (in my opinion):
 
-- calculate a unique (mostly) hash address from a given "key"
-- use this hash address to put a "key" in the same "bucket" and access it from there every time we need to
+1. A key is provided as input to a hash function.
+2. The hash algorithm converts this key into an integer.
+3. This integer is an array index of a location in memory.
+4. The location contains the value data that corresponds with the given key.
 
-In the case where collisions are minimized, searching a hash table is an O(1) operation. That's amazing in terms of efficiency! See below for more on "Big-o" and in-depth hash table lessons.
+![hash table - wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Hash_table_4_1_1_0_0_1_0_LL.svg/480px-Hash_table_4_1_1_0_0_1_0_LL.svg.png)
 
+Example: "Lisa Smith" goes through a hash function and results in array index `1`. "Sam Doe" goes through a hash function and results in array index `4`. Their respective data is stored at their respective array indices.
+
+If you're a little wary of the image above where both "John Smith" and "Sandra Dee" point to the same address, you're not alone. If two or more different hashed keys resulted in the same array index, those are considered "collisions." Not accounting for collisions is dangerous because we risk losing data. To prevent data loss, the hashing algorithm must have collision resolving methods and (ideally) prevent collisions in the first place. For a data loss example, let's say both `key1` and `key2` when hashed resulted in array index `0`. Then, data for `key1` is written to that index. Then, data for `key2` is written to that index. Finally, if I want the data from `key1`, it'll have been overwritten by the data of `key2`! No good.
+
+Let's talk "Big O." In terms of time complexity, writing and retrieving data using a hash table are O(1) operations. That's amazing in terms of efficiency! Less optimal is sorting the data, you're better off using a different data structure if that's important for your use case.
+
+I encourage you to check out the articles below for more on "Big O" and in-depth hash table lessons.
+
+Big O Notation:
+
+- [Big O Notation Explained with Examples](https://www.freecodecamp.org/news/big-o-notation-explained-with-examples/)
 - [Big-O Algorithm Complexity Cheat Sheet @ericdrowell](http://bigocheatsheet.com/)
+
+Hash Tables:
+
+- [Hash function | Wikipedia](https://en.wikipedia.org/wiki/Hash_function)
+- [Algorithms in JavaScript: Hash Tables | by Rohan Paul | JavaScript in Plain English](https://javascript.plainenglish.io/algorithm-in-javascript-hash-table-7b0464d2b81b)
 - [Hashing GeeksforGeeks](https://www.geeksforgeeks.org/hashing-set-1-introduction/)
 - [Hash Table Map Data Structure - Interview Cake](https://www.interviewcake.com/concept/java/hash-map)
 
