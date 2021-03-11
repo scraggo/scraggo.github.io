@@ -18,6 +18,8 @@ This [github issue on sinonjs](https://github.com/sinonjs/sinon/issues/2077) out
 
 > [Sinon calledWith fails comparing ImmutableJS arguments that it deems equal](https://github.com/sinonjs/sinon/issues/2077)
 
+_Update Feb 20, 2020:_ This post is now featured on [the How To section of the sinonjs site](https://sinonjs.org/how-to/)!
+
 ## The callback and its calling function
 
 Here's the function in our source code that we'll be mocking:
