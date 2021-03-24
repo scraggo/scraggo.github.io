@@ -23,12 +23,12 @@ The goal of this article is to provide a guide that I would’ve loved when I fi
 - exactly what design patterns are and the types of problems they can solve
 - what design patterns aren’t and the types of problems that they don’t solve
 
-After your mental schemas are primed, I provide much-needed motivation to take the first steps.
+Finally, after your mental schemas are primed, I provide much-needed motivation to take the first steps.
 
 - how learning design patterns help you solve software problems _in general_
 - how learning design patterns will build _intuition_ so you can easily spot these problems from a high-level
 
-Finally, I want to make your learning as efficient as possible. This article lists the prerequisites for learning design patterns, how to put them in practice, and provide advanced ideas to solidify your knowledge.
+In another post, [I provide a number of resources that I’ve found helpful while learning and a suggested curriculum](/design-patterns-curriculum).
 
 Let’s begin by making the mental space for design patterns by discussing what they are.
 
@@ -122,11 +122,12 @@ Being able to think in terms of interactions between objects is incredibly benef
 
 As you become more familiar with design patterns, you can anticipate common problems that arise. We saw a slew of problem examples in the "solutions to common problems" section. Knowingly or not, you’ve probably used the [Strategy](https://refactoring.guru/design-patterns/strategy), [Facade](https://refactoring.guru/design-patterns/facade), [Adapter](https://refactoring.guru/design-patterns/adapter), or other patterns before.
 
-There are very popular external libraries that utilize design patterns. Understanding design patterns will help you more easily understand how they work. Examples:
+There are very popular external libraries that use and allow the developer to utilize design patterns. Understanding design patterns will help you more easily understand how they work. Examples:
 
 - Subscription methods in Redux [use a pub-sub Observer system](https://stackoverflow.com/questions/39977540/can-redux-be-seen-as-a-pub-sub-or-observer-pattern)
 - [React lifecycle methods](https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class) and Database hooks (see the [Sequelize ORM](https://sequelize.org/master/manual/hooks.html) for example) utilize the Template Method pattern
 - [https://github.com/davidkpiano/xstate](https://github.com/davidkpiano/xstate) is a state machine - State pattern
+- You can use the Decorator pattern directly in JavaScript if you configure your application using experimental tooling. [Here's an example in React](https://medium.com/oyotech/react-decorators-5499e95a4cac). Higher Order Components (HOCs) achieve a similar effect with function composition. Read about them in [the official React docs](https://reactjs.org/docs/higher-order-components.html#convention-maximizing-composability) and [here](https://javascript.plainenglish.io/react-design-patterns-higher-order-components-62e340936652).
 
 We mentioned best practices before, and I believe when implemented correctly, design patterns encourage creation of clean, well-architected code. Many of the design patterns were born out of motivation to implement S.O.L.I.D. principles.
 

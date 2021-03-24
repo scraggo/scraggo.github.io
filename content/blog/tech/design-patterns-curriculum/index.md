@@ -7,7 +7,9 @@ tags: ['design patterns']
 author: 'Dave Cohen'
 ---
 
-I was always intrigued by design patterns, but as with learning anything new, I was in the dark about a lot of things. I didn’t have a _clear learning path_ - I didn’t know _how_ I should learn design patterns or _if it’s the right time_ for me to learn them. What are the prerequisites? What material should I use and how do I avoid being scattered? How do I put them into practice?
+I've long been intrigued by design patterns, but when I started learning them, I realized quickly that I didn’t have a _clear learning path_. I didn’t know _how_ I should learn design patterns or _if it’s the right time_ for me to learn them.
+
+So, I sought out to answer some questions: What are the prerequisites for learning design patterns? What material should I use and how do I avoid being scattered? How do I put them into practice?
 
 This article is a continuation of a previous post where [I introduced design patterns and discussed the "what" and the "why" of them](/design-patterns-intro). This post aims to give you a curriculum for learning design patterns and resources that have helped me.
 
@@ -119,7 +121,14 @@ We have an explicit test for exactly what the `it` block describes: "ConcreteBui
 
 #### Study design patterns in the wild
 
-As mentioned earlier, there are many libraries that you may interact with that use design patterns. As you learn the internals of JavaScript systems like React, Redux, Gulp, Webpack, database systems, etc, be on the lookout for mentions of architecture. Find the code (if it’s open source) and see how the author(s) implemented the code.
+As mentioned in my [introduction to design patterns](/design-patterns-intro), there are many libraries that you may interact with that utilize design patterns internally and allow developers to take advantage of them. Some examples:
+
+- Subscription methods in Redux [use a pub-sub Observer system](https://stackoverflow.com/questions/39977540/can-redux-be-seen-as-a-pub-sub-or-observer-pattern)
+- [React lifecycle methods](https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class) and Database hooks (see the [Sequelize ORM](https://sequelize.org/master/manual/hooks.html) for example) utilize the Template Method pattern
+- [https://github.com/davidkpiano/xstate](https://github.com/davidkpiano/xstate) is a state machine - State pattern
+- You can use the Decorator pattern directly in JavaScript if you configure your application using experimental tooling. [Here's an example in React](https://medium.com/oyotech/react-decorators-5499e95a4cac). Higher Order Components (HOCs) achieve a similar effect with function composition. Read about them in [the official React docs](https://reactjs.org/docs/higher-order-components.html#convention-maximizing-composability) and [here](https://javascript.plainenglish.io/react-design-patterns-higher-order-components-62e340936652).
+
+As you learn the internals of JavaScript systems like React, Redux, Gulp, Webpack, database systems, etc, be on the lookout for mentions of architecture. Find the code (if it’s open source) and see how the author(s) implemented the code.
 
 As for some simpler examples built for tutorial purposes:
 
@@ -165,3 +174,7 @@ Finally, here are a number of resources that I’ve found helpful while learning
 - [https://miguendes.me/design-patterns-that-make-sense-in-python-simple-factory](https://miguendes.me/design-patterns-that-make-sense-in-python-simple-factory)
 - [https://github.com/faif/python-patterns](https://github.com/faif/python-patterns)
 - [https://docs.microsoft.com/en-us/azure/architecture/patterns/](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
+
+#### My introduction to Design Patterns
+
+I introduce design patterns and discuss the "what" and the "why" of them [here](/design-patterns-intro).
