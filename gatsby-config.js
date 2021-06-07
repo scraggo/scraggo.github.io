@@ -22,7 +22,7 @@ module.exports = {
   siteMetadata: {
     author: 'David Emanuel Cohen',
     description:
-      'Software engineering, music, blog articles, and teaching resources',
+      'Software engineering, music, blog, articles, and teaching resources',
     siteUrl: 'https://www.scraggo.com',
     title: `scraggo.com`,
   },
