@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 
 import Layout from 'src/components/Layout';
 import SEO from 'src/components/SEO';
+import { internalLink } from 'src/utils/mdUtils';
 
 const markdown = `# About Dave Cohen
 
@@ -30,7 +31,7 @@ Peabody Conservatory and graduated in 2007.
 
 ## Other interests
 
-I'm interested in psychology, philosophy, productivity, comedy, and more. [Find my writings here](/other).
+I'm interested in psychology, philosophy, productivity, comedy, and more. [Find my writings here](/other). [Find my reading list here](/reading-list).
 `;
 
 export default () => {
@@ -38,7 +39,12 @@ export default () => {
     <Layout>
       <SEO title="About" />
       <div className="text-wrapper">
-        <ReactMarkdown source={markdown} />
+        <ReactMarkdown
+          children={markdown}
+          components={{
+            a: internalLink,
+          }}
+        />
       </div>
     </Layout>
   );

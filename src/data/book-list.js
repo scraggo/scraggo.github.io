@@ -23,7 +23,8 @@ export const bookList = [
     title:
       'Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones',
     author: 'James Clear',
-    description: '',
+    description:
+      'Goals are useful for setting a direction, but systems are best for making progress.',
     genre: '',
     readYear: 2021,
     reviewLink: '',
@@ -50,7 +51,8 @@ export const bookList = [
     favorite: 'y',
     title: "Quiet: The Power of Introverts in a World That Can't Stop Talking",
     author: 'Susan Cain',
-    description: '',
+    description:
+      "Quiet is an antidote for society's fixation with sociability and extroversion. The book takes a tour through the wide-ranging research on introversion, demonstrating its underestimated upside – and how we need to adapt to take advantage of it.",
     genre: '',
     readYear: 2021,
     reviewLink: '',
@@ -116,8 +118,8 @@ export const bookList = [
   },
   {
     favorite: '',
-    title: "Hitchhiker's Guide to the Galaxy Douglas Adams",
-    author: '',
+    title: "Hitchhiker's Guide to the Galaxy",
+    author: 'Douglas Adams',
     description: '',
     genre: 'fiction',
     readYear: 2021,
@@ -131,7 +133,8 @@ export const bookList = [
     favorite: 'y',
     title: 'Being Peace',
     author: 'Thich Nhat Hanh',
-    description: '',
+    description:
+      'This book shows how our state of mind and body can make the world a peaceful place. We learn to transform the very situations that pressure and antagonize us into opportunities for practicing mindfulness.',
     genre: '',
     readYear: 2020,
     reviewLink: '',
@@ -174,7 +177,7 @@ export const bookList = [
       "It's Not Always Depression: Working the Change Triangle to Listen to the Body, Discover Core Emotions, and Connect to Your Authentic Self",
     author: 'Hilary Jacobs Hendel',
     description:
-      'The author teachers the "Change Triangle" methodology for processing emotions, calming, etc.',
+      'The author teaches the "Change Triangle" methodology for processing emotions, calming, etc.',
     genre: '',
     readYear: 2020,
     reviewLink: '',
@@ -216,7 +219,7 @@ export const bookList = [
       'Adult Children of Emotionally Immature Parents: How to Heal from Distant, Rejecting, or Self-Involved Parents',
     author: 'Lindsay C. Gibson',
     description:
-      'id 31700 https://www.newharbinger.com/adult-children-emotionally-immature-parents/accessories',
+      '[id 31700](https://www.newharbinger.com/adult-children-emotionally-immature-parents/accessories)',
     genre: '',
     readYear: 2020,
     reviewLink: '',
@@ -428,7 +431,8 @@ export const bookList = [
   },
   {
     favorite: 'y',
-    title: 'Mindfulness',
+    title:
+      'Mindfulness: An Eight-Week Plan for Finding Peace in a Frantic World',
     author: 'Williams and Penman',
     description: '',
     genre: '',
@@ -709,7 +713,7 @@ export const bookList = [
   },
   {
     favorite: '',
-    title: 'NLP for dummies',
+    title: 'Neuro-linguistic Programming for Dummies',
     author: 'Romilla Ready and Kate Burton',
     description: '',
     genre: '',
@@ -913,7 +917,7 @@ export const bookList = [
     title: 'Zen Teaching of Emptiness',
     author: 'Gosung Shin',
     description:
-      'Koans: http://www.ashidakim.com/zenkoans/1acupoftea.html - Great Doubt: https://www.quora.com/What-is-the-Great-Doubt-in-Zen',
+      '[Cup of Tea Koan](http://www.ashidakim.com/zenkoans/1acupoftea.html) [What is Great Doubt in Zen? | Quora](https://www.quora.com/What-is-the-Great-Doubt-in-Zen)',
     genre: '',
     readYear: 2015,
     reviewLink: '',
