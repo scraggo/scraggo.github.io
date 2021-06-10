@@ -49,7 +49,7 @@ export default () => {
     <Layout>
       <SEO title="Music Teaching Resources" />
       <div className="text-wrapper">
-        <ReactMarkdown source={markdown} />
+        <ReactMarkdown children={markdown} />
       </div>
     </Layout>
   );
