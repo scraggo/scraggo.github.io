@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 // import Img from 'gatsby-image';
-import { Dropdown } from 'semantic-ui-react';
+import { Dropdown } from 'src/components/SUI';
 
 const addKey = arr => arr.map((item, idx) => ({ ...item, key: idx }));
 
