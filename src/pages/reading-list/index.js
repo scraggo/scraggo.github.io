@@ -62,7 +62,18 @@ export default () => {
     // { key: 1, text: 'One', value: 1 },
   ];
 
-  const [filterBy, setFilterBy] = React.useState([]);
+  const [filterBy, setFilterBy] = React.useState('');
+
+  const populateGenres = genre => {
+    if (genre.length > 0 && !genresSet.has(genre)) {
+      genresSet.add(genre);
+      genres.push({
+        key: genre,
+        text: genre,
+        value: genre,
+      });
+    }
+  };
 
   return (
     <Layout>
@@ -74,17 +85,20 @@ export default () => {
             a: externalLink,
           }}
         />
-        <Dropdown
-          className="reading-list-filter"
-          clearable
-          fluid
-          // multiple
-          onChange={(e, { value }) => setFilterBy(value)}
-          options={genres}
-          placeholder="Filter by"
-          selection
-          value={filterBy}
-        />
+        <div>
+          <i>Filter by: </i>
+          <Dropdown
+            className="reading-list-filter"
+            clearable
+            // fluid
+            // multiple
+            onChange={(e, { value }) => setFilterBy(value)}
+            options={genres}
+            placeholder="All"
+            selection
+            value={filterBy}
+          />
+        </div>
         <div className="reading-list">
           {bookList
             // favorites are first
@@ -99,21 +113,14 @@ export default () => {
                 title,
               } = book;
 
-              if (genre.length > 0 && !genresSet.has(genre)) {
-                genresSet.add(genre);
-                genres.push({
-                  key: genre,
-                  text: genre,
-                  value: genre,
-                });
-              }
+              populateGenres(genre);
 
               if (filterBy.length > 0 && genre !== filterBy) {
                 return null;
               }
 
               return (
-                <div className="book">
+                <div className="book" key={title}>
                   <div className="book-title">
                     {getTitle(title, buyLink)} - by {author}
                     {favorite ? (
