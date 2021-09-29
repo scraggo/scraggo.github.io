@@ -46,7 +46,7 @@ Extensions:
 
 Settings:
 
-```jsonc
+```json
 // To make sure prettier formats .js files as jsx:
 "files.associations": {
   "\*.js": "javascriptreact"
