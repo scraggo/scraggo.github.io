@@ -1,4 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[tech and music site with blog, portfolio, teaching resources, and more]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Sep 2021 18:17:00 GMT</lastBuildDate><item><title><![CDATA[Programming with more ease]]></title><description><![CDATA[As professional programmers, the bulk of what we do is solving problems. A lot of the time, I’m motivated by problem-solving challenges. But…]]></description><link>https://www.scraggo.com/programming-with-more-ease/</link><guid isPermaLink="false">https://www.scraggo.com/programming-with-more-ease/</guid><pubDate>Mon, 27 Sep 2021 00:15:31 GMT</pubDate><content:encoded>&lt;p&gt;As professional programmers, the bulk of what we do is solving problems.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[tech and music site with blog, portfolio, teaching resources, and more]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 06 Dec 2021 01:21:20 GMT</lastBuildDate><item><title><![CDATA[TypeScript-lite: JSDoc for type-checking js files]]></title><description><![CDATA[Overview Did you know that you can use TypeScript features in JavaScript projects? When I discovered this and tried it out, I really enjoyed…]]></description><link>https://www.scraggo.com/type-check-jsdocs-typescript/</link><guid isPermaLink="false">https://www.scraggo.com/type-check-jsdocs-typescript/</guid><pubDate>Sun, 05 Dec 2021 00:15:31 GMT</pubDate><content:encoded>&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Did you know that you can use TypeScript features in JavaScript projects? When I discovered this and tried it out, I really enjoyed the results. Let’s go a bit into how it works.&lt;/p&gt;
+&lt;p&gt;With a few simple ingredients:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VSCode&lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;li&gt;Willingness to add types in JSDoc (and optionally importing TypeScript types)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;statically check the types of .js files&lt;/li&gt;
+&lt;li&gt;run &lt;code class=&quot;language-text&quot;&gt;tsc&lt;/code&gt; compiler on .js files&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;write types that are compatible with JSDoc&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;these include utility types like &lt;code class=&quot;language-text&quot;&gt;Partial&lt;/code&gt;. Example: &lt;code class=&quot;language-text&quot;&gt;/** @param {Partial&amp;lt;defaults&gt;} options */&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;write TypeScript types in &lt;code class=&quot;language-text&quot;&gt;.ts.&lt;/code&gt; files and import them&lt;/li&gt;
+&lt;li&gt;get all of this with minimal effort and code changes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Limitations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;advanced TypeScript in JSDoc may not be parse-able by JSDoc&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;inelegance compared to TypeScript:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;type definitions in JSDoc comments are verbose&lt;/li&gt;
+&lt;li&gt;type casting syntax is clumsy. Unlike the JSDoc comments, it sits right inside your code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;There isn’t a lot of writing about using JSDoc typings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Configuring&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;// @ts-check&lt;/code&gt; at the top of a .js file&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;this on its own is enough! You’ll reap many benefits if JSDoc doc-strings are already in place.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Instead (or in addition), you can create a &lt;code class=&quot;language-text&quot;&gt;jsconfig.json&lt;/code&gt; or a &lt;code class=&quot;language-text&quot;&gt;tsconfig.json&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;compilerOptions&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;checkJs&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;strict&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true for making types mandatory&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;JSDoc&lt;/h2&gt;
+&lt;h3&gt;interfaces with &lt;code class=&quot;language-text&quot;&gt;@typedef&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/**
+ * a typical item that can be produced
+ * @typedef {Object} Item
+ * @property {string} description the item description
+ */&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Use with &lt;code class=&quot;language-text&quot;&gt;@param&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;@type&lt;/code&gt;, etc&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/**
+ * create new items
+ * @param {number} qt quantity of items to be created
+ * @returns {Item[]}
+ */&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;qt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// in TypeScript, this would be&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// const items: Item[] = [];&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;/** @type Item[] */&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; items &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// ...create and return items&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;extending an interface with &lt;code class=&quot;language-text&quot;&gt;&amp;amp;&lt;/code&gt; (not “official” JSDoc syntax):&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/**
+ * @typedef {Object} Item
+ * @property {string} description the item description
+ *
+ * @typedef {Object} ChildType
+ * @property {String} shinyThing
+ *
+ * @typedef {Item &amp;amp; ChildType} FancyItem
+ */&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;@template&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Now for the craziest thing in JSDoc: you can even do generics.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/**
+ * Takes any object with a name prop and removes it
+ * @template T
+ * @param {T &amp;amp; {name?: string}} inputObj
+ * @returns {Omit&amp;lt;T, &apos;name&apos;&gt;}
+ */&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;deleteName&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;inputObj&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;/** @type {typeof inputObj} */&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://gils-blog.tayar.org/posts/jsdoc-typings-all-the-benefits-none-of-the-drawbacks/#generics&quot;&gt;https://gils-blog.tayar.org/posts/jsdoc-typings-all-the-benefits-none-of-the-drawbacks/#generics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.joshuatz.com/cheatsheets/js/jsdoc/#generics-in-jsdoc&quot;&gt;https://docs.joshuatz.com/cheatsheets/js/jsdoc/#generics-in-jsdoc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;importing jsdoc or .d.ts file&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/**
+ * @typedef { import(&quot;./models&quot;).Customer } Customer
+ */&lt;/span&gt;
+
+ &lt;span class=&quot;token comment&quot;&gt;/** @type {Customer} */&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; theCustomer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;When to convert to TypeScript&lt;/h2&gt;
+&lt;p&gt;If your codebase is going to be worked on long-term, it’s critical in some way, and your developers know TypeScript, converting to TypeScript is the way to go.&lt;/p&gt;
+&lt;p&gt;If you want a quick payoff and type-checking for a small codebase and don’t have the right resources or willingness to do an overhaul, my recommendation is to use JSDoc. It’ll take a little time to learn and set up correctly, but having type safety in JavaScript is exciting!&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;p&gt;See &lt;a href=&quot;https://www.youtube.com/watch?v=xLDVfBUgD8U&amp;#x26;t=114s&quot;&gt;Do TypeScript without TypeScript - Simone Sanfratello | YouTube&lt;/a&gt; for a demo. Also see the associated repo: &lt;a href=&quot;https://github.com/simone-sanfratello/do-typescript-without-typescript&quot;&gt;https://github.com/simone-sanfratello/do-typescript-without-typescript&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Articles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://gils-blog.tayar.org/posts/jsdoc-typings-all-the-benefits-none-of-the-drawbacks/&quot;&gt;https://gils-blog.tayar.org/posts/jsdoc-typings-all-the-benefits-none-of-the-drawbacks/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.joshuatz.com/cheatsheets/js/jsdoc/&quot;&gt;https://docs.joshuatz.com/cheatsheets/js/jsdoc/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://goulet.dev/posts/how-to-write-ts-interfaces-in-jsdoc/&quot;&gt;https://goulet.dev/posts/how-to-write-ts-interfaces-in-jsdoc/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://naruhodo.dev/type-check-your-javascript-with-jsdoc/&quot;&gt;https://naruhodo.dev/type-check-your-javascript-with-jsdoc/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://codewithhugo.com/jsdoc-typescript-typings-types-d-ts/&quot;&gt;How to get type-checking and generate TypeScript Typing declaration (types.d.ts) from JSDoc annotations · Code with Hugo&lt;/a&gt; - npm packages including &lt;code class=&quot;language-text&quot;&gt;jsdoc&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;tsd-jsdoc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Official resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://code.visualstudio.com/docs/nodejs/working-with-javascript&quot;&gt;Working with JavaScript in Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html&quot;&gt;https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html&quot;&gt;https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html&quot;&gt;https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Programming with more ease]]></title><description><![CDATA[As professional programmers, the bulk of what we do is solving problems. A lot of the time, I’m motivated by problem-solving challenges. But…]]></description><link>https://www.scraggo.com/programming-with-more-ease/</link><guid isPermaLink="false">https://www.scraggo.com/programming-with-more-ease/</guid><pubDate>Mon, 27 Sep 2021 00:15:31 GMT</pubDate><content:encoded>&lt;p&gt;As professional programmers, the bulk of what we do is solving problems.&lt;/p&gt;
 &lt;p&gt;A lot of the time, I’m motivated by problem-solving challenges. But sometimes I hit a wall. A given challenge can become a problem that I’m frustratingly unable to solve.&lt;/p&gt;
 &lt;p&gt;Often, this frustration would spiral into a worse mental state. I’d imagine the problem as a scary, overwhelming, difficult to defeat monster - more difficult than it really is. I’d put &lt;em&gt;a lot&lt;/em&gt; of pressure on myself. ”&lt;em&gt;Solving problems is my job&lt;/em&gt;”, after all.&lt;/p&gt;
 &lt;p&gt;You can probably see that this state of mind that isn’t conducive to problem solving.&lt;/p&gt;
