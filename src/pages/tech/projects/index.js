@@ -82,7 +82,7 @@ const getOpenSource = () => (
     <ul>
       {openSource.map(item => (
         <li key={item.title} className="margin-top-md">
-          <ExternalLink src={item.url}>{item.title}</ExternalLink> -{' '}
+          <ExternalLink url={item.url}>{item.title}</ExternalLink> -{' '}
           {item.description}
         </li>
       ))}
