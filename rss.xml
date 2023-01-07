@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[tech and music site with blog, portfolio, teaching resources, and more]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 06 Dec 2022 03:50:16 GMT</lastBuildDate><item><title><![CDATA[Random Music Generators is now hosted on render.com]]></title><description><![CDATA[Random Music Generators is now hosted on render.com. Please update your bookmarks! https://random-music-generators.onrender.com]]></description><link>https://www.scraggo.com/2022-12-05-random-music-generators-news/</link><guid isPermaLink="false">https://www.scraggo.com/2022-12-05-random-music-generators-news/</guid><pubDate>Mon, 05 Dec 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://random-music-generators.onrender.com&quot;&gt;Random Music Generators is now hosted on render.com. Please update your bookmarks!&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[tech and music site with blog, portfolio, teaching resources, and more]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 07 Jan 2023 19:30:03 GMT</lastBuildDate><item><title><![CDATA[Random Music Generators is now hosted on render.com]]></title><description><![CDATA[Random Music Generators is now hosted on render.com. Please update your bookmarks! https://random-music-generators.onrender.com]]></description><link>https://www.scraggo.com/2022-12-05-random-music-generators-news/</link><guid isPermaLink="false">https://www.scraggo.com/2022-12-05-random-music-generators-news/</guid><pubDate>Mon, 05 Dec 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://random-music-generators.onrender.com&quot;&gt;Random Music Generators is now hosted on render.com. Please update your bookmarks!&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://random-music-generators.onrender.com&quot;&gt;https://random-music-generators.onrender.com&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TypeScript-lite: JSDoc for type-checking js files]]></title><description><![CDATA[Overview Did you know that you can use TypeScript features in JavaScript projects? When I discovered this and tried it out, I really enjoyed…]]></description><link>https://www.scraggo.com/type-check-jsdocs-typescript/</link><guid isPermaLink="false">https://www.scraggo.com/type-check-jsdocs-typescript/</guid><pubDate>Sun, 05 Dec 2021 00:15:31 GMT</pubDate><content:encoded>&lt;h2&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Did you know that you can use TypeScript features in JavaScript projects? When I discovered this and tried it out, I really enjoyed the results. Let’s go a bit into how it works.&lt;/p&gt;
 &lt;p&gt;With a few simple ingredients:&lt;/p&gt;
@@ -478,7 +478,7 @@
 &lt;p&gt;&lt;a href=&quot;https://martinfowler.com/bliki/DomainDrivenDesign.html&quot;&gt;https://martinfowler.com/bliki/DomainDrivenDesign.html&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Learning Paths&lt;/h3&gt;
 &lt;p&gt;In my next post, &lt;a href=&quot;/design-patterns-curriculum&quot;&gt;I provide a number of resources that I’ve found helpful while learning and a suggested curriculum&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Random Music Generators News 2021-01-30]]></title><description><![CDATA[New in 1.3.1 This month, I released a big new feature that’s been requested often. You can now specify a custom note collection to create…]]></description><link>https://www.scraggo.com/2021-01-30-random-music-generators-news/</link><guid isPermaLink="false">https://www.scraggo.com/2021-01-30-random-music-generators-news/</guid><pubDate>Sat, 30 Jan 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;New in 1.3.1&lt;/h2&gt;
-&lt;p&gt;This month, I released a big new feature that’s been requested often. You can now &lt;em&gt;specify a custom note collection&lt;/em&gt; to create random melodies. &lt;a href=&quot;https://random-music-generators.herokuapp.com/melody&quot;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This month, I released a big new feature that’s been requested often. You can now &lt;em&gt;specify a custom note collection&lt;/em&gt; to create random melodies. &lt;a href=&quot;https://random-music-generators.onrender.com/melody&quot;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Note: This feature is available to use if you create an account.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -554,7 +554,7 @@
 &lt;li&gt;Over 101,000 people have used the app since September 2019&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Check it out!&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://random-music-generators.herokuapp.com/&quot;&gt;Random Music Generators - Heroku&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://random-music-generators.onrender.com/&quot;&gt;Random Music Generators&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Suggest features&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;/contact&quot;&gt;Contact me&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Are You Ready to be a Professional Software Engineer?]]></title><description><![CDATA[Updated March 21, 2021 Did you just graduate from a coding bootcamp, obtain a CS degree, or built an involved side project? How do you know…]]></description><link>https://www.scraggo.com/tech-career-resources/</link><guid isPermaLink="false">https://www.scraggo.com/tech-career-resources/</guid><pubDate>Thu, 10 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;Updated March 21, 2021&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Did you just graduate from a coding bootcamp, obtain a CS degree, or built an involved side project? How do you know when you’re ready to write software professionally?&lt;/p&gt;
@@ -1109,7 +1109,7 @@ draft&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;error &lt;spa
 &lt;li&gt;“Start your songwriting process with a drum beat and add parts from there”&lt;/li&gt;
 &lt;li&gt;“Read through an old journal entry once a week to get into that mindset and write down your impressions”&lt;/li&gt;
 &lt;li&gt;“Listen to an album you like, pick a moment you like, and come up with a variation on that moment”&lt;/li&gt;
-&lt;li&gt;“Use a random word/music generator” &lt;a href=&quot;https://random-music-generators.herokuapp.com/&quot;&gt;like this one&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;“Use a random word/music generator” &lt;a href=&quot;https://random-music-generators.onrender.com/&quot;&gt;like this one&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;(There will be &lt;em&gt;a lot&lt;/em&gt; more examples later.)&lt;/p&gt;
 &lt;p&gt;None of these examples are Top 40 song ideas or best-selling novel ideas. None of them contain artistic content. Your &lt;em&gt;action&lt;/em&gt; on them though may lead to creating one!&lt;/p&gt;
@@ -1130,7 +1130,7 @@ draft&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;error &lt;spa
 &lt;h2&gt;Categories&lt;/h2&gt;
 &lt;p&gt;Here’s a non-exhaustive list of categories in which meta ideas may be classified (with a focus on music):&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Generator tools - &lt;a href=&quot;https://random-music-generators.herokuapp.com/&quot;&gt;like this one&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Generator tools - &lt;a href=&quot;https://random-music-generators.onrender.com/&quot;&gt;like this one&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Question prompts&lt;/li&gt;
 &lt;li&gt;Limits, boundaries, distinctions, confines&lt;/li&gt;
 &lt;li&gt;
@@ -1173,7 +1173,7 @@ draft&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;error &lt;spa
 &lt;p&gt;Composition / Music Theory&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Bitonality&lt;/li&gt;
-&lt;li&gt;use &lt;a href=&quot;https://random-music-generators.herokuapp.com/&quot;&gt;random music generators&lt;/a&gt; (shameless plug)&lt;/li&gt;
+&lt;li&gt;use &lt;a href=&quot;https://random-music-generators.onrender.com/&quot;&gt;random music generators&lt;/a&gt; (shameless plug)&lt;/li&gt;
 &lt;li&gt;Negative harmony (just google/duckduckgo/ecosia it.)&lt;/li&gt;
 &lt;li&gt;Sample my favorite moments from Schoenburg pieces:
 &lt;a href=&quot;https://www.youtube.com/watch?v=voyLno0HdoA&quot;&gt;https://www.youtube.com/watch?v=voyLno0HdoA&lt;/a&gt;&lt;/li&gt;
@@ -1213,7 +1213,7 @@ draft&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;error &lt;spa
 &lt;/li&gt;
 &lt;li&gt;Write serial jazz. Has it been done before? How does one go about doing that?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Got interesting results with a student by choosing from a list of random chord qualities, and random root notes. (One of the many moments that inspired the &lt;a href=&quot;https://random-music-generators.herokuapp.com/&quot;&gt;random music generators&lt;/a&gt; app.)&lt;/p&gt;
+&lt;p&gt;Got interesting results with a student by choosing from a list of random chord qualities, and random root notes. (One of the many moments that inspired the &lt;a href=&quot;https://random-music-generators.onrender.com/&quot;&gt;random music generators&lt;/a&gt; app.)&lt;/p&gt;
 &lt;p&gt;Jazz&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;write a new melody for existing chords (or vice versa)&lt;/li&gt;
@@ -1551,7 +1551,7 @@ is&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&
 &lt;li&gt;&lt;a href=&quot;https://changelog.com/posts/this-week-i-learned-about-sinon-matchers&quot;&gt;https://changelog.com/posts/this-week-i-learned-about-sinon-matchers&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/41231496/how-to-match-an-array-of-objects-with-sinon-js&quot;&gt;https://stackoverflow.com/questions/41231496/how-to-match-an-array-of-objects-with-sinon-js&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Random Music Generators News 2020-01-27]]></title><description><![CDATA[New in 1.1.0 Yesterday, I released a feature that’s been in the works for over 6 months. You can now create melody presets. Check it out…]]></description><link>https://www.scraggo.com/2020-01-27-random-music-generators-news/</link><guid isPermaLink="false">https://www.scraggo.com/2020-01-27-random-music-generators-news/</guid><pubDate>Mon, 27 Jan 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;New in 1.1.0&lt;/h2&gt;
-&lt;p&gt;Yesterday, I released a feature that’s been in the works for over 6 months. You can now create melody presets. &lt;a href=&quot;https://random-music-generators.herokuapp.com/melody&quot;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Yesterday, I released a feature that’s been in the works for over 6 months. You can now create melody presets. &lt;a href=&quot;https://random-music-generators.onrender.com/melody&quot;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
@@ -1624,7 +1624,7 @@ is&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&
 &lt;li&gt;The app was first deployed in March 2018&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Check it out and suggest features!&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://random-music-generators.herokuapp.com/&quot;&gt;Random Music Generators - Heroku&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Website Makeover: Moving from Jekyll to Gatsby]]></title><description><![CDATA[Happy 2020! One of my new year’s resolutions is to redo my website with a lot of new things in mind. Here I’ll outline the changes I’m in…]]></description><link>https://www.scraggo.com/website-makeover-gatsby/</link><guid isPermaLink="false">https://www.scraggo.com/website-makeover-gatsby/</guid><pubDate>Thu, 09 Jan 2020 00:15:31 GMT</pubDate><content:encoded>&lt;p&gt;Happy 2020! One of my new year’s resolutions is to redo my website with a lot of new things in mind. Here I’ll outline the changes I’m in the process of making. &lt;em&gt;EDIT Jan 18, 2020: Gatsby makeover complete!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://random-music-generators.onrender.com/&quot;&gt;Random Music Generators&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Website Makeover: Moving from Jekyll to Gatsby]]></title><description><![CDATA[Happy 2020! One of my new year’s resolutions is to redo my website with a lot of new things in mind. Here I’ll outline the changes I’m in…]]></description><link>https://www.scraggo.com/website-makeover-gatsby/</link><guid isPermaLink="false">https://www.scraggo.com/website-makeover-gatsby/</guid><pubDate>Thu, 09 Jan 2020 00:15:31 GMT</pubDate><content:encoded>&lt;p&gt;Happy 2020! One of my new year’s resolutions is to redo my website with a lot of new things in mind. Here I’ll outline the changes I’m in the process of making. &lt;em&gt;EDIT Jan 18, 2020: Gatsby makeover complete!&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Now live: custom domain name &lt;code class=&quot;language-text&quot;&gt;scraggo.com&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;An important step in the whole makeover was getting an official domain name - I’m now live at &lt;a href=&quot;https://www.scraggo.com&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;scraggo.com&lt;/code&gt;&lt;/a&gt;! I’m using &lt;a href=&quot;https://www.namecheap.com/&quot;&gt;namecheap&lt;/a&gt; as the provider. The site has been hosted with &lt;a href=&quot;https://pages.github.com/&quot;&gt;github pages&lt;/a&gt; since its inception and I’ll probably continue to host it here.&lt;/p&gt;
 &lt;h2&gt;New year, new static site generator&lt;/h2&gt;
