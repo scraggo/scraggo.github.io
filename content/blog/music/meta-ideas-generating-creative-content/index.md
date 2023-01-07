@@ -42,7 +42,7 @@ Here are some examples to illustrate what a meta idea is:
 - “Start your songwriting process with a drum beat and add parts from there”
 - "Read through an old journal entry once a week to get into that mindset and write down your impressions"
 - "Listen to an album you like, pick a moment you like, and come up with a variation on that moment"
-- "Use a random word/music generator" [like this one](https://random-music-generators.herokuapp.com/)
+- "Use a random word/music generator" [like this one](https://random-music-generators.onrender.com/)
 
 (There will be _a lot_ more examples later.)
 
@@ -71,7 +71,7 @@ Can meta ideas be prescriptive or formulaic? Absolutely. Part of the creative pr
 
 Here's a non-exhaustive list of categories in which meta ideas may be classified (with a focus on music):
 
-- Generator tools - [like this one](https://random-music-generators.herokuapp.com/)
+- Generator tools - [like this one](https://random-music-generators.onrender.com/)
 - Question prompts
 - Limits, boundaries, distinctions, confines
 - Non-art (conversations, philosophy, business, news, politics, any domain of human knowledge)
@@ -111,7 +111,7 @@ Songwriting / lyrical ideas
 Composition / Music Theory
 
 - Bitonality
-- use [random music generators](https://random-music-generators.herokuapp.com/) (shameless plug)
+- use [random music generators](https://random-music-generators.onrender.com/) (shameless plug)
 - Negative harmony (just google/duckduckgo/ecosia it.)
 - Sample my favorite moments from Schoenburg pieces:
   <https://www.youtube.com/watch?v=voyLno0HdoA>
@@ -147,7 +147,7 @@ Album / genre ideas
   - An album called Mistakes and All. All improvs.
 - Write serial jazz. Has it been done before? How does one go about doing that?
 
-Got interesting results with a student by choosing from a list of random chord qualities, and random root notes. (One of the many moments that inspired the [random music generators](https://random-music-generators.herokuapp.com/) app.)
+Got interesting results with a student by choosing from a list of random chord qualities, and random root notes. (One of the many moments that inspired the [random music generators](https://random-music-generators.onrender.com/) app.)
 
 Jazz
 

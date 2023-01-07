@@ -11,7 +11,7 @@ redirect_from:
 
 ## New in 1.1.0
 
-Yesterday, I released a feature that's been in the works for over 6 months. You can now create melody presets. [Check it out!](https://random-music-generators.herokuapp.com/melody)
+Yesterday, I released a feature that's been in the works for over 6 months. You can now create melody presets. [Check it out!](https://random-music-generators.onrender.com/melody)
 
 ![New presets](./preset2.png)
 
@@ -34,4 +34,4 @@ If you have a cool preset you want to share, send me a screenshot and I can add 
 
 ## Check it out and suggest features!
 
-[Random Music Generators - Heroku](https://random-music-generators.herokuapp.com/)
+[Random Music Generators](https://random-music-generators.onrender.com/)

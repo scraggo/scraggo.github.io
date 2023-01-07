@@ -11,7 +11,7 @@ author: 'Dave Cohen'
 
 ## New in 1.3.1
 
-This month, I released a big new feature that's been requested often. You can now _specify a custom note collection_ to create random melodies. [Check it out!](https://random-music-generators.herokuapp.com/melody)
+This month, I released a big new feature that's been requested often. You can now _specify a custom note collection_ to create random melodies. [Check it out!](https://random-music-generators.onrender.com/melody)
 
 Note: This feature is available to use if you create an account.
 
@@ -34,7 +34,7 @@ In addition to these new features, there were a couple of bug fixes:
 
 ## Check it out!
 
-[Random Music Generators - Heroku](https://random-music-generators.herokuapp.com/)
+[Random Music Generators](https://random-music-generators.onrender.com/)
 
 ## Suggest features
 

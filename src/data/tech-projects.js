@@ -6,15 +6,15 @@
 const myProjects = [
   {
     title: 'Random Music Generators',
-    deployUrl: 'https://random-music-generators.herokuapp.com/',
+    deployUrl: 'https://random-music-generators.onrender.com/',
     description:
       'Generate unlimited unique melodies with easily changed parameters including tonality, rhythm, and interval jumps. These melodies can be previewed in-browser and downloaded as MIDI.',
     technology:
       'React, Redux, Express, PostgreSQL, Semantic UI, MIDIwriterJS, ToneJS',
     links: [
       {
-        title: 'Random Music Generators - Heroku',
-        url: 'https://random-music-generators.herokuapp.com/',
+        title: 'Random Music Generators',
+        url: 'https://random-music-generators.onrender.com/',
       },
       {
         title: 'View on GitHub',
