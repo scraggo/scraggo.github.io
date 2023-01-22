@@ -46,6 +46,78 @@ const myProjects = [
     ],
   },
   {
+    title: 'Comparing JavaScript Test Runners',
+    deployUrl: 'https://github.com/scraggo/comparing-javascript-test-runners',
+    description:
+      'Article and companion app that compares AVA, Jest, Mocha, and mocha-parallel-tests testing frameworks.',
+    technology: 'AVA, Jest, Mocha',
+    links: [
+      {
+        title: 'Article (GitHub)',
+        url: 'https://github.com/scraggo/comparing-javascript-test-runners',
+      },
+      {
+        title: 'Benchmarking Application (GitHub)',
+        url:
+          'https://github.com/scraggo/comparing-javascript-test-runners/blob/master/docs/test-runner.md',
+      },
+      {
+        title: 'Blog Post',
+        url: '/comparing-javascript-test-runners/',
+      },
+    ],
+  },
+  {
+    title: 'Design patterns',
+    deployUrl: 'https://github.com/scraggo/design-patterns-refactoring-guru',
+    description:
+      'TypeScript runner for all design patterns on refactoring.guru. Accompanying blog posts for students of design patterns.',
+    technology: 'TypeScript, node, oclif, mocha',
+    links: [
+      {
+        title: 'View on GitHub',
+        url: 'https://github.com/scraggo/design-patterns-refactoring-guru',
+      },
+      {
+        title: 'How to Learn Design Patterns (Blog Post)',
+        url: '/design-patterns-curriculum',
+      },
+      {
+        title:
+          "Introduction to Design Patterns: Why they're worth learning (Blog Post)",
+        url: '/design-patterns-intro/',
+      },
+    ],
+  },
+  {
+    title: 'Question Prompter',
+    deployUrl: 'https://github.com/scraggo/question-prompter',
+    description: 'CLI tool to prompt for user configured questions and notes',
+    technology: 'node (commander, inquirer)',
+    links: [
+      {
+        title: 'View on GitHub',
+        url: 'https://github.com/scraggo/question-prompter',
+      },
+      {
+        title: 'Blog Post',
+        url: '/using-question-prompter/',
+      },
+    ],
+  },
+  {
+    title: 'ImmutableJS Tutorial',
+    deployUrl: 'https://github.com/scraggo/immutable-tutorial-sandbox',
+    description: 'Centralized ImmutableJS tutorial and sandbox',
+    technology: 'React, ImmutableJS',
+    links: [
+      {
+        title: 'View on GitHub',
+        url: 'https://github.com/scraggo/immutable-tutorial-sandbox',
+      },
+    ],
+  },
+  {
     title: 'Vocode',
     deployUrl: 'https://vocode.herokuapp.com',
     description:

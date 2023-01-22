@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 
 import ExternalLink from 'src/components/ExternalLink';
@@ -22,7 +22,7 @@ const getImageIfExists = ({ data, filename }) => {
 };
 
 const getProjects = ({ data }) =>
-  myProjects.map(project => {
+  myProjects.map((project, projectIdx) => {
     const {
       deployUrl,
       description,
@@ -35,43 +35,53 @@ const getProjects = ({ data }) =>
     const img = getImageIfExists({ data, filename: imgSrc });
 
     return (
-      <div key={title} className="margin-top-lg">
-        <h3>
-          <ExternalLink url={deployUrl}>{title}</ExternalLink>
-        </h3>
-        <div className="flex portfolio-wrapper">
-          <div className="portfolio-text">
-            <p>{description}</p>
-            <p>
-              <strong>Technology: </strong>
-              {technology}
-            </p>
-            <ul>
-              {links.map(link => (
-                <li key={link.title}>
-                  <ExternalLink key={link.url} url={link.url}>
-                    {link.title}
-                  </ExternalLink>
-                </li>
-              ))}
-            </ul>
-          </div>
-          {img && (
-            <div className="portfolio-img">
-              <ExternalLink url={deployUrl}>
-                {img.external ? (
-                  <img
-                    // className="site-logo"
-                    src={img.external}
-                    alt={title}
-                  />
-                ) : (
-                  <Img fluid={img} alt={title} />
-                )}
-              </ExternalLink>
+      <div className="project">
+        <div key={title}>
+          <h3>
+            <ExternalLink url={deployUrl}>{title}</ExternalLink>
+          </h3>
+          <div className="flex portfolio-wrapper">
+            <div className="portfolio-text">
+              <p>{description}</p>
+              <p>
+                <strong>Technology: </strong>
+                {technology}
+              </p>
+              <ul>
+                {links.map(link => {
+                  const isInternalLink = link.url.startsWith('/');
+                  return (
+                    <li key={link.title}>
+                      {isInternalLink ? (
+                        <Link to={link.url}>{link.title}</Link>
+                      ) : (
+                        <ExternalLink key={link.url} url={link.url}>
+                          {link.title}
+                        </ExternalLink>
+                      )}
+                    </li>
+                  );
+                })}
+              </ul>
             </div>
-          )}
+            {img && (
+              <div className="portfolio-img">
+                <ExternalLink url={deployUrl}>
+                  {img.external ? (
+                    <img
+                      // className="site-logo"
+                      src={img.external}
+                      alt={title}
+                    />
+                  ) : (
+                    <Img fluid={img} alt={title} />
+                  )}
+                </ExternalLink>
+              </div>
+            )}
+          </div>
         </div>
+        <hr />
       </div>
     );
   });
@@ -97,7 +107,7 @@ export default ({ data }) => {
       <SEO title="Tech Projects" />
       <div className="text-wrapper">
         <h1>Tech Projects</h1>
-        {getProjects({ data })}
+        <div className="margin-top-lg">{getProjects({ data })}</div>
         {getOpenSource()}
       </div>
     </Layout>

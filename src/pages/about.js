@@ -11,9 +11,9 @@ I’m a programmer, musician, writer, and educator. I'm fascinated with technolo
 
 ## Software Engineering
 
-Javascript is my goto programming language - it's capable of creating web, mobile, and desktop applications and works across the entire stack. I'm an experienced developer in the React ecosystem with my favorite related technologies being Redux (thunks), Gatsby, Electron, and React Native. On the server side, I enjoy using Node, Express, Sequelize, and SQL (PostgreSQL).
+I'm a full-stack developer who specializes in JavaScript, TypeScript, Node, and React. I enjoy building applications with a focus on great user experience - be it web, mobile, command-line, or desktop applications. My favorite technologies include NextJS, Gatsby, Electron, Web Audio APIs (ToneJS), SCSS, Express, Sequelize, and related testing frameworks. I'm also capable in utilizing deployment technologies (Github Actions, Gitlab Pipelines), AWS (Lambda, S3, ECS, etc), Python, and SQL (PostgreSQL).
 
-I'm also a fan of SASS, Web Audio APIs (ToneJS), Python, Jekyll, mobile development, testing, and functional programming.
+Please [contact me](/contact) for consulting purposes, speaking engagements (tech talks), mentoring, or teaching workshops.
 
 - [Portfolio](/tech/projects)
 - [Tech Blog](/tech)
