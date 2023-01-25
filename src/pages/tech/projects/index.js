@@ -93,7 +93,12 @@ const getOpenSource = () => (
       {openSource.map(item => (
         <li key={item.title} className="margin-top-md">
           <ExternalLink url={item.url}>{item.title}</ExternalLink> -{' '}
-          {item.description}
+          {item.description}{' '}
+          {item.links
+            ? item.links.map(link => (
+                <ExternalLink url={link.url}>{link.title}</ExternalLink>
+              ))
+            : null}
         </li>
       ))}
     </ul>

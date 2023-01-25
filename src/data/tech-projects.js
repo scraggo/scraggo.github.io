@@ -3,6 +3,9 @@
  * @property {string} ProjectData.imgSrc -> resolves with GraphQL
  */
 
+// https://anchor.fm/jellyvision-tech-podcast/
+// https://anchor.fm/dev-sounds-podcast/
+
 const myProjects = [
   {
     title: 'Random Music Generators',
@@ -27,6 +30,18 @@ const myProjects = [
     ],
     imgSrc: 'https://media.giphy.com/media/lpt5YtiWgLU9tpClnA/giphy.gif',
     // imgSrc: 'rmg-slideshow.gif',
+  },
+  {
+    title: 'scraggo.com',
+    deployUrl: 'https://www.scraggo.com',
+    description: '',
+    technology: 'Gatsby, React, scss, markdown',
+    links: [
+      {
+        title: 'View on GitHub',
+        url: 'https://github.com/scraggo/scraggo.github.io',
+      },
+    ],
   },
   {
     title: 'Tone Rhythm',
@@ -238,6 +253,27 @@ const myProjects = [
 ];
 
 const openSource = [
+  {
+    title: 'Testing ImmutableJS With Sinon Custom Matchers',
+    url: '/testing-immutable-js-with-sinon-custom-matchers/',
+    description: 'Post featured on the How To section of the sinonjs site',
+    links: [
+      {
+        title: 'https://sinonjs.org/how-to/',
+        url: 'https://sinonjs.org/how-to/',
+      },
+    ],
+  },
+  {
+    title: '@sindresorhus/is',
+    url: 'https://github.com/sindresorhus/is/pull/132',
+    description: 'Fix assertion message for .all and .any',
+  },
+  {
+    title: '@sindresorhus/is',
+    url: 'https://github.com/sindresorhus/is/pull/104',
+    description: 'Add support for multiple predicates to is.any',
+  },
   {
     description:
       '♬ A JavaScript library which provides an API for programmatically generating and creating expressive multi-track MIDI files and JSON objects.',
