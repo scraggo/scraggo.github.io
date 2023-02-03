@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "change-case": "^4.1.1",
-    "gatsby": "^2.18.12",
+    "gatsby": "^5.5.0",
     "gatsby-image": "^2.2.37",
     "gatsby-plugin-feed": "^2.3.25",
     "gatsby-plugin-manifest": "^2.2.34",
@@ -25,7 +25,7 @@
     "gatsby-plugin-offline": "^3.0.30",
     "gatsby-plugin-react-helmet": "^3.1.18",
     "gatsby-plugin-sass": "^2.1.26",
-    "gatsby-plugin-sharp": "^2.3.10",
+    "gatsby-plugin-sharp": "^2.14.4",
     "gatsby-redirect-from": "^0.2.1",
     "gatsby-remark-copy-linked-files": "^2.1.33",
     "gatsby-remark-embed-video": "^3.0.10",
