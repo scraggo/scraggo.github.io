@@ -7,7 +7,7 @@ import { internalLink } from 'src/utils/mdUtils';
 
 const markdown = `# About Dave Cohen
 
-I’m a programmer, musician, writer, and educator. I'm fascinated with technology and it's intersection with the creative process.
+I'm a programmer, musician, writer, and educator. I'm fascinated with technology and its intersection with the creative process.
 
 ## Software Engineering
 

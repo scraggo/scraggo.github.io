@@ -14,9 +14,9 @@ import { externalLink, pToAnyWithClassName } from 'src/utils/mdUtils';
 import './reading-list.scss';
 
 const markdown = `
-My favorite books and essays
+My favorite books and essays (most recently read listed first)
 
-> Looking for more book ideas? Check out these reading lists: [Derek Sivers](https://sive.rs/book/), [Ryan Holiday](https://ryanholiday.net/reading-list/), [James Clear](https://jamesclear.com/best-books)
+> Check out these reading lists for more ideas on what to read next: [Derek Sivers](https://sive.rs/book/), [Ryan Holiday](https://ryanholiday.net/reading-list/), [James Clear](https://jamesclear.com/best-books)
 `;
 
 const getTitle = (title, url) => {
