@@ -4,6 +4,9 @@
   "description": "Software engineering, music, blog articles, and teaching resources by David Emanuel Cohen",
   "version": "0.2.1",
   "license": "MIT",
+  "engines": {
+    "node": "12.22.12"
+  },
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
