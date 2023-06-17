@@ -4,7 +4,7 @@ title: 'A 3 Step Process to Organizing Creativity'
 date: '2016-01-06'
 type: post
 categories: ['music']
-tags: ['songwriting', 'creative process']
+tags: ['songwriting', 'creativity', 'productivity']
 # permalink: /blog/disposable-magento-testing-environments-with-k8s/
 author: Dave Cohen
 redirect_from:

@@ -3,7 +3,7 @@ type: post
 title: 'Comparing JavaScript Test Runners'
 date: 2020-05-02
 categories: ['tech']
-tags: ['javascript', 'test runners', 'ava', 'mocha', 'jest']
+tags: ['javascript', 'test runners', 'ava', 'mocha', 'jest', 'tech talk']
 author: 'Dave Cohen'
 redirect_from:
   - /tech/comparing-javascript-test-runners/
