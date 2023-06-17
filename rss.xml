@@ -1,4 +1,160 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[tech and music site with blog, portfolio, teaching resources, and more]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 12 Feb 2023 18:25:29 GMT</lastBuildDate><item><title><![CDATA[Random Music Generators is now hosted on render.com]]></title><description><![CDATA[Random Music Generators is now hosted on render.com. Please update your bookmarks! https://random-music-generators.onrender.com]]></description><link>https://www.scraggo.com/2022-12-05-random-music-generators-news/</link><guid isPermaLink="false">https://www.scraggo.com/2022-12-05-random-music-generators-news/</guid><pubDate>Mon, 05 Dec 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://random-music-generators.onrender.com&quot;&gt;Random Music Generators is now hosted on render.com. Please update your bookmarks!&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[tech and music site with blog, portfolio, teaching resources, and more]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 17 Jun 2023 21:59:46 GMT</lastBuildDate><item><title><![CDATA[How I'm Building My Second Brain]]></title><description><![CDATA[Slides + Video “How I’m building my second brain” video (YouTube) “How I’m building my second brain” slides (PDF) What’s a “second brain…]]></description><link>https://www.scraggo.com/building-my-second-brain/</link><guid isPermaLink="false">https://www.scraggo.com/building-my-second-brain/</guid><pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Slides + Video&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/5-5aO-F6HA4&quot;&gt;“How I’m building my second brain” video (YouTube)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/0994bf6c1add8db9ae8766da1299af19/second-brain-slides.pdf&quot;&gt;“How I’m building my second brain” slides (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;What’s a “second brain?”&lt;/h2&gt;
+&lt;p&gt;In concept, it’s an external information collection that aids thinking and memory.&lt;/p&gt;
+&lt;p&gt;The way I put this into practice is a collection of markdown notes linked with bi-directional backlinks (notated with double square brackets: &lt;code class=&quot;language-text&quot;&gt;[[]]&lt;/code&gt;)&lt;/p&gt;
+&lt;p&gt;The collection is basically a wiki.&lt;/p&gt;
+&lt;p&gt;The wider concept is &lt;a href=&quot;https://en.wikipedia.org/wiki/Personal_knowledge_management&quot;&gt;Personal Knowledge Management (PKM)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I first discovered these ideas through Zettelkasten concepts.&lt;/p&gt;
+&lt;p&gt;Around the net, it’s also known as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;digital gardening&lt;/li&gt;
+&lt;li&gt;life operating system&lt;/li&gt;
+&lt;li&gt;“Linking your Thinking”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;See “Resources” below for more info on the related concepts.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;The problem: One brain is limited&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Juggling projects&lt;/li&gt;
+&lt;li&gt;Learning something new can be intimidating&lt;/li&gt;
+&lt;li&gt;Disparate sources: Slack, emails, bookmarks, notes, etc&lt;/li&gt;
+&lt;li&gt;Googling repeatedly (but…sites go down)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Are we able to make notes and discover them without too much friction?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Second brain benefits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Solidify knowledge&lt;/li&gt;
+&lt;li&gt;Readily search and share ideas&lt;/li&gt;
+&lt;li&gt;Consolidate and reduce clutter (&lt;a href=&quot;https://zettelkasten.de/posts/collectors-fallacy/&quot;&gt;collector’s fallacy&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Structure emerges from links within notes, not directories&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What are Backlinks?&lt;/h2&gt;
+&lt;p&gt;Weblinks are uni-directional - the destination has no knowledge of the source that linked to it. &lt;strong&gt;Backlinks are bi-directional - the destination links back to all of its sources.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;backlink syntax: &lt;code class=&quot;language-text&quot;&gt;[[link-to-note]]&lt;/code&gt; (note that we omit the &lt;code class=&quot;language-text&quot;&gt;.md&lt;/code&gt; file extension.)&lt;/p&gt;
+&lt;h2&gt;Demo - The practice of building a second brain&lt;/h2&gt;
+&lt;p&gt;1. Taking notes on &lt;a href=&quot;https://blog.appsignal.com/2021/09/01/best-practices-for-logging-in-nodejs.html&quot;&gt;https://blog.appsignal.com/2021/09/01/best-practices-for-logging-in-nodejs.html&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Copying content from browser documents into a google doc to retain formatting&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607&quot;&gt;Docs to Markdown&lt;/a&gt;: convert formatted text to markdown in Google Docs&lt;/li&gt;
+&lt;li&gt;Paste markdown into your notes collection&lt;/li&gt;
+&lt;li&gt;Give it a unique filename like &lt;code class=&quot;language-text&quot;&gt;node-logging-best-practices-isiah.md&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2. Putting link to above notes into a reference schema, aka “Map of Content”&lt;/p&gt;
+&lt;p&gt;My dev notes schema:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;- Bash
+  - [[bash-notes]]
+- CSS
+  - [[css-grid]]
+- Docker
+  - [[docker-notes]]
+- JavaScript
+  - [[node-notes]]
+  - [[react-notes]]
+- ... etc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Since I have a lot of notes on node, I’ll put it in the &lt;code class=&quot;language-text&quot;&gt;node-notes.md&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;Node notes:
+
+- [[node-logging-best-practices-isiah]]
+- [[node-log-object]]
+- ... etc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;3. Writing: linking original writings to reference material&lt;/p&gt;
+&lt;p&gt;filename: &lt;code class=&quot;language-text&quot;&gt;logging-best-practices-dec.md&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;What I&apos;ve learned about logging
+
+Combining [[node-logging-best-practices-isaiah]] with [[logging-best-practices-uhrig]]
+
+- experiences with lambdas
+- experiences with chat-bot and sumo
+- [[node-log-object]]
+
+220607&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;4. Task management: Todo list that links to project docs with original writings&lt;/p&gt;
+&lt;p&gt;filename: &lt;code class=&quot;language-text&quot;&gt;0-this-week-todo-zk-example.md&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;# This week todo
+
+## Sprint work
+
+[[JIRA-1234-upgrade-all-the-things-zk-example]]
+
+## Else
+
+Don&apos;t forget -&gt; [[0-backlog-zk-example]]
+
+@! Respond to email
+
+Respond to slack message
+
+Write [[logging-best-practices-dec]]
+
+Prepare slides
+
+Post meeting notes
+
+## Done
+
+x 2022-03-01 Thing I got done&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;filename: &lt;code class=&quot;language-text&quot;&gt;0-backlog-zk-example.md&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;# Todo backlog
+
+Working group
+
+Professional dev:
+- Learn x
+- Learn y&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;filename: &lt;code class=&quot;language-text&quot;&gt;JIRA-1234-upgrade-all-the-things-zk-example.md&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;# Here are some very interesting notes
+
+Here are some very interesting notes&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Parting thoughts&lt;/h2&gt;
+&lt;p&gt;Experiment to find &lt;em&gt;your&lt;/em&gt; way&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Research: collect information and organize it in a way that’s relevant to you&lt;/li&gt;
+&lt;li&gt;Create: synthesize your collected knowledge into original writings&lt;/li&gt;
+&lt;li&gt;Manage: keep track of work in progress, increase productivity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Make a habit of connecting as much as you can&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;creative synthesis: new ideas form effortlessly from linked ideas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Compound growth&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In ~6 months, work/personal second brains: 870 backlinks in 226 files. &gt;50 article highlights, ~12 book takeaways, weekly micro-blogging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;h3&gt;Methodology&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://writing.bobdoto.computer/zettelkasten-linking-your-thinking-and-nick-milos-search-for-ground/&quot;&gt;Zettelkasten, Linking Your Thinking, and Nick Milo’s Search for Ground | The Daily Pony&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=31507132&quot;&gt;Hacker News comments for ^&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.asianefficiency.com/podcasts/387-nick-milo/&quot;&gt;Podcast episode with Nick Milo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://zettelkasten.de/introduction/&quot;&gt;Introduction to the Zettelkasten Method&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://zettelkasten.de/posts/collectors-fallacy/&quot;&gt;collector’s fallacy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://fortelabs.co/blog/para/&quot;&gt;The PARA Method: A Universal System for Organizing Digital Information - Forte Labs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.makeuseof.com/tag/manage-digital-files/&quot;&gt;How to Manage Your Digital Files: 9 Tips and Tools to Keep You Organized&lt;/a&gt; see The Noguchi Filing System&lt;/p&gt;
+&lt;h3&gt;Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://github.com/yorkxin/copy-as-markdown&quot;&gt;Copy As Markdown&lt;/a&gt; browser extension&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607&quot;&gt;Docs to Markdown&lt;/a&gt;: convert formatted text to markdown in Google Docs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“VS Code - flavored” second brain:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://vscodium.com/&quot;&gt;vscodium&lt;/a&gt; (vscode “core” built without telemetry)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=svsool.markdown-memo&quot;&gt;svsool.markdown-memo extension&lt;/a&gt; for backlinks&lt;/li&gt;
+&lt;li&gt;You might instead like Obsidian, logseq, Notion, Roam, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Example sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://zk.zettel.page/software-comparison&quot;&gt;Software comparison – PKM Zettelkasten&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://notes.andymatuschak.org/Evergreen_notes&quot;&gt;Andy Matuschak’s backlinked notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Knowledge site generators:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/binyamin/eleventy-garden&quot;&gt;https://github.com/binyamin/eleventy-garden&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mathieudutour/gatsby-digital-garden/&quot;&gt;https://github.com/mathieudutour/gatsby-digital-garden/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Random Music Generators is now hosted on render.com]]></title><description><![CDATA[Random Music Generators is now hosted on render.com. Please update your bookmarks! https://random-music-generators.onrender.com]]></description><link>https://www.scraggo.com/2022-12-05-random-music-generators-news/</link><guid isPermaLink="false">https://www.scraggo.com/2022-12-05-random-music-generators-news/</guid><pubDate>Mon, 05 Dec 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://random-music-generators.onrender.com&quot;&gt;Random Music Generators is now hosted on render.com. Please update your bookmarks!&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://random-music-generators.onrender.com&quot;&gt;https://random-music-generators.onrender.com&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TypeScript-lite: JSDoc for type-checking js files]]></title><description><![CDATA[Overview Did you know that you can use TypeScript features in JavaScript projects? When I discovered this and tried it out, I really enjoyed…]]></description><link>https://www.scraggo.com/type-check-jsdocs-typescript/</link><guid isPermaLink="false">https://www.scraggo.com/type-check-jsdocs-typescript/</guid><pubDate>Sun, 05 Dec 2021 00:15:31 GMT</pubDate><content:encoded>&lt;h2&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Did you know that you can use TypeScript features in JavaScript projects? When I discovered this and tried it out, I really enjoyed the results. Let’s go a bit into how it works.&lt;/p&gt;
 &lt;p&gt;With a few simple ingredients:&lt;/p&gt;
