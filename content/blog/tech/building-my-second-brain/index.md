@@ -9,9 +9,25 @@ author: 'Dave Cohen'
 
 ## Slides + Video
 
-["How I'm building my second brain" video (YouTube)](https://youtu.be/5-5aO-F6HA4)
+["How I'm building my second brain" video (2022) (YouTube)](https://youtu.be/5-5aO-F6HA4)
 
-["How I'm building my second brain" slides (PDF)](second-brain-slides.pdf)
+["How I'm building my second brain" slides (2022) (PDF)](second-brain-slides.pdf)
+
+## Intro
+
+Creativity is bound up with making connections between disparate ideas.
+
+The _connections_ piece is crucial. I know this because of my many failures with knowledge management. I went all in on the [Getting Things Done (GTD)](https://en.wikipedia.org/wiki/Getting_Things_Done) productivity system and wound up with a large, messy digital collection. The five stages of the GTD workflow are _capture, clarify, organize, reflect, and engage._ I captured anything that I could digitize. I clarified with a complex system of tags. I organized by putting things in hierarchies of folders. I reflected by journaling about it all. And inevitably fell short on the engagement piece.
+
+(This seems to be a pretty common problem. <https://giansegato.com/essays/edutainment-is-not-learning> | [HN comments](https://news.ycombinator.com/item?id=36580837).)
+
+Having declared bankruptcy on my notes too many times, I knew I needed something different. I discovered the _[Second Brain](https://writing.bobdoto.computer/zettelkasten-linking-your-thinking-and-nick-milos-search-for-ground/)_ concept and got hooked. It helped steer me to abandoning arbitrary collections, nested directory structures, and complicated tagging systems locked in proprietary software. _Notes are connected to each other_ and structure emerges, almost effortlessly.
+
+My notes are now in markdown, a plaintext "markup" language that allows headings, bullet points, checkboxes, blockquotes, etc. The document can output as rich text like you see on the web, but it's readable as is. To connect notes in your second brain you can use standard link syntax or take it up a notch with _backlinks_ - where notes have awareness from where they were linked.
+
+By connecting notes in this way, we approach how the brain stores and retrieves knowledge. Building links over time allows us to create a reservoir of connections which have connections, which have connections, which becomes a nice web of digital neurons. To aid the creative process, you can view your linked notes as a knowledge graph [like the ones in these images](https://duckduckgo.com/?t=ffab&q=knowledge+graph&atb=v174-1&iax=images&ia=images) to add fascination to your connection sessions.
+
+This is just the tip of the iceberg. If your brain craves more, below is the text for a talk I gave on how I take notes, synthesize ideas, and manage my tasks.
 
 ## What’s a "second brain?"
 
@@ -108,18 +124,18 @@ Combining [[node-logging-best-practices-isaiah]] with [[logging-best-practices-u
 
 4\. Task management: Todo list that links to project docs with original writings
 
-filename: `0-this-week-todo-zk-example.md`
+filename: `0-this-week-todo.md`
 
 ```txt
 # This week todo
 
 ## Sprint work
 
-[[JIRA-1234-upgrade-all-the-things-zk-example]]
+[[JIRA-1234-upgrade-all-the-things]]
 
 ## Else
 
-Don't forget -> [[0-backlog-zk-example]]
+Don't forget -> [[0-backlog]]
 
 @! Respond to email
 
@@ -136,7 +152,7 @@ Post meeting notes
 x 2022-03-01 Thing I got done
 ```
 
-filename: `0-backlog-zk-example.md`
+filename: `0-backlog.md`
 
 ```txt
 # Todo backlog
@@ -148,10 +164,10 @@ Professional dev:
 - Learn y
 ```
 
-filename: `JIRA-1234-upgrade-all-the-things-zk-example.md`
+filename: `JIRA-1234-upgrade-all-the-things.md`
 
 ```txt
-# Here are some very interesting notes
+# Title
 
 Here are some very interesting notes
 ```
@@ -160,7 +176,7 @@ Here are some very interesting notes
 
 Experiment to find _your_ way
 
-- Research: collect information and organize it in a way that's relevant to you
+- Learn: research / collect information and organize it in a way that's relevant to you
 - Create: synthesize your collected knowledge into original writings
 - Manage: keep track of work in progress, increase productivity
 
