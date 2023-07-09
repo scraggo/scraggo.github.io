@@ -1,6 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[tech and music site with blog, portfolio, teaching resources, and more]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 17 Jun 2023 21:59:46 GMT</lastBuildDate><item><title><![CDATA[How I'm Building My Second Brain]]></title><description><![CDATA[Slides + Video “How I’m building my second brain” video (YouTube) “How I’m building my second brain” slides (PDF) What’s a “second brain…]]></description><link>https://www.scraggo.com/building-my-second-brain/</link><guid isPermaLink="false">https://www.scraggo.com/building-my-second-brain/</guid><pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Slides + Video&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://youtu.be/5-5aO-F6HA4&quot;&gt;“How I’m building my second brain” video (YouTube)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/0994bf6c1add8db9ae8766da1299af19/second-brain-slides.pdf&quot;&gt;“How I’m building my second brain” slides (PDF)&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[tech and music site with blog, portfolio, teaching resources, and more]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 09 Jul 2023 19:19:41 GMT</lastBuildDate><item><title><![CDATA[How I'm Building My Second Brain]]></title><description><![CDATA[Slides + Video “How I’m building my second brain” video (2022) (YouTube) “How I’m building my second brain” slides (2022) (PDF) Intro…]]></description><link>https://www.scraggo.com/building-my-second-brain/</link><guid isPermaLink="false">https://www.scraggo.com/building-my-second-brain/</guid><pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Slides + Video&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/5-5aO-F6HA4&quot;&gt;“How I’m building my second brain” video (2022) (YouTube)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/0994bf6c1add8db9ae8766da1299af19/second-brain-slides.pdf&quot;&gt;“How I’m building my second brain” slides (2022) (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Intro&lt;/h2&gt;
+&lt;p&gt;Creativity is bound up with making connections between disparate ideas.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;connections&lt;/em&gt; piece is crucial. I know this because of my many failures with knowledge management. I went all in on the &lt;a href=&quot;https://en.wikipedia.org/wiki/Getting_Things_Done&quot;&gt;Getting Things Done (GTD)&lt;/a&gt; productivity system and wound up with a large, messy digital collection. The five stages of the GTD workflow are &lt;em&gt;capture, clarify, organize, reflect, and engage.&lt;/em&gt; I captured anything that I could digitize. I clarified with a complex system of tags. I organized by putting things in hierarchies of folders. I reflected by journaling about it all. And inevitably fell short on the engagement piece.&lt;/p&gt;
+&lt;p&gt;(This seems to be a pretty common problem. &lt;a href=&quot;https://giansegato.com/essays/edutainment-is-not-learning&quot;&gt;https://giansegato.com/essays/edutainment-is-not-learning&lt;/a&gt; | &lt;a href=&quot;https://news.ycombinator.com/item?id=36580837&quot;&gt;HN comments&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;Having declared bankruptcy on my notes too many times, I knew I needed something different. I discovered the &lt;em&gt;&lt;a href=&quot;https://writing.bobdoto.computer/zettelkasten-linking-your-thinking-and-nick-milos-search-for-ground/&quot;&gt;Second Brain&lt;/a&gt;&lt;/em&gt; concept and got hooked. It helped steer me to abandoning arbitrary collections, nested directory structures, and complicated tagging systems locked in proprietary software. &lt;em&gt;Notes are connected to each other&lt;/em&gt; and structure emerges, almost effortlessly.&lt;/p&gt;
+&lt;p&gt;My notes are now in markdown, a plaintext “markup” language that allows headings, bullet points, checkboxes, blockquotes, etc. The document can output as rich text like you see on the web, but it’s readable as is. To connect notes in your second brain you can use standard link syntax or take it up a notch with &lt;em&gt;backlinks&lt;/em&gt; - where notes have awareness from where they were linked.&lt;/p&gt;
+&lt;p&gt;By connecting notes in this way, we approach how the brain stores and retrieves knowledge. Building links over time allows us to create a reservoir of connections which have connections, which have connections, which becomes a nice web of digital neurons. To aid the creative process, you can view your linked notes as a knowledge graph &lt;a href=&quot;https://duckduckgo.com/?t=ffab&amp;#x26;q=knowledge+graph&amp;#x26;atb=v174-1&amp;#x26;iax=images&amp;#x26;ia=images&quot;&gt;like the ones in these images&lt;/a&gt; to add fascination to your connection sessions.&lt;/p&gt;
+&lt;p&gt;This is just the tip of the iceberg. If your brain craves more, below is the text for a talk I gave on how I take notes, synthesize ideas, and manage my tasks.&lt;/p&gt;
 &lt;h2&gt;What’s a “second brain?”&lt;/h2&gt;
 &lt;p&gt;In concept, it’s an external information collection that aids thinking and memory.&lt;/p&gt;
 &lt;p&gt;The way I put this into practice is a collection of markdown notes linked with bi-directional backlinks (notated with double square brackets: &lt;code class=&quot;language-text&quot;&gt;[[]]&lt;/code&gt;)&lt;/p&gt;
@@ -70,16 +78,16 @@ Combining [[node-logging-best-practices-isaiah]] with [[logging-best-practices-u
 
 220607&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;4. Task management: Todo list that links to project docs with original writings&lt;/p&gt;
-&lt;p&gt;filename: &lt;code class=&quot;language-text&quot;&gt;0-this-week-todo-zk-example.md&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;filename: &lt;code class=&quot;language-text&quot;&gt;0-this-week-todo.md&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;# This week todo
 
 ## Sprint work
 
-[[JIRA-1234-upgrade-all-the-things-zk-example]]
+[[JIRA-1234-upgrade-all-the-things]]
 
 ## Else
 
-Don&apos;t forget -&gt; [[0-backlog-zk-example]]
+Don&apos;t forget -&gt; [[0-backlog]]
 
 @! Respond to email
 
@@ -94,7 +102,7 @@ Post meeting notes
 ## Done
 
 x 2022-03-01 Thing I got done&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;filename: &lt;code class=&quot;language-text&quot;&gt;0-backlog-zk-example.md&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;filename: &lt;code class=&quot;language-text&quot;&gt;0-backlog.md&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;# Todo backlog
 
 Working group
@@ -102,14 +110,14 @@ Working group
 Professional dev:
 - Learn x
 - Learn y&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;filename: &lt;code class=&quot;language-text&quot;&gt;JIRA-1234-upgrade-all-the-things-zk-example.md&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;# Here are some very interesting notes
+&lt;p&gt;filename: &lt;code class=&quot;language-text&quot;&gt;JIRA-1234-upgrade-all-the-things.md&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;# Title
 
 Here are some very interesting notes&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;Parting thoughts&lt;/h2&gt;
 &lt;p&gt;Experiment to find &lt;em&gt;your&lt;/em&gt; way&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Research: collect information and organize it in a way that’s relevant to you&lt;/li&gt;
+&lt;li&gt;Learn: research / collect information and organize it in a way that’s relevant to you&lt;/li&gt;
 &lt;li&gt;Create: synthesize your collected knowledge into original writings&lt;/li&gt;
 &lt;li&gt;Manage: keep track of work in progress, increase productivity&lt;/li&gt;
 &lt;/ul&gt;
