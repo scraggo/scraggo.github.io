@@ -15,19 +15,20 @@ author: 'Dave Cohen'
 
 ## Intro
 
-Creativity is bound up with making connections between disparate ideas.
+Creativity is bound up with making connections between disparate ideas. The _connections_ piece is crucial - personal knowledge management falls apart without it.
 
-The _connections_ piece is crucial. I know this because of my many failures with knowledge management. I went all in on the [Getting Things Done (GTD)](https://en.wikipedia.org/wiki/Getting_Things_Done) productivity system and wound up with a large, messy digital collection. The five stages of the GTD workflow are _capture, clarify, organize, reflect, and engage._ I captured anything that I could digitize. I clarified with a complex system of tags. I organized by putting things in hierarchies of folders. I reflected by journaling about it all. And inevitably fell short on the engagement piece.
+Long ago, I treated the [Getting Things Done (GTD)](https://en.wikipedia.org/wiki/Getting_Things_Done) productivity system as gospel. The way I used it, though, resulted in a large, messy collection of digital notes in Evernote. The five stages of the GTD workflow are _capture, clarify, organize, reflect, and engage_. I captured anything that I could digitize. I clarified with a complex system of tags. I organized by putting things in hierarchies of folders. I reflected by creating journal entries during weekly reviews. And ultimately fell short on the engagement piece.
 
-(This seems to be a pretty common problem. <https://giansegato.com/essays/edutainment-is-not-learning> | [HN comments](https://news.ycombinator.com/item?id=36580837).)
+Having declared bankruptcy on my notes too many times, I knew I needed something different. I discovered the _[Second Brain](https://writing.bobdoto.computer/zettelkasten-linking-your-thinking-and-nick-milos-search-for-ground/)_ concept and got hooked. I clearly saw the pitfalls inherent in my old system. I stopped creating arbitrary collections in single files. I abandoned rigid hierarchical directory structures and complicated tagging systems. (I also migrated out of Evernote - vendor lock-in being one of many reasons.) With my shiny, new second-brain notes collection, _notes connect to each other_ and structure emerges, almost effortlessly.
 
-Having declared bankruptcy on my notes too many times, I knew I needed something different. I discovered the _[Second Brain](https://writing.bobdoto.computer/zettelkasten-linking-your-thinking-and-nick-milos-search-for-ground/)_ concept and got hooked. It helped steer me to abandoning arbitrary collections, nested directory structures, and complicated tagging systems locked in proprietary software. _Notes are connected to each other_ and structure emerges, almost effortlessly.
-
-My notes are now in markdown, a plaintext "markup" language that allows headings, bullet points, checkboxes, blockquotes, etc. The document can output as rich text like you see on the web, but it's readable as is. To connect notes in your second brain you can use standard link syntax or take it up a notch with _backlinks_ - where notes have awareness from where they were linked.
+My notes are now in markdown, a plaintext "markup" language that allows headings, bullet points, checkboxes, blockquotes, etc. The document can output as rich text like you see on the web, but it's readable as is. To connect notes in your second brain you can use standard link syntax or take it up a notch with _backlinks_ - where notes have an automatic awareness of any notes that are linked to it.
 
 By connecting notes in this way, we approach how the brain stores and retrieves knowledge. Building links over time allows us to create a reservoir of connections which have connections, which have connections, which becomes a nice web of digital neurons. To aid the creative process, you can view your linked notes as a knowledge graph [like the ones in these images](https://duckduckgo.com/?t=ffab&q=knowledge+graph&atb=v174-1&iax=images&ia=images) to add fascination to your connection sessions.
 
 This is just the tip of the iceberg. If your brain craves more, below is the text for a talk I gave on how I take notes, synthesize ideas, and manage my tasks.
+
+- ["How I'm building my second brain" video (2022) (YouTube)](https://youtu.be/5-5aO-F6HA4)
+- ["How I'm building my second brain" slides (2022) (PDF)](second-brain-slides.pdf)
 
 ## What’s a "second brain?"
 
@@ -51,11 +52,12 @@ _See "Resources" below for more info on the related concepts._
 
 ## The problem: One brain is limited
 
-- Juggling projects
+- We usually have multiple projects to juggle
 - Learning something new can be intimidating
-- Disparate sources: Slack, emails, bookmarks, notes, etc
-- Googling repeatedly (but…sites go down)
-- **Are we able to make notes and discover them without too much friction?**
+- Info comes from many disparate sources: Slack, emails, bookmarks, notes, etc
+- We can't just Google repeatedly or save bookmarks (sites go down, etc)
+
+The key to the solution is being able to make and discover notes without too much friction.
 
 ## Second brain benefits
 
@@ -192,18 +194,14 @@ Compound growth
 
 ### Methodology
 
+[Building a Second Brain: The Definitive Introductory Guide | Forte Labs](https://fortelabs.com/blog/basboverview/)
+
 [Zettelkasten, Linking Your Thinking, and Nick Milo's Search for Ground | The Daily Pony](https://writing.bobdoto.computer/zettelkasten-linking-your-thinking-and-nick-milos-search-for-ground/)
 
-- [Hacker News comments for ^](https://news.ycombinator.com/item?id=31507132)
+- [Hacker News discussion on ^](https://news.ycombinator.com/item?id=31507132)
 - [Podcast episode with Nick Milo](https://www.asianefficiency.com/podcasts/387-nick-milo/)
 
-[Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/)
-
-- [collector's fallacy](https://zettelkasten.de/posts/collectors-fallacy/)
-
-[The PARA Method: A Universal System for Organizing Digital Information - Forte Labs](https://fortelabs.co/blog/para/)
-
-[How to Manage Your Digital Files: 9 Tips and Tools to Keep You Organized](https://www.makeuseof.com/tag/manage-digital-files/) see The Noguchi Filing System
+[Introduction to the Zettelkasten Method | zettelkasten.de](https://zettelkasten.de/introduction/)
 
 ### Tools
 
@@ -225,3 +223,16 @@ Knowledge site generators:
 
 - [https://github.com/binyamin/eleventy-garden](https://github.com/binyamin/eleventy-garden)
 - [https://github.com/mathieudutour/gatsby-digital-garden/](https://github.com/mathieudutour/gatsby-digital-garden/)
+
+### Related
+
+- [Hyperlink maximalism | thesephist.com](https://thesephist.com/posts/hyperlink/) | [Hyperlink maximalism (2022) | Hacker News](https://news.ycombinator.com/item?id=36866242) - The Obsidian plugin looks neat
+- [collector's fallacy | zettelkasten.de](https://zettelkasten.de/posts/collectors-fallacy/)
+- [How to Learn Better in the Digital Age](https://giansegato.com/essays/edutainment-is-not-learning) | [Learning needs to be effortful to be effective | Hacker News](https://news.ycombinator.com/item?id=36580837)
+
+Forte Labs
+
+- [The PARA Method: A Universal System for Organizing Digital Information - Forte Labs](https://fortelabs.co/blog/para/)
+- [Progressive Summarization – Forte Labs](https://fortelabs.com/blog/series/ps/)
+
+[How to Manage Your Digital Files: 9 Tips and Tools to Keep You Organized](https://www.makeuseof.com/tag/manage-digital-files/) see _The Noguchi Filing System_
