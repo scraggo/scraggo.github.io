@@ -7,10 +7,11 @@ tags: ['TypeScript', 'ergonomics']
 author: 'Dave Cohen'
 ---
 
-The aim of this post is two-fold:
+I've been on a quest to make typing more ergonomic and functional. I want to minimize chording (simultaneous keypresses) and mouse use to reduce pain in my hands, put keys I use more often in more advantageous places, automate repetitive activities, etc.
 
-1. to share my research on making typing easier and more functional through the free Mac software [Karabiner-Elements](https://karabiner-elements.pqrs.org/). From simple key remapping, minimizing chording (simultaneous keypresses), controlling the mouse with the keyboard, to running terminal commands, [Karabiner-Elements](https://karabiner-elements.pqrs.org/) has you covered. I'll go into the joys and struggles I went through while trying out this software.
-2. to share [my karabiner config which has multi-profile support](https://github.com/scraggo/karabiner-ts-multi-profile) and utilizes [karabiner.ts](https://github.com/evan-liu/karabiner.ts)
+So, I was excited to discover [Karabiner-Elements](https://karabiner-elements.pqrs.org/) - free Mac software that allows you to do key remapping, control the mouse with the keyboard, run terminal commands, and much more.
+
+The aim of this post is two-fold: 1\) to share my research, joys, and struggles using [Karabiner-Elements](https://karabiner-elements.pqrs.org/) and 2\) to share [my karabiner config which has multi-profile support](https://github.com/scraggo/karabiner-ts-multi-profile) and utilizes [karabiner.ts](https://github.com/evan-liu/karabiner.ts)
 
 ## Installation, Configuring, and Debugging in Karabiner-Elements
 
@@ -304,30 +305,30 @@ In the earlier section on debugging, I mentioned the `Log` tab. That was really 
 
 ## My Config and External Karabiner JSON generators
 
-Manually editing the JSON config isn't the greatest user-experience. There are [external Karabiner JSON generators](https://karabiner-elements.pqrs.org/docs/json/external-json-generators/) that help with this problem.
+Manually editing the JSON config isn't the greatest user-experience. Thankfully, there are [external Karabiner JSON generators](https://karabiner-elements.pqrs.org/docs/json/external-json-generators/) that help with this problem.
 
-- The first one I looked into was [Goku](https://github.com/yqrashawn/GokuRakuJoudo) which was created to make configuration more concise. I got weird Java exceptions no matter how simple the code I put in. [It only allows complex modifications](https://github.com/yqrashawn/GokuRakuJoudo/issues/44). [Profiles aren't well supported](https://github.com/yqrashawn/GokuRakuJoudo/blob/master/examples.org#profiles) and I wanted multiple-profiles instead of "layers" and "sim-layers".
+- The first one I looked into was [Goku](https://github.com/yqrashawn/GokuRakuJoudo) and it didn't work for me. I got weird Java exceptions no matter how simple the code I put in. [It only allows complex modifications](https://github.com/yqrashawn/GokuRakuJoudo/issues/44). [Profiles aren't well supported](https://github.com/yqrashawn/GokuRakuJoudo/blob/master/examples.org#profiles) and I wanted multiple-profiles instead of "layers" and "sim-layers".
 - I wound up [generating my config](https://github.com/scraggo/karabiner-ts-multi-profile) with [karabiner.ts](https://github.com/evan-liu/karabiner.ts). Given the nice developer experience and it's high-level of parity with Karabiner features, I recommend it highly! To fit my use cases, I added utilities to
 
   - create simple and function key modifications
   - add modifications to multiple profiles and optionally devices within
 
-## Limitations, bugs, etc
+## Karabiner limitations and other things to look out for
 
 The [features page](https://karabiner-elements.pqrs.org/docs/getting-started/features/) notes some limitations of Karabiner.
 
 Operator priority: [complex_modifications manipulator evaluation priority | Karabiner-Elements](https://karabiner-elements.pqrs.org/docs/json/complex-modifications-manipulator-evaluation-priority/)
 
-- > Simple Modifications and Complex Modifications are independent.
+> Simple Modifications and Complex Modifications are independent.
 
 Weird Behavior
 
-- I found that after switching to certain profiles, keymaps wouldn't register right away. The most frustrating one was my mouse profile - pressing 'j' to move left, for example, would insert a 'j' character.
-- Sticky keys incompatibilities - noted earlier, it took me a while to figure out why my "hyper" key wasn't working. Adding `"lazy": true` makes the key not-sticky, which is sort of a bummer.
+- I found that after switching to certain profiles, keymaps wouldn't register right away. The most frustrating one was my mouse profile - pressing 'j' to move left, for example, would insert a 'j' character for at least a few keypresses.
+- Sticky keys incompatibilities - noted earlier, it took me a while to figure out why my "hyper" key mods weren't working. Adding `"lazy": true` makes the key-mapping not-sticky, which is sort of a bummer.
 
 Performance
 
-- Switching profiles is sometimes slow - taking multiple seconds.
+- Switching profiles is sometimes slow - taking up to ~2 seconds.
 
 ## Conclusion
 
