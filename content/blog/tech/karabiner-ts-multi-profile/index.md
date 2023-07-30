@@ -11,7 +11,7 @@ I've been on a quest to make typing more ergonomic and functional. I want to min
 
 So, I was excited to discover [Karabiner-Elements](https://karabiner-elements.pqrs.org/) - free Mac software that allows you to do key remapping, control the mouse with the keyboard, run terminal commands, and much more.
 
-The aim of this post is two-fold: 1\) to share my research, joys, and struggles using [Karabiner-Elements](https://karabiner-elements.pqrs.org/) and 2\) to share [my karabiner config which has multi-profile support](https://github.com/scraggo/karabiner-ts-multi-profile) and utilizes [karabiner.ts](https://github.com/evan-liu/karabiner.ts)
+The aims of this post are 1\) to share my research, joys, and struggles using [Karabiner-Elements](https://karabiner-elements.pqrs.org/) and 2\) to share [my karabiner config which has multi-profile support](https://github.com/scraggo/karabiner-ts-multi-profile) and utilizes [karabiner.ts](https://github.com/evan-liu/karabiner.ts).
 
 ## Installation, Configuring, and Debugging in Karabiner-Elements
 
@@ -36,7 +36,7 @@ You have the choice to modify all devices (choose "For all devices") or a single
 ### to-from mapping and modifiers
 
 - You can do basic "to" and "from" key mapping with just the UI.
-- You can map "to" and "from" keys with modifiers (shift, control, etc) if you edit the `~/.config/karabiner/karabiner.json` file. (I don't think the docs mention this.) For example, here's a mapping of "o" to "command + option + right_arrow" (change to right tab):
+- You can map "to" and "from" keys with modifiers (shift, control, etc) if you edit the `~/.config/karabiner/karabiner.json` file. (I don't think the docs mention this.) For example, here's a mapping of `"o"` to `"command + option + right_arrow"` (change to right tab):
 
 ```json
 "simple_modifications": [
@@ -89,12 +89,16 @@ Once a "Hyper" key is set, you can create shortcuts that don't conflict with mos
 
 I get pain in my hands when I do too much chording - simultaneous keypresses like "command + tab" and "command + option + left". [Karabiner (versions >= 13.3.0) provides "sticky" keys](https://karabiner-elements.pqrs.org/docs/help/how-to/sticky-modifier-key/) to address this. When you press the key once, a little display shows up and sticks around until you press the same key or another key. The result is you don't have to hold two keys down at the same time! Illustrative example:
 
-- In Simple Modifications, set 'left_shift' to be 'sticky left_shift'
+- In Simple Modifications, set `left_shift` to be `sticky left_shift`
 - Press left shift, let go, and you'll see a little notification that shift was pressed
 - press 'a' and you'll get 'A'
 - The little notification goes away
 
+![Karabiner sticky keys](https://karabiner-elements.pqrs.org/docs/help/how-to/sticky-modifier-key/images/sticky-modifier-key-indicator@2x.png)
+
 This was exciting to me - BUT - I then discovered that **sticky keys are built into Macs.** I enabled them on the OS level (through System Settings > Accessibility > Sticky Keys) and I've been using them that way ever since.
+
+![Mac sticky keys](./sticky-keys.png)
 
 Pros of Mac Sticky keys:
 
