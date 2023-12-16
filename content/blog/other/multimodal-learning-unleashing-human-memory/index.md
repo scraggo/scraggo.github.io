@@ -11,6 +11,12 @@ _Going Beyond Text_
 
 Below is the blog version of a talk I gave on memorization techniques.
 
+Other formats:
+
+- [See it on YouTube](https://youtu.be/jlI2ED8pWI4)
+- [PDF](/Multimodal-Learning-scraggo-com.pdf)
+- [Powerpoint](/Multimodal-Learning-scraggo-com.pptx)
+
 Outline:
 
 - Why this talk?
@@ -31,7 +37,7 @@ Outline:
 
 ## Why this talk?
 
-The goal of this talk is to introduce some new learning and memory techniques. I'm hoping that you'll find them fun and interesting and you'll want to try them out.
+The goal of this talk is to introduce some learning and memory techniques. I'm hoping that you'll find them fun and interesting and you'll want to try them out.
 
 _Question: what should people learn in an age of chatgpt?_
 
@@ -271,7 +277,7 @@ Comprehension
 
 Motivation
 
-- [https://supermemo.guru/wiki/Pleasure_of_learning](https://supermemo.guru/wiki/Pleasure_of_learning)
+- [Pleasure of learning | supermemo.guru](https://supermemo.guru/wiki/Pleasure_of_learning)
 - [Book Summary: Drive by Daniel H. Pink | Sam Thomas Davies](https://www.samuelthomasdavies.com/book-summaries/business/drive/)
 - [The Pathless Path (Paul Millerd) - Summary, Notes & Review - Aseem Thakar](https://aseemthakar.com/the-pathless-path-paul-millerd-book-summary-notes-review/)
 
