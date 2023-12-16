@@ -1,4 +1,443 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[tech and music site with blog, portfolio, teaching resources, and more]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 30 Jul 2023 18:47:05 GMT</lastBuildDate><item><title><![CDATA[Notes on Karabiner-elements and karabiner-ts-multi-profile]]></title><description><![CDATA[I’ve been on a quest to make typing more ergonomic and functional. I want to minimize chording (simultaneous keypresses) and mouse use to…]]></description><link>https://www.scraggo.com/karabiner-ts-multi-profile/</link><guid isPermaLink="false">https://www.scraggo.com/karabiner-ts-multi-profile/</guid><pubDate>Sun, 30 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been on a quest to make typing more ergonomic and functional. I want to minimize chording (simultaneous keypresses) and mouse use to reduce pain in my hands, put keys I use more often in more advantageous places, automate repetitive activities, etc.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[tech and music site with blog, portfolio, teaching resources, and more]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 16 Dec 2023 23:38:34 GMT</lastBuildDate><item><title><![CDATA[Multimodal Learning - Unleashing the human memory]]></title><description><![CDATA[Going Beyond Text Below is the blog version of a talk I gave on memorization techniques. Other formats: See it on YouTube PDF Powerpoint…]]></description><link>https://www.scraggo.com/multimodal-learning-unleashing-human-memory/</link><guid isPermaLink="false">https://www.scraggo.com/multimodal-learning-unleashing-human-memory/</guid><pubDate>Fri, 27 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;Going Beyond Text&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Below is the blog version of a talk I gave on memorization techniques.&lt;/p&gt;
+&lt;p&gt;Other formats:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/jlI2ED8pWI4&quot;&gt;See it on YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/186cf4a0abe68105cd33dba68b948890/Multimodal-Learning-scraggo-com.pdf&quot;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/35d73a5c47855277921e6e626a2e46a7/Multimodal-Learning-scraggo-com.pptx&quot;&gt;Powerpoint&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Outline:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Why this talk?&lt;/li&gt;
+&lt;li&gt;What we’ll explore&lt;/li&gt;
+&lt;li&gt;My story - hitting a wall of text&lt;/li&gt;
+&lt;li&gt;Rote learning takes up to 160 repetitions&lt;/li&gt;
+&lt;li&gt;A new approach - drawing pictures&lt;/li&gt;
+&lt;li&gt;The Art of Memory&lt;/li&gt;
+&lt;li&gt;Why text is the default&lt;/li&gt;
+&lt;li&gt;Imaginative powers - senses, faces, time, spaces&lt;/li&gt;
+&lt;li&gt;Mnemonics&lt;/li&gt;
+&lt;li&gt;Elaborative Encoding&lt;/li&gt;
+&lt;li&gt;Elaborative Encoding Example - Remembering the C4 model&lt;/li&gt;
+&lt;li&gt;Method of Loci - Walking through a memory palace&lt;/li&gt;
+&lt;li&gt;Choosing memory palaces&lt;/li&gt;
+&lt;li&gt;Final thoughts&lt;/li&gt;
+&lt;li&gt;Resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Why this talk?&lt;/h2&gt;
+&lt;p&gt;The goal of this talk is to introduce some learning and memory techniques. I’m hoping that you’ll find them fun and interesting and you’ll want to try them out.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Question: what should people learn in an age of chatgpt?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Learning, in general, has always been fascinating to me. These days, I’ve had to ask myself what we still need to learn and actually remember. When I chatted with AI about it, the bots reminded me that curiosity and creativity (which are both supported by learning and memorization) are more relevant than ever.&lt;/p&gt;
+&lt;h2&gt;What we’ll explore&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The state of learning today, how we got stuck on a narrow way of learning (text)&lt;/li&gt;
+&lt;li&gt;How multimodal memory techniques can broaden how we learn; make it more fun and efficient&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;My story - hitting a wall of text&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/building-my-second-brain/&quot;&gt;How I’m Building My Second Brain&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A while back, I discovered the “second brain” methodology of note-taking. The goal of a “second brain” is to create a digital network of knowledge - and that’s done by connecting notes. The more notes you create and link together (using “backlinks”), the more your network of nodes expands and frankly, the results just look really cool.
+So, I did just that - I made summaries of books, articles, and podcasts. I was proud of my ability to be a human summarizer.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// big .md notes collection
+
+Projects
+[[how-to-x]]
+[[how-to-y]]
+
+x
+[[all-about-x1]]
+[[all-about-x2]]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I read and re-read my hand-crafted notes but didn’t notice myself being able to recall things (that well or at all) given how much time I spent. You could say I hit a wall - &lt;em&gt;a wall of text&lt;/em&gt;. I wasn’t even close to being a kickass walking encyclopedia.&lt;/p&gt;
+&lt;h2&gt;Rote learning takes up to 160 repetitions&lt;/h2&gt;
+&lt;p&gt;~&lt;a href=&quot;https://atutor.ca/rote-memorization/&quot;&gt;Rote Memorization and Alternatives to Learn Faster and More - A Tutor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Looking back, by reading, and re-reading my notes, I was essentially trying to learn by rote.&lt;/p&gt;
+&lt;p&gt;Our brains reserve resources for interesting events, they’re primarily concerned with survival. Just exposure to abstract concepts (in text form especially) isn’t nearly interesting enough to take up precious mental space.&lt;/p&gt;
+&lt;p&gt;So, clearly, that wasn’t working.&lt;/p&gt;
+&lt;h2&gt;A new approach - drawing pictures&lt;/h2&gt;
+&lt;p&gt;I started drawing pictures of concepts I was trying to learn.&lt;/p&gt;
+&lt;p&gt;As we all know, a picture is worth a thousand words, and I was able to remember things a lot better.&lt;/p&gt;
+&lt;p&gt;I also remembered that &lt;a href=&quot;https://www.imagethink.net/true-or-false-vision-rules-the-brain/&quot;&gt;50% of our brains are involved in visual processing&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;That’s a pretty huge gain in brain capacity utilization!&lt;/p&gt;
+&lt;h2&gt;The Art of Memory&lt;/h2&gt;
+&lt;p&gt;As I dug further, I uncovered memory techniques that were used by the ancient greeks and romans. They were able to remember impressive amounts of information. They gave speeches from memory, engaged in lively debate, and demonstrated the potential of human memory. Books weren’t prevalent, so the main place human knowledge was stored was in people’s heads.&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&quot;https://en.wikipedia.org/wiki/Art_of_memory&quot;&gt;Ars Memoriae&lt;/a&gt; - 2500 year old memory techniques&lt;/p&gt;
+&lt;h2&gt;Why text is the default&lt;/h2&gt;
+&lt;p&gt;Text is convenient and storage-friendly - it’s just … how we communicate now.
+Conversations start in Slack or email and then make things official with (Google Docs, and other text collaboration platforms)&lt;/p&gt;
+&lt;p&gt;Let’s take a conversation with chatgpt for example. Text goes in as a question and we get an answer in text.&lt;/p&gt;
+&lt;p&gt;But what about the in-between bits - the thought processes behind coming up with the question and how we process the answer?&lt;/p&gt;
+&lt;p&gt;I see text as the end result. But it’s a handicap to think only in text.&lt;/p&gt;
+&lt;h2&gt;Imaginative powers - senses, faces, time, spaces&lt;/h2&gt;
+&lt;p&gt;So, let’s lay the groundwork for enhancing our memories and learning better as a result.&lt;/p&gt;
+&lt;p&gt;Senses:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We’ll first get in touch with our imaginative powers. By that, I mean conjuring something in the mind, usually associated with one of the 5 senses. Associating what we’re trying to learn with one or more of the senses helps create a richer, more vivid learning experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Faces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A significant part of the visual part of our brains can remember faces in great detail, so faces can be great learning aids.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Time:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We also tend to remember momentous times in our lives. This is a picture of my nephew who was born in 2005. (He looks way different now)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Spaces (the birth of the memory palace technique)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Another “sense” (as it were) is spatial memory - our brains are evolved to remember locations of important resources. A Greek poet in the 6th century BC used this fact to his advantage. He was having dinner with colleagues, left the building, and the next thing he knew, the building collapsed, killing everyone inside. He noticed that he was able to recall each person’s locations in the dining hall without having made an effort to do so. (This is the origin story of the Method of Loci, which I’ll talk about in a bit.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Mnemonics&lt;/h2&gt;
+&lt;p&gt;Let’s see some memory techniques which use our imaginative powers. Mnemonics, which you’re probably familiar with, are any conceptual device that helps us remember something.&lt;/p&gt;
+&lt;p&gt;The way I learned to remember which months have 30 days is through song and utilizes our auditory imagination.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2c3ee5084054622c7ca3c52d922058fc/95f4e/days-in-months.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 27.272727272727277%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA9ElEQVQY001QOauDYBD0/7fWsbAMWNpY2IgSQogoeJHORBAVT/BIlHnMPvJ4C8vOfvvN7KFkWQbHcZCmKTzPw+12Q1mWgsMwRJ7neD6fsG0bvu/Lm2VZeL1eSJJEMDUulwvu9zsU0zRhGAbe7zd0XYfrumiaBqqqSpO6roXAvOs6IWqahnmecT6fQf6yLDidTr+C27aJ2OfzwbquEr9+HMdfjb7vu+SM/zFr1CFWrtcrgiAA7fF4YBxHFEUhZ+CqtCiK5BRVVSGOY8HTNMkJmJPDzbiN0vc96LS2bWUVTkoxfqQNwyBn4EQUYkPiL5cTss4pfwADp2qzN8gafgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Days in months song&quot;
+        title=&quot;Days in months song&quot;
+        src=&quot;/static/2c3ee5084054622c7ca3c52d922058fc/799d3/days-in-months.png&quot;
+        srcset=&quot;/static/2c3ee5084054622c7ca3c52d922058fc/00d96/days-in-months.png 148w,
+/static/2c3ee5084054622c7ca3c52d922058fc/0b23c/days-in-months.png 295w,
+/static/2c3ee5084054622c7ca3c52d922058fc/799d3/days-in-months.png 590w,
+/static/2c3ee5084054622c7ca3c52d922058fc/95f4e/days-in-months.png 638w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;That stuck with me really well but we can condense it into an acronym - SANJ (as long as you differentiate between June and the other J months.) This adds a sense of taste to the mnemonic.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f8aacabc8868b02bdb6e3d18c3ed3b40/6dfe4/days-in-months-sanj.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 25.726744186046513%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAoUlEQVQY041QSwrDIBTMiUNPkIN0VboP6Ql6B8FFFyKYRJq6aampATWZqIUugpAOuBnn894rsMGyLMgi8OlnnnGta2its/oiFzYHU9u2EEIkY+QjF/HRIw5lia7vf9rdQO89CCFQSqVHKQXnHIyxVNJUFR5d9/X8ExhbpZTowxTGmFRgrYVzDtM04XZpML6e+ytvBbl7vsMJjucT7sOQXXkF+Q+CbwOjn3YAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Days in months SAN-J&quot;
+        title=&quot;Days in months SAN-J&quot;
+        src=&quot;/static/f8aacabc8868b02bdb6e3d18c3ed3b40/799d3/days-in-months-sanj.png&quot;
+        srcset=&quot;/static/f8aacabc8868b02bdb6e3d18c3ed3b40/00d96/days-in-months-sanj.png 148w,
+/static/f8aacabc8868b02bdb6e3d18c3ed3b40/0b23c/days-in-months-sanj.png 295w,
+/static/f8aacabc8868b02bdb6e3d18c3ed3b40/799d3/days-in-months-sanj.png 590w,
+/static/f8aacabc8868b02bdb6e3d18c3ed3b40/2a3d6/days-in-months-sanj.png 885w,
+/static/f8aacabc8868b02bdb6e3d18c3ed3b40/ae92f/days-in-months-sanj.png 1180w,
+/static/f8aacabc8868b02bdb6e3d18c3ed3b40/6dfe4/days-in-months-sanj.png 1376w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;There’s also a visual and tactile mnemonic to remember that - using your knuckles and the spaces between them to represent the months.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4bce7ac3ed1806df55c687b02862f657/70d1f/days-in-months-knuckles.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.90625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAACz0lEQVQoz2NgQAAmRkZGBnQAEmNlYYFxObk5OTmZmZg4gWweIBYHiWFoEuDj4+Pm5FAWE+ZX0FdT5/R31mYW5uPmX1aZCrZBS1WNWU5aioeHi0uRlZVJipuTS0GAl1eJl4tDR1pEiO3/uRUo5jEDsSoQSwCxMMh8IJaE8gWhfH4gloPKS0PF+YCYDWZIR5w3hCEpLCWgqaJtmJcQETu1Lnt+iIt7w4TimPMVMT7zFcWELAyVhNUtTGxFIv0CrTKjw0q2z22/W52WviA7PHBGe25Qv7m6mqadrgrI6wy7m7MYGLYumjpt65y+v0trS/+fXTv9f39Jxf8NXRX/e7JS/5dH+PwvCTB+umxy27HLe9b/n9855f+tnav/r5/Y/39lZ9P/TT0l/4vDvP6Xh7q+CTDXVga78Mqe7d8fHtn9/+TKxX8OLZz1e8uktj8rW8r/zClN+zMtJ+pfqZ/1/5VTJv5/f/nC34tbNvw9tXrpn4Pzp/zZOrHlz/LG0t8zi5N/z8yJ/J/uZt4ANvDF2dP/b+3d+fvs+uX/Di6Y/m/b5PZ/K1vL/80tS/87PTfqT4672a9Z7W0/3146//vK9k1/Tq1e8nff3Cn/Nve3/FveVPxvTknK7+nZ4f9L/W33gg18d/nC/5t7tn87s275H6CBf7dOav+3uq3i/6KqrP9zCmL/VwfZ/d86b/b/X3dv/b+zb8f/8+uX/98/b8r/zRNa/i5vKvk7uyTl1+SM0P+VgfY3gMbxMvx/8fT/46MH/l/fvv7/iWVz/u+c2vV/VWv513nl6XenZEUcqwm2X7tt3qx5r86f2Xp1x6azp1cvebJ/7pTfOya3/1/XXvF/cVXm/7n50f9rQxz+u+sqKDG8On92/fVdW7vOrlueC3Sh/9bJ7YbAMJQGGsiHnl7vHdzDcmr1YiGggYqb+5utgC6MnF2SXD4xPXRKTbDDVlcdeR0AxctIFmrfEucAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Days in months knuckles&quot;
+        title=&quot;Days in months knuckles&quot;
+        src=&quot;/static/4bce7ac3ed1806df55c687b02862f657/799d3/days-in-months-knuckles.png&quot;
+        srcset=&quot;/static/4bce7ac3ed1806df55c687b02862f657/00d96/days-in-months-knuckles.png 148w,
+/static/4bce7ac3ed1806df55c687b02862f657/0b23c/days-in-months-knuckles.png 295w,
+/static/4bce7ac3ed1806df55c687b02862f657/799d3/days-in-months-knuckles.png 590w,
+/static/4bce7ac3ed1806df55c687b02862f657/70d1f/days-in-months-knuckles.png 640w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Mnemonic&quot;&gt;Image credit: Mnemonic - Wikipedia&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;These mnemonics all engage our senses which make it easier to remember what we’re trying to remember.&lt;/p&gt;
+&lt;h2&gt;Elaborative Encoding&lt;/h2&gt;
+&lt;p&gt;The next technique, Elaborative Encoding, uses mnemonics.&lt;/p&gt;
+&lt;p&gt;By elaborating new information with what’s already-established, it becomes easier to learn and recall this new information.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f1c25948f8db33d6e781fd67f687b67f/d8593/elaborative-encoding.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.02803738317757%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABi0lEQVQoz3VS226CQBD1+/0C0wd96UPTpo21MU2jjemT8VKLVbAgDaaJEAQVYfGCYU+X8VKpcZLJzpzMnp1zIAMRnO8yidDi8L8B39mghSaM0ABEz0ccXBb5JQZtnAXfE2T+E24WHGsXYPMNTIxh+zbYiAGemLHFkAVEXgTpU0KxWMRgMEAURUfSTPqVY5U62JphwRai3QHqUEWhUCDCXC6HTqeTJjzdMAF3PaeMeUz41J1ivVrj472Fh/s7lEol5PN5ZLNZtNttmonjOL3hfz9ApPERf3kuo/ZagSRJJHM2m6HRaMCyrEuS+cmWO4EHF25vrvFWqxKuKArq9ToYYyQ3CII/wsPlFOm+9/0pHFuBrmsoPz3uMZ/SNE10u106yRohN0V4SrzdbsXrIUzrB9XKFfxgnrIk2exSnHkYhiFJCAIfS/ERml2ZXo+iDRzHwWQywXg8huu65KFt23Qmved5yKiqSp5omkb/VFIPh0Mk+Gq1TG3V6/XQ7/dJajKv6zrVyT1ZlmEYBn4Bo5z2IaI+KycAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Elaborative encoding&quot;
+        title=&quot;Elaborative encoding&quot;
+        src=&quot;/static/f1c25948f8db33d6e781fd67f687b67f/799d3/elaborative-encoding.png&quot;
+        srcset=&quot;/static/f1c25948f8db33d6e781fd67f687b67f/00d96/elaborative-encoding.png 148w,
+/static/f1c25948f8db33d6e781fd67f687b67f/0b23c/elaborative-encoding.png 295w,
+/static/f1c25948f8db33d6e781fd67f687b67f/799d3/elaborative-encoding.png 590w,
+/static/f1c25948f8db33d6e781fd67f687b67f/2a3d6/elaborative-encoding.png 885w,
+/static/f1c25948f8db33d6e781fd67f687b67f/d8593/elaborative-encoding.png 1070w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We’re linking the &lt;em&gt;new&lt;/em&gt; to the &lt;em&gt;old&lt;/em&gt;. The link:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;is conceptually related to the new&lt;/li&gt;
+&lt;li&gt;is something we already know and can recall easily&lt;/li&gt;
+&lt;li&gt;the more sensory, vivid, wild, outlandish it is, the more effective it will be&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This augmenting process makes it something our brain will be much more likely to pay attention to.&lt;/p&gt;
+&lt;p&gt;Let’s see an example.&lt;/p&gt;
+&lt;h2&gt;Elaborative Encoding Example - Remembering the C4 model&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The C4 model is an easy to learn, developer friendly approach to software architecture diagramming. … It’s a way to create maps of your code, at various levels of detail, in the same way you would use something like Google Maps to zoom in and out of an area you are interested in.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;~&lt;a href=&quot;https://c4model.com&quot;&gt;C4 model&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I was looking for a way to remember the four similar sounding C words of the C4 model.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Context&lt;/li&gt;
+&lt;li&gt;Container&lt;/li&gt;
+&lt;li&gt;Component&lt;/li&gt;
+&lt;li&gt;Code&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dd6ed1437cf9962f1d15adb53ccb02a0/f1abf/_slide-C4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.876543209876544%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAACaUlEQVQoz3WS30tTcRjG9y/UXXdJWVdeRFEKhpMKhFTwYo0IK/wVJpbLwNRYlk4ps5sUusqi0AuVUpAVtDtnuLU5ddvZr3CLnc02ldSWG8592o5uTasHvhx43+f7vO/znK9saHiE1oYG3j5+wMCz5yQS7MH29rb0DYXC3LrZxHDfI57eb8dmdbAfieRlWYuqmf7Gc3g+9DDYfZf1jQirqyv4fD4ikYhESmHB5kKRf5Rvn7oZ7qpiduYzqc7SUpDFxUWWl5clnqy3Q41hqIl14SUDHSqCS98xGGaSx8Da2lpmutXuQlNzAdbHea2pxmw0JEVWmJ6eRq/XEwwGdwQ71Q9503KR/jo5Vy9XJzfcIBaLsbW1JW2Xtiw43NwoP4v5RSXKgjNYPuqkejZXElTduUfJiVyOHDxE8+0WfH6R+K5IdoaC001ezmFKT+eRdyAH7/j7nX48vjdDr9fHrNmM+YsJwS5IAqlG9kkhGo1itVpx2O1YLPNEs4amxaQN+QfSVtPiaWsOhwOnx4Xrq5N56xxzC3OYTCbC4XDGjSzFT+yKJPa/mSwExACKSwpqrtRQq6ilTllHfWU9FRUV6HS6DE8W/xXgh/sV165XMTExIRU9Hg9OpxNBEDLTxaCIslxJ4ZNCckdzOTZ6nJODpygrLUOr1Uovwu/3I4v+DBFyv2N0ZASbzcbm5ibmZKYpKxaLRcpNEgyIlJwvobi6mHxVPgWqAooai5DL5YyNjUlcURSTltmxnJ1f9kn/5dSmarWa3q5eetp70LRq6Ovso62tDaPR+CdDSW734v8y3F+f0k8xqZ0kGov+xf0N/IAzziSOgroAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;C4 slide&quot;
+        title=&quot;C4 slide&quot;
+        src=&quot;/static/dd6ed1437cf9962f1d15adb53ccb02a0/799d3/_slide-C4.png&quot;
+        srcset=&quot;/static/dd6ed1437cf9962f1d15adb53ccb02a0/00d96/_slide-C4.png 148w,
+/static/dd6ed1437cf9962f1d15adb53ccb02a0/0b23c/_slide-C4.png 295w,
+/static/dd6ed1437cf9962f1d15adb53ccb02a0/799d3/_slide-C4.png 590w,
+/static/dd6ed1437cf9962f1d15adb53ccb02a0/2a3d6/_slide-C4.png 885w,
+/static/dd6ed1437cf9962f1d15adb53ccb02a0/f1abf/_slide-C4.png 972w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Using visual, sound, taste, and other associations, each word is elaborated to help encode it into my memory.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Context - sounds like “Kant-text”&lt;/li&gt;
+&lt;li&gt;Container - uses “Kant” and him drinking out of a container&lt;/li&gt;
+&lt;li&gt;Component - sounds like “Computer” and I think of its constituent parts&lt;/li&gt;
+&lt;li&gt;Code - code on a screen (no need to over-complicate it)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Method of Loci - Walking through a memory palace&lt;/h2&gt;
+&lt;p&gt;One of the ancient memory techniques used by memory experts today the Method of Loci - Walking through a memory palace.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The method of loci is a strategy for memory enhancement, which uses visualizations of familiar spatial environments in order to enhance the recall of information.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;~&lt;a href=&quot;https://en.wikipedia.org/wiki/Method_of_loci&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 400px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAeylNA//xAAYEAEAAwEAAAAAAAAAAAAAAAABABAxMv/aAAgBAQABBQJi068mf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAAMAAAAAAAAAAAAAAAAAAAAgIf/aAAgBAQAGPwIi/wD/xAAZEAADAQEBAAAAAAAAAAAAAAAAAREhMaH/2gAIAQEAAT8hxsUEOJPBcVWjxB3GlRdZ/9oADAMBAAIAAwAAABCzz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQADAQADAAAAAAAAAAAAAAEAESFBMWGB/9oACAEBAAE/ENC1Q5E7LdFnPZOIKbRFoPkPkS5RW9LvIgaw1qrn/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Method of Loci - process&quot;
+        title=&quot;Method of Loci - process&quot;
+        src=&quot;/static/504f73f9a24ec852bf23cc124284e6e0/28275/method-of-loci-process.jpg&quot;
+        srcset=&quot;/static/504f73f9a24ec852bf23cc124284e6e0/7237a/method-of-loci-process.jpg 148w,
+/static/504f73f9a24ec852bf23cc124284e6e0/0cfdf/method-of-loci-process.jpg 295w,
+/static/504f73f9a24ec852bf23cc124284e6e0/28275/method-of-loci-process.jpg 400w&quot;
+        sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+Image credit: &lt;a href=&quot;https://www.monitask.com/en/blog/best-memorization-techniques&quot;&gt;https://www.monitask.com/en/blog/best-memorization-techniques&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHdTSSUH//EABgQAAIDAAAAAAAAAAAAAAAAAAABEBFB/9oACAEBAAEFAqhmDP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAAMAAAAAAAAAAAAAAAAAAAAgMf/aAAgBAQAGPwIi/wD/xAAZEAACAwEAAAAAAAAAAAAAAAAAAREhUTH/2gAIAQEAAT8hVJEprghhsTbeCWf/2gAMAwEAAgADAAAAENQ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGRABAQEBAQEAAAAAAAAAAAAAAREAIVEx/9oACAEBAAE/EAAgUPMKeHpO5UQQJkRUrOaIjXLfmIB955v/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Method of Loci - room&quot;
+        title=&quot;Method of Loci - room&quot;
+        src=&quot;/static/ca33cf1119f0453a7d802698b27e302a/88218/method-of-loci-room.jpg&quot;
+        srcset=&quot;/static/ca33cf1119f0453a7d802698b27e302a/7237a/method-of-loci-room.jpg 148w,
+/static/ca33cf1119f0453a7d802698b27e302a/0cfdf/method-of-loci-room.jpg 295w,
+/static/ca33cf1119f0453a7d802698b27e302a/88218/method-of-loci-room.jpg 590w,
+/static/ca33cf1119f0453a7d802698b27e302a/77d57/method-of-loci-room.jpg 885w,
+/static/ca33cf1119f0453a7d802698b27e302a/0781d/method-of-loci-room.jpg 960w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+Image credit: &lt;a href=&quot;https://themdjourney.com/studying-with-memory-palace-in-medical-school/&quot;&gt;https://themdjourney.com/studying-with-memory-palace-in-medical-school/&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Method of Loci Example - Remembering the C4 model&lt;/h2&gt;
+&lt;p&gt;As I mentally travel through the room, I note each &lt;em&gt;point of interest&lt;/em&gt; in the numbered order.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a2f7f6f891fe25f0c5517cf7cad882d7/b5c07/_slide-method-of-loci.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 36.04060913705584%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABm0lEQVQoz2WRy27TQBSG8xbdwkvAQ7DjKSJ2IBZtNyyKhLpBiItYBNGKBWrLdYO4bLoJldoQ1RT1YtzQXGyn8d04wRk7zseMQ+mio7mdmXO++c+cyontcGI52E7Ar57FjrbPg7sLfHq/julGHBgt2tLn9Zu3PFq6jfZjn07f5ajVZqe5x63lRarLN7khx9ftOhU3jDlrye8Ibfc7tYXrbL56Sl5A3+zi+QEfNlZ4MX8No9kgTVMseb673eTqvStcrl1i7v4ctXfPqPS9kL2fLfwoRkwmWAOHpcV51l6uc+oFxMMhqciob21xp1rF+Pi5fDwdC4byTmtoNOrf2PxSx7bsGdDomAz/pEyKQqoqygA1Z3le2iLLGbguXhii6zoPHz8hThJyeT8WY0SeEY7SMq7ixwkX2nQq+/S/mQlBt9PG7HU5PDxgdeU5gcxIibAtE9fz6PWdGVBI59Fo9I9zDkqkAl0/4vjYKFWpveMMzh+ZFKVqZ3BKGEWyqP4MqGBBEFwAqlWlpAqgVjUKmX7po75B2iVIKvRl/BnwL3T4+bKSbY7kAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Method of Loci - example&quot;
+        title=&quot;Method of Loci - example&quot;
+        src=&quot;/static/a2f7f6f891fe25f0c5517cf7cad882d7/799d3/_slide-method-of-loci.png&quot;
+        srcset=&quot;/static/a2f7f6f891fe25f0c5517cf7cad882d7/00d96/_slide-method-of-loci.png 148w,
+/static/a2f7f6f891fe25f0c5517cf7cad882d7/0b23c/_slide-method-of-loci.png 295w,
+/static/a2f7f6f891fe25f0c5517cf7cad882d7/799d3/_slide-method-of-loci.png 590w,
+/static/a2f7f6f891fe25f0c5517cf7cad882d7/2a3d6/_slide-method-of-loci.png 885w,
+/static/a2f7f6f891fe25f0c5517cf7cad882d7/ae92f/_slide-method-of-loci.png 1180w,
+/static/a2f7f6f891fe25f0c5517cf7cad882d7/b5c07/_slide-method-of-loci.png 1182w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Context - The first point is the TV - there’s a documentary playing on it about how Kant wrote his most influential works.&lt;/li&gt;
+&lt;li&gt;Container - Kant is resting on the couch drinking a milkshake.&lt;/li&gt;
+&lt;li&gt;Computer - Kant was fascinated by the computer on the dining table and he took it apart.&lt;/li&gt;
+&lt;li&gt;Code - On the easy chair is a monitor with code displayed on it.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Choosing memory palaces&lt;/h2&gt;
+&lt;p&gt;Places you’re very familiar with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Childhood home(s)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Places you associate with learning:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;School&lt;/li&gt;
+&lt;li&gt;Coding bootcamp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Etc:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Street routes&lt;/li&gt;
+&lt;li&gt;Famous places&lt;/li&gt;
+&lt;li&gt;Fictitious places&lt;/li&gt;
+&lt;li&gt;any place with interesting spatial qualities that can be easily recalled&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Final thoughts&lt;/h2&gt;
+&lt;p&gt;Learning this way is fun, engaging, and motivating. It’s personalized and creative, not just text on a page or screen.&lt;/p&gt;
+&lt;p&gt;When I was in school, I don’t recall learning how to learn and these techniques would’ve been extremely helpful.&lt;/p&gt;
+&lt;p&gt;I think you’ll learn more faster by drawing, generating mnemonics, and using a memory palace:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;you’ll use more of your brain (&gt;50%)&lt;/li&gt;
+&lt;li&gt;less time re-reading (160x faster)&lt;/li&gt;
+&lt;li&gt;1 picture, 1000 words (1000x more efficient)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;p&gt;I highly recommend checking out &lt;a href=&quot;https://www.amazon.com/Moonwalking-Einstein-Science-Remembering-Everything/dp/0143120530&quot;&gt;Moonwalking with Einstein: The Art and Science of Remembering Everything by Joshua Foer&lt;/a&gt;. It goes into great depth on how to become a memory expert.&lt;/p&gt;
+&lt;p&gt;Memorization / Learning&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.ted.com/talks/worklife_with_adam_grant_how_to_remember_anything?referrer=playlist-worklife_with_adam_grant_mar_2019&quot;&gt;WorkLife with Adam Grant: How to remember anything | TED Talk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://artofmemory.com/blog/how-to-build-a-memory-palace/&quot;&gt;How to Build a Memory Palace | Art of Memory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Mnemonic&quot;&gt;Mnemonic - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Elaborative_encoding&quot;&gt;Elaborative Encoding - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Method_of_loci&quot;&gt;Method of Loci - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://themdjourney.com/studying-with-memory-palace-in-medical-school/&quot;&gt;Studying with a Memory Palace in Medical School - TheMDJourney&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.monitask.com/en/blog/best-memorization-techniques&quot;&gt;Best Memorization Techniques For Professionals: Better Memory&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Integration&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.thewizardofshred.com/index/integrating-sweep-picking-with-other-techniques&quot;&gt;Integrating Sweep Picking With Other Techniques | Wizard of Shred&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Meaningful_learning&quot;&gt;https://en.wikipedia.org/wiki/Meaningful_learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Integrative_learning&quot;&gt;https://en.wikipedia.org/wiki/Integrative_learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Interdisciplinarity&quot;&gt;https://en.wikipedia.org/wiki/Interdisciplinarity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Deeper_learning&quot;&gt;https://en.wikipedia.org/wiki/Deeper_learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Visualization&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.presentation-guru.com/what-is-visual-learning/&quot;&gt;What is Visual Learning? | Presentation Guru&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.indeed.com/career-advice/career-development/visualization-techniques&quot;&gt;15 Visualization Techniques To Help You Achieve Your Goals | Indeed.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.psychologytoday.com/us/blog/living-forward/201806/3-effective-visualization-techniques-change-your-life&quot;&gt;3 Effective Visualization Techniques to Change Your Life | Psychology Today&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hubermanlab.com/science-based-mental-training-and-visualization-for-improved-learning/&quot;&gt;Huberman Lab, Science-Based Mental Training &amp;#x26; Visualization for Improved Learning&lt;/a&gt; (Podcast)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Comprehension&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.artofmanliness.com/career-wealth/career/podcast-890-toastmasters-aristotle-and-the-essential-art-of-rhetoric/&quot;&gt;Toastmasters, Aristotle, and the Essential Art of Rhetoric | The Art of Manliness&lt;/a&gt;) (Podcast)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.artofmanliness.com/career-wealth/career/podcast-927-beyond-lazy-learning-the-keys-to-gaining-and-retaining-knowledge/&quot;&gt;The Art of Manliness, Beyond Lazy Learning — The Keys to Gaining and Retaining Knowledge&lt;/a&gt; (Podcast)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Motivation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://supermemo.guru/wiki/Pleasure_of_learning&quot;&gt;Pleasure of learning | supermemo.guru&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.samuelthomasdavies.com/book-summaries/business/drive/&quot;&gt;Book Summary: Drive by Daniel H. Pink | Sam Thomas Davies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://aseemthakar.com/the-pathless-path-paul-millerd-book-summary-notes-review/&quot;&gt;The Pathless Path (Paul Millerd) - Summary, Notes &amp;#x26; Review - Aseem Thakar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Other&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://c4model.com/&quot;&gt;The C4 model for visualising software architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.oolimo.com/en/guitar-chords/find&quot;&gt;Guitar Chord Finder | oolimo.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.grahammann.net/book-notes/essentialism-the-disciplined-pursuit-of-less-greg-mckeown&quot;&gt;Essentialism by Greg McKeown - Summary &amp;#x26; Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.kellogg.northwestern.edu/faculty/directory/franconeri_steven.aspx&quot;&gt;Steven L. Franconeri - Faculty - Kellogg School of Management&lt;/a&gt; - Courses - Visualization for Persuasion&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Notes on Karabiner-elements and karabiner-ts-multi-profile]]></title><description><![CDATA[I’ve been on a quest to make typing more ergonomic and functional. I want to minimize chording (simultaneous keypresses) and mouse use to…]]></description><link>https://www.scraggo.com/karabiner-ts-multi-profile/</link><guid isPermaLink="false">https://www.scraggo.com/karabiner-ts-multi-profile/</guid><pubDate>Sun, 30 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been on a quest to make typing more ergonomic and functional. I want to minimize chording (simultaneous keypresses) and mouse use to reduce pain in my hands, put keys I use more often in more advantageous places, automate repetitive activities, etc.&lt;/p&gt;
 &lt;p&gt;So, I was excited to discover &lt;a href=&quot;https://karabiner-elements.pqrs.org/&quot;&gt;Karabiner-Elements&lt;/a&gt; - free Mac software that allows you to do key remapping, control the mouse with the keyboard, run terminal commands, and much more.&lt;/p&gt;
 &lt;p&gt;The aims of this post are 1) to share my research, joys, and struggles using &lt;a href=&quot;https://karabiner-elements.pqrs.org/&quot;&gt;Karabiner-Elements&lt;/a&gt; and 2) to share &lt;a href=&quot;https://github.com/scraggo/karabiner-ts-multi-profile&quot;&gt;my karabiner config which has multi-profile support&lt;/a&gt; and utilizes &lt;a href=&quot;https://github.com/evan-liu/karabiner.ts&quot;&gt;karabiner.ts&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Installation, Configuring, and Debugging in Karabiner-Elements&lt;/h2&gt;
