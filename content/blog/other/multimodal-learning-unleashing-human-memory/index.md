@@ -1,19 +1,18 @@
 ---
 type: post
 title: 'Multimodal Learning - Unleashing the human memory'
+description: "Introduction to memory techniques - including drawing concepts you're learning (going beyond text), Mnemonics, Elaborative Encoding, Method of Loci (Walking through a memory palace) and more. Talk available on YouTube and for download as PDF or Powerpoint."
 date: 2023-10-27
 categories: ['other']
 tags: ['creativity', 'productivity', 'tech talk']
 author: 'Dave Cohen'
 ---
 
-_Going Beyond Text_
-
 Below is the blog version of a talk I gave on memorization techniques.
 
 Other formats:
 
-- [See it on YouTube](https://youtu.be/jlI2ED8pWI4)
+- [See the talk on YouTube](https://youtu.be/jlI2ED8pWI4)
 - [PDF](/Multimodal-Learning-scraggo-com.pdf)
 - [Powerpoint](/Multimodal-Learning-scraggo-com.pptx)
 
@@ -87,7 +86,7 @@ As we all know, a picture is worth a thousand words, and I was able to remember 
 
 I also remembered that [50% of our brains are involved in visual processing](https://www.imagethink.net/true-or-false-vision-rules-the-brain/).
 
-That's a pretty huge gain in brain capacity utilization!
+Thinking visually results in a significant gain in brain capacity utilization!
 
 ## The Art of Memory
 
@@ -97,14 +96,13 @@ See [Ars Memoriae](https://en.wikipedia.org/wiki/Art_of_memory) - 2500 year old 
 
 ## Why text is the default
 
-Text is convenient and storage-friendly - it's just … how we communicate now.
-Conversations start in Slack or email and then make things official with (Google Docs, and other text collaboration platforms)
+Text is the dominant form of communication. It's convenient and storage-friendly. Conversations start in Slack or email and then make things official with (Google Docs, and other text collaboration platforms).
 
-Let's take a conversation with chatgpt for example. Text goes in as a question and we get an answer in text.
+Another example is a conversation with ChatGPT. Text goes in as a question and we get an answer in text.
 
 But what about the in-between bits - the thought processes behind coming up with the question and how we process the answer?
 
-I see text as the end result. But it's a handicap to think only in text.
+I see text as the end result. But it's a handicap to think only in text - _thinking benefits from going beyond text_.
 
 ## Imaginative powers - senses, faces, time, spaces
 
@@ -120,7 +118,7 @@ Faces:
 
 Time:
 
-- We also tend to remember momentous times in our lives. This is a picture of my nephew who was born in 2005. (He looks way different now)
+- We also tend to remember momentous times in our lives. (In the talk is a picture of my nephew who was born in 2005.)
 
 Spaces (the birth of the memory palace technique)
 
@@ -134,7 +132,7 @@ The way I learned to remember which months have 30 days is through song and util
 
 ![Days in months song](days-in-months.png)
 
-That stuck with me really well but we can condense it into an acronym - SANJ (as long as you differentiate between June and the other J months.) This adds a sense of taste to the mnemonic.
+That stuck with me really well but we can condense it into an _acronym_ - SANJ (as long as you differentiate between June and the other J months.) This adds a sense of taste to the mnemonic.
 
 ![Days in months SAN-J](days-in-months-sanj.png)
 
@@ -144,7 +142,7 @@ There's also a visual and tactile mnemonic to remember that - using your knuckle
 
 _[Image credit: Mnemonic - Wikipedia](https://en.wikipedia.org/wiki/Mnemonic)_
 
-These mnemonics all engage our senses which make it easier to remember what we're trying to remember.
+These mnemonics engage our senses which makes it easier to remember what we're trying to remember.
 
 ## Elaborative Encoding
 
@@ -154,11 +152,11 @@ By elaborating new information with what's already-established, it becomes easie
 
 ![Elaborative encoding](elaborative-encoding.png)
 
-We're linking the _new_ to the _old_. The link:
+We're linking the _new_ to the _old_:
 
-- is conceptually related to the new
-- is something we already know and can recall easily
-- the more sensory, vivid, wild, outlandish it is, the more effective it will be
+- the link should be conceptually related to the new
+- the link should be something we already know and can recall easily
+- the more sensory, vivid, wild, outlandish the link is, the more effective it will be
 
 This augmenting process makes it something our brain will be much more likely to pay attention to.
 
@@ -177,7 +175,7 @@ I was looking for a way to remember the four similar sounding C words of the C4 
 3. Component
 4. Code
 
-![C4 slide](_slide-C4.png)
+![C4 slide](slide-C4.png)
 
 Using visual, sound, taste, and other associations, each word is elaborated to help encode it into my memory.
 
@@ -188,23 +186,25 @@ Using visual, sound, taste, and other associations, each word is elaborated to h
 
 ## Method of Loci - Walking through a memory palace
 
-One of the ancient memory techniques used by memory experts today the Method of Loci - Walking through a memory palace.
+One of the ancient memory techniques used by memory experts today the _Method of Loci_ - Walking through a _memory palace_.
 
 > The method of loci is a strategy for memory enhancement, which uses visualizations of familiar spatial environments in order to enhance the recall of information.
 
 ~[Wikipedia](https://en.wikipedia.org/wiki/Method_of_loci)
 
 ![Method of Loci - process](method-of-loci-process.jpg)
-Image credit: https://www.monitask.com/en/blog/best-memorization-techniques
+
+_Image credit: https://www.monitask.com/en/blog/best-memorization-techniques_
 
 ![Method of Loci - room](method-of-loci-room.jpg)
-Image credit: https://themdjourney.com/studying-with-memory-palace-in-medical-school/
 
-## Method of Loci Example - Remembering the C4 model
+_Image credit: https://themdjourney.com/studying-with-memory-palace-in-medical-school/_
+
+## Method of Loci Example - Putting the C4 model in a memory palace
 
 As I mentally travel through the room, I note each _point of interest_ in the numbered order.
 
-![Method of Loci - example](_slide-method-of-loci.png)
+![Method of Loci - example](slide-method-of-loci.png)
 
 1. Context - The first point is the TV - there's a documentary playing on it about how Kant wrote his most influential works.
 2. Container - Kant is resting on the couch drinking a milkshake.
@@ -233,7 +233,7 @@ Etc:
 
 Learning this way is fun, engaging, and motivating. It's personalized and creative, not just text on a page or screen.
 
-When I was in school, I don't recall learning how to learn and these techniques would've been extremely helpful.
+(These techniques would've been _extremely_ helpful when I was in school.)
 
 I think you'll learn more faster by drawing, generating mnemonics, and using a memory palace:
 
