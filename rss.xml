@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[tech and music site with blog, portfolio, teaching resources, and more]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 16 Dec 2023 23:38:34 GMT</lastBuildDate><item><title><![CDATA[Multimodal Learning - Unleashing the human memory]]></title><description><![CDATA[Going Beyond Text Below is the blog version of a talk I gave on memorization techniques. Other formats: See it on YouTube PDF Powerpoint…]]></description><link>https://www.scraggo.com/multimodal-learning-unleashing-human-memory/</link><guid isPermaLink="false">https://www.scraggo.com/multimodal-learning-unleashing-human-memory/</guid><pubDate>Fri, 27 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;Going Beyond Text&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Below is the blog version of a talk I gave on memorization techniques.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[scraggo.com]]></title><description><![CDATA[tech and music site with blog, portfolio, teaching resources, and more]]></description><link>https://www.scraggo.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 17 Dec 2023 04:57:43 GMT</lastBuildDate><item><title><![CDATA[Multimodal Learning - Unleashing the human memory]]></title><description><![CDATA[Below is the blog version of a talk I gave on memorization techniques. Other formats: See the talk on YouTube PDF Powerpoint Outline: Why…]]></description><link>https://www.scraggo.com/multimodal-learning-unleashing-human-memory/</link><guid isPermaLink="false">https://www.scraggo.com/multimodal-learning-unleashing-human-memory/</guid><pubDate>Fri, 27 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Below is the blog version of a talk I gave on memorization techniques.&lt;/p&gt;
 &lt;p&gt;Other formats:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://youtu.be/jlI2ED8pWI4&quot;&gt;See it on YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/jlI2ED8pWI4&quot;&gt;See the talk on YouTube&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/186cf4a0abe68105cd33dba68b948890/Multimodal-Learning-scraggo-com.pdf&quot;&gt;PDF&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/35d73a5c47855277921e6e626a2e46a7/Multimodal-Learning-scraggo-com.pptx&quot;&gt;Powerpoint&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -56,16 +55,15 @@ x
 &lt;p&gt;I started drawing pictures of concepts I was trying to learn.&lt;/p&gt;
 &lt;p&gt;As we all know, a picture is worth a thousand words, and I was able to remember things a lot better.&lt;/p&gt;
 &lt;p&gt;I also remembered that &lt;a href=&quot;https://www.imagethink.net/true-or-false-vision-rules-the-brain/&quot;&gt;50% of our brains are involved in visual processing&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;That’s a pretty huge gain in brain capacity utilization!&lt;/p&gt;
+&lt;p&gt;Thinking visually results in a significant gain in brain capacity utilization!&lt;/p&gt;
 &lt;h2&gt;The Art of Memory&lt;/h2&gt;
 &lt;p&gt;As I dug further, I uncovered memory techniques that were used by the ancient greeks and romans. They were able to remember impressive amounts of information. They gave speeches from memory, engaged in lively debate, and demonstrated the potential of human memory. Books weren’t prevalent, so the main place human knowledge was stored was in people’s heads.&lt;/p&gt;
 &lt;p&gt;See &lt;a href=&quot;https://en.wikipedia.org/wiki/Art_of_memory&quot;&gt;Ars Memoriae&lt;/a&gt; - 2500 year old memory techniques&lt;/p&gt;
 &lt;h2&gt;Why text is the default&lt;/h2&gt;
-&lt;p&gt;Text is convenient and storage-friendly - it’s just … how we communicate now.
-Conversations start in Slack or email and then make things official with (Google Docs, and other text collaboration platforms)&lt;/p&gt;
-&lt;p&gt;Let’s take a conversation with chatgpt for example. Text goes in as a question and we get an answer in text.&lt;/p&gt;
+&lt;p&gt;Text is the dominant form of communication. It’s convenient and storage-friendly. Conversations start in Slack or email and then make things official with (Google Docs, and other text collaboration platforms).&lt;/p&gt;
+&lt;p&gt;Another example is a conversation with ChatGPT. Text goes in as a question and we get an answer in text.&lt;/p&gt;
 &lt;p&gt;But what about the in-between bits - the thought processes behind coming up with the question and how we process the answer?&lt;/p&gt;
-&lt;p&gt;I see text as the end result. But it’s a handicap to think only in text.&lt;/p&gt;
+&lt;p&gt;I see text as the end result. But it’s a handicap to think only in text - &lt;em&gt;thinking benefits from going beyond text&lt;/em&gt;.&lt;/p&gt;
 &lt;h2&gt;Imaginative powers - senses, faces, time, spaces&lt;/h2&gt;
 &lt;p&gt;So, let’s lay the groundwork for enhancing our memories and learning better as a result.&lt;/p&gt;
 &lt;p&gt;Senses:&lt;/p&gt;
@@ -78,7 +76,7 @@ Conversations start in Slack or email and then make things official with (Google
 &lt;/ul&gt;
 &lt;p&gt;Time:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;We also tend to remember momentous times in our lives. This is a picture of my nephew who was born in 2005. (He looks way different now)&lt;/li&gt;
+&lt;li&gt;We also tend to remember momentous times in our lives. (In the talk is a picture of my nephew who was born in 2005.)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Spaces (the birth of the memory palace technique)&lt;/p&gt;
 &lt;ul&gt;
@@ -117,7 +115,7 @@ Conversations start in Slack or email and then make things official with (Google
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;That stuck with me really well but we can condense it into an acronym - SANJ (as long as you differentiate between June and the other J months.) This adds a sense of taste to the mnemonic.&lt;/p&gt;
+&lt;p&gt;That stuck with me really well but we can condense it into an &lt;em&gt;acronym&lt;/em&gt; - SANJ (as long as you differentiate between June and the other J months.) This adds a sense of taste to the mnemonic.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
@@ -182,7 +180,7 @@ Conversations start in Slack or email and then make things official with (Google
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Mnemonic&quot;&gt;Image credit: Mnemonic - Wikipedia&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;These mnemonics all engage our senses which make it easier to remember what we’re trying to remember.&lt;/p&gt;
+&lt;p&gt;These mnemonics engage our senses which makes it easier to remember what we’re trying to remember.&lt;/p&gt;
 &lt;h2&gt;Elaborative Encoding&lt;/h2&gt;
 &lt;p&gt;The next technique, Elaborative Encoding, uses mnemonics.&lt;/p&gt;
 &lt;p&gt;By elaborating new information with what’s already-established, it becomes easier to learn and recall this new information.&lt;/p&gt;
@@ -217,11 +215,11 @@ Conversations start in Slack or email and then make things official with (Google
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;We’re linking the &lt;em&gt;new&lt;/em&gt; to the &lt;em&gt;old&lt;/em&gt;. The link:&lt;/p&gt;
+&lt;p&gt;We’re linking the &lt;em&gt;new&lt;/em&gt; to the &lt;em&gt;old&lt;/em&gt;:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;is conceptually related to the new&lt;/li&gt;
-&lt;li&gt;is something we already know and can recall easily&lt;/li&gt;
-&lt;li&gt;the more sensory, vivid, wild, outlandish it is, the more effective it will be&lt;/li&gt;
+&lt;li&gt;the link should be conceptually related to the new&lt;/li&gt;
+&lt;li&gt;the link should be something we already know and can recall easily&lt;/li&gt;
+&lt;li&gt;the more sensory, vivid, wild, outlandish the link is, the more effective it will be&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This augmenting process makes it something our brain will be much more likely to pay attention to.&lt;/p&gt;
 &lt;p&gt;Let’s see an example.&lt;/p&gt;
@@ -243,7 +241,7 @@ Conversations start in Slack or email and then make things official with (Google
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/dd6ed1437cf9962f1d15adb53ccb02a0/f1abf/_slide-C4.png&quot;
+    href=&quot;/static/dd6ed1437cf9962f1d15adb53ccb02a0/f1abf/slide-C4.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -256,12 +254,12 @@ Conversations start in Slack or email and then make things official with (Google
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;C4 slide&quot;
         title=&quot;C4 slide&quot;
-        src=&quot;/static/dd6ed1437cf9962f1d15adb53ccb02a0/799d3/_slide-C4.png&quot;
-        srcset=&quot;/static/dd6ed1437cf9962f1d15adb53ccb02a0/00d96/_slide-C4.png 148w,
-/static/dd6ed1437cf9962f1d15adb53ccb02a0/0b23c/_slide-C4.png 295w,
-/static/dd6ed1437cf9962f1d15adb53ccb02a0/799d3/_slide-C4.png 590w,
-/static/dd6ed1437cf9962f1d15adb53ccb02a0/2a3d6/_slide-C4.png 885w,
-/static/dd6ed1437cf9962f1d15adb53ccb02a0/f1abf/_slide-C4.png 972w&quot;
+        src=&quot;/static/dd6ed1437cf9962f1d15adb53ccb02a0/799d3/slide-C4.png&quot;
+        srcset=&quot;/static/dd6ed1437cf9962f1d15adb53ccb02a0/00d96/slide-C4.png 148w,
+/static/dd6ed1437cf9962f1d15adb53ccb02a0/0b23c/slide-C4.png 295w,
+/static/dd6ed1437cf9962f1d15adb53ccb02a0/799d3/slide-C4.png 590w,
+/static/dd6ed1437cf9962f1d15adb53ccb02a0/2a3d6/slide-C4.png 885w,
+/static/dd6ed1437cf9962f1d15adb53ccb02a0/f1abf/slide-C4.png 972w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -276,7 +274,7 @@ Conversations start in Slack or email and then make things official with (Google
 &lt;li&gt;Code - code on a screen (no need to over-complicate it)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Method of Loci - Walking through a memory palace&lt;/h2&gt;
-&lt;p&gt;One of the ancient memory techniques used by memory experts today the Method of Loci - Walking through a memory palace.&lt;/p&gt;
+&lt;p&gt;One of the ancient memory techniques used by memory experts today the &lt;em&gt;Method of Loci&lt;/em&gt; - Walking through a &lt;em&gt;memory palace&lt;/em&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The method of loci is a strategy for memory enhancement, which uses visualizations of familiar spatial environments in order to enhance the recall of information.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -285,7 +283,14 @@ Conversations start in Slack or email and then make things official with (Google
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 400px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/504f73f9a24ec852bf23cc124284e6e0/28275/method-of-loci-process.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 66.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAeylNA//xAAYEAEAAwEAAAAAAAAAAAAAAAABABAxMv/aAAgBAQABBQJi068mf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAAMAAAAAAAAAAAAAAAAAAAAgIf/aAAgBAQAGPwIi/wD/xAAZEAADAQEBAAAAAAAAAAAAAAAAAREhMaH/2gAIAQEAAT8hxsUEOJPBcVWjxB3GlRdZ/9oADAMBAAIAAwAAABCzz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQADAQADAAAAAAAAAAAAAAEAESFBMWGB/9oACAEBAAE/ENC1Q5E7LdFnPZOIKbRFoPkPkS5RW9LvIgaw1qrn/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -301,13 +306,21 @@ Conversations start in Slack or email and then make things official with (Google
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-Image credit: &lt;a href=&quot;https://www.monitask.com/en/blog/best-memorization-techniques&quot;&gt;https://www.monitask.com/en/blog/best-memorization-techniques&lt;/a&gt;&lt;/p&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image credit: &lt;a href=&quot;https://www.monitask.com/en/blog/best-memorization-techniques&quot;&gt;https://www.monitask.com/en/blog/best-memorization-techniques&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ca33cf1119f0453a7d802698b27e302a/0781d/method-of-loci-room.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 75.625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHdTSSUH//EABgQAAIDAAAAAAAAAAAAAAAAAAABEBFB/9oACAEBAAEFAqhmDP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAAMAAAAAAAAAAAAAAAAAAAAgMf/aAAgBAQAGPwIi/wD/xAAZEAACAwEAAAAAAAAAAAAAAAAAAREhUTH/2gAIAQEAAT8hVJEprghhsTbeCWf/2gAMAwEAAgADAAAAENQ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGRABAQEBAQEAAAAAAAAAAAAAAREAIVEx/9oACAEBAAE/EAAgUPMKeHpO5UQQJkRUrOaIjXLfmIB955v/2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -325,9 +338,10 @@ Image credit: &lt;a href=&quot;https://www.monitask.com/en/blog/best-memorizatio
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-Image credit: &lt;a href=&quot;https://themdjourney.com/studying-with-memory-palace-in-medical-school/&quot;&gt;https://themdjourney.com/studying-with-memory-palace-in-medical-school/&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Method of Loci Example - Remembering the C4 model&lt;/h2&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image credit: &lt;a href=&quot;https://themdjourney.com/studying-with-memory-palace-in-medical-school/&quot;&gt;https://themdjourney.com/studying-with-memory-palace-in-medical-school/&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Method of Loci Example - Putting the C4 model in a memory palace&lt;/h2&gt;
 &lt;p&gt;As I mentally travel through the room, I note each &lt;em&gt;point of interest&lt;/em&gt; in the numbered order.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -335,7 +349,7 @@ Image credit: &lt;a href=&quot;https://themdjourney.com/studying-with-memory-pal
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/a2f7f6f891fe25f0c5517cf7cad882d7/b5c07/_slide-method-of-loci.png&quot;
+    href=&quot;/static/a2f7f6f891fe25f0c5517cf7cad882d7/b5c07/slide-method-of-loci.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -348,13 +362,13 @@ Image credit: &lt;a href=&quot;https://themdjourney.com/studying-with-memory-pal
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Method of Loci - example&quot;
         title=&quot;Method of Loci - example&quot;
-        src=&quot;/static/a2f7f6f891fe25f0c5517cf7cad882d7/799d3/_slide-method-of-loci.png&quot;
-        srcset=&quot;/static/a2f7f6f891fe25f0c5517cf7cad882d7/00d96/_slide-method-of-loci.png 148w,
-/static/a2f7f6f891fe25f0c5517cf7cad882d7/0b23c/_slide-method-of-loci.png 295w,
-/static/a2f7f6f891fe25f0c5517cf7cad882d7/799d3/_slide-method-of-loci.png 590w,
-/static/a2f7f6f891fe25f0c5517cf7cad882d7/2a3d6/_slide-method-of-loci.png 885w,
-/static/a2f7f6f891fe25f0c5517cf7cad882d7/ae92f/_slide-method-of-loci.png 1180w,
-/static/a2f7f6f891fe25f0c5517cf7cad882d7/b5c07/_slide-method-of-loci.png 1182w&quot;
+        src=&quot;/static/a2f7f6f891fe25f0c5517cf7cad882d7/799d3/slide-method-of-loci.png&quot;
+        srcset=&quot;/static/a2f7f6f891fe25f0c5517cf7cad882d7/00d96/slide-method-of-loci.png 148w,
+/static/a2f7f6f891fe25f0c5517cf7cad882d7/0b23c/slide-method-of-loci.png 295w,
+/static/a2f7f6f891fe25f0c5517cf7cad882d7/799d3/slide-method-of-loci.png 590w,
+/static/a2f7f6f891fe25f0c5517cf7cad882d7/2a3d6/slide-method-of-loci.png 885w,
+/static/a2f7f6f891fe25f0c5517cf7cad882d7/ae92f/slide-method-of-loci.png 1180w,
+/static/a2f7f6f891fe25f0c5517cf7cad882d7/b5c07/slide-method-of-loci.png 1182w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -386,7 +400,7 @@ Image credit: &lt;a href=&quot;https://themdjourney.com/studying-with-memory-pal
 &lt;/ul&gt;
 &lt;h2&gt;Final thoughts&lt;/h2&gt;
 &lt;p&gt;Learning this way is fun, engaging, and motivating. It’s personalized and creative, not just text on a page or screen.&lt;/p&gt;
-&lt;p&gt;When I was in school, I don’t recall learning how to learn and these techniques would’ve been extremely helpful.&lt;/p&gt;
+&lt;p&gt;(These techniques would’ve been &lt;em&gt;extremely&lt;/em&gt; helpful when I was in school.)&lt;/p&gt;
 &lt;p&gt;I think you’ll learn more faster by drawing, generating mnemonics, and using a memory palace:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;you’ll use more of your brain (&gt;50%)&lt;/li&gt;
