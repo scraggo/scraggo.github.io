@@ -3,7 +3,7 @@ title: 'Thinkertoys - Generate Art and Business Ideas'
 date: '2024-02-18'
 type: post
 categories: ['music']
-tags: ['songwriting', 'composition', 'creativity']
+tags: ['songwriting', 'composition', 'creativity', 'productivity']
 author: Dave Cohen
 ---
 

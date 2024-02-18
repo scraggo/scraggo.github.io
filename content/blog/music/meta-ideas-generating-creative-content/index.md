@@ -4,7 +4,7 @@ title: 'Meta Ideas - Generating Creative Content'
 date: '2020-06-03'
 type: post
 categories: ['music']
-tags: ['songwriting', 'composition', 'creativity']
+tags: ['songwriting', 'composition', 'creativity', 'productivity']
 # permalink: /blog/disposable-magento-testing-environments-with-k8s/
 author: Dave Cohen
 # redirect_from:
