@@ -31,15 +31,15 @@ This post will focus on the other type, the **💡💡meta idea💡💡**.
 
 A meta idea is an instruction that, if acted on, could generate a concrete idea. Some analogies:
 
-- It’s like a 3D printer and its design capabilities
+- It's like a 3D printer and its design capabilities
 - In the programming world, a meta idea is like an object-oriented _class_, and the concrete idea is an _instantiation_ of the class. [Object-oriented programming - Wikipedia](https://en.wikipedia.org/wiki/Object-oriented_programming#Objects_and_classes)
 
 ![Meta Idea Factory](meta-ideas.png)
 
 Here are some examples to illustrate what a meta idea is:
 
-- “Write a new jazz melody a day”
-- “Start your songwriting process with a drum beat and add parts from there”
+- "Write a new jazz melody a day"
+- "Start your songwriting process with a drum beat and add parts from there"
 - "Read through an old journal entry once a week to get into that mindset and write down your impressions"
 - "Listen to an album you like, pick a moment you like, and come up with a variation on that moment"
 - "Use a random word/music generator" [like this one](https://random-music-generators.onrender.com/)
@@ -76,10 +76,10 @@ Here's a non-exhaustive list of categories in which meta ideas may be classified
 - Limits, boundaries, distinctions, confines
 - Non-art (conversations, philosophy, business, news, politics, any domain of human knowledge)
   - your psychology: dreams, opinions, emotional reactions
-- Aesthetics in general (simplicity vs complexity, experimental vs conservative)
+- Aesthetic attributes (simplicity vs complexity, experimental vs conservative)
 - Collaboration, Audiences, performers
-- Non-music art forms (words, poetry, stories, non-fiction, visual)
-- Existing music (which can be used as a springboard)
+- Non-music art forms (poetry, stories, non-fiction, visual mediums like art/film/tv)
+- Existing music (which can be used as a springboard, "serendipity")
 - Music theory concepts
   - "Sonic" - texture, timbre, music-concrete, instrumentations, genres
 
@@ -89,7 +89,7 @@ One beautiful thing about meta ideas is that no one can really copyright them. T
 
 ### General / non-music
 
-Limits and boundaries. Ideas can come from anywhere. As soon as you define a boundary, you have something to work with. If you’re limited to a very small space, you’re more likely to find some interesting details, rather than taking a large swath of something.
+Limits and boundaries. Ideas can come from anywhere. As soon as you define a boundary, you have something to work with. If you're limited to a very small space, you're more likely to find some interesting details, rather than taking a large swath of something.
 
 - Example: Look through <https://en.wikipedia.org/wiki/Astronomy>. Use the first word that strikes you as an analogy or metaphor in a lyric.
 
@@ -127,9 +127,9 @@ Arrange it Yourself
 
 Pitch classes are merely structural guide tones.
 
-I want to make “bored” music. Why should music have to be “emotional” all the time? I just want to write my music and get it over with. If people don’t like it, who cares?
+I want to make "bored" music. Why should music have to be "emotional" all the time? I just want to write my music and get it over with. If people don't like it, who cares?
 
-Check on Evernote - got a lot of writings I haven't looked at in a while.
+Go through writing archives (Evernote and other abandoned programs) - lots of interesting stuff I haven't looked at in a while.
 
 - sometimes just looking over old ideas is inspiring. Why don't I schedule that and do it regularly?
 
@@ -141,13 +141,13 @@ Album / genre ideas
 
 - Instrumental album called Information Overload
 - songs about over-achievement, being compulsive about impressing people
-- groove album - all instrumental, get a jazz-expert to help me turn them into song forms with melodies and interesting sections
+- groove album - all instrumental, collaborate with another jazz musician to help me turn them into song forms with melodies and interesting sections
 - Do jazz covers of rock songs
-- What to do with "improvs" - turn them into classical guitar pieces. Duh! Why didn't I think of that 10 years ago?
+- What to do with "improvs" - turn them into classical guitar pieces. (this seems very obvious in retrospect)
   - An album called Mistakes and All. All improvs.
 - Write serial jazz. Has it been done before? How does one go about doing that?
 
-Got interesting results with a student by choosing from a list of random chord qualities, and random root notes. (One of the many moments that inspired the [random music generators](https://random-music-generators.onrender.com/) app.)
+Working with a student on composition. We chose from a list of random chord qualities, and random root notes. (One of the many moments that inspired the [random music generators](https://random-music-generators.onrender.com/) app.)
 
 Jazz
 
@@ -207,10 +207,14 @@ Dynamics
 
 Form
 
-- Juxtaposition - Stravinsky’s musical organization as a “block structure” and that “within such a framework, two or more blocks of relatively heterogeneous content are repeatedly and often abruptly juxtaposed.”
+- Juxtaposition - Stravinsky's musical organization as a "block structure" and that "within such a framework, two or more blocks of relatively heterogeneous content are repeatedly and often abruptly juxtaposed."
 - Traditional Forms: Binary, Ternary, Rondo, Theme+Variations, Sonata, Fugue, Passacaglia, etc
 
 ## Others' Meta Ideas
+
+### Thinkertoys by Michael Michalko
+
+[Thinkertoys by Michael Michalko - slides](https://www.slideshare.net/danglyra/thinkertoys-summary)
 
 ### Generating Ideas, in general
 
@@ -232,7 +236,7 @@ Many famous composers and improvisors have written about their systems of idea g
 - [Variation Techniques for Composers and Improvisors - 2002 - Larry J. Solomon](https://dokumen.site/download/variation-techniques-for-composers-and-improvisors-a5b39ef889e368)
 - [Creativity and Self Expression - Tom Hess](https://tomhess.net/Articles/CreativityAndExpressionPart1.aspx)
 - [3 Productivity Tricks To Improve Your Songwriting](https://speedsongwriting.com/songwriting-productivity-tricks/)
-- [Writing better lyrics (notes on Pattison’s book) – Oxford Songwriting](https://oxfordsongwriting.com/writing-better-lyrics-notes-on-pattison/)
+- [Writing better lyrics (notes on Pattison's book) – Oxford Songwriting](https://oxfordsongwriting.com/writing-better-lyrics-notes-on-pattison/)
 - [Inspiration | The Essential Secrets of Songwriting](https://www.secretsofsongwriting.com/category/inspiration/)
 - [The Advancing Guitarist - by Mick Goodrick | jazzguitarlessons.net](https://www.jazzguitarlessons.net/blog/the-advancing-guitarist)
 - [Mode of limited transposition (Olivier Messiaen) - Wikipedia](https://en.wikipedia.org/wiki/Mode_of_limited_transposition)
