@@ -78,3 +78,7 @@ I plan on writing more posts about the craziness that is applying for jobs from 
 
 - [Comment on this post on Medium](https://medium.com/@scraggo/should-junior-developers-work-with-recruiters-1be3d444c291)
 - [Follow me on Medium](https://medium.com/@scraggo)
+
+## Resources
+
+Considering a career in tech? I've collected [my thoughts and resources here](/tech-career-resources/).

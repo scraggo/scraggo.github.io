@@ -67,3 +67,5 @@ Please [contact me](/contact) with talk opportunities. Subjects I'd be delighted
 - [Now Attending: Fullstack Academy | scraggo.com](/now-attending-fullstack/)
 - [Should junior developers work with recruiters? | scraggo.com](/recruiters-and-junior-devs/)
 - [How to ace your initial programming job screen | scraggo.com](/prepare-for-initial-screens/)
+
+Considering a career in tech? I've collected [my thoughts and resources here](/tech-career-resources/).

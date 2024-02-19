@@ -56,10 +56,14 @@ For a long time, I followed my passion and talents in music. I always admired pe
 
 ### My background in more detail
 
-I am a 33 year old professional musician holding degrees in Recording Engineering, Composition, and Jazz Guitar from the Peabody Conservatory. Composing music that blends a number of styles is my musical passion. I’ve played guitar, bass, drums, and sang in thousands of performances with rock, pop, jazz, and classical ensembles. My most recent position was at a private middle/high school in Chicago where I taught web programming, music composition, and recording arts. My proudest achievements to date include releasing a [solo album called "Creative Being"](https://scraggo.bandcamp.com/releases) and starting a [teaching program where students learn music and make an album in the process](http://songmindstudios.com).
+I went to music school and got degrees in Recording Engineering, Composition, and Jazz Guitar. Composing music that blends a number of styles is my musical passion. I’ve played guitar, bass, drums, and sang in thousands of performances with rock, pop, jazz, and classical ensembles. My most recent position was at a private middle/high school in Chicago where I taught web programming, music composition, and recording arts. My proudest achievements to date include releasing a [solo album called "Creative Being"](https://scraggo.bandcamp.com/releases) and starting a [teaching program where students learn music and make an album in the process](/about-songmind-studios).
 
-Since high school, I've built many simple websites, but I wanted to know more about programming "for real." I've spent almost 12 months learning on my own and have enjoyed it immensely. I completed the [“Introduction to Computer Science and Programming in Python” course offered through MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/). I realized how much I enjoyed creating useful programs, working with data structures, and refining code with abstraction to make it more maintainable. I’ve been continuously working to develop my programming skills by sharing what I learn with others and building websites, chrome extensions, and programs using Python, JavaScript, and the command-line.
+Since high school, I've built many simple websites, but I wanted to know more about programming "for real." I've spent almost 12 months learning on my own and have enjoyed it immensely. I completed the [“Introduction to Computer Science and Programming in Python” course offered through MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/). I realized how much I enjoyed creating useful programs, working with data structures, and finding the right abstractions to make code more maintainable. I’ve been continuously working to develop my programming skills by sharing what I learn with others and building websites, chrome extensions, and programs using Python, JavaScript, and the command-line.
 
 ### More
 
 This blog post was written as a student of Fullstack Academy.
+
+## Resources
+
+Considering a career in tech? I've collected [my thoughts and resources here](/tech-career-resources/).

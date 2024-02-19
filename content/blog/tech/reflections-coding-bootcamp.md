@@ -10,7 +10,7 @@ redirect_from:
   - /javascript/2018/04/16/reflections-coding-bootcamp.html
 ---
 
-I was ready for a career change. It was October of 2017. The more time I spent coding and learning computer science fundamentals, the more I realized that a programming career would fit my personality\* better than performing and teaching music.
+I was ready for a career change. It was October of 2017. The more time I spent coding and learning computer science fundamentals, the more I realized that a programming career would fit me\* better than performing and teaching music.
 
 After spending a fair amount of time teaching myself to code and making websites, I began researching coding bootcamps. There were optimistic [statistics](https://cirr.org/data) of people making \$80,000 after graduating. There were detractors who warn strongly against bootcamps. I was skeptical, but decided I wasn't learning fast enough.
 
@@ -40,7 +40,7 @@ Once a week or so, there were checkpoints. These were tests to assess your appre
 
 At Fullstack, you're part of a cohort that lasts 3 months. Everyone starts as Juniors. At the end of 6 weeks, you're given an exam. If you pass, you can move onto Senior phase. Cohort sizes range from 12 to 30 people. Luckily, mine was only 16 people.
 
-There are 6 teaching assistants they call "fellows" - 3 of them Senior and 3 of them Junior. The Senior fellows had started a cohort before I started. The fellows I worked with were helpful and knowledgeable, especially the ones that lead my "learning team." The goal of those teams was to give us another outlet to discuss and ask questions about the curriculum.
+There are 6 teaching assistants they call "fellows" - 3 of them Senior and 3 of them Junior. The Senior fellows started one cohort (3 months) before I started. The fellows I worked with were helpful and knowledgeable, especially the ones that lead my "learning team." The goal of those teams was to give us another outlet to discuss and ask questions about the curriculum.
 
 There were 2 senior professors and 1 junior professor. We mostly worked with 1 senior and the junior professor. They knew their stuff!
 
@@ -62,6 +62,7 @@ In Senior phase, there are 2 projects done in 4-person teams. We picked our team
 
 - [Vocode](http://vocode.herokuapp.com/)
 - [Vocode: Presentation - YouTube](https://www.youtube.com/watch?v=-_gCMrigUcw)
+- _Update: Wanna see [how I'd improve my capstone project](/tech-talk-improving-capstone-project)_?
 
 Working with those 3 guys was an amazing experience. Now that it's over, I can see that it wasn't about building the COOLEST thing ever, it was about gaining experience learning and building a [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) on a team. Building our Capstone project was my favorite part of the Fullstack experience.
 
@@ -112,3 +113,7 @@ My list of activities:
 - Enjoying having a little more free time :)
 
 Please [contact me](/contact/) if you'd like to discuss anything in my post. Best of luck!
+
+## Resources
+
+Considering a career in tech? I've collected [my thoughts and resources here](/tech-career-resources/).

@@ -172,3 +172,7 @@ Having gone through all of these phone screens has been a valuable experience. F
 _Do I feel confident about my technical knowledge and experience? Am I excited about the company's culture and products? Is the phone interview going in such a way that I don't get the impression that I'm being negatively judged? Possibly most importantly, do I feel like the company will value my contributions and pay me a fair rate?_
 
 I realize now that all my "mistakes" during phone screens were all part of learning how to navigate this industry. Sure, I could've had better answers. Sure, I could've been more targeted about what I was looking for. But sometimes you just have to "go for it" and see what sticks.
+
+## Resources
+
+Considering a career in tech? I've collected [my thoughts and resources here](/tech-career-resources/).
