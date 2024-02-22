@@ -34,6 +34,14 @@ module.exports = {
       options: {
         plugins: [
           {
+            /** use internal Link */
+            resolve: `gatsby-plugin-catch-links`,
+          },
+          {
+            /** add target: _blank and re: nofollow noopener noreferrer */
+            resolve: 'gatsby-remark-external-links',
+          },
+          {
             resolve: 'gatsby-remark-embed-video',
             options: {
               // ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
