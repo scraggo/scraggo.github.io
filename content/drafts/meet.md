@@ -1,10 +1,6 @@
-## Intro
-
 questions-for-self-knowledge
 
----
-
-2024-09-07
+## Intro
 
 How do we learn about ourselves? How do we gain self-knowledge?
 
