@@ -338,6 +338,7 @@ To orient you and give you an idea what your result could be:
 The quiz also determines where you stand on [military](https://www.mapmypolitics.org/ideology/military.html), [environmental]((https://www.mapmypolitics.org/ideology/green.html)), and [deficit (debt spending)](https://www.mapmypolitics.org/ideology/deficit.html) issues.
 
 Two other helpful tests:
+
 - <https://www.politicalcompass.org/test/en>
 - <https://www.pewresearch.org/politics/quiz/political-typology/>
 
@@ -429,6 +430,7 @@ Questions about things external to you that help define your personality and soc
 - [What Artistic Hobby Should You Take Up?](https://www.playbuzz.com/brightynevans10/what-artistic-hobby-should-you-take-up-)
 
 What musical instrument would suit you?
+
 - <https://www.quizexpo.com/what-instrument-should-i-play-quiz/>
 - <https://quizondo.com/what-instrument-should-i-play-quiz/>
 - <https://www.bbc.co.uk/music/articles/bbd3a255-1196-43ec-a374-92ce28af5712>
@@ -621,7 +623,7 @@ Other tests in this post you might like:
 - Flexibility: Adaptability ⟺ Stability
 - Self presentation: Recognition ⟺ Influence
 
-### Your Shadow
+#### Your Shadow
 
 Learn more about [Shadow (psychology) - Wikipedia](https://en.wikipedia.org/wiki/Shadow_(psychology))
 
@@ -750,7 +752,7 @@ Sources (provided by [perplexity.ai](https://www.perplexity.ai)):
 - <https://momentumpsychology.com/doing-what-matters-the-power-of-values-based-living/>
 - <https://tinybuddha.com/blog/live-values-everything-else-will-fall-place/>
 
-### Values and the Wheel of Life
+#### Values and the Wheel of Life
 
 We began with evaluating ourselves using the Wheel of Life. The following questions can help you align the goals you have in each life area with your values.
 
