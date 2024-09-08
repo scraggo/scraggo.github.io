@@ -83,9 +83,8 @@ Interpreting these:
 
 ## Personality Tests
 
-These tests provide starting places to help you begin to define this broad thing known as your "personality." Psychologists have attempted to narrow it down from from hundreds (if not thousands) of traits that most concisely tell who we are. At best, these tests can provide valuable insights into our selves.
+These tests provide starting places to help you begin to define this broad thing known as your "personality." Psychologists have attempted to determine which traits best define us and are most stable throughout our lives. The tests below can provide valuable insights into our selves, some of the benefits including:
 
-The benefits include:
 - Understanding our strengths and weaknesses which can help you choose a career path
 - Highlighting traits that may cause imbalances. For example: do you tend to prioritize the needs of others over your own?
 - Relate better to others:
@@ -93,11 +92,13 @@ The benefits include:
   - Have insights into others' personalities
 - Make life decisions that align better with your values and preferences
 
+Read more on [Personality Psychology - Wikipedia](https://en.wikipedia.org/wiki/Personality_psychology)
+
 ### General: Big 5 and Myers-Briggs
 
 1\. The Big 5 (OCEAN) Personality Test
 
-Generally considered to be the scientific de facto personality test, the Big 5 evaluates
+This test is well-regarded in terms of scientific validity. It evaluates
 
 > five broad dimensions: Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism.
 > These traits might influence how individuals behave in social situations, with extraversion and agreeableness affecting sociability and cooperativeness, while conscientiousness relates to organization and reliability.
@@ -110,7 +111,7 @@ Generally considered to be the scientific de facto personality test, the Big 5 e
 _Image Credit: https://www.mindbodygreen.com/articles/big-5-personality-traits-psychology-and-research-behind-test_
 
 Interpreting your results:
-- "I thought I was more/less introverted" - take this test from [psychologytoday.com](https://www.psychologytoday.com/us/tests/personality/extroversion-introversion-test) and compare your results.
+- "I thought I was more/less introverted" - take [this extroversion/introversion test from psychologytoday.com](https://www.psychologytoday.com/us/tests/personality/extroversion-introversion-test) and compare your results.
 - "I don't like one or more of my traits" - this is normal. Consult a mental health professional to explore your results. You can read more and take related tests deepen your understanding.
 
 Learn more:
@@ -135,19 +136,20 @@ Interpreting your results:
 
 ### Motivations: Color Mode and Enneagram
 
-These personality tests capture your motivations.
+These tests attempt to show your personality through the lens of your motivations.
 
 If you like these questions, you may also like the motivation questions in the Emotional Self section.
 
 1\. Color Mode
 
-This test boils all personality types down to 4 categories / colors.
+This test posits that there are four personality types categorized by colors.
 
 From <https://taylorhartman.com/assessment-information/>:
 
 > Unlike other personality profiles, The Color Code not only identifies what you do but why you do it, allowing you to gain much deeper and more useful insights into what makes you and those around you tick. The Color Code Personality Profile is unique for several reasons. First, it goes deeper than mere personality - it identifies Motive - why you do what you do.
 
 The Colors:
+
 > - Red - **Power** - results and productivity. They bring great gifts of vision and leadership. Reds are generally characterized as responsible, decisive, proactive and assertive.
 > - Blue - **Intimacy**, connecting, creating quality relationships and having a purpose is what drives these people. Their natural gifts include quality and service. Blues can be counted on to be loyal, sincere, and thoughtful.
 > - White - **Peace**, or the absence of conflict, is what motivates a White. Clarity and tolerance are White gifts. Whites are also known for their qualities of kindness, adaptability, and patience.
@@ -162,9 +164,12 @@ Caveat: [Doesn't have scientific backing](https://en.wikipedia.org/wiki/Hartman_
 Take the test at [mypersonalitystyle.com](https://mypersonalitystyle.com/app/Questionnaires/ColorCode/Play?embed=true) or [colorcode.com](https://www.colorcode.com/free_personality_test/)
 
 Interpreting your results:
+
 - "I could fit more than one of these. Maybe even all of them." Consider yourself multi-colored. _Rank yourself_ and reflect on the circumstances each color would arise. For example, maybe you're mostly blue and white, yellow coming third, and red coming fourth.
 
 2\. Enneagram
+
+[Enneagram of Personality - Wikipedia](https://en.wikipedia.org/wiki/Enneagram_of_Personality)
 
 According to the authors of this popular assessment, there are 9 personality types. Each type has a set of positive and negative motivations - specifically _ego fixations_, _holy ideas_, _passions_, and _virtues_. To give you an idea, the first 3 are:
 
@@ -250,11 +255,9 @@ Read [Personal Strengths Defined - positivepsychology.com](https://positivepsych
 
 ### What jobs and gigs would suit you?
 
-[What jobs would suit you? selectsmart.com](https://www.selectsmart.com/jobs) 200 jobs ranked based on your answers
-- [Job descriptions - selectsmart.com](https://www.selectsmart.com/jobs/topjobsinfo.html)
+[What jobs would suit you? selectsmart.com](https://www.selectsmart.com/jobs) 200 jobs ranked based on your answers. See all the [Job descriptions - selectsmart.com](https://www.selectsmart.com/jobs/topjobsinfo.html)
 
-[What gigs would suit you? selectsmart.com](https://www.selectsmart.com/jobs/gig.html) Dozens of gigs ranked based on your answers
-- [Gig descriptions - selectsmart.com](https://www.selectsmart.com/jobs/giglist.html)
+[What gigs would suit you? selectsmart.com](https://www.selectsmart.com/jobs/gig.html) Dozens of gigs ranked based on your answers. See all the [Gig descriptions - selectsmart.com](https://www.selectsmart.com/jobs/giglist.html)
 
 ### Career Personality Profiles
 
@@ -268,7 +271,7 @@ Similar to the above, the [Persona Quiz from anderson.edu](https://anderson.edu/
 
 What's your money personality? Do you love making money and/or spending money? Do you loathe having to deal with it? What childhood experiences contribute to your views on money?
 
-[Money personality quiz - empower.me](https://empower.me/quiz/) \* - Determines which of the 6 money personalities you are as well as giving you examples reasons from childhood why you might have those tendencies:
+\* [Money personality quiz - empower.me](https://empower.me/quiz/) - Determines which of the 6 money personalities you are as well as giving you examples reasons from childhood why you might have those tendencies:
 - [Celebrity](https://empower.me/quiz/results/celebrity) - Buying is happiness
 - [Conqueror](https://empower.me/quiz/results/conqueror) - Lover of making money
 - [Hedonist](https://empower.me/quiz/results/hedonist) - Money is for enjoyment
@@ -332,6 +335,7 @@ Two other helpful tests:
 - Can/does science and spirituality work together?
 
 Evaluate your spiritual practices:
+
 1. How often do you practice gratitude? [Gratitude Quiz | Greater Good](https://greatergood.berkeley.edu/quizzes/take_quiz/gratitude)
 2. How often do you meditate, practice mindfulness, recite mantras/affirmations? [Mindfulness Quiz | Greater Good](https://greatergood.berkeley.edu/quizzes/take_quiz/mindfulness)
 3. How often do you read spiritual texts?
@@ -345,8 +349,7 @@ Evaluate your spiritual practices:
 
 ### Religions - What religions align with your beliefs?
 
-- [Spiritual Belief System Selector A Religion Selector Quiz | Selectsmart.com](https://selectsmart.com/religion/) provides a ~30-item list of religions ranked by their percentage match to your beliefs.
-  - Read about the religions in their list: [Religion/Belief system descriptions | Selectsmart.com](https://selectsmart.com/religion/desc2.html)
+[Spiritual Belief System Selector A Religion Selector Quiz | Selectsmart.com](https://selectsmart.com/religion/) provides a ~30-item list of religions ranked by their percentage match to your beliefs. Read about the religions in their list: [Religion/Belief system descriptions | Selectsmart.com](https://selectsmart.com/religion/desc2.html)
 
 ### Other Questions
 
@@ -574,21 +577,26 @@ Other tests in this post you might like:
 ### Check in with yourself
 
 - [How to Check in on Your Emotional Well-Being - The New York Times](https://www.nytimes.com/interactive/2024/02/28/well/mind/mental-health-wellbeing-check-in.html)
-- [Self-Check In: 100 Questions to Ask Yourself Today -](https://www.minimalismmadesimple.com/home/self-check-in-questions/)
-- [27 Questions To Check In With Yourself](https://mindfulzen.co/questions-check-in/)
-- [Quiz: Checking in with yourself | Stress](https://au.reachout.com/challenges-and-coping/stress/quiz-checking-in-with-yourself)
+- [Self-Check In: 100 Questions to Ask Yourself Today - minimalismmadesimple.com](https://www.minimalismmadesimple.com/home/self-check-in-questions/)
+- [27 Questions To Check In With Yourself - mindfulzen.co](https://mindfulzen.co/questions-check-in/)
+- [Quiz: Checking in with yourself, Stress - au.reachout.com](https://au.reachout.com/challenges-and-coping/stress/quiz-checking-in-with-yourself)
 
 ### Motivation
 
 **Having the support of a mental health professional is recommended if you're exploring this area.**
 
 [The Motivation Assessment Scale - gyfted.me](https://www.gyfted.me/quiz-landing/motivational-assessment) - What drives you? This test offers insights into what fuels your ambitions and goals. It measures you along these spectrums:
+
 - Growth: Advancement ⟺ Mastery
 - Purpose: Mission-driven ⟺ Task-driven
 - Money: Reward-driven ⟺ Security-driven
 - People: Team player ⟺ Independence
 - Flexibility: Adaptability ⟺ Stability
 - Self presentation: Recognition ⟺ Influence
+
+### Your Shadow
+
+Learn more about [Shadow (psychology) - Wikipedia](https://en.wikipedia.org/wiki/Shadow_(psychology))
 
 [What is Your Biggest Fear? Free Psychological Test - LonerWolf](https://lonerwolf.com/biggest-fear-test/)
 
@@ -742,7 +750,7 @@ Career
 
 Financial
 
-16\. financial independence and security
+16. financial independence and security
 17. being responsible with money
 18. achieving financial goals like saving for retirement
 19. the belief that money should be used to support the things I value most
@@ -788,24 +796,23 @@ Spiritual
 44. maintaining inner peace and mindfulness
 45. living a life guided by my values and principles
 
-Reflecting on Your Responses
+Values Reflection
 
-Once you have completed the questionnaire, take some time to reflect on your responses.
+By reflecting on your values, you can gain a better understanding of what truly matters to you and use this information to make decisions that align with your core beliefs.
 
 - Are there any areas where your values are very strong?
 - Are there any areas where your values are less clear?
 - Are there any surprises in your responses?
 - How do your values in different areas connect with each other?
 
-By reflecting on your values, you can gain a better understanding of what truly matters to you and use this information to make decisions that align with your core beliefs.
-
 ## Conclusion
 
-I hope these question sets and methods for reflection have been helpful in understanding yourself better.
+There you have it - a broad set of questions, methods for reflection, and lots to explore further.
 
-I hope you feel a renewed sense of purpose or have some extra perspective to set your goals.
+I hope it's been helpful in understanding yourself better; perhaps giving you a renewed sense of purpose or extra perspective to help set your life goals.
 
 Suggestions going forward:
+
 - **Experiment** - Did you get valuable insights from these tests? Are there life experiments you can design to put your insights into practice?
 - **Create your own personalized reflection prompts** to delve even deeper into your self-understanding.
 - **You can get to know people better** - Encourage others you know to take some of the tests you found the most interesting. Use what you learned about yourself as an opportunity to get to know people better.
