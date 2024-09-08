@@ -7,16 +7,19 @@ How do we learn about ourselves? How do we gain self-knowledge?
 This post is an attempt to simplify the process of getting to know ourselves better.
 
 The process:
+
 1. Answer a bunch of questions. The quizzes and questionnaires are from various sources all over the internet as well as my own lists. We'll go into the following areas of self:
     - General Personality
     - Strengths and Weaknesses
-    - The 5 of SPIRE: Spiritual, Physical, Intellectual, Relational, and Emotional
+    - \* The 5 of SPIRE: Spiritual, Physical, Intellectual, Relational, and Emotional
     - Play, Politics, Art, Finance, and more
 2. Reflect on the answers. After you go through some or all of the question sets, I'll go into detail on how to get the most out of your answers.
 
 **Warning**: Having the support of a mental health professional is recommended, especially for tests that explore emotions, trauma, and other sensitive topics.
 
 **Disclaimer**: This post is for entertainment purposes only. There's no guarantee of scientific or other validity from any of these tests.
+
+\* The 5 areas of SPIRE are drawn from [Dr. Tal Ben-Shahar's book _Happier, No Matter What_](https://talbenshahar.com/books/)
 
 ## Initial Self Inventory
 
@@ -28,7 +31,8 @@ This first section will get you thinking about the many aspects of your life inc
 
 This could be a stream of consciousness - no particular order or deep effort is necessary. Any topic or source of questions is fine.
 
-Choose any/all of the following questions:
+Answer any/all of the following questions:
+
 - Likes and dislikes: food, music, movies, games, etc
 - What forms of exercise or sports do you enjoy?
 - Goals and hopes for the future: what have you been working towards - what motivates you to work on that?
@@ -64,9 +68,10 @@ Both of the following assessments are provided by <https://positivepsychology.co
 
 Are you satisfied with life or is there room for improvement? This short, 5 question assessment as described by [positivepsychology.com](https://positivepsychology.com/life-satisfaction-scales/):
 
-> has been developed to help you get a sense of your satisfaction with your life as a whole. Although the questionnaire doesn’t measure individual components, it can be an excellent starting point, encouraging deeper thought and exploration of the specific areas of life that may be causing you a sense of dissatisfaction.
+> has been developed to help you get a sense of your satisfaction with your life as a whole. Although the questionnaire doesn't measure individual components, it can be an excellent starting point, encouraging deeper thought and exploration of the specific areas of life that may be causing you a sense of dissatisfaction.
 
-The 5 questions and how to interpret them are available here: https://positivepsychology.com/life-satisfaction-scales/
+The 5 questions and how to interpret them are available here: <https://positivepsychology.com/life-satisfaction-scales/>
+
 - [Read more - from the authors of the scale: Ed Diener, Robert A. Emmons, Randy J. Larsen and Sharon Griffin as noted in the 1985 article in the _Journal of Personality Assessment_](https://labs.psychology.illinois.edu/~ediener/SWLS.html).
 
 2\. Wheel of Life
@@ -75,10 +80,11 @@ The 5 questions and how to interpret them are available here: https://positiveps
 >
 > This tool will help you do that, as it requires that you identify the different life domains that are important to you - such as career, family, and relationships - and to then give each of these individual domains a rating from 1 to 10, with 1 being "not at all satisfied" and 10 being "completely satisfied."
 
-- Learn more: https://positivepsychology.com/life-satisfaction-scales/
+- Learn more: <https://positivepsychology.com/life-satisfaction-scales/>
 - [Download The-Wheel-of-Life.pdf](https://positive.b-cdn.net/wp-content/uploads/2016/11/The-Wheel-of-Life.pdf) (provided by positivepsychology.com)
 
 Interpreting these:
+
 - Once you have your SWLS score and you've evaluated each life area, you can choose to spend more or less time and effort on the question sets below related to those life areas. This is just the beginning!
 
 ## Personality Tests
@@ -111,16 +117,19 @@ This test is well-regarded in terms of scientific validity. It evaluates
 _Image Credit: https://www.mindbodygreen.com/articles/big-5-personality-traits-psychology-and-research-behind-test_
 
 Interpreting your results:
+
 - "I thought I was more/less introverted" - take [this extroversion/introversion test from psychologytoday.com](https://www.psychologytoday.com/us/tests/personality/extroversion-introversion-test) and compare your results.
 - "I don't like one or more of my traits" - this is normal. Consult a mental health professional to explore your results. You can read more and take related tests deepen your understanding.
 
 Learn more:
-- https://www.betterhelp.com/advice/personality/what-do-the-big-five-personality-traits-say-about-you/
-- https://positivepsychology.com/big-five-personality-theory/
+
+- <https://www.betterhelp.com/advice/personality/what-do-the-big-five-personality-traits-say-about-you/>
+- <https://positivepsychology.com/big-five-personality-theory/>
 
 2\. Myers-Briggs
 
 One of the most well-known personality tests, the [Myers-Briggs Type Indicator](https://www.16personalities.com) proposes 16 personality types, each associated with an arrangement of 4 letters:
+
 - I/E - introvert/extrovert
 - N/S - intuitive/sensing
 - T/F - thinking/feeling
@@ -128,10 +137,10 @@ One of the most well-known personality tests, the [Myers-Briggs Type Indicator](
 
 Example personality types include ["The Architect" (INTJ)](https://www.16personalities.com/intj-personality), ["The Campaigner" (ENFP)](https://www.16personalities.com/enfp-personality), and ["The Adventurer" (ISFP)](https://www.16personalities.com/isfp-personality)
 
-While [criticized as inaccurate and characterized as pseudoscience](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator#Accuracy_and_validity
-), it's a fun test to take and compare with friends.
+While [criticized as inaccurate and characterized as pseudoscience](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator#Accuracy_and_validity), it's a fun test to take and compare with friends.
 
 Interpreting your results:
+
 - "I'm in the middle - what does it mean?" - If you're half "J" and half "P", for instance, that might be an area of conflict or you may be very flexible depending on the situation. It's a good opportunity for reflection.
 
 ### Motivations: Color Mode and Enneagram
@@ -190,6 +199,7 @@ Knowing your play style(s) as an adult is useful - more than you may realize. Al
 > Try asking yourself "What this would look like if it were fun?"
 
 Interpreting your results:
+
 - I recommend taking the quiz twice - once to find your dominant play personality and a second time to notice other areas of interest. Make a ranked list of all the personalities. It's definitely possible to have _more than one play personality_.
 
 ### Everything Else: Divination and Just for fun
@@ -213,23 +223,27 @@ When we know our strengths and understand our shortcomings, it can really help u
 
 1\. Free assessments are available in PDF form in the link above as well as:
 
-- https://www.truity.com/test/personal-strengths-inventory
-- https://www.gallup.com/cliftonstrengths/en/strengthsfinder.aspx
+- <https://www.truity.com/test/personal-strengths-inventory>
+- <https://www.gallup.com/cliftonstrengths/en/strengthsfinder.aspx>
 
 VIA:
-- https://strengthsbasedresilience.com/assessments/ssq72
-- https://www.viacharacter.org/surveys/takesurvey
 
-DISC: https://openpsychometrics.org/tests/ODAT/
+- <https://strengthsbasedresilience.com/assessments/ssq72>
+- <https://www.viacharacter.org/surveys/takesurvey>
+
+DISC: <https://openpsychometrics.org/tests/ODAT/>
 
 Career-oriented Strengths and Weaknesses:
+
 - [Work Strengths test 1 - gyfted.me](https://www.gyfted.me/personality-quiz/strengthsfinder-test-free) - gives you a 1 - 5 score on these work-related attributes: Curiosity, Directness, Self-discipline, Self-control, Initiative, Cooperativeness, Self-efficacy, Adaptability, Sociability
 - [Work Strengths test 2 - gyfted.me](https://www.gyfted.me/quiz-landing/work-strengths) - Gives top 3 and suggests areas of improvement
 
 Others:
-- https://richardstep.com/richardstep-strengths-weaknesses-aptitude-test/
+
+- <https://richardstep.com/richardstep-strengths-weaknesses-aptitude-test/>
 
 Tips for interpreting results (recommended by [high5test.com](https://test.high5test.com/)):
+
 - Strengths 1-5: These are your most powerful strengths. Focus on these for professional success and personal happiness.
 - Strengths 6-10: Leverage these strengths as needed.
 - Strengths 11-15: These traits don't come as naturally to you but you can learn to navigate situations by involving your top strengths.
@@ -272,6 +286,7 @@ Similar to the above, the [Persona Quiz from anderson.edu](https://anderson.edu/
 What's your money personality? Do you love making money and/or spending money? Do you loathe having to deal with it? What childhood experiences contribute to your views on money?
 
 \* [Money personality quiz - empower.me](https://empower.me/quiz/) - Determines which of the 6 money personalities you are as well as giving you examples reasons from childhood why you might have those tendencies:
+
 - [Celebrity](https://empower.me/quiz/results/celebrity) - Buying is happiness
 - [Conqueror](https://empower.me/quiz/results/conqueror) - Lover of making money
 - [Hedonist](https://empower.me/quiz/results/hedonist) - Money is for enjoyment
@@ -284,6 +299,7 @@ What's your money personality? Do you love making money and/or spending money? D
 [Money beliefs quiz - nerdwallet.com](https://www.nerdwallet.com/article/finance/money-personality) - This quiz ranks you on all 4 of the belief types: Worship, Avoidance, Vigilance and Status.
 
 [Money personality quiz - sorted.org.nz](https://sorted.org.nz/tools/money-personality-quiz/) - Which money personality are you?
+
 - _The Contemporary_ - Living and spending in the now
 - _The Enterpriser_ - Calculated and clear about your financial future
 - _The Minimalist_ - Reserved, saving for long term
@@ -313,6 +329,7 @@ Out of the handful of tests I took, [mapmypolitics.org](https://www.mapmypolitic
 - From bottom to top: social freedom (most to least)
 
 To orient you and give you an idea what your result could be:
+
 - Top Left: [Communism](https://www.mapmypolitics.org/ideology/communist.html)
 - Top Right: [Paleoconservative](https://www.mapmypolitics.org/ideology/paleoconservative.html)
 - Bottom Left: [Utopian Socialist](https://www.mapmypolitics.org/ideology/utopian-socialist.html)
@@ -321,8 +338,8 @@ To orient you and give you an idea what your result could be:
 The quiz also determines where you stand on [military](https://www.mapmypolitics.org/ideology/military.html), [environmental]((https://www.mapmypolitics.org/ideology/green.html)), and [deficit (debt spending)](https://www.mapmypolitics.org/ideology/deficit.html) issues.
 
 Two other helpful tests:
-- https://www.politicalcompass.org/test/en
-- https://www.pewresearch.org/politics/quiz/political-typology/
+- <https://www.politicalcompass.org/test/en>
+- <https://www.pewresearch.org/politics/quiz/political-typology/>
 
 ## Spiritual Self
 
@@ -378,12 +395,13 @@ Evaluate your spiritual practices:
 ### Surface: Interests and Objects
 
 Questions about things external to you that help define your personality and social perception:
+
 - What activities/hobbies do you feel define you?
 - What TV, movies, music, comics, etc interest you?
 - What things (objects) do you feel define you?
 - Fashion preferences:
   - [Men: What's My Style? Quiz](https://www.allthetests.com/personality-tests/style-quizzes/what-is-your-style/quiz17/1133490128/men-whats-my-style)
-  - [30 Men’s Fashion and Clothing Styles for Every Aesthetic](https://www.thetrendspotter.net/clothing-styles/) - Not a quiz, just browse and note what you like.
+  - [30 Men's Fashion and Clothing Styles for Every Aesthetic](https://www.thetrendspotter.net/clothing-styles/) - Not a quiz, just browse and note what you like.
   - [Women: what is your personal style quiz - Gabrielle Arruda](https://gabriellearruda.com/personal-style-quiz/)
 
 ### For fun
@@ -411,15 +429,16 @@ Questions about things external to you that help define your personality and soc
 - [What Artistic Hobby Should You Take Up?](https://www.playbuzz.com/brightynevans10/what-artistic-hobby-should-you-take-up-)
 
 What musical instrument would suit you?
-- https://www.quizexpo.com/what-instrument-should-i-play-quiz/
-- https://quizondo.com/what-instrument-should-i-play-quiz/
-- https://www.bbc.co.uk/music/articles/bbd3a255-1196-43ec-a374-92ce28af5712
+- <https://www.quizexpo.com/what-instrument-should-i-play-quiz/>
+- <https://quizondo.com/what-instrument-should-i-play-quiz/>
+- <https://www.bbc.co.uk/music/articles/bbd3a255-1196-43ec-a374-92ce28af5712>
 
 ### List of Art forms
 
 Below is a list to reflect on. Which art forms would be interesting to try? What have you tried but didn't like?
 
 Visual Arts
+
 - **Painting**: Experiment with different mediums such as acrylics, watercolors, or oils.
 - **Drawing**: Focus on sketching, figure drawing, or digital art.
 - **Sculpting**: Work with materials like clay, stone, or metal to create three-dimensional art.
@@ -428,19 +447,23 @@ Visual Arts
 - **Crafting**: Explore various crafts such as sewing, knitting, or woodworking.
 
 Performing Arts
+
 - **Dancing**: Try different styles like ballet, hip-hop, salsa, or contemporary dance.
 - **Acting**: Join a local theater group or take acting classes to develop your performance skills.
 - **Music**: Learn to play an instrument, sing, or compose music.
 
 Literary Arts
+
 - **Writing**: Explore creative writing, poetry, or blogging as a way to express your thoughts and stories.
 - **Storytelling**: Engage in oral storytelling or scriptwriting for plays and films.
 
 Culinary Arts
+
 - **Cooking**: Experiment with different cuisines and cooking techniques, or take cooking classes.
 - **Baking**: Focus on pastries, bread, or cake decorating as a creative outlet.
 
 Filmmaking
+
 - **Narrative**: Feature films, short films, TV series
 - **Documentary**
 - **Experimental**: Avant-garde, abstract, video art
@@ -449,6 +472,7 @@ Filmmaking
 - **Web-based Filmmaking**: Vlogs, Web Series, Interactive Films
 
 Other Creative Pursuits
+
 - **Gardening**: Design and cultivate your own garden, combining aesthetics with nature.
 - **Fashion Design**: Create your own clothing or accessories, exploring textiles and styles.
 - **Interior Design**: Work on decorating and designing spaces to reflect personal style.
@@ -456,22 +480,23 @@ Other Creative Pursuits
 - **Podcasting**
 
 Sources (provided by [perplexity.ai](https://www.perplexity.ai)):
-- https://www.buzzfeed.com/kathleenlynch/what-should-your-next-art-project-be-3baqw
-- https://www.classpop.com/magazine/creative-hobbies
-- https://www.tryinteract.com/quiz/what-s-the-best-art-medium-for-you/
-- https://www.playbuzz.com/brightynevans10/what-artistic-hobby-should-you-take-up-
-- https://www.reddit.com/r/AskMenOver30/comments/xu4vvk/what_are_some_creative_pursuits_that_you_started/
-- https://artisticpursuits.com/art-supplies
-- https://quizly.co/how-artistic-are-you/
-- https://artisticpursuits.com/classic-9-12th
-- https://www.filmmakerlife.com/people-are-relating-to-this-hilarious-mom-daughter-conversation-about-their-cat/
-- https://essay.biz/blog/examples/film-styles-and-the-types-of-styles-for-shooting-a-film/
-- https://www.premiumbeat.com/blog/guide-to-basic-film-genres/
-- https://en.wikipedia.org/wiki/Film_genre
-- https://blog.kinolime.com/articles/mni7mwj0tyfbuux1f1hrho2xw7ztf5
-- https://guides.library.yale.edu/c.php?g=295800&p=1975072
-- https://www.buzzfeed.com/kathleenlynch/what-should-your-next-art-project-be-3baqw
-- https://www.tryinteract.com/quiz/what-s-the-best-art-medium-for-you/
+
+- <https://www.buzzfeed.com/kathleenlynch/what-should-your-next-art-project-be-3baqw>
+- <https://www.classpop.com/magazine/creative-hobbies>
+- <https://www.tryinteract.com/quiz/what-s-the-best-art-medium-for-you/>
+- <https://www.playbuzz.com/brightynevans10/what-artistic-hobby-should-you-take-up->
+- <https://www.reddit.com/r/AskMenOver30/comments/xu4vvk/what_are_some_creative_pursuits_that_you_started/>
+- <https://artisticpursuits.com/art-supplies>
+- <https://quizly.co/how-artistic-are-you/>
+- <https://artisticpursuits.com/classic-9-12th>
+- <https://www.filmmakerlife.com/people-are-relating-to-this-hilarious-mom-daughter-conversation-about-their-cat/>
+- <https://essay.biz/blog/examples/film-styles-and-the-types-of-styles-for-shooting-a-film/>
+- <https://www.premiumbeat.com/blog/guide-to-basic-film-genres/>
+- <https://en.wikipedia.org/wiki/Film_genre>
+- <https://blog.kinolime.com/articles/mni7mwj0tyfbuux1f1hrho2xw7ztf5>
+- <https://guides.library.yale.edu/c.php?g=295800&p=1975072>
+- <https://www.buzzfeed.com/kathleenlynch/what-should-your-next-art-project-be-3baqw>
+- <https://www.tryinteract.com/quiz/what-s-the-best-art-medium-for-you/>
 
 ## Intellectual Self
 
@@ -503,6 +528,7 @@ Sources (provided by [perplexity.ai](https://www.perplexity.ai)):
     - Caveat: [There is little to no scientific backing for NLP as a whole](https://en.wikipedia.org/wiki/Neuro-linguistic_programming#Scientific_criticism)
 
 Other tests in this post you might like:
+
 - Strengths and Weaknesses
 - Career
 - Spiritual
@@ -550,7 +576,7 @@ Other tests in this post you might like:
 
 **Having the support of a mental health professional is recommended if you're exploring this area.**
 
-Learn about it here: https://en.wikipedia.org/wiki/Attachment_theory
+Learn about attachment theory: <https://en.wikipedia.org/wiki/Attachment_theory>
 
 - [Adult Attachment Interview (AAI) - attachmentproject.com](https://quiz.attachmentproject.com/) provides a comprehensive assessment of attachment styles based on childhood experiences.
 - [Experiences in Close Relationships (ECR) questionnaire](https://novopsych.com.au/assessments/formulation/experience-in-close-relationship-scale-short-form-ecr-s/) assesses attachment anxiety and avoidance.
@@ -569,6 +595,7 @@ Learn about it here: https://en.wikipedia.org/wiki/Attachment_theory
 - [Communication styles - dialecticalbehaviortherapy.com](https://dialecticalbehaviortherapy.com/interpersonal-effectiveness/communication-styles/) - Are you passive, aggressive, or passive-aggressive?
 
 Other tests in this post you might like:
+
 - Spiritual
 - Emotional
 
@@ -620,16 +647,19 @@ Learn more about [Shadow (psychology) - Wikipedia](https://en.wikipedia.org/wiki
 [What motivates you to succeed in life? | Tony Robbins | Tony Robbins](https://www.tonyrobbins.com/blog/what-motivates-you-to-take-action)
 
 > Intrinsic Motivation:
+>
 > - Contribution - The desire to volunteer and give back can be deeply fulfilling.
 > - Growth - mastering skills, acquiring new skills, having a high impact in career.
 >
 > Extrinsic Motivation:
+>
 > - Money - acquiring things can bring us temporary satisfaction.
 > - Praise - some of us crave praise and recognition in order to feel significant.
 
 #### "The Four Desires Driving All Human Behavior" - Bertrand Russell
 
-According to Maria Popova's post on [The Four Desires Driving All Human Behavior: Bertrand Russell’s Magnificent Nobel Prize Acceptance Speech - The Marginalian](https://www.themarginalian.org/2015/09/21/bertrand-russell-nobel-prize-acceptance-speech/)
+According to Maria Popova's post on [The Four Desires Driving All Human Behavior: Bertrand Russell's Magnificent Nobel Prize Acceptance Speech - The Marginalian](https://www.themarginalian.org/2015/09/21/bertrand-russell-nobel-prize-acceptance-speech/)
+
 - There are four primary, insatiable human desires:
   - The desire for acquiring objects (things)
   - Rivalry with others
@@ -660,6 +690,7 @@ The goal of the quiz (an abbreviated _Dysfunctional Attitude Scale_) is to expos
 [Free Online Childhood Emotional Neglect Test & Screening - onlinetherapymantra.com](https://onlinetherapymantra.com/assessments/childhood-emotional-neglect/) - The Childhood Emotional Neglect (CEN) assessment is a psychological tools used to evaluate experiences of emotional neglect during childhood.
 
 Other tests in this post you might like:
+
 - Spiritual
 - Intellectual
 - Relationships
@@ -678,7 +709,7 @@ Now that you've gone through some or all of the question sets, I suggest combini
 
 ### Ikigai - Finding Life Purpose
 
-> Ikigai is a Japanese concept that translates to "a reason for being." It’s the idea of finding one’s purpose in life and aligning it with one’s passions, skills, and values. The Japanese believe finding and pursuing your ikigai is the key to a long and happy life.
+> Ikigai is a Japanese concept that translates to "a reason for being." It's the idea of finding one's purpose in life and aligning it with one's passions, skills, and values. The Japanese believe finding and pursuing your ikigai is the key to a long and happy life.
 
 &mdash; [7 Japanese Concepts That Can Improve Your Life | The Art of Manliness](https://www.artofmanliness.com/character/advice/7-japanese-concepts-that-can-improve-your-life/)
 
@@ -690,6 +721,7 @@ For our purposes, we're using Ikigai as a way to continue cross-analysis. There 
 - **what you can be paid for**
 
 The intersection of adjacent areas reveals 4 ways of approaching work and life:
+
 - **Mission** - love + world needs
 - **Passion** - love + good at
 - **Profession** - good at + paid
@@ -711,11 +743,12 @@ This final section is where we take our newfound self-knowledge and use it to de
 The benefits of doing so are enormous - I encourage you to read more below.
 
 Sources (provided by [perplexity.ai](https://www.perplexity.ai)):
-- https://theblogrelay.com/how-to-live-by-your-values/
-- https://ritubhasin.com/blog/values-based-living/
-- https://www.forbes.com/sites/forbescoachescouncil/2021/10/05/how-to-live-in-alignment-with-your-true-values/
-- https://momentumpsychology.com/doing-what-matters-the-power-of-values-based-living/
-- https://tinybuddha.com/blog/live-values-everything-else-will-fall-place/
+
+- <https://theblogrelay.com/how-to-live-by-your-values/>
+- <https://ritubhasin.com/blog/values-based-living/>
+- <https://www.forbes.com/sites/forbescoachescouncil/2021/10/05/how-to-live-in-alignment-with-your-true-values/>
+- <https://momentumpsychology.com/doing-what-matters-the-power-of-values-based-living/>
+- <https://tinybuddha.com/blog/live-values-everything-else-will-fall-place/>
 
 ### Values and the Wheel of Life
 
@@ -818,10 +851,9 @@ Suggestions going forward:
 - **You can get to know people better** - Encourage others you know to take some of the tests you found the most interesting. Use what you learned about yourself as an opportunity to get to know people better.
 
 Things to remember:
-- **The ways of measuring traits is constantly evolving**
-- **We constantly change** - Every experience in life affects us in some way.
 
-Because the field changes and we change, it's **good to periodically redo the whole process that this post outlines.**
+- Because the field changes and we change, it's **good to periodically redo the whole process that this post outlines.**
+  - **The ways of measuring traits is constantly evolving** - Check for updates to these tests.
 
 **Have a suggestion or a question?** [Share your thoughts with me](/contact).
 
