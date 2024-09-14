@@ -25,12 +25,14 @@ export default props => {
           </h1>
           <p className="post-info-sm color-grey">{date}</p>
           <p className="post-info-sm">Author: {author}</p>
-          <span className="post-info-sm post-categories">
-            {getFormattedCategories(post.frontmatter)}
-          </span>
-          {tags.map(tag => (
-            <TagLink key={tag} text={tag} variant="post" />
-          ))}
+          <div className="flex flex-wrap flex-jc-center">
+            <span className="post-info-sm post-categories">
+              {getFormattedCategories(post.frontmatter)}
+            </span>
+            {tags.map(tag => (
+              <TagLink key={tag} text={tag} variant="post" />
+            ))}
+          </div>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
       </article>

@@ -5,7 +5,7 @@
   "version": "0.2.1",
   "license": "MIT",
   "engines": {
-    "node": "12.22.12"
+    "node": "16.20.2"
   },
   "scripts": {
     "build": "gatsby build",
@@ -22,16 +22,18 @@
     "change-case": "^4.1.1",
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.37",
+    "gatsby-plugin-catch-links": "^2.10.0",
     "gatsby-plugin-feed": "^2.3.25",
     "gatsby-plugin-manifest": "^2.2.34",
     "gatsby-plugin-meta-redirect": "^1.1.1",
     "gatsby-plugin-offline": "^3.0.30",
     "gatsby-plugin-react-helmet": "^3.1.18",
-    "gatsby-plugin-sass": "^2.1.26",
+    "gatsby-plugin-sass": "^2.8.0",
     "gatsby-plugin-sharp": "^2.3.10",
     "gatsby-redirect-from": "^0.2.1",
     "gatsby-remark-copy-linked-files": "^2.1.33",
     "gatsby-remark-embed-video": "^3.0.10",
+    "gatsby-remark-external-links": "^0.0.4",
     "gatsby-remark-images": "^3.1.39",
     "gatsby-remark-prismjs": "^3.3.29",
     "gatsby-remark-responsive-iframe": "^2.2.30",
@@ -40,13 +42,13 @@
     "gatsby-transformer-remark": "^2.6.45",
     "gatsby-transformer-sharp": "^2.3.9",
     "lodash": "^4.17.20",
-    "node-sass": "^4.13.1",
     "prismjs": "^1.25.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-markdown": "^6.0.2",
     "react-typography": "^0.16.19",
+    "sass": "^1.71.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.2"
   },

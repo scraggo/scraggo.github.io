@@ -214,7 +214,8 @@ Form
 
 ### Thinkertoys by Michael Michalko
 
-[Thinkertoys by Michael Michalko - slides](https://www.slideshare.net/danglyra/thinkertoys-summary)
+- [Thinkertoys - Generate Art and Business Ideas | scraggo.com](/thinkertoys-generate-art-and-business-ideas/)
+- [Thinkertoys by Michael Michalko - slides](https://www.slideshare.net/danglyra/thinkertoys-summary)
 
 ### Generating Ideas, in general
 
