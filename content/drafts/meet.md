@@ -2,24 +2,57 @@ questions-for-self-knowledge
 
 ## Intro
 
-How do we learn about ourselves? How do we gain self-knowledge?
+Long ago, in the Greek Temple of Apollo, someone wrote ["Know Thyself"](https://en.wikipedia.org/wiki/Know_thyself). In my experience, gaining self-knowledge is invaluable.
 
-This post is an attempt to simplify the process of getting to know ourselves better.
+A perennial problem for me is a tendency to deny my own wants and needs. That has made it tricky to really understand myself.
 
-The process:
+I got to wondering if there was a more _targeted_ way to get to know myself. I had taken a handful of personality tests throughout the years and have enjoyed comparing my results with others. I asked "What other tests can help me learn about myself? Which ones are the best at doing so?"
 
-1. Answer a bunch of questions. The quizzes and questionnaires are from various sources all over the internet as well as my own lists. We'll go into the following areas of self:
-    - General Personality
-    - Strengths and Weaknesses
-    - \* The 5 of SPIRE: Spiritual, Physical, Intellectual, Relational, and Emotional
-    - Play, Politics, Art, Finance, and more
-2. Reflect on the answers. After you go through some or all of the question sets, I'll go into detail on how to get the most out of your answers.
+To answer this, I took lots of online tests to gauge their effectiveness. I reflected on the results from lots of different angles. I found it all to be very effective at shedding light on myself!
+
+This goal of this post is to share the fruits of this labor. In it is the curated list of internet questionnaires as well as my own lists. Also, lots of suggestions to help you put the pieces together.
+
+### The process
+
+1. Answer a _bunch_ of questions.
+2. Reflect on the answers. I'll go into detail in the final sections on how to get the most out of your answers.
+
+Suggestions:
+
+- For all online tests, store _all_ the text from online results (copying or PDF), links to the tests/results, and other info in your personal notes collection. (See [my post on Building a Second Brain](/building-my-second-brain))
+- Create dated journal entries and write answers to questions, your reflections on test results, and all other related thoughts.
+- Create a "spam" email address for the websites that require email.
 
 **Warning**: Having the support of a mental health professional is recommended, especially for tests that explore emotions, trauma, and other sensitive topics.
 
 **Disclaimer**: This post is for entertainment purposes only. There's no guarantee of scientific or other validity from any of these tests.
 
-\* The 5 areas of SPIRE are drawn from [Dr. Tal Ben-Shahar's book _Happier, No Matter What_](https://talbenshahar.com/books/)
+### The areas of self
+
+The categories of "self" I've chosen are drawn from multiple sources:
+
+- The 10 areas of the Wheel of Life (we'll go into detail in the _Initial Self Inventory_ section)
+- Personality Tests
+- Strengths and Weaknesses
+- Play, Politics, Art, Career, and Finance
+- The 5 areas of SPIRE: Spiritual, Physical, Intellectual, Relational, and Emotional. (From [Dr. Tal Ben-Shahar's book _Happier, No Matter What_](https://talbenshahar.com/books/))
+
+### Contents
+
+- [Initial Self Inventory](#initial-self-inventory)
+- [Personality Tests](#personality-tests)
+- [Strengths and Weaknesses](#strengths-and-weaknesses)
+- [Working Self - Career Fit](#working-self---career-fit)
+- [Financial - Money Personality](#financial---money-personality)
+- [Political Self](#political-self)
+- [Spiritual Self](#spiritual-self)
+- [Physical Self](#physical-self)
+- [Artistic Pursuits](#artistic-pursuits)
+- [Intellectual Self](#intellectual-self)
+- [Relationships and Self](#relationships-and-self)
+- [Emotional Self](#emotional-self)
+- [Reflection: Cross-Analysis, Ikigai, Values](#reflection-cross-analysis-ikigai-values)
+- [Conclusion](#conclusion)
 
 ## Initial Self Inventory
 
@@ -849,7 +882,7 @@ I hope it's been helpful in understanding yourself better; perhaps giving you a 
 Suggestions going forward:
 
 - **Experiment** - Did you get valuable insights from these tests? Are there life experiments you can design to put your insights into practice?
-- **Create your own personalized reflection prompts** to delve even deeper into your self-understanding.
+- **Create your own personalized reflection prompts** to delve even deeper into your self-understanding. (See [my post on Using question-prompter for study, self-reflection, and more](/using-question-prompter/))
 - **You can get to know people better** - Encourage others you know to take some of the tests you found the most interesting. Use what you learned about yourself as an opportunity to get to know people better.
 
 Things to remember:
