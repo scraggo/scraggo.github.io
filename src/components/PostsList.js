@@ -32,10 +32,11 @@ const PostsList = ({ data, category, title }) => {
                 <Link to={url}>{frontmatter.title}</Link>
               </h3>
             </header>
-            <div className="post-info-sm">
-              <Link to={url}>
-                <span>{frontmatter.date} | </span>
-              </Link>
+            <div className="post-info-sm flex flex-wrap">
+              <div>
+                <Link to={url}>{frontmatter.date}</Link>
+                <span className="v-divider">|</span>
+              </div>
               <span className="post-categories">
                 {getFormattedCategories(frontmatter)}
               </span>
