@@ -4,13 +4,17 @@ questions-for-self-knowledge
 
 Long ago, in the Greek Temple of Apollo, someone wrote ["Know Thyself"](https://en.wikipedia.org/wiki/Know_thyself). In my experience, gaining self-knowledge is invaluable.
 
-A perennial problem for me is a tendency to deny my own wants and needs. That has made it tricky to really understand myself.
+A perennial problem for me is a tendency to deny my own wants and needs. That has made it tricky to really understand myself. It has been a rough and haphazard journey.
 
-I got to wondering if there was a more _targeted_ way to get to know myself. I had taken a handful of personality tests throughout the years and have enjoyed comparing my results with others. I asked "What other tests can help me learn about myself? Which ones are the best at doing so?"
+I got to wondering if there was a more _targeted_ way to get to know myself. I've taken a handful of personality tests throughout the years and they definitely helped. I enjoy learning about what goes into the tests and comparing my results with others. I asked "What other tests can help me learn about myself? Which ones are the best at doing so?"
 
 To answer this, I took lots of online tests to gauge their effectiveness. I reflected on the results from lots of different angles. I found it all to be very effective at shedding light on myself!
 
-This goal of this post is to share the fruits of this labor. In it is the curated list of internet questionnaires as well as my own lists. Also, lots of suggestions to help you put the pieces together.
+This goal of this post is to share the fruits of this labor. In it is:
+
+- a curated list of internet questionnaires
+- my own lists of questions
+- lots of suggestions to help you put the pieces together
 
 ### The process
 
@@ -19,8 +23,8 @@ This goal of this post is to share the fruits of this labor. In it is the curate
 
 Suggestions:
 
-- For all online tests, store _all_ the text from online results (copying or PDF), links to the tests/results, and other info in your personal notes collection. (See [my post on Building a Second Brain](/building-my-second-brain))
-- Create dated journal entries and write answers to questions, your reflections on test results, and all other related thoughts.
+- For all online tests, store _all_ the text from online results (copying or PDF), links to the tests/results, any questions that were difficult to answer, and other info in your personal notes collection. (See [my post on Building a Second Brain](/building-my-second-brain))
+- Create dated journal entries and write answers to non-quiz questions, your reflections on test results, and all other related thoughts.
 - Create a "spam" email address for the websites that require email.
 
 **Warning**: Having the support of a mental health professional is recommended, especially for tests that explore emotions, trauma, and other sensitive topics.
