@@ -25,7 +25,8 @@ Suggestions:
 
 - For all online tests, store _all_ the text from online results (copying or PDF), links to the tests/results, any questions that were difficult to answer, and other info in your personal notes collection. (See [my post on Building a Second Brain](/building-my-second-brain))
 - Create dated journal entries and write answers to non-quiz questions, your reflections on test results, and all other related thoughts.
-- Create a "spam" email address for the websites that require email.
+- Use or create a "spam" email address for the websites that require email.
+- Use an ad-blocker(s). Unfortunately, at least one online test didn't work in Firefox.
 
 **Warning**: Having the support of a mental health professional is recommended, especially for tests that explore emotions, trauma, and other sensitive topics.
 
@@ -43,19 +44,60 @@ The categories of "self" I've chosen are drawn from multiple sources:
 
 ### Contents
 
+- [Intro](#intro)
+  - [The process](#the-process)
+  - [The areas of self](#the-areas-of-self)
+  - [Contents](#contents)
 - [Initial Self Inventory](#initial-self-inventory)
+  - [Starting to get to know you](#starting-to-get-to-know-you)
+  - [Satisfaction with life and the Wheel of Life](#satisfaction-with-life-and-the-wheel-of-life)
 - [Personality Tests](#personality-tests)
+  - [General: Big 5 and Myers-Briggs](#general-big-5-and-myers-briggs)
+  - [Motivations: Color Mode and Enneagram](#motivations-color-mode-and-enneagram)
+  - [Fun: Sense of Humor and Play](#fun-sense-of-humor-and-play)
+  - [Everything Else: Divination and Just for fun](#everything-else-divination-and-just-for-fun)
 - [Strengths and Weaknesses](#strengths-and-weaknesses)
 - [Working Self - Career Fit](#working-self---career-fit)
+  - [What jobs and gigs would suit you?](#what-jobs-and-gigs-would-suit-you)
+  - [Career Personality Profiles](#career-personality-profiles)
 - [Financial - Money Personality](#financial---money-personality)
 - [Political Self](#political-self)
 - [Spiritual Self](#spiritual-self)
+  - [Initial questions](#initial-questions)
+  - [Religions - What religions align with your beliefs?](#religions---what-religions-align-with-your-beliefs)
+  - [Other Questions](#other-questions)
 - [Physical Self](#physical-self)
+  - [Initial questions](#initial-questions-1)
+  - [Overall Health](#overall-health)
+  - [Surface: Interests and Objects](#surface-interests-and-objects)
+  - [For fun](#for-fun)
+  - [Read more](#read-more)
 - [Artistic Pursuits](#artistic-pursuits)
+  - [Initial questions](#initial-questions-2)
+  - [Quizzes](#quizzes)
+  - [List of Art forms](#list-of-art-forms)
 - [Intellectual Self](#intellectual-self)
+  - [Initial questions](#initial-questions-3)
+  - [Learning Styles](#learning-styles)
+  - [Cognitive Styles](#cognitive-styles)
 - [Relationships and Self](#relationships-and-self)
+  - [Initial questions](#initial-questions-4)
+  - [Attachment Style](#attachment-style)
+  - [Love Language / Styles](#love-language--styles)
+  - [Communication Styles](#communication-styles)
 - [Emotional Self](#emotional-self)
+  - [Check in with yourself](#check-in-with-yourself)
+  - [Motivation](#motivation)
+    - [Your Shadow](#your-shadow)
+    - [Tony Robbins on 6 Human Needs and Motivation](#tony-robbins-on-6-human-needs-and-motivation)
+    - ["The Four Desires Driving All Human Behavior" - Bertrand Russell](#the-four-desires-driving-all-human-behavior---bertrand-russell)
+    - [Silent Assumptions - Core emotional beliefs](#silent-assumptions---core-emotional-beliefs)
+  - [Trauma and Neglect](#trauma-and-neglect)
 - [Reflection: Cross-Analysis, Ikigai, Values](#reflection-cross-analysis-ikigai-values)
+  - [Cross-Analysis - comparing answers across sections](#cross-analysis---comparing-answers-across-sections)
+  - [Ikigai - Finding Life Purpose](#ikigai---finding-life-purpose)
+  - [Determining and Living By Values](#determining-and-living-by-values)
+    - [Values and the Wheel of Life](#values-and-the-wheel-of-life)
 - [Conclusion](#conclusion)
 
 ## Initial Self Inventory
@@ -227,7 +269,20 @@ Take the quiz at [gyfted.me](https://www.gyfted.me/quiz-landing/enneagram-test).
 
 Caveat: [Doesn't have scientific backing](https://en.wikipedia.org/wiki/Enneagram_of_Personality). Entertainment purposes only.
 
-### How You Have Fun: The 8 Play Personalities
+### Fun: Sense of Humor and Play
+
+1\. Sense of Humor
+
+The situations in which you try to make jokes and your style of humor can tell you many things about yourself. The 4 social functions include:
+
+1. Affiliative: Bonding with others
+2. Self-enhancement: Feel better about oneself
+3. Aggressive: Deliver a harsh or controversial message
+4. Self-defeating: Getting others to like you
+
+The [Quiz: What Is Your Sense of Humor? In 10 Types of Humor - Quiz Expo](https://www.quizexpo.com/what-is-your-sense-of-humor/) will help you determine the above and your humor type/style: , _Slapstick_, _Deadpan, _Self-deprecating_, _Potty_, _Topical & Satrical_, _Irony_, _Parody_, _Dark_, or _Surreal_.
+
+2\. Your Play Personality
 
 Pioneered by Dr Stuart Brown, the [Play Personalities test](https://lindsaybraman.com/adult-play-styles/#quiz) can help you determine your "play style." How did you interact with the world when you were a child? What modes of play naturally bring you joy and excitement? Are you a _Joker_, _Kinesthetic_, _Explorer_, _Competitor_, _Director_, _Collector_, _Storyteller_, and/or _Creator_?
 
@@ -268,7 +323,7 @@ VIA:
 - <https://strengthsbasedresilience.com/assessments/ssq72>
 - <https://www.viacharacter.org/surveys/takesurvey>
 
-DISC: <https://openpsychometrics.org/tests/ODAT/>
+DISC: <https://openpsychometrics.org/tests/ODAT/> - "is an acronym that stands for the four main personality profiles described in the DiSC model: (D)ominance, (i)nfluence, (S)teadiness and (C)onscientiousness." &mdash; <https://www.discprofile.com/what-is-disc>
 
 Career-oriented Strengths and Weaknesses:
 
