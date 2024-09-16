@@ -645,6 +645,7 @@ Other tests in this post you might like:
   - How do you approach friendships?
   - How are you in close relationships?
   - How do I handle conflict in relationships?
+  - (also see the earlier "Sense of Humor" section)
 - Past Relationships
   - How have past relationships shaped my view of relationships?
   - What did I learn from previous relationships?
@@ -800,6 +801,15 @@ Now that you've gone through some or all of the question sets, I suggest combini
 3. For even more insights, systematically go through each pair of question sets. A few examples:
     - "My play personality is _Creator_ and I also have a cognitive style of _Innovator_. How does one inform the other? Could I approach what I create analytically? Would I benefit from doing more experimentation? How could I benefit from being more practical and personable (my supposed cognitive weaknesses)?"
     - "Given my low scores on physical health and tendency to be work-centered and risk-averse, how can I motivate myself given my strengths to exercise in a way that works for me?"
+
+Some questions for overall reflection:
+
+- Compare each response to your original answers (as suggested earlier).
+- Can you trace each response back to childhood or even a genetic component? How does it further exemplify your personality?
+- What do you approach, what do you avoid? (look at this neutrally)
+- How do your strengths benefit you? (positive)
+- Which weaknesses are causing you detriment? (negative)
+- What can you change in order to improve your life?
 
 ### Ikigai - Finding Life Purpose
 
