@@ -89,6 +89,7 @@ The categories of "self" I've chosen are drawn from multiple sources:
   - [Communication Styles](#communication-styles)
 - [Emotional Self](#emotional-self)
   - [Check in with yourself](#check-in-with-yourself)
+  - [Emotional Intelligence (EQ)](#emotional-intelligence-eq)
   - [Motivation](#motivation)
     - [Your Shadow](#your-shadow)
     - [Tony Robbins on 6 Human Needs and Motivation](#tony-robbins-on-6-human-needs-and-motivation)
@@ -714,6 +715,10 @@ Other tests in this post you might like:
 - [Self-Check In: 100 Questions to Ask Yourself Today - minimalismmadesimple.com](https://www.minimalismmadesimple.com/home/self-check-in-questions/)
 - [27 Questions To Check In With Yourself - mindfulzen.co](https://mindfulzen.co/questions-check-in/)
 - [Quiz: Checking in with yourself, Stress - au.reachout.com](https://au.reachout.com/challenges-and-coping/stress/quiz-checking-in-with-yourself)
+
+### Emotional Intelligence (EQ)
+
+Take the [EQ Emotional Intelligence Test | Truity](https://www.truity.com/test/emotional-intelligence-test) to find out how you score out of 100 for each of these emotional traits: Self-awareness, Other-awareness, Emotional Control, Empathy, Wellbeing
 
 ### Motivation
 
