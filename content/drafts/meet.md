@@ -2,35 +2,36 @@ questions-for-self-knowledge
 
 ## Intro
 
-Long ago, in the Greek Temple of Apollo, someone wrote ["Know Thyself"](https://en.wikipedia.org/wiki/Know_thyself). In my experience, gaining self-knowledge is invaluable.
+The words ["Know Thyself"](https://en.wikipedia.org/wiki/Know_thyself) were inscribed long ago in the Greek Temple of Apollo. I consider those wise words because knowing one's self is invaluable in so many areas of life.
 
-A perennial problem for me is a tendency to deny my own wants and needs. That has made it tricky to really understand myself. It has been a rough and haphazard journey.
+The problem is, it's tricky to really understand yourself. Life is full of twists and turns, we don't necessarily have the time or willingness to self-reflect. If you're like me, you also might have a [tendency to deny your own wants and needs for the sake of fitting in](https://calvinrosser.com/notes/wanting-power-of-mimetic-desire-luke-burgis/).
 
-I got to wondering if there was a more _targeted_ way to get to know myself. I've taken a handful of personality tests throughout the years and they definitely helped. I enjoy learning about what goes into the tests and comparing my results with others. I asked "What other tests can help me learn about myself? Which ones are the best at doing so?"
+I got to wondering if there was a _targeted_ way to get to know myself. Something less haphazard than reflecting on troubling events, or following some online list of "12 awesome journal prompts." As a psychology enthusiast, I wondered if I could take a bunch of tests and get a somewhat detailed "picture" of who I am.
 
-To answer this, I took lots of online tests to gauge their effectiveness. I reflected on the results from lots of different angles. I found it all to be very effective at shedding light on myself!
+I had taken a handful of personality tests throughout the years and found the results of the tests to be helpful to learn about myself and others. So, I set out to answer:
 
-This goal of this post is to share the fruits of this labor. In it is:
+1. "Is taking a bunch of personality tests effective for gaining self-knowledge?"
+2. "Which tests are the best at helping me learn about myself?"
 
-- a curated list of internet questionnaires
-- my own lists of questions
-- lots of suggestions to help you put the pieces together
+After many many hours of taking online tests, reflecting on the results, comparing their effectiveness, and reflecting from lots of different angles, I was satisfied. Yes the tests are effective, but you have to do some work to put the bigger "picture" together.
+
+So, let's get to it. This post contains my curated list of internet questionnaires, my own lists of questions, and lots of suggestions to help you put the pieces together.
 
 ### The process
 
 1. Answer a _bunch_ of questions.
 2. Reflect on the answers. I'll go into detail in the final sections on how to get the most out of your answers.
 
-Suggestions:
-
-- For all online tests, store _all_ the text from online results (copying or PDF), links to the tests/results, any questions that were difficult to answer, and other info in your personal notes collection. (See [my post on Building a Second Brain](/building-my-second-brain))
-- Create dated journal entries and write answers to non-quiz questions, your reflections on test results, and all other related thoughts.
-- Use or create a "spam" email address for the websites that require email.
-- Use an ad-blocker(s). Unfortunately, at least one online test didn't work in Firefox.
-
 **Warning**: Having the support of a mental health professional is recommended, especially for tests that explore emotions, trauma, and other sensitive topics.
 
 **Disclaimer**: This post is for entertainment purposes only. There's no guarantee of scientific or other validity from any of these tests.
+
+Suggestions:
+
+- For all tests, store _all_ the text from online results (copying or PDF), links to the tests/results, any questions that were difficult to answer, and other info in your personal notes collection. (See [my post on Building a Second Brain](/building-my-second-brain))
+- Create dated journal entries and write answers to non-quiz questions, your reflections on test results, and all other related thoughts.
+- Use or create a "spam" email address for the websites that require email.
+- Use ad-blocker(s). Unfortunately, at least one online test didn't work in Firefox - you might want Chrome installed just in case.
 
 ### The areas of self
 
@@ -63,25 +64,26 @@ The categories of "self" I've chosen are drawn from multiple sources:
 - [Financial - Money Personality](#financial---money-personality)
 - [Political Self](#political-self)
 - [Spiritual Self](#spiritual-self)
-  - [Initial questions](#initial-questions)
+  - [Initial spiritual questions](#initial-spiritual-questions)
   - [Religions - What religions align with your beliefs?](#religions---what-religions-align-with-your-beliefs)
   - [Other Questions](#other-questions)
 - [Physical Self](#physical-self)
-  - [Initial questions](#initial-questions-1)
+  - [Initial physical questions](#initial-physical-questions)
   - [Overall Health](#overall-health)
   - [Surface: Interests and Objects](#surface-interests-and-objects)
   - [For fun](#for-fun)
   - [Read more](#read-more)
 - [Artistic Pursuits](#artistic-pursuits)
-  - [Initial questions](#initial-questions-2)
+  - [Initial artistic questions](#initial-artistic-questions)
   - [Quizzes](#quizzes)
   - [List of Art forms](#list-of-art-forms)
 - [Intellectual Self](#intellectual-self)
-  - [Initial questions](#initial-questions-3)
+  - [Initial intellectual questions](#initial-intellectual-questions)
+  - [IQ and Types of Intelligences](#iq-and-types-of-intelligences)
   - [Learning Styles](#learning-styles)
   - [Cognitive Styles](#cognitive-styles)
 - [Relationships and Self](#relationships-and-self)
-  - [Initial questions](#initial-questions-4)
+  - [Initial relationships questions](#initial-relationships-questions)
   - [Attachment Style](#attachment-style)
   - [Love Language / Styles](#love-language--styles)
   - [Communication Styles](#communication-styles)
@@ -99,6 +101,7 @@ The categories of "self" I've chosen are drawn from multiple sources:
   - [Determining and Living By Values](#determining-and-living-by-values)
     - [Values and the Wheel of Life](#values-and-the-wheel-of-life)
 - [Conclusion](#conclusion)
+- [Other Resources](#other-resources)
 
 ## Initial Self Inventory
 
@@ -303,6 +306,7 @@ Interpreting your results:
 
 2\. Just for fun
 
+- [DOPE Bird 4 Personality Types Test - richardstep.com](https://richardstep.com/dope-personality-type-quiz/dope-bird-4-personality-types-test-questions-online-version/)
 - "Which character are you?" quizzes. My favorite is the _Adventure Time_ quiz. You can easily find quizzes for numerous shows, books, movies, etc.
 
 ## Strengths and Weaknesses
@@ -436,7 +440,7 @@ Two other helpful tests:
 
 ## Spiritual Self
 
-### Initial questions
+### Initial spiritual questions
 
 - What's your relationship to religion/spirituality?
 - What's your immediate family's relationship to religion/spirituality?
@@ -470,7 +474,7 @@ Evaluate your spiritual practices:
 
 ## Physical Self
 
-### Initial questions
+### Initial physical questions
 
 - What's your age, height, weight, eye/hair color, nationality, etc?
 - Do you have especially good or bad senses of smell, taste, sight, touch, or hearing?
@@ -508,7 +512,7 @@ Questions about things external to you that help define your personality and soc
 
 ## Artistic Pursuits
 
-### Initial questions
+### Initial artistic questions
 
 - Do you enjoy art? Which artists, filmmakers, musicians, etc?
 - What artistic styles? Abstract, surrealism, impressionism, etc
@@ -594,22 +598,30 @@ Sources (provided by [perplexity.ai](https://www.perplexity.ai)):
 
 ## Intellectual Self
 
-### Initial questions
+### Initial intellectual questions
 
 - What do you enjoy learning and thinking about?
 - What academic subjects do you enjoy and which do you dislike?
 - Which intellectuals do you admire? Given your favorite areas of study, who are your favorite thinkers in those areas?
+- Intelligence is considered highly inheritable. How does your overall intelligence and talents compare to your parents?
+
+### IQ and Types of Intelligences
+
+- IQ (Intelligence Quotient) is a single number that represents your general intelligence. A higher number means higher intelligence across many different categories. The average score of test-takers is between 85 and 115. [Read more - free-iqtest.net](https://www.free-iqtest.net/what-is-iq.asp)
+  - [Take the IQ test at iqtest.com](https://iqtest.com/take-the-test/)
+- Many feel that IQ doesn't account for the varieties of ways people can be intelligent. In 1983, Howard Gardner proposed the multiple intelligences theory in his book _Frames of Mind_. [read more: The 12 Types of Intelligence: Which One Do You Have? | psychologyfor.com](https://psychologyfor.com/the-12-types-of-intelligence-which-one-do-you-have/)
+  - [The Intelligence Type Test: What Kind of Intelligence Do You Have? | verywellmind.com](https://www.verywellmind.com/what-kind-of-intelligence-do-you-have-3867398)
 
 ### Learning Styles
 
 1. The three-mode (VAK) theory posits that we can be predominantly _visual_, _auditory_, or _kinesthetic_ learners. [What's Your Learning Style? - EducationPlanner](http://www.educationplanner.org/students/self-assessments/learning-styles) provides a ranked assessment of the 3 learning styles.
     - [Read about the Learning Styles - EducationPlanner](http://www.educationplanner.org/students/self-assessments/learning-styles-styles)
-2. This four-spectrum theory is similar to the Big 5 personality test: [Felder-Silverman Index of Learning Styles Questionnaire](https://learningstyles.webtools.ncsu.edu/). In it, you're assessed across these areas:
+2. Is 3 not enough? Here you can evaluate yourself along seven learning styles: [7 Types of Learning Styles and How To Teach Them - Teachable](https://teachable.com/blog/types-of-learning-styles)
+3. Contrasting to the above, this four-spectrum theory is similar to the Big 5 personality test: [Felder-Silverman Index of Learning Styles Questionnaire](https://learningstyles.webtools.ncsu.edu/). In it, you're assessed across these learning style areas:
     - Active ⟺ Reflective
     - Sensing ⟺ Intuitive
     - Visual ⟺ Verbal
     - Sequential ⟺ Global
-3. Not enough? Here you can evaluate yourself along seven learning styles: [7 Types of Learning Styles and How To Teach Them - Teachable](https://teachable.com/blog/types-of-learning-styles)
 
 ### Cognitive Styles
 
@@ -630,7 +642,7 @@ Other tests in this post you might like:
 
 ## Relationships and Self
 
-### Initial questions
+### Initial relationships questions
 
 - General Feelings About Relationships
   - How do I generally feel about being around other people?
@@ -807,8 +819,8 @@ Some questions for overall reflection:
 - Compare each response to your original answers (as suggested earlier).
 - Can you trace each response back to childhood or even a genetic component? How does it further exemplify your personality?
 - What do you approach, what do you avoid? (look at this neutrally)
-- How do your strengths benefit you? (positive)
-- Which weaknesses are causing you detriment? (negative)
+- How do your strengths benefit you? (for self-esteem building and goal-setting)
+- Which weaknesses are causing you detriment? (helps you identify areas you might want to account for)
 - What can you change in order to improve your life?
 
 ### Ikigai - Finding Life Purpose
@@ -962,3 +974,11 @@ Things to remember:
 **Have a suggestion or a question?** [Share your thoughts with me](/contact).
 
 Keep up the momentum, keep reflecting!
+
+## Other Resources
+
+- [Designing Your Life (book) by Bill Burnett and Dave Evans](https://designingyour.life/books-designing-life-original-book/) - A fantastic curriculum to make your life and career fit who you are
+- [School of Life - A Writing Exercise to Help You Meet Yourself - YouTube](https://www.youtube.com/watch?v=gtcfnDG_0M0) - this reminds me of [Morning Pages | Julia Cameron](https://juliacameronlive.com/basic-tools/morning-pages/) - daily practice recommended by the author of _The Artist's Way_.
+- [School of Life - Who Am I? - YouTube](https://www.youtube.com/watch?v=oocunV4JX4w) - What's our essence? Values, inclinations, temperament
+- [School of Life - How To Know Yourself - YouTube](https://www.youtube.com/watch?v=4lTbWQ8zD3w) - The origins of self-worth and the problems arising from lacking it.
+- [Meet Yourself: A User's Guide to Building Self-Esteem: Niko Everett at TEDxYouth@BommerCanyon - YouTube](https://www.youtube.com/watch?reload=9&v=uOrzmFUJtrs) - Ask: "What do you LIKE about yourself?"
