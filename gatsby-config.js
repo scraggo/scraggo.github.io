@@ -34,6 +34,13 @@ module.exports = {
       options: {
         plugins: [
           {
+            /** Adds links to headers for table of contents */
+            resolve: 'gatsby-remark-autolink-headers',
+            options: {
+              className: 'autolink-anchor',
+            },
+          },
+          {
             /** use internal Link */
             resolve: `gatsby-plugin-catch-links`,
           },

@@ -16,23 +16,24 @@ Other formats:
 - [PDF](/Multimodal-Learning-scraggo-com.pdf)
 - [Powerpoint](/Multimodal-Learning-scraggo-com.pptx)
 
-Outline:
+**Contents**
 
-- Why this talk?
-- What we'll explore
-- My story - hitting a wall of text
-- Rote learning takes up to 160 repetitions
-- A new approach - drawing pictures
-- The Art of Memory
-- Why text is the default
-- Imaginative powers - senses, faces, time, spaces
-- Mnemonics
-- Elaborative Encoding
-- Elaborative Encoding Example - Remembering the C4 model
-- Method of Loci - Walking through a memory palace
-- Choosing memory palaces
-- Final thoughts
-- Resources
+- [Why this talk?](#why-this-talk)
+- [What we'll explore](#what-well-explore)
+- [My story - hitting a wall of text](#my-story---hitting-a-wall-of-text)
+- [Rote learning takes up to 160 repetitions](#rote-learning-takes-up-to-160-repetitions)
+- [A new approach - drawing pictures](#a-new-approach---drawing-pictures)
+- [The Art of Memory](#the-art-of-memory)
+- [Why text is the default](#why-text-is-the-default)
+- [Imaginative powers - senses, faces, time, spaces](#imaginative-powers---senses-faces-time-spaces)
+- [Mnemonics](#mnemonics)
+- [Elaborative Encoding](#elaborative-encoding)
+- [Elaborative Encoding Example - Remembering the C4 model](#elaborative-encoding-example---remembering-the-c4-model)
+- [Method of Loci - Walking through a memory palace](#method-of-loci---walking-through-a-memory-palace)
+- [Method of Loci Example - Putting the C4 model in a memory palace](#method-of-loci-example---putting-the-c4-model-in-a-memory-palace)
+- [Choosing memory palaces](#choosing-memory-palaces)
+- [Final thoughts](#final-thoughts)
+- [Resources](#resources)
 
 ## Why this talk?
 
