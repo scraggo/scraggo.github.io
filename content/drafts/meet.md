@@ -1,6 +1,13 @@
-questions-for-self-knowledge
-
-## Intro
+---
+type: post
+title: 'Questions to Get to Know Yourself'
+date: '2024-09-26'
+author: 'Dave Cohen'
+categories: ['other']
+tags: ['psychology']
+# questions-to-get-to-know-yourself
+# how-to-meet-yourself
+---
 
 The words ["Know Thyself"](https://en.wikipedia.org/wiki/Know_thyself) were inscribed long ago in the Greek Temple of Apollo. I consider those wise words because knowing one's self is invaluable in so many areas of life.
 
@@ -13,7 +20,7 @@ I had taken a handful of personality tests throughout the years and found the re
 1. "Is taking a bunch of personality tests effective for gaining self-knowledge?"
 2. "Which tests are the best at helping me learn about myself?"
 
-After many many hours of taking online tests, reflecting on the results, comparing their effectiveness, and reflecting from lots of different angles, I was satisfied. Yes the tests are effective, but you have to do some work to put the bigger "picture" together.
+After many many hours of taking online tests, comparing their effectiveness, and reflecting from lots of different angles, I was satisfied. Yes the tests are effective, but you have to do some work to put the bigger "picture" together.
 
 So, let's get to it. This post contains my curated list of internet questionnaires, my own lists of questions, and lots of suggestions to help you put the pieces together.
 
@@ -29,9 +36,13 @@ So, let's get to it. This post contains my curated list of internet questionnair
 Suggestions:
 
 - For all tests, store _all_ the text from online results (copying or PDF), links to the tests/results, any questions that were difficult to answer, and other info in your personal notes collection. (See [my post on Building a Second Brain](/building-my-second-brain))
-- Create dated journal entries and write answers to non-quiz questions, your reflections on test results, and all other related thoughts.
-- Use or create a "spam" email address for the websites that require email.
-- Use ad-blocker(s). Unfortunately, at least one online test didn't work in Firefox - you might want Chrome installed just in case.
+- Write down your answers to questions, your reflections on test results, and all other related thoughts in a way that you can review and collect highlights later.
+
+Browsing Safely:
+
+- Use or create a permanent "spam" email address or a [temporary email address](https://duckduckgo.com/?t=ftsa&q=temporary+email+address&atb=v174-1&ia=web) for the websites that require email.
+- Use ad-blocker(s).
+- Have the Chrome browser available. Unfortunately, at least one online test didn't work in Firefox.
 
 ### The areas of self
 
@@ -43,12 +54,10 @@ The categories of "self" I've chosen are drawn from multiple sources:
 - Play, Politics, Art, Career, and Finance
 - The 5 areas of SPIRE: Spiritual, Physical, Intellectual, Relational, and Emotional. (From [Dr. Tal Ben-Shahar's book _Happier, No Matter What_](https://talbenshahar.com/books/))
 
+---
+
 ### Contents
 
-- [Intro](#intro)
-  - [The process](#the-process)
-  - [The areas of self](#the-areas-of-self)
-  - [Contents](#contents)
 - [Initial Self Inventory](#initial-self-inventory)
   - [Starting to get to know you](#starting-to-get-to-know-you)
   - [Satisfaction with life and the Wheel of Life](#satisfaction-with-life-and-the-wheel-of-life)
@@ -103,6 +112,8 @@ The categories of "self" I've chosen are drawn from multiple sources:
     - [Values and the Wheel of Life](#values-and-the-wheel-of-life)
 - [Conclusion](#conclusion)
 - [Other Resources](#other-resources)
+
+---
 
 ## Initial Self Inventory
 

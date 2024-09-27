@@ -16,7 +16,9 @@ Other formats:
 - [PDF](/Multimodal-Learning-scraggo-com.pdf)
 - [Powerpoint](/Multimodal-Learning-scraggo-com.pptx)
 
-**Contents**
+---
+
+## Contents
 
 - [Why this talk?](#why-this-talk)
 - [What we'll explore](#what-well-explore)
@@ -34,6 +36,8 @@ Other formats:
 - [Choosing memory palaces](#choosing-memory-palaces)
 - [Final thoughts](#final-thoughts)
 - [Resources](#resources)
+
+---
 
 ## Why this talk?
 

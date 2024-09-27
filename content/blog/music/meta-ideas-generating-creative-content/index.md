@@ -27,6 +27,28 @@ This post will focus on the other type, the **💡💡meta idea💡💡**.
 4. My meta ideas
 5. Others' meta ideas - brief discussion and lots of resources
 
+---
+
+## Contents
+
+- [What is a "Meta Idea"?](#what-is-a-meta-idea)
+- [Acting on Meta Ideas](#acting-on-meta-ideas)
+- [Categories](#categories)
+- [My Meta Ideas](#my-meta-ideas)
+  - [General / non-music](#general--non-music)
+  - [Music](#music)
+    - [My additions to Variation Techniques for Composers and Improvisors - 2002 - Larry J. Solomon](#my-additions-to-variation-techniques-for-composers-and-improvisors---2002---larry-j-solomon)
+- [Others' Meta Ideas](#others-meta-ideas)
+  - [Thinkertoys by Michael Michalko](#thinkertoys-by-michael-michalko)
+  - [Generating Ideas, in general](#generating-ideas-in-general)
+  - [Music Resources](#music-resources)
+    - [Paul Simon on Songwriting](#paul-simon-on-songwriting)
+    - [Brian Eno on Creativity](#brian-eno-on-creativity)
+  - [Thinking Visually](#thinking-visually)
+- [Share your Meta Ideas](#share-your-meta-ideas)
+
+---
+
 ## What is a "Meta Idea"?
 
 A meta idea is an instruction that, if acted on, could generate a concrete idea. Some analogies:
