@@ -196,7 +196,7 @@ Read more on [Personality Psychology - Wikipedia](https://en.wikipedia.org/wiki/
 
 ### General: Big 5 and Myers-Briggs
 
-1\. The Big 5 (OCEAN) Personality Test
+1\. [The Big 5 (OCEAN) Personality Test](https://www.truity.com/test/big-five-personality-test)
 
 This test is well-regarded in terms of scientific validity. It evaluates
 
@@ -214,6 +214,8 @@ Interpreting your results:
 
 - "I thought I was more/less introverted" - take [this extroversion/introversion test from psychologytoday.com](https://www.psychologytoday.com/us/tests/personality/extroversion-introversion-test) and compare your results.
 - "I don't like one or more of my traits" - this is normal. Consult a mental health professional to explore your results. You can read more and take related tests deepen your understanding.
+
+[Take the Big 5 Personality Test - truity.com](https://www.truity.com/test/big-five-personality-test)
 
 Learn more:
 
