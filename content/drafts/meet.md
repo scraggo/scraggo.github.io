@@ -520,7 +520,7 @@ Questions about things external to you that help define your personality and soc
 
 ### Read more
 
-- A concept I discovered that fits into this category - William James' on [What is Material Self | A Simplified Psychology Guide](https://psychology.tips/material-self/)
+- A related concept defined by William James: [What is Material Self | A Simplified Psychology Guide](https://psychology.tips/material-self/)
 
 ## Artistic Pursuits
 
