@@ -9,15 +9,15 @@ tags: ['psychology']
 # how-to-meet-yourself
 ---
 
-The words ["Know Thyself"](https://en.wikipedia.org/wiki/Know_thyself) were inscribed long ago in the Greek Temple of Apollo. I consider those wise words because knowing one's self is invaluable in so many areas of life.
+The words ["Know Thyself"](https://en.wikipedia.org/wiki/Know_thyself) were inscribed long ago in the Greek Temple of Apollo. I consider those wise words.
 
 The problem is, it's tricky to really understand yourself. Life is full of twists and turns, we don't necessarily have the time or willingness to self-reflect. If you're like me, you also might have a [tendency to deny your own wants and needs for the sake of fitting in](https://calvinrosser.com/notes/wanting-power-of-mimetic-desire-luke-burgis/).
 
-I got to wondering if there was a _targeted_ way to get to know myself. Something less haphazard than reflecting on troubling events, or following some online list of "12 awesome journal prompts." As a psychology enthusiast, I wondered if I could take a bunch of tests and get a somewhat detailed "picture" of who I am.
+I got to wondering if there was a _targeted_ way to get to know myself. Something less haphazard than reflecting on troubling events, or following some online list of "12 awesome journal prompts." As a psychology enthusiast, I wondered if I could take some number of tests and get a somewhat detailed "picture" of who I am.
 
 I had taken a handful of personality tests throughout the years and found the results of the tests to be helpful to learn about myself and others. So, I set out to answer:
 
-1. "Is taking a bunch of personality tests effective for gaining self-knowledge?"
+1. "Is taking some number of personality tests effective for gaining self-knowledge?"
 2. "Which tests are the best at helping me learn about myself?"
 
 After many many hours of taking online tests, comparing their effectiveness, and reflecting from lots of different angles, I was satisfied. Yes the tests are effective, but you have to do some work to put the bigger "picture" together.
@@ -26,7 +26,7 @@ So, let's get to it. This post contains my curated list of internet questionnair
 
 ### The process
 
-1. Answer a _bunch_ of questions.
+1. Answer a _bunch_ of questions. Pick and choose which area(s) to spend more time on, or make it a goal to cover it all.
 2. Reflect on the answers. I'll go into detail in the final sections on how to get the most out of your answers.
 
 **Warning**: Having the support of a mental health professional is recommended, especially for tests that explore emotions, trauma, and other sensitive topics.
