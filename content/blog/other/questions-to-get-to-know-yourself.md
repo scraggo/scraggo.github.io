@@ -5,8 +5,6 @@ date: '2024-09-26'
 author: 'Dave Cohen'
 categories: ['other']
 tags: ['psychology']
-# questions-to-get-to-know-yourself
-# how-to-meet-yourself
 ---
 
 The words ["Know Thyself"](https://en.wikipedia.org/wiki/Know_thyself) were inscribed long ago in the Greek Temple of Apollo. I consider those wise words.
@@ -26,7 +24,7 @@ So, let's get to it. This post contains my curated list of internet questionnair
 
 ### The process
 
-1. Answer a _bunch_ of questions. Pick and choose which area(s) to spend more time on, or make it a goal to cover it all.
+1. Answer a _bunch_ of questions. Pick and choose which area(s) to spend more time on, or make it a goal to cover all the areas.
 2. Reflect on the answers. I'll go into detail in the final sections on how to get the most out of your answers.
 
 **Warning**: Having the support of a mental health professional is recommended, especially for tests that explore emotions, trauma, and other sensitive topics.
