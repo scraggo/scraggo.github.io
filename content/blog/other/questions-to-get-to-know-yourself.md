@@ -1,7 +1,7 @@
 ---
 type: post
 title: 'Questions to Get to Know Yourself'
-date: '2024-09-26'
+date: '2024-09-28'
 author: 'Dave Cohen'
 categories: ['other']
 tags: ['psychology']
@@ -11,14 +11,14 @@ The words ["Know Thyself"](https://en.wikipedia.org/wiki/Know_thyself) were insc
 
 The problem is, it's tricky to really understand yourself. Life is full of twists and turns, we don't necessarily have the time or willingness to self-reflect. If you're like me, you also might have a [tendency to deny your own wants and needs for the sake of fitting in](https://calvinrosser.com/notes/wanting-power-of-mimetic-desire-luke-burgis/).
 
-I got to wondering if there was a _targeted_ way to get to know myself. Something less haphazard than reflecting on troubling events, or following some online list of "12 awesome journal prompts." As a psychology enthusiast, I wondered if I could take some number of tests and get a somewhat detailed "picture" of who I am.
+I got to wondering if there was a _targeted_ way to get to know myself. Something less haphazard than reflecting on troubling events, or following some online list of "12 awesome journal prompts." As a psychology enthusiast, I wondered if I could take some number of psychological tests/quizzes and get a somewhat detailed "picture" of who I am.
 
-I had taken a handful of personality tests throughout the years and found the results of the tests to be helpful to learn about myself and others. So, I set out to answer:
+I had taken a handful of personality tests throughout the years and found the results to be helpful to learn about myself and others. So, I set out to answer:
 
-1. "Is taking personality tests effective for gaining self-knowledge?"
+1. "Is taking psychological tests effective for gaining self-knowledge?"
 2. "Which tests are the best at helping me learn about myself?"
 
-After many many hours of taking online tests, comparing their effectiveness, and reflecting from lots of different angles, I was satisfied. The tests are effective and if you do some reflective work, a bigger "picture" will emerge.
+After many many hours of taking online tests, comparing their effectiveness, and reflecting from lots of different angles, I was satisfied. The results are informative in themselves; and if you do some reflective work, a bigger "picture" will emerge.
 
 So, let's get to it. This post contains my curated list of internet questionnaires, my own lists of questions, and lots of suggestions to help you put the pieces together.
 
@@ -295,7 +295,7 @@ The situations in which you try to make jokes and your style of humor can tell y
 3. Aggressive: Deliver a harsh or controversial message
 4. Self-defeating: Getting others to like you
 
-The [Quiz: What Is Your Sense of Humor? In 10 Types of Humor - Quiz Expo](https://www.quizexpo.com/what-is-your-sense-of-humor/) will help you determine the above and your humor type/style: , _Slapstick_, _Deadpan, _Self-deprecating_, _Potty_, _Topical & Satrical_, _Irony_, _Parody_, _Dark_, or _Surreal_.
+The [Quiz: What Is Your Sense of Humor? In 10 Types of Humor - Quiz Expo](https://www.quizexpo.com/what-is-your-sense-of-humor/) will help you determine the above and your humor type/style: _Slapstick_, _Deadpan_, _Self-deprecating_, _Potty_, _Topical & Satrical_, _Irony_, _Parody_, _Dark_, or _Surreal_.
 
 2\. Your Play Personality
 
@@ -423,7 +423,7 @@ If you're like me, there will be more than a few questions that challenge you. F
 > - Thinking about increased trade of goods and services between the U.S. and other nations in recent decades, would you say that the U.S. has... gained or lost?
 > - Overall, would you say people who are convicted of crimes in this country serve… too much / too little / the right amount of time in prison
 
-Out of the handful of tests I took, [mapmypolitics.org](https://www.mapmypolitics.org/quiz.html) is the most comprehensive. The first mapping it provides is where you stand on the spectrums of _economic equality_ and _social freedom_. All the political profiles are represented in this (crude version of their) 2-dimensional grid:
+Out of the handful of political tests I took, [mapmypolitics.org](https://www.mapmypolitics.org/quiz.html) is the most comprehensive. The first mapping it provides is where you stand on the spectrums of _economic equality_ and _social freedom_. All the political profiles are represented in this (crude version of their) 2-dimensional grid:
 
 ||||||
 |---|---|---|---|---|
@@ -438,7 +438,7 @@ Out of the handful of tests I took, [mapmypolitics.org](https://www.mapmypolitic
 
 To orient you and give you an idea what your result could be:
 
-- Top Left: [Communism](https://www.mapmypolitics.org/ideology/communist.html)
+- Top Left: [Communist](https://www.mapmypolitics.org/ideology/communist.html)
 - Top Right: [Paleoconservative](https://www.mapmypolitics.org/ideology/paleoconservative.html)
 - Bottom Left: [Utopian Socialist](https://www.mapmypolitics.org/ideology/utopian-socialist.html)
 - Bottom Right: [Anarcho-Capitalist](https://www.mapmypolitics.org/ideology/anarcho-capitalist.html)
