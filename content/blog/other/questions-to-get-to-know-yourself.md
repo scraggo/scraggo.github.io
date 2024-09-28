@@ -15,10 +15,10 @@ I got to wondering if there was a _targeted_ way to get to know myself. Somethin
 
 I had taken a handful of personality tests throughout the years and found the results of the tests to be helpful to learn about myself and others. So, I set out to answer:
 
-1. "Is taking some number of personality tests effective for gaining self-knowledge?"
+1. "Is taking personality tests effective for gaining self-knowledge?"
 2. "Which tests are the best at helping me learn about myself?"
 
-After many many hours of taking online tests, comparing their effectiveness, and reflecting from lots of different angles, I was satisfied. Yes the tests are effective, but you have to do some work to put the bigger "picture" together.
+After many many hours of taking online tests, comparing their effectiveness, and reflecting from lots of different angles, I was satisfied. The tests are effective and if you do some reflective work, a bigger "picture" will emerge.
 
 So, let's get to it. This post contains my curated list of internet questionnaires, my own lists of questions, and lots of suggestions to help you put the pieces together.
 
