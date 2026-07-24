@@ -551,6 +551,7 @@ Visual Arts
 
 - **Painting**: Experiment with different mediums such as acrylics, watercolors, or oils.
 - **Drawing**: Focus on sketching, figure drawing, or digital art.
+- **Digital Art**: Use software to create illustrations, animations, or graphic designs.
 - **Sculpting**: Work with materials like clay, stone, or metal to create three-dimensional art.
 - **Photography**: Capture the world through a lens, exploring different styles like portrait, landscape, or street photography.
 - **Printmaking**: Engage in techniques like linocut, etching, or screen printing.
@@ -561,6 +562,7 @@ Performing Arts
 - **Dancing**: Try different styles like ballet, hip-hop, salsa, or contemporary dance.
 - **Acting**: Join a local theater group or take acting classes to develop your performance skills.
 - **Music**: Learn to play an instrument, sing, or compose music.
+- **Comedy**: Entertain an audience with a standup routine of jokes and funny stories.
 
 Literary Arts
 
@@ -586,7 +588,6 @@ Other Creative Pursuits
 - **Gardening**: Design and cultivate your own garden, combining aesthetics with nature.
 - **Fashion Design**: Create your own clothing or accessories, exploring textiles and styles.
 - **Interior Design**: Work on decorating and designing spaces to reflect personal style.
-- **Digital Art**: Use software to create illustrations, animations, or graphic designs.
 - **Podcasting**
 
 Sources (provided by [perplexity.ai](https://www.perplexity.ai)):
